@@ -1,0 +1,64 @@
+---
+layout: layouts/base.njk
+permalink: thank-you.html
+title: Thank You
+description: "Thank you for contacting Trippovention Thailand. We'll get back to you shortly."
+activePage: contact
+assetPath: ""
+breadcrumbs:
+  - label: Home
+    icon: "🏠 "
+    url: index.html
+  - label: Thank You
+    icon: ""
+    url: ""
+---
+
+<header class="hero compact">
+  <div class="container">
+    <h1>Thank You! 🎉</h1>
+    <p>Your inquiry has been received successfully</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="card card-premium">
+      <div class="body text-center">
+        <div class="feature-icon" style="font-size: 80px;">✅</div>
+        <h2>We've Received Your Message</h2>
+        <p style="font-size: 18px; margin: 20px 0;">
+          Thank you for reaching out to {{ site.name }}! Our travel experts will review your inquiry and get back to you within 24 hours with personalized recommendations.
+        </p>
+        <div class="grid cols-3 mt-40">
+          <div class="card">
+            <div class="body">
+              <div class="feature-icon">📧</div>
+              <h3>Check Your Email</h3>
+              <p class="muted">We've sent a confirmation email with your inquiry details.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="body">
+              <div class="feature-icon">⏰</div>
+              <h3>Response Time</h3>
+              <p class="muted">Expect a response within 24 hours from our travel experts.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="body">
+              <div class="feature-icon">💬</div>
+              <h3>Need Urgent Help?</h3>
+              <p class="muted">Call us directly at {{ site.contact.phoneDisplay }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-40">
+          <a class="btn btn-lg" href="index.html">← Back to Home</a>
+          <a class="btn btn-lg ghost ml-16" href="destinations.html">Browse Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

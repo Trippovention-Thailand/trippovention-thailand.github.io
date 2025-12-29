@@ -1,0 +1,57 @@
+---
+permalink: offline.html
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline | {{ site.name }}</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/x-icon" href="{{ site.favicon }}" />
+    <meta name="theme-color" content="{{ site.themeColor }}" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 20px;
+      }
+      .container { max-width: 600px; }
+      .emoji { font-size: 80px; margin-bottom: 20px; display: block; }
+      h1 { font-size: 32px; margin-bottom: 16px; }
+      p { font-size: 18px; margin-bottom: 32px; opacity: 0.9; line-height: 1.6; }
+      .btn {
+        display: inline-block;
+        padding: 14px 32px;
+        background: #ffffff;
+        color: #667eea;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: all 0.3s ease;
+      }
+      .btn:hover { transform: translateY(-2px); }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+        <span class="emoji">📡</span>
+        <h1>You're Offline</h1>
+        <p>
+          It looks like you've lost your internet connection. Please check your connection and try again.
+        </p>
+        <button class="btn" onclick="window.location.reload()">🔄 Try Again</button>
+      </div>
+    </main>
+  </body>
+</html>
+

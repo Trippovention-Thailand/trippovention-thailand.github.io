@@ -1,0 +1,73 @@
+<a href="#main" class="skip-link" aria-label="Skip to main content" id="skip-link">Skip to main content</a>
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a class="brand" href="{{ assetPath }}index.html" aria-label="Go to {{ site.shortName }} Home">
+      <img
+        src="{{ assetPath }}{{ site.logo }}"
+        alt="{{ site.name }} - {{ site.business.tagline }}"
+        width="160"
+        height="40"
+      />
+    </a>
+    <div class="menu" id="mobileMenu">
+      {% for item in navigation.main %}
+        {% if item.hasDropdown %}
+        <div class="has-dropdown">
+          <a href="{{ assetPath }}{{ item.url }}" aria-haspopup="true" aria-expanded="false"{% if activePage == item.active %} class="active"{% endif %}>
+            {{ item.title }}
+            <span class="dropdown-arrow">▼</span>
+          </a>
+          <div class="dropdown-menu" aria-label="Browse {{ item.title | lower }}">
+            {% for child in item.children %}
+            <a href="{{ assetPath }}{{ child.url }}">{{ child.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        {% else %}
+        <a{% if activePage == item.active %} class="active"{% endif %} href="{{ assetPath }}{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="nav-right">
+      <div class="actions">
+        <!-- Language Switcher -->
+        <div class="translate-wrapper" id="google_translate_element"></div>
+        
+        <a class="icon" title="Call Us" href="tel:{{ site.contact.phone }}">📞</a>
+        <a
+          class="icon"
+          title="WhatsApp"
+          href="https://wa.me/{{ site.contact.whatsapp }}"
+          aria-label="Chat on WhatsApp"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="{{ assetPath }}assets/images/social/whatsapp.svg"
+            alt="WhatsApp"
+            class="whatsapp-icon-nav whatsapp-green"
+            loading="lazy"
+          />
+        </a>
+        <button
+          class="icon"
+          title="Toggle Dark Mode"
+          id="themeToggle"
+          aria-label="Toggle dark mode"
+        >
+          🌙
+        </button>
+      </div>
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</nav>

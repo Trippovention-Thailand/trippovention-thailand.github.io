@@ -1,0 +1,87 @@
+{
+  "country": "Thailand",
+  "title": "Thailand Packages - Beaches, Islands & Culture",
+  "hero": {
+    "title": "Thailand",
+    "subtitle": "Explore the Breathtaking Landscapes of the Land of Smiles"
+  },
+  "whyChoose": {
+    "title": "✨ Why Choose Thailand?",
+    "subtitle": "Thailand has it all: dynamic cities, ancient history, and stunning nature. It's an unforgettable sensory experience.",
+    "features": [
+      {
+        "icon": "🎢",
+        "title": "Versatile Appeal",
+        "description": "Blends vibrant cities, world-class beaches, and rich history. Itineraries are easily tailored for any client type: FITs, Groups, or MICE."
+      },
+      {
+        "icon": "🌆",
+        "title": "Great Value",
+        "description": "Established infrastructure and service standards deliver a premium experience at a highly competitive price point."
+      },
+      {
+        "icon": "🍜",
+        "title": "Guaranteed Ease",
+        "description": "The destination expertise ensures seamless logistics and efficient handling of all private transport and group movements."
+      }
+    ]
+  },
+  "packages": [
+    {
+      "id": "pattaya-bangkok",
+      "slug": "pattaya_bangkok",
+      "title": "Pattaya & Bangkok Delight",
+      "badge": "Beaches and Culture",
+      "highlights": "Couples • Families • Culture & Beach Lovers",
+      "image": "assets/images/packages/thailand/hero_pattaya_bangkok.webp",
+      "ribbon": "🔥 Popular",
+      "ribbonClass": "hot",
+      "price": "On Request"
+    },
+    {
+      "id": "krabi-phuket",
+      "slug": "krabi_phuket",
+      "title": "Krabi & Phuket Escapade",
+      "badge": "Island Adventures",
+      "highlights": "Couples • Families • Beach Lovers",
+      "image": "assets/images/packages/thailand/hero_krabi_phuket.webp",
+      "ribbon": "🔥 Popular",
+      "ribbonClass": "hot",
+      "price": "On Request"
+    },
+    {
+      "id": "koh-samui-bangkok",
+      "slug": "koh_samui_bangkok",
+      "title": "Koh Samui & Bangkok Retreat",
+      "badge": "Island Paradise",
+      "highlights": "Couples • Honeymoon • Beach Lovers",
+      "image": "assets/images/packages/thailand/hero_koh_samui_bangkok.webp",
+      "ribbon": "✨ Premium",
+      "ribbonClass": "",
+      "price": "On Request"
+    },
+    {
+      "id": "koh-samet-pattaya-bangkok",
+      "slug": "koh_samet_pattaya_bangkok",
+      "title": "Koh Samet, Pattaya & Bangkok",
+      "badge": "Hidden Gems",
+      "highlights": "Adventure • Families • Beach Lovers",
+      "image": "assets/images/packages/thailand/hero_koh_samet_pattaya_bangkok.webp",
+      "ribbon": "🌟 Featured",
+      "ribbonClass": "",
+      "price": "On Request"
+    },
+    {
+      "id": "chiang-mai-chiang-rai-bangkok",
+      "slug": "chiang_mai_chiang_rai_bangkok",
+      "title": "Chiang Mai, Chiang Rai & Bangkok",
+      "badge": "Cultural Heritage",
+      "highlights": "Culture • Adventure • Temple Lovers",
+      "image": "assets/images/packages/thailand/hero_chiang_mai_chiang_rai_bangkok.webp",
+      "ribbon": "🏛️ Heritage",
+      "ribbonClass": "",
+      "price": "On Request"
+    }
+  ]
+}
+

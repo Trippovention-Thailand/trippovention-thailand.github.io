@@ -1,0 +1,105 @@
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="grid cols-3">
+      <div>
+        <h3>{{ site.shortName }}</h3>
+        <p>
+          Your trusted travel partner for unforgettable journeys. We believe that travel
+          should be transformative and memorable.
+        </p>
+        <div class="mt-20">
+          <h3 class="muted font-weight-600">Contact Details</h3>
+          <span class="mr-15">📧 <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></span>
+          <br />
+          <span>📞 <a href="tel:{{ site.contact.phone }}">{{ site.contact.phoneDisplay }}</a></span>
+        </div>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <div class="line-height-2">
+          {% for item in navigation.footer %}
+          <a href="{{ assetPath }}{{ item.url }}">{{ item.title }}</a><br />
+          {% endfor %}
+        </div>
+      </div>
+      <div>
+        <h3>Thailand Office</h3>
+        <p>
+          {{ site.contact.address.line1 }}<br />
+          {{ site.contact.address.line2 }}<br />
+          {{ site.contact.address.city }}, {{ site.contact.address.country }} {{ site.contact.address.postalCode }}
+        </p>
+        <div class="mt-20">
+          <h3 class="muted font-weight-600">Follow Us</h3>
+          <div class="social-icons">
+            <a
+              href="{{ site.social.facebook }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow us on Facebook"
+              title="Facebook"
+            >
+              <img
+                src="{{ assetPath }}assets/images/social/facebook.svg"
+                alt="Facebook"
+                width="24"
+                height="24"
+                class="social-icon-white"
+              />
+            </a>
+            <a
+              href="{{ site.social.instagram }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow us on Instagram"
+              title="Instagram"
+            >
+              <img
+                src="{{ assetPath }}assets/images/social/instagram.svg"
+                alt="Instagram"
+                width="24"
+                height="24"
+                class="social-icon-white"
+              />
+            </a>
+            <a
+              href="{{ site.social.twitter }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow us on Twitter"
+              title="Twitter"
+            >
+              <img
+                src="{{ assetPath }}assets/images/social/twitter.svg"
+                alt="Twitter"
+                width="24"
+                height="24"
+                class="social-icon-white"
+              />
+            </a>
+            <a
+              href="{{ site.social.whatsapp }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp"
+              title="WhatsApp"
+            >
+              <img
+                src="{{ assetPath }}assets/images/social/whatsapp.svg"
+                alt="WhatsApp"
+                width="24"
+                height="24"
+                class="social-icon-white"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center section-border-top mt-40 pt-30">
+      <p>&copy; {{ currentYear }} {{ site.shortName }}. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="{{ assetPath }}contact.html" class="sticky-cta">💬 Quick Enquiry</a>

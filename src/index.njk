@@ -1,0 +1,217 @@
+---
+layout: layouts/base.njk
+title: Tours & Visa Services | 15+ Years Experience
+description: "Trippovention Thailand: Your trusted travel partner for Thailand & worldwide tours, visa services, and custom packages. 15+ years experience in ground operations."
+activePage: index
+assetPath: ""
+breadcrumbs:
+  - label: Home
+    icon: "🏠 "
+    url: ""
+structuredData:
+  pageType: homepage
+  description: Your trusted travel partner for unforgettable journeys across Thailand and the world
+  aggregateRating:
+    value: "4.8"
+    count: "500"
+  breadcrumb:
+    - name: Home
+      url: https://trippovention.co.th/
+---
+
+<header class="hero">
+  <div class="container">
+    <div class="text-center">
+      <h1>{{ homepage.hero.title }}</h1>
+      <p class="lead">
+        {{ homepage.hero.subtitle }}<br />
+        {{ homepage.hero.description }}
+      </p>
+      <div class="cta">
+        <a class="btn btn-lg" href="{{ homepage.hero.primaryCta.url }}">{{ homepage.hero.primaryCta.text }}</a>
+        <a class="btn btn-lg ghost" href="{{ homepage.hero.secondaryCta.url }}">{{ homepage.hero.secondaryCta.text }}</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ homepage.featuredDestinations.title }}</h2>
+      <p class="subtitle">{{ homepage.featuredDestinations.subtitle }}</p>
+    </div>
+    <div class="grid cols-3">
+      {% for dest in homepage.featuredDestinations.items %}
+      <div class="card">
+        <div class="img-wrap">
+          <img
+            src="{{ dest.image }}"
+            alt="{{ dest.imageAlt }}"
+            {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}
+          />
+          <span class="ribbon{% if dest.ribbonClass %} {{ dest.ribbonClass }}{% endif %}">{{ dest.ribbon }}</span>
+        </div>
+        <div class="body">
+          <div class="badge">{{ dest.flag }} {{ dest.country }}</div>
+          <h3>{{ dest.title }}</h3>
+          <p class="muted">{{ dest.highlights }}</p>
+          <div class="price-row">
+            <span class="price-label">Starting from</span>
+            <span class="price-old">{{ dest.priceOld }}</span>
+            <span class="price">{{ dest.price }} <span class="muted">/ pax</span></span>
+          </div>
+          <a class="btn" href="{{ dest.url }}">{{ dest.ctaText }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ homepage.indiaDestinations.title }}</h2>
+      <p class="subtitle">{{ homepage.indiaDestinations.subtitle }}</p>
+    </div>
+    <div class="grid cols-3">
+      {% for dest in homepage.indiaDestinations.items %}
+      <div class="card">
+        <div class="img-wrap">
+          <img
+            src="{{ dest.image }}"
+            alt="{{ dest.imageAlt }}"
+            loading="lazy"
+          />
+          <span class="ribbon{% if dest.ribbonClass %} {{ dest.ribbonClass }}{% endif %}">{{ dest.ribbon }}</span>
+        </div>
+        <div class="body">
+          <div class="badge">{{ dest.badge }}</div>
+          <h3>{{ dest.title }}</h3>
+          <p class="muted">{{ dest.highlights }}</p>
+          <div class="price-row">
+            <span class="price-label">Starting from</span>
+            <span class="price-old">{{ dest.priceOld }}</span>
+            <span class="price">{{ dest.price }} <span class="muted">/ pax</span></span>
+          </div>
+          <a class="btn" href="{{ dest.url }}">{{ dest.ctaText }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ homepage.visaServices.title }}</h2>
+      <p class="subtitle">{{ homepage.visaServices.subtitle }}</p>
+    </div>
+    <div class="visa-grid">
+      {% for country in homepage.visaServices.countries %}
+      <a href="contact/?service={{ country.service }}" class="visa-item">
+        <div class="flag">{{ country.flag }}</div>
+        <h4>{{ country.name }}</h4>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="text-center mt-40">
+      <a class="btn btn-lg" href="visa/">View All Visa Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="section features">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ homepage.features.title }}</h2>
+      <p class="subtitle">{{ homepage.features.subtitle }}</p>
+    </div>
+    <div class="grid cols-3">
+      {% for feature in homepage.features.items %}
+      <div class="card">
+        <div class="body">
+          <div class="feature-icon">{{ feature.icon }}</div>
+          <h3>{{ feature.title }}</h3>
+          <p class="muted">{{ feature.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="text-white">{{ homepage.cta.title }}</h2>
+      <p class="subtitle text-white-90">{{ homepage.cta.subtitle }}</p>
+    </div>
+    <div class="text-center">
+      <a class="btn btn-lg ghost" href="contact/">Get Custom Quote</a>
+      <a class="btn btn-lg ghost ml-16" href="tel:{{ site.contact.phone }}">📞 Call Now</a>
+    </div>
+    <div class="grid cols-3 mt-40">
+      {% for stat in homepage.cta.stats %}
+      <div class="stats">
+        <span class="number text-white">{{ stat.number }}</span>
+        <span class="label text-white-90">{{ stat.label }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Schema for Rich Results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What travel services does Trippovention Thailand offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trippovention Thailand offers comprehensive travel services including visa assistance, tour packages to worldwide destinations, customized holiday planning, hotel bookings, and flight reservations. We specialize in both Thailand and international tour packages with expert guidance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which countries can I get visa assistance for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide visa assistance for multiple countries including Singapore, Dubai, Malaysia, Thailand, Australia, UK, USA, Schengen countries (Europe), and more. Our experienced team handles document preparation, application submission, and follow-up for hassle-free visa processing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer customized tour packages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we specialize in fully customized tour packages tailored to your preferences, budget, and travel dates. Whether you want adventure tours, family vacations, honeymoon packages, or group travel, we create personalized itineraries to match your dream holiday."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How experienced is the Trippovention Thailand team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Established in 2021, Trippovention Thailand has a dedicated team with 10+ years of combined experience in the travel industry. We've successfully served over 50,000 happy travelers, offering expert guidance and seamless travel experiences across Thailand and worldwide destinations."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Google Ads Conversion Tracking -->
+<script>
+  window.addEventListener("load", function () {
+    if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+      gtag("event", "conversion", { send_to: "{{ site.analytics.gaId }}/U_nrCIGQlrcbEO2K2rkq" });
+    }
+  });
+</script>
+

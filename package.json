@@ -1,0 +1,25 @@
+{
+  "name": "trippovention-thailand",
+  "version": "1.0.0",
+  "description": "Trippovention Thailand - Tours & Visa Services Static Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+  },
+  "keywords": [
+    "travel",
+    "thailand",
+    "tours",
+    "visa",
+    "11ty",
+    "eleventy"
+  ],
+  "author": "Trippovention",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
+

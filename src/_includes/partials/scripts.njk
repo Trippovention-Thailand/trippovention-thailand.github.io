@@ -1,0 +1,45 @@
+<script src="{{ assetPath }}assets/structured-data.js" defer></script>
+{% if structuredData %}
+<script>
+  window.structuredDataConfig = {{ structuredData | dump | safe }};
+</script>
+{% endif %}
+
+<script src="{{ assetPath }}assets/skip-link.js" defer></script>
+<script src="{{ assetPath }}assets/cookie-consent.js" defer></script>
+<script src="{{ assetPath }}assets/app.js" defer></script>
+<script src="{{ assetPath }}assets/analytics.js" defer></script>
+
+<!-- Travel Agency Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "{{ site.name }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/{{ site.logo }}",
+  "telephone": "{{ site.contact.phone }}",
+  "email": "{{ site.contact.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.contact.address.line1 }}",
+    "addressLocality": "{{ site.contact.address.city }}",
+    "addressRegion": "{{ site.contact.address.line2 }}",
+    "postalCode": "{{ site.contact.address.postalCode }}",
+    "addressCountry": "TH"
+  }
+}
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id={{ site.analytics.gtmId }}"
+    height="0"
+    width="0"
+    style="display: none; visibility: hidden"
+  ></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+

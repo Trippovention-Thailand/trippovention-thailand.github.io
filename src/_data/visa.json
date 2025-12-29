@@ -1,0 +1,135 @@
+{
+  "evisa": {
+    "title": "E-Visa",
+    "subtitle": "Quick and hassle-free electronic visa processing",
+    "countries": [
+      {
+        "country": "Singapore",
+        "flag": "🇸🇬",
+        "image": "assets/images/visa/singapore/hero_singapore_evisa.webp",
+        "imageAlt": "Singapore Skyline",
+        "ribbon": "⚡ Fast",
+        "ribbonClass": "hot",
+        "processing": "5 - 10 Days Processing • Tourist • Business • Multiple Entries",
+        "priceOld": "₹ 4,999",
+        "price": "₹ 4,499",
+        "service": "singapore-visa"
+      },
+      {
+        "country": "UAE",
+        "flag": "🇦🇪",
+        "image": "assets/images/visa/uae/hero_uae_evisa.webp",
+        "imageAlt": "Dubai UAE",
+        "ribbon": "⚡ Quick",
+        "ribbonClass": "hot",
+        "processing": "4 - 6 Days Processing • Single & Multiple Entries • 30 - 60 days Validity",
+        "priceOld": "₹ 8,999",
+        "price": "₹ 7,999",
+        "service": "uae-visa"
+      },
+      {
+        "country": "Canada",
+        "flag": "🇨🇦",
+        "image": "assets/images/visa/canada/hero_canada_evisa.webp",
+        "imageAlt": "Canada Landscape",
+        "ribbon": "✨ Popular",
+        "ribbonClass": "",
+        "processing": "20 - 35 Days Processing • Tourist • Business • 10 Years Validity",
+        "priceOld": "₹ 21,999",
+        "price": "₹ 19,999",
+        "service": "canada-visa"
+      },
+      {
+        "country": "Australia",
+        "flag": "🇦🇺",
+        "image": "assets/images/visa/australia/hero_australia_evisa.webp",
+        "imageAlt": "Australia Sydney",
+        "ribbon": "🌟 Trusted",
+        "ribbonClass": "",
+        "processing": "15 - 25 Days Processing • Tourist • Business",
+        "priceOld": "₹ 20,999",
+        "price": "₹ 18,999",
+        "service": "australia-visa"
+      },
+      {
+        "country": "Vietnam",
+        "flag": "🇻🇳",
+        "image": "assets/images/visa/vietnam/hero_vietnam_evisa.webp",
+        "imageAlt": "Vietnam Halong Bay",
+        "ribbon": "⏰ Fast",
+        "ribbonClass": "",
+        "processing": "5 - 7 Working Days Processing • 30 Days Validity • Single entry",
+        "priceOld": "₹ 3,999",
+        "price": "₹ 3,499",
+        "service": "vietnam-visa"
+      }
+    ]
+  },
+  "highValue": {
+    "title": "High Value",
+    "subtitle": "Expert assistance for premium visa applications",
+    "countries": [
+      {
+        "country": "USA",
+        "flag": "🇺🇸",
+        "image": "assets/images/visa/usa/hero_usa_high_value_visa.webp",
+        "imageAlt": "USA New York",
+        "processing": "10 - 15 Days Processing • B1/B2 Visa • Multiple entries • 10 Years Validity",
+        "priceOld": "₹ 27,199",
+        "price": "₹ 24,199",
+        "service": "usa-visa"
+      },
+      {
+        "country": "UK",
+        "flag": "🇬🇧",
+        "image": "assets/images/visa/uk/hero_uk_high_value_visa.webp",
+        "imageAlt": "UK London",
+        "processing": "10 - 15 Days Processing • Multiple entries • 6 months to 5 Years Validity",
+        "priceOld": "₹ 25,999",
+        "price": "₹ 22,999",
+        "service": "uk-visa"
+      },
+      {
+        "country": "France",
+        "flag": "🇫🇷",
+        "image": "assets/images/visa/france/hero_france_high_value_visa.webp",
+        "imageAlt": "France Paris",
+        "processing": "10 - 15 Days Processing • Multi Entry Schengen Visa • Tourist • Business",
+        "priceOld": "₹ 4,999",
+        "price": "₹ 3,499",
+        "service": "france-visa"
+      },
+      {
+        "country": "Switzerland",
+        "flag": "🇨🇭",
+        "image": "assets/images/visa/switzerland/hero_switzerland_high_value_visa.webp",
+        "imageAlt": "Switzerland Alps",
+        "processing": "10 - 15 Days Processing • Multi Entry Schengen Visa • Tourist • Business",
+        "priceOld": "₹ 4,999",
+        "price": "₹ 3,499",
+        "service": "switzerland-visa"
+      },
+      {
+        "country": "Netherlands",
+        "flag": "🇳🇱",
+        "image": "assets/images/visa/netherlands/hero_netherlands_high_value_visa.webp",
+        "imageAlt": "Netherlands Amsterdam",
+        "processing": "10 - 15 Days Processing • Multi Entry Schengen Visa • Tourist • Business",
+        "priceOld": "₹ 4,999",
+        "price": "₹ 3,499",
+        "service": "netherlands-visa"
+      },
+      {
+        "country": "Germany",
+        "flag": "🇩🇪",
+        "image": "assets/images/visa/germany/hero_germany_high_value_visa.webp",
+        "imageAlt": "Germany Berlin",
+        "processing": "10 - 15 Days Processing • Multi Entry Schengen Visa • Tourist • Business",
+        "priceOld": "₹ 4,999",
+        "price": "₹ 3,499",
+        "service": "germany-visa"
+      }
+    ]
+  }
+}
+
