@@ -1,12 +1,12 @@
 /**
- * Service Worker for Trippovention Thailand
+ * Service Worker for Trippovention
  * Enables offline support and faster repeat visits
- * Version: 1.0 - Initial Thailand release
+ * Version: 3.4 - GTM integration + enhanced tracking
  */
 
-const CACHE_VERSION = "1.0";
-const CACHE_NAME = `trippovention-th-v${CACHE_VERSION}`;
-const RUNTIME_CACHE = "trippovention-th-runtime";
+const CACHE_VERSION = "3.4";
+const CACHE_NAME = `trippovention-v${CACHE_VERSION}`;
+const RUNTIME_CACHE = "trippovention-runtime";
 
 // Cache critical assets immediately for offline support
 const PRECACHE_URLS = [

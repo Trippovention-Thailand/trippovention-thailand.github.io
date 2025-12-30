@@ -1,5 +1,5 @@
 /**
- * Trippovention Thailand - Centralized Structured Data Manager
+ * Trippovention - Centralized Structured Data Manager
  *
  * This module generates and injects schema.org structured data dynamically
  * to reduce code duplication and improve maintainability.
@@ -8,53 +8,63 @@
  */
 
 const StructuredData = (() => {
-  // Master configuration - single source of truth for Thailand site
+  // Master configuration - single source of truth
   const COMPANY_INFO = {
     name: "Trippovention Thailand",
     url: "https://trippovention.co.th",
     logo: "https://trippovention.co.th/assets/images/logo.webp",
     image: "https://trippovention.co.th/assets/images/logo.webp",
     telephone: "+66-94-931-9572",
-    email: "info@trippovention.co.th",
+    email: "query@trippovention.co.th",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Bangkok Office",
-      addressLocality: "Bangkok",
-      addressRegion: "Bangkok",
-      postalCode: "10XXX",
+      streetAddress: "23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District",
+      addressLocality: "Chonburi",
+      addressRegion: "Chonburi Province",
+      postalCode: "20150",
       addressCountry: "TH",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "13.7563",
-      longitude: "100.5018",
+      latitude: "12.9264",
+      longitude: "100.8786",
     },
-    openingHours: "Mo-Sa 09:00-18:00",
+    openingHours: "Mo-Sa 10:00-19:00",
     priceRange: "฿฿-฿฿฿",
     socialMedia: [
       "https://facebook.com/trippovention",
       "https://instagram.com/trippovention",
       "https://twitter.com/trippovention",
     ],
-    // Global coverage with Thailand focus
+    // 74+ countries - global coverage
     areaServed: [
-      "TH",
+      "IN",
       "SG",
+      "TH",
       "MY",
+      "AE",
       "VN",
+      "LK",
       "ID",
+      "MV",
       "PH",
       "KH",
       "MM",
       "LA",
-      "IN",
-      "AE",
+      "BN",
+      "NP",
+      "BT",
+      "BD",
+      "PK",
       "JP",
       "KR",
       "CN",
       "HK",
+      "TW",
+      "MO",
       "AU",
       "NZ",
+      "FJ",
       "GB",
       "FR",
       "ES",
@@ -65,8 +75,43 @@ const StructuredData = (() => {
       "GR",
       "TR",
       "DE",
+      "BE",
+      "SE",
+      "NO",
+      "FI",
+      "DK",
+      "IS",
+      "PT",
+      "IE",
+      "PL",
+      "CZ",
+      "HU",
+      "RO",
+      "HR",
+      "SI",
+      "MT",
+      "CY",
       "US",
       "CA",
+      "MX",
+      "BR",
+      "AR",
+      "CL",
+      "PE",
+      "CO",
+      "SA",
+      "QA",
+      "KW",
+      "OM",
+      "BH",
+      "JO",
+      "IL",
+      "MU",
+      "ZA",
+      "KE",
+      "EG",
+      "TN",
+      "MA",
     ],
   };
 
@@ -76,12 +121,12 @@ const StructuredData = (() => {
     telephone: COMPANY_INFO.telephone,
     contactType: "Customer Service",
     areaServed: areaServed,
-    availableLanguage: ["English", "Thai"],
+    availableLanguage: ["English", "Hindi"],
     hoursAvailable: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:00",
-      closes: "18:00",
+      opens: "10:00",
+      closes: "19:00",
     },
   });
 
@@ -136,13 +181,13 @@ const StructuredData = (() => {
       "@context": "https://schema.org",
       "@type": "Organization",
       name: COMPANY_INFO.name,
-      alternateName: "Trippovention Thailand Travel Agency",
+      alternateName: "Trippovention Travel Agency",
       url: COMPANY_INFO.url,
       logo: COMPANY_INFO.logo,
       description:
-        "Leading travel agency in Thailand specializing in Thailand & worldwide tours with 15+ years of experience",
-      foundingDate: "2021",
-      slogan: "Your Trusted Travel Partner in Thailand",
+        "Leading travel agency specializing in India and worldwide tours with 15+ years of experience",
+      foundingDate: "2010",
+      slogan: "Your Trusted Travel Partner",
       address: COMPANY_INFO.address,
       contactPoint: {
         "@type": "ContactPoint",
@@ -235,15 +280,15 @@ const StructuredData = (() => {
         name: COMPANY_INFO.name,
         url: COMPANY_INFO.url,
         logo: COMPANY_INFO.logo,
-        telephone: config.multiplePhones || [COMPANY_INFO.telephone],
+        telephone: config.multiplePhones || [COMPANY_INFO.telephone, "+91-124-418-2575"],
         email: COMPANY_INFO.email,
         address: COMPANY_INFO.address,
         geo: COMPANY_INFO.geo,
         openingHoursSpecification: {
           "@type": "OpeningHoursSpecification",
           dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          opens: "09:00",
-          closes: "18:00",
+          opens: "10:00",
+          closes: "19:00",
         },
         contactPoint: config.contactPoints || [
           {
@@ -251,7 +296,21 @@ const StructuredData = (() => {
             telephone: COMPANY_INFO.telephone,
             contactType: "Customer Service",
             areaServed: COMPANY_INFO.areaServed,
-            availableLanguage: ["English", "Thai"],
+            availableLanguage: ["English", "Hindi"],
+          },
+          {
+            "@type": "ContactPoint",
+            telephone: "+91-73030-10446",
+            contactType: "Sales",
+            areaServed: ["IN", "SG", "TH", "MY", "AE"],
+            availableLanguage: ["English", "Hindi"],
+          },
+          {
+            "@type": "ContactPoint",
+            telephone: "+66-94-931-9572",
+            contactType: "International Support",
+            areaServed: "TH",
+            availableLanguage: "English",
           },
         ],
         sameAs: COMPANY_INFO.socialMedia,
@@ -300,7 +359,7 @@ const StructuredData = (() => {
           schemas.travelAgency({
             description:
               config.description ||
-              "Your trusted travel partner for unforgettable journeys across Thailand and the world",
+              "Your trusted travel partner for unforgettable journeys across India and the world",
             url: COMPANY_INFO.url,
             aggregateRating: {
               value: "4.8",
@@ -319,7 +378,7 @@ const StructuredData = (() => {
           schemas.travelAgency({
             description:
               config.description ||
-              "International travel packages for Thailand, Singapore, Malaysia, UAE, Vietnam, Europe and more",
+              "International travel packages for Singapore, Thailand, Malaysia, UAE, Vietnam, Europe and more",
             url: config.url,
           }),
           "Structured Data: TravelAgency"
@@ -344,7 +403,7 @@ const StructuredData = (() => {
         injectSchema(
           schemas.service({
             serviceType: "Visa Assistance Services",
-            name: "Visa Services by Trippovention Thailand",
+            name: "Visa Services by Trippovention",
             description: config.description,
             offers: config.offers,
             serviceOutput: config.serviceOutput,

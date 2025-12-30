@@ -1,76 +1,95 @@
 # Trippovention Thailand Website
 
-A static website for Trippovention Thailand (trippovention.co.th) built with [11ty (Eleventy)](https://www.11ty.dev/).
+A static website for **Trippovention Thailand** (trippovention.co.th) - Your trusted travel partner for Thailand & worldwide tours.
 
-## Features
+## Overview
 
-- **Data-Driven Templates**: Content is separated into JSON data files for easy management
-- **Reusable Components**: Nunjucks partials for header, footer, navigation, etc.
+This is a simple static website copied from the main Trippovention site (trippovention.com) and customized for the Thailand market with:
+
+- **Thailand as Primary Contact**: Thailand office and phone number (+66 94 931 9572) highlighted first
+- **Updated Domain**: All URLs point to trippovention.co.th
+- **Thai Email**: query@trippovention.co.th
 - **Multilingual Support**: Google Translate integration for English/Thai
-- **Responsive Design**: Mobile-first approach inherited from the original design
-- **Performance Optimized**: Static HTML output with optimized assets
-- **GitHub Pages Ready**: Builds to `docs/` folder for easy deployment
 
 ## Project Structure
 
 ```
 trippovention-thailand.github.io/
-├── src/                          # Source files
-│   ├── _data/                    # Global data files (JSON)
-│   │   ├── site.json             # Site configuration
-│   │   ├── navigation.json       # Navigation structure
-│   │   ├── homepage.json         # Homepage content
-│   │   ├── visa.json             # Visa services data
-│   │   └── packages/             # Package data by country
-│   ├── _includes/                # Reusable template partials
-│   │   ├── layouts/
-│   │   │   └── base.njk          # Base HTML layout
-│   │   └── partials/
-│   │       ├── head.njk          # <head> section
-│   │       ├── nav.njk           # Navigation bar
-│   │       ├── footer.njk        # Footer
-│   │       └── scripts.njk       # Footer scripts
-│   ├── assets/                   # Static assets (CSS, JS, images)
-│   ├── packages/                 # Package pages
-│   ├── visa/                     # Visa pages
-│   └── *.njk                     # Page templates
-├── docs/                         # Build output (GitHub Pages serves from here)
-├── .eleventy.js                  # 11ty configuration
-├── package.json                  # Node dependencies
+├── docs/                         # Website files (GitHub Pages serves from here)
+│   ├── assets/                   # CSS, JS, images
+│   │   ├── images/               # All website images
+│   │   ├── styles.css            # Main stylesheet
+│   │   ├── app.js                # Main JavaScript
+│   │   ├── structured-data.js    # SEO structured data
+│   │   └── contact-form.js       # Contact form functionality
+│   ├── packages/                 # Tour package pages
+│   │   ├── india/                # India packages
+│   │   ├── singapore/            # Singapore packages
+│   │   └── thailand/             # Thailand packages
+│   ├── visa/                     # Visa services
+│   ├── index.html                # Homepage
+│   ├── contact.html              # Contact page
+│   ├── destinations.html         # Destinations by country
+│   ├── destinations-themes.html  # Destinations by theme
+│   ├── destinations-travelers.html # Destinations by traveler type
+│   ├── services.html             # Our services
+│   ├── privacy-policy.html       # Privacy policy
+│   ├── refund-policy.html        # Refund policy
+│   ├── terms-and-conditions.html # Terms & conditions
+│   ├── thank-you.html            # Form submission thank you
+│   ├── 404.html                  # Error page
+│   ├── offline.html              # Offline page
+│   ├── CNAME                     # Custom domain
+│   ├── robots.txt                # Search engine directives
+│   ├── sitemap.xml               # SEO sitemap
+│   └── image-sitemap.xml         # Image sitemap
+├── .github/                      # GitHub workflows (if any)
+├── .gitignore
 └── README.md
 ```
 
-## Development
+## Pages (22 Total)
 
-### Prerequisites
+### Root Level (12 pages)
+- `index.html` - Homepage
+- `contact.html` - Contact with office locations
+- `destinations.html` - Destinations by country
+- `destinations-themes.html` - Destinations by theme
+- `destinations-travelers.html` - Destinations by traveler type
+- `services.html` - Services overview
+- `privacy-policy.html` - Privacy policy
+- `refund-policy.html` - Refund policy
+- `terms-and-conditions.html` - Terms & conditions
+- `thank-you.html` - Thank you page
+- `404.html` - Error page
+- `offline.html` - Offline page
 
-- Node.js 18+
-- npm or yarn
+### Visa (1 page)
+- `visa/index.html` - Visa services
 
-### Installation
+### Packages (9 pages)
+- `packages/india/index.html` - India packages
+- `packages/singapore/index.html` - Singapore packages
+- `packages/singapore/family-5days.html` - Singapore family package
+- `packages/thailand/index.html` - Thailand packages
+- `packages/thailand/pattaya_bangkok.html` - Pattaya Bangkok package
+- `packages/thailand/krabi_phuket.html` - Krabi Phuket package
+- `packages/thailand/koh_samui_bangkok.html` - Koh Samui Bangkok package
+- `packages/thailand/koh_samet_pattaya_bangkok.html` - Koh Samet package
+- `packages/thailand/chiang_mai_chiang_rai_bangkok.html` - Chiang Mai package
 
-```bash
-npm install
-```
+## Contact Information
 
-### Commands
+### Thailand Office (Primary)
+- **Address**: 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province - 20150, Thailand
+- **Phone**: +66 94 931 9572
+- **WhatsApp**: +66 94 931 9572
+- **Email**: query@trippovention.co.th
 
-```bash
-# Build to docs/ folder
-npm run build
-
-# Development server with hot reload
-npm run serve
-
-# Debug mode
-npm run debug
-```
-
-### Local Development
-
-1. Run `npm run serve` to start the development server
-2. Open `http://localhost:8080` in your browser
-3. Edit files in `src/` - changes will auto-reload
+### India Office (Secondary)
+- **Address**: Unit No. 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49, Sohna Road, Gurgaon, Haryana - 122018
+- **Phone**: +91 73030 10446
+- **Landline**: +91 124 418 2575
 
 ## Deployment
 
@@ -82,55 +101,67 @@ npm run debug
 4. Select `main` branch and `/docs` folder
 5. Save and wait for deployment
 
-The site will be available at `https://trippovention-thailand.github.io/` 
-or your custom domain if configured (trippovention.co.th).
+The site will be available at:
+- `https://trippovention-thailand.github.io/`
+- `https://trippovention.co.th` (custom domain)
 
-## Configuration
+### Custom Domain Setup
 
-### Site Settings
+The `CNAME` file in `/docs` contains `trippovention.co.th`. Configure your DNS:
 
-Edit `src/_data/site.json` to update:
-- Contact information
-- Phone numbers
-- Email addresses
-- Social media links
-- Analytics IDs
+| Type  | Name | Value                              |
+|-------|------|------------------------------------|
+| CNAME | www  | trippovention-thailand.github.io   |
+| A     | @    | 185.199.108.153                    |
+| A     | @    | 185.199.109.153                    |
+| A     | @    | 185.199.110.153                    |
+| A     | @    | 185.199.111.153                    |
 
-### Adding New Pages
+## Making Changes
 
-1. Create a new `.njk` file in `src/`
-2. Add front matter with layout, title, description
-3. Run build to generate HTML
+Since this is a simple static site, just edit the HTML files directly in the `docs/` folder:
 
-Example:
-```njk
----
-layout: layouts/base.njk
-title: Page Title
-description: Page description
-activePage: nav-item-id
----
+### Update Contact Information
+Edit the footer section in each HTML file, or use find-replace across all files.
 
-<section class="section">
-  <div class="container">
-    <!-- Your content here -->
-  </div>
-</section>
-```
+### Update Phone Numbers
+Search and replace phone patterns across all HTML files.
 
-### Adding New Packages
+### Add New Pages
+1. Copy an existing HTML file as a template
+2. Update the content, title, and meta tags
+3. Add the page to `sitemap.xml`
+4. Update navigation links if needed
 
-1. Add package data to `src/_data/packages/[country].json`
-2. Create template in `src/packages/[country]/index.njk`
-3. Reference data using `{% set country = packages.country %}`
+### Update Styles
+Edit `docs/assets/styles.css`
+
+### Update JavaScript
+Edit `docs/assets/app.js` or other JS files in `docs/assets/`
+
+## SEO Configuration
+
+### robots.txt
+Located at `docs/robots.txt` - controls search engine crawling.
+
+### Sitemaps
+- `docs/sitemap.xml` - Main sitemap with all pages
+- `docs/image-sitemap.xml` - Image sitemap for image search
+
+### Structured Data
+`docs/assets/structured-data.js` contains Schema.org markup for:
+- TravelAgency
+- Organization
+- ContactPage
+- TouristTrip (for package pages)
 
 ## Multilingual Support
 
-Google Translate is integrated into the navigation bar, allowing users to switch between:
+Google Translate is integrated into the navigation bar:
 - English (default)
 - Thai (ภาษาไทย)
 
-The widget is styled to match the site design and can be customized in `src/_includes/partials/head.njk`.
+The widget is styled to match the site design.
 
 ## License
 

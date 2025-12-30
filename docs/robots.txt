@@ -1,6 +1,6 @@
-# Robots.txt for Trippovention Thailand Website
+# Robots.txt for Trippovention Website
 # https://trippovention.co.th/
-# Last Updated: December 2025
+# Last Updated: November 1, 2025
 
 # Global rules for all bots
 User-agent: *
@@ -88,3 +88,5 @@ Crawl-delay: 10
 
 # Host directive (for clarity)
 Host: https://trippovention.co.th
+
+

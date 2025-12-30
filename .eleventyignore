@@ -1,9 +1,0 @@
-# Ignore package HTML files from template processing (they use passthrough copy)
-src/packages/singapore/index.html
-src/packages/singapore/family-5days.html
-src/packages/india/index.html
-src/packages/thailand/pattaya_bangkok.html
-src/packages/thailand/koh_samui_bangkok.html
-src/packages/thailand/koh_samet_pattaya_bangkok.html
-src/packages/thailand/krabi_phuket.html
-src/packages/thailand/chiang_mai_chiang_rai_bangkok.html

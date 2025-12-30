@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>404 - Page Not Found | Trippovention Thailand</title>
+    <title>404 - Page Not Found | Trippovention</title>
     <meta
       name="description"
       content="The page you're looking for doesn't exist. Redirecting to home page."
@@ -16,6 +16,10 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon.png" />
     <meta name="theme-color" content="#667eea" />
+
+    <!-- Preload Critical Assets for Faster Loading -->
+    <link rel="preload" href="assets/styles.css" as="style" />
+    <link rel="preload" href="assets/app.js" as="script" />
 
     <style>
       * {
@@ -132,6 +136,8 @@
         setInterval(redirect, 1000);
       });
     </script>
+
+    <!-- Note: Cookie consent not needed on 404 page (no tracking) -->
   </head>
 
   <body>
@@ -154,4 +160,3 @@
     </main>
   </body>
 </html>
-
