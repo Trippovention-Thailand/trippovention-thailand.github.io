@@ -201,16 +201,105 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Smooth scrolling for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  // Language Toggle (same pattern as dark mode)
+  const langToggle = document.getElementById("langToggle");
+  if (langToggle) {
+    const LANG_KEY = "trippovention_lang";
+
+    // Set Google Translate cookie
+    function setGoogleTranslateCookie(lang) {
+      const domain = location.hostname;
+      if (lang === "th") {
+        document.cookie = "googtrans=/en/th; path=/";
+        document.cookie = "googtrans=/en/th; path=/; domain=" + domain;
+      } else {
+        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=" + domain;
+      }
+    }
+
+    // Initialize language on page load
+    function initializeLanguage() {
+      const savedLang = localStorage.getItem(LANG_KEY) || "en";
+      setGoogleTranslateCookie(savedLang);
+      updateLangToggle(savedLang);
+      loadGoogleTranslate();
+    }
+
+    // Update toggle button text (use innerHTML with notranslate to prevent GT translating it)
+    function updateLangToggle(lang) {
+      const targetLang = lang === "th" ? "EN" : "TH";
+      langToggle.innerHTML = '<span class="notranslate" translate="no">' + targetLang + '</span>';
+      langToggle.setAttribute("title", lang === "th" ? "Switch to English" : "Switch to Thai");
+      // Force button to stay visible with correct styling
+      langToggle.style.cssText = "padding:3px 8px;font-size:11px;font-weight:600;color:#fff;background:#f97316;border:none;border-radius:4px;cursor:pointer;";
+    }
+
+    // Load Google Translate script
+    function loadGoogleTranslate() {
+      const savedLang = localStorage.getItem(LANG_KEY) || "en";
+      
+      let container = document.getElementById("google_translate_element");
+      if (!container) {
+        container = document.createElement("div");
+        container.id = "google_translate_element";
+        container.style.display = "none";
+        document.body.appendChild(container);
+      }
+      window.googleTranslateElementInit = function() {
+        new google.translate.TranslateElement({
+          pageLanguage: "en",
+          includedLanguages: "en,th",
+          autoDisplay: false
+        }, "google_translate_element");
+        // Re-apply button styling after GT loads (it can mess with styles)
+        setTimeout(function() {
+          updateLangToggle(savedLang);
+        }, 500);
+      };
+      if (!document.querySelector('script[src*="translate.google.com"]')) {
+        const script = document.createElement("script");
+        script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        document.body.appendChild(script);
+      }
+    }
+
+    // Toggle language
+    function toggleLanguage() {
+      const currentLang = localStorage.getItem(LANG_KEY) || "en";
+      const newLang = currentLang === "en" ? "th" : "en";
+
+      localStorage.setItem(LANG_KEY, newLang);
+      setGoogleTranslateCookie(newLang);
+      location.reload();
+    }
+
+    // Initialize
+    initializeLanguage();
+
+    // Add click listener
+    langToggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      toggleLanguage();
+    });
+  }
+
+  // Smooth scrolling for anchor links (exclude "#" only links)
+  document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
-      const target = document.querySelector(this.getAttribute("href"));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
+      const href = this.getAttribute("href");
+      if (!href || href.length < 2) return;
+      try {
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      } catch (err) {
+        // Invalid selector, ignore
       }
     });
   });
