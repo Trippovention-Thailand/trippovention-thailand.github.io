@@ -5,62 +5,62 @@ document.addEventListener("DOMContentLoaded", function () {
     const menu = trigger.nextElementSibling;
     if (!menu) return;
 
-    const focusableItems = () => Array.from(menu.querySelectorAll('a')); // cache on demand
+    const focusableItems = () => Array.from(menu.querySelectorAll("a")); // cache on demand
 
     function openMenu() {
-      trigger.setAttribute('aria-expanded', 'true');
-      menu.classList.add('open');
+      trigger.setAttribute("aria-expanded", "true");
+      menu.classList.add("open");
       const first = focusableItems()[0];
       if (first) first.focus();
     }
 
     function closeMenu(focusTrigger = false) {
-      trigger.setAttribute('aria-expanded', 'false');
-      menu.classList.remove('open');
+      trigger.setAttribute("aria-expanded", "false");
+      menu.classList.remove("open");
       if (focusTrigger) trigger.focus();
     }
 
-    trigger.addEventListener('click', (e) => {
+    trigger.addEventListener("click", e => {
       // Prevent navigation when toggling
       e.preventDefault();
       // Stop propagation to prevent hamburger menu from closing on mobile
       e.stopPropagation();
-      const expanded = trigger.getAttribute('aria-expanded') === 'true';
+      const expanded = trigger.getAttribute("aria-expanded") === "true";
       expanded ? closeMenu(true) : openMenu();
     });
 
     // Keyboard handling when trigger has focus
-    trigger.addEventListener('keydown', (ev) => {
-      if (ev.key === 'ArrowDown' && trigger.getAttribute('aria-expanded') === 'false') {
+    trigger.addEventListener("keydown", ev => {
+      if (ev.key === "ArrowDown" && trigger.getAttribute("aria-expanded") === "false") {
         ev.preventDefault();
         openMenu();
-      } else if (ev.key === 'Escape') {
+      } else if (ev.key === "Escape") {
         closeMenu(true);
       }
     });
 
     // Menu keyboard navigation
-    menu.addEventListener('keydown', (ev) => {
+    menu.addEventListener("keydown", ev => {
       const items = focusableItems();
       const currentIndex = items.indexOf(document.activeElement);
-      if (ev.key === 'Escape') {
+      if (ev.key === "Escape") {
         ev.preventDefault();
         closeMenu(true);
-      } else if (ev.key === 'ArrowDown') {
+      } else if (ev.key === "ArrowDown") {
         ev.preventDefault();
         const next = items[(currentIndex + 1) % items.length];
         if (next) next.focus();
-      } else if (ev.key === 'ArrowUp') {
+      } else if (ev.key === "ArrowUp") {
         ev.preventDefault();
         const prev = items[(currentIndex - 1 + items.length) % items.length];
         if (prev) prev.focus();
-      } else if (ev.key === 'Home') {
+      } else if (ev.key === "Home") {
         ev.preventDefault();
         if (items[0]) items[0].focus();
-      } else if (ev.key === 'End') {
+      } else if (ev.key === "End") {
         ev.preventDefault();
         if (items[items.length - 1]) items[items.length - 1].focus();
-      } else if (ev.key === 'Tab') {
+      } else if (ev.key === "Tab") {
         // Close if tabbing out of menu (forward or backward)
         if (ev.shiftKey && currentIndex === 0) {
           closeMenu(true);
@@ -71,22 +71,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Close on outside click (but not when clicking dropdown items)
-    document.addEventListener('click', (ev) => {
+    document.addEventListener("click", ev => {
       if (!trigger.parentElement.contains(ev.target)) {
         closeMenu();
       }
     });
 
     // Prevent dropdown menu links from closing hamburger menu on mobile
-    menu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', (e) => {
+    menu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", e => {
         // Stop propagation so hamburger menu doesn't close
         e.stopPropagation();
       });
     });
   });
   // Enhanced lazy loading for images with error handling
-  document.querySelectorAll("img[data-src]").forEach((img) => {
+  document.querySelectorAll("img[data-src]").forEach(img => {
     // Fallback for browsers without IntersectionObserver
     if (!("IntersectionObserver" in window)) {
       img.src = img.dataset.src;
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
       const observer = new IntersectionObserver(
         (entries, obs) => {
-          entries.forEach((entry) => {
+          entries.forEach(entry => {
             if (entry.isIntersecting) {
               try {
                 img.src = img.dataset.src;
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
           });
         },
         {
-          rootMargin: "50px",
+          rootMargin: "50px"
         }
       ); // Preload images 50px before viewport
       observer.observe(img);
@@ -160,8 +160,8 @@ document.addEventListener("DOMContentLoaded", function () {
       window.dispatchEvent(
         new CustomEvent("themeChanged", {
           detail: {
-            theme,
-          },
+            theme
+          }
         })
       );
     }
@@ -214,7 +214,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.cookie = "googtrans=/en/th; path=/; domain=" + domain;
       } else {
         document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=" + domain;
+        document.cookie =
+          "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=" + domain;
       }
     }
 
@@ -229,16 +230,17 @@ document.addEventListener("DOMContentLoaded", function () {
     // Update toggle button text (use innerHTML with notranslate to prevent GT translating it)
     function updateLangToggle(lang) {
       const targetLang = lang === "th" ? "EN" : "TH";
-      langToggle.innerHTML = '<span class="notranslate" translate="no">' + targetLang + '</span>';
+      langToggle.innerHTML = '<span class="notranslate" translate="no">' + targetLang + "</span>";
       langToggle.setAttribute("title", lang === "th" ? "Switch to English" : "Switch to Thai");
       // Force button to stay visible with correct styling
-      langToggle.style.cssText = "padding:3px 8px;font-size:11px;font-weight:600;color:#fff;background:#f97316;border:none;border-radius:4px;cursor:pointer;";
+      langToggle.style.cssText =
+        "padding:3px 8px;font-size:11px;font-weight:600;color:#fff;background:#f97316;border:none;border-radius:4px;cursor:pointer;";
     }
 
     // Load Google Translate script
     function loadGoogleTranslate() {
       const savedLang = localStorage.getItem(LANG_KEY) || "en";
-      
+
       let container = document.getElementById("google_translate_element");
       if (!container) {
         container = document.createElement("div");
@@ -246,14 +248,17 @@ document.addEventListener("DOMContentLoaded", function () {
         container.style.display = "none";
         document.body.appendChild(container);
       }
-      window.googleTranslateElementInit = function() {
-        new google.translate.TranslateElement({
-          pageLanguage: "en",
-          includedLanguages: "en,th",
-          autoDisplay: false
-        }, "google_translate_element");
+      window.googleTranslateElementInit = function () {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,th",
+            autoDisplay: false
+          },
+          "google_translate_element"
+        );
         // Re-apply button styling after GT loads (it can mess with styles)
-        setTimeout(function() {
+        setTimeout(function () {
           updateLangToggle(savedLang);
         }, 500);
       };
@@ -285,7 +290,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Smooth scrolling for anchor links (exclude "#" only links)
-  document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach((anchor) => {
+  document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
       const href = this.getAttribute("href");
       if (!href || href.length < 2) return;
@@ -295,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
           e.preventDefault();
           target.scrollIntoView({
             behavior: "smooth",
-            block: "start",
+            block: "start"
           });
         }
       } catch (err) {
@@ -305,7 +310,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Form enhancements
-  document.querySelectorAll("input, textarea, select").forEach((field) => {
+  document.querySelectorAll("input, textarea, select").forEach(field => {
     // Add focus/blur effects
     field.addEventListener("focus", function () {
       this.parentElement.classList.add("field-focused");
@@ -326,8 +331,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if ("IntersectionObserver" in window && animateElements.length > 0) {
     const animationObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
+      entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.style.opacity = "1";
             entry.target.style.transform = "translateY(0)";
@@ -337,11 +342,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       },
       {
-        threshold: 0.1,
+        threshold: 0.1
       }
     );
 
-    animateElements.forEach((el) => {
+    animateElements.forEach(el => {
       el.style.opacity = "0";
       el.style.transform = "translateY(20px)";
       el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
@@ -404,7 +409,7 @@ window.ThemeManager = {
 
   isDarkMode: function () {
     return this.getCurrentTheme() === "dark";
-  },
+  }
 };
 
 // Service Worker Registration for PWA with Update Notification
@@ -412,7 +417,7 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
       .register("/sw.js")
-      .then((registration) => {
+      .then(registration => {
         // Only log in development
         if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
           console.log("✓ Service Worker registered:", registration.scope);
@@ -438,7 +443,7 @@ if ("serviceWorker" in navigator) {
           60 * 60 * 1000
         );
       })
-      .catch((error) => {
+      .catch(error => {
         // Always log errors
         console.error("✗ Service Worker registration failed:", error);
       });
