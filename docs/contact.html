@@ -33,19 +33,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>Contact Us - Travel Inquiries & Support | Trippovention</title>
+    <title>Contact Us - Travel Inquiries &amp; Support | Trippovention</title>
     <meta
       name="description"
-      content="Contact Trippovention Thailand for travel inquiries, visa support, and custom tour packages. Call +66 90 917 7601 or visit our Thailand office for assistance."
+      content="Contact Trippovention for travel inquiries and custom tour packages. Call +66 90 917 7601 or visit our Thailand office for assistance."
     />
     <meta name="author" content="Trippovention" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://trippovention.co.th/contact.html" />
-    <meta property="og:title" content="Contact Us - Travel Inquiries & Support | Trippovention" />
+    <meta
+      property="og:title"
+      content="Contact Us - Travel Inquiries &amp; Support | Trippovention"
+    />
     <meta
       property="og:description"
-      content="Reach out for travel inquiries, tour packages, visa services. Multiple contact options available. Expert travel assistance."
+      content="Reach out for travel inquiries, tour packages, and ground operations. Multiple contact options available. Expert travel assistance."
     />
     <meta property="og:image" content="https://trippovention.co.th/assets/images/logo.webp" />
 
@@ -53,11 +56,11 @@
     <meta property="twitter:url" content="https://trippovention.co.th/contact.html" />
     <meta
       property="twitter:title"
-      content="Contact Us - Travel Inquiries & Support | Trippovention"
+      content="Contact Us - Travel Inquiries &amp; Support | Trippovention"
     />
     <meta
       property="twitter:description"
-      content="Reach out for travel inquiries, tour packages, visa services. Multiple contact options available."
+      content="Reach out for travel inquiries, tour packages, and ground operations. Multiple contact options available."
     />
     <meta property="twitter:image" content="https://trippovention.co.th/assets/images/logo.webp" />
 
@@ -73,14 +76,14 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="assets/contact-form.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11395302765"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11395302765"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -120,7 +123,6 @@
               <a href="destinations-travelers.html">By Traveler</a>
             </div>
           </div>
-          <a href="visa/index.html">Visa</a>
           <a href="services.html">Services</a>
           <a class="active" href="contact.html">Contact</a>
         </div>
@@ -234,7 +236,7 @@
                         id="name"
                         name="Name"
                         placeholder="Enter your full name"
-                        required
+                        required=""
                         autocomplete="name"
                       />
 
@@ -244,7 +246,7 @@
                         id="email"
                         name="Email"
                         placeholder="your@email.com"
-                        required
+                        required=""
                         autocomplete="email"
                       />
 
@@ -253,8 +255,8 @@
                         type="tel"
                         id="phone"
                         name="Phone"
-                        placeholder="+91 98765 43210"
-                        required
+                        placeholder="+66 XX XXX XXXX"
+                        required=""
                         autocomplete="tel"
                       />
 
@@ -262,12 +264,12 @@
                       <select
                         name="Inquiry&nbsp;Type"
                         id="inquiryType"
-                        required
+                        required=""
                         onchange="toggleConditionalFields()"
                       >
                         <option value="">Select inquiry type</option>
                         <option value="General Inquiry">General Inquiry</option>
-                        <option value="Visa Assistance">Visa Assistance</option>
+                        <option value="Ground Operations">Ground Operations</option>
                         <option value="Custom Trip Planning">Custom Trip Planning</option>
                         <option value="Booking Support">Booking Support</option>
                         <option value="Business Travel">Business Travel</option>
@@ -275,32 +277,6 @@
                       </select>
                     </div>
                   </div>
-
-                  <div class="card" id="visaDetails">
-                    <div class="body">
-                      <h4>🛂 Visa Details</h4>
-
-                      <label for="visa_country">Country for Visa</label>
-                      <input
-                        type="text"
-                        id="visa_country"
-                        name="Visa&nbsp;Country"
-                        placeholder="Enter destination country"
-                        autocomplete="country-name"
-                      />
-
-                      <label for="visa_type">Visa Type</label>
-                      <select name="Visa&nbsp;Type" id="visa_type">
-                        <option value="">Select visa type</option>
-                        <option value="Tourist">Tourist Visa</option>
-                        <option value="Business">Business Visa</option>
-                        <option value="Transit">Transit Visa</option>
-                        <option value="Student">Student Visa</option>
-                        <option value="Others">Others</option>
-                      </select>
-                    </div>
-                  </div>
-
                   <div class="card" id="travelDetails">
                     <div class="body">
                       <h4>✈️ Travel Planning Details</h4>
@@ -327,18 +303,10 @@
                       <label for="budget">Budget Range</label>
                       <select name="Budget&nbsp;Range" id="budget">
                         <option value="">Select your budget range</option>
-                        <option value="₹ 25,000 - ₹ 50,000 per person">
-                          ₹ 25,000 - ₹ 50,000 per person
-                        </option>
-                        <option value="₹ 50,000 - ₹ 1,00,000 per person">
-                          ₹ 50,000 - ₹ 1,00,000 per person
-                        </option>
-                        <option value="₹ 1,00,000 - ₹ 2,00,000 per person">
-                          ₹ 1,00,000 - ₹ 2,00,000 per person
-                        </option>
-                        <option value="Above ₹ 2,00,000 per person">
-                          Above ₹ 2,00,000 per person
-                        </option>
+                        <option value="Budget">Budget</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Luxury">Luxury</option>
                       </select>
 
                       <label for="travel_start_date">Preferred Travel Dates</label>
@@ -387,7 +355,7 @@
                         name="Message"
                         rows="5"
                         placeholder="Tell us how we can help you..."
-                        required
+                        required=""
                         maxlength="1000"
                       ></textarea>
                       <div class="char-counter">
@@ -415,7 +383,9 @@
                   </div>
 
                   <div class="submit-button-container">
-                    <button type="submit" id="submitBtn" class="btn btn-lg" disabled>Submit</button>
+                    <button type="submit" id="submitBtn" class="btn btn-lg" disabled="">
+                      Submit
+                    </button>
                   </div>
                 </form>
               </div>
@@ -425,7 +395,7 @@
           <div>
             <div class="card card-premium">
               <div class="body">
-                <h3>🏢 Thailand Office</h3>
+                <h3>🏛️ Thailand Office</h3>
                 <div class="address-block">
                   <div>📍 <strong>Address:</strong></div>
                   <div class="address-indent">23/13 M, 12 Nong Pure Subdistrict</div>
@@ -443,17 +413,13 @@
                     📞 <strong>Phone:</strong>
                     <a href="tel:+66909177601">+66 90 917 7601</a>
                   </div>
-                  <div>
-                    💬 <strong>WhatsApp:</strong>
-                    <a href="https://wa.me/+66909177601">+66 90 917 7601</a>
-                  </div>
                 </div>
               </div>
             </div>
 
             <div class="card office-card">
               <div class="body">
-                <h3>🏛️ India Office</h3>
+                <h3>🏢 India Office</h3>
                 <div class="address-block compact">
                   <div>📍 <strong>Address:</strong></div>
                   <div class="address-indent">Unit No. - 337 A, 3rd Floor</div>
@@ -470,6 +436,18 @@
                       <a href="tel:+911244182575">+91 124 418 2575</a>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card office-card">
+              <div class="body">
+                <h3>🏛️ Moradabad Office</h3>
+                <div class="address-block compact">
+                  <div>📍 <strong>Address:</strong></div>
+                  <div class="address-indent">Sagar Sarai Madan Bhawan</div>
+                  <div class="address-indent">GMD Road</div>
+                  <div class="address-indent">Moradabad, Uttar Pradesh - 244001</div>
                 </div>
               </div>
             </div>
@@ -523,8 +501,12 @@
             </p>
           </div>
           <div class="text-center">
-            <a class="btn btn-lg ghost" href="contact.html">Get Custom Quote</a>
-            <a class="btn btn-lg ghost ml-16" href="tel:+66909177601">📞 Call Now</a>
+            <a class="btn btn-lg ghost" style="margin-bottom: 10px" href="contact.html"
+              >Get Custom Quote</a
+            >
+            <a class="btn btn-lg ghost ml-16" style="margin-top: 10px" href="tel:+66909177601"
+              >📞 Call Now</a
+            >
           </div>
           <div class="grid cols-3 mt-40">
             <div class="stats">
@@ -555,16 +537,24 @@
               <div class="mt-20">
                 <h3 class="muted font-weight-600">Contact Details</h3>
                 <span class="mr-15"
-                  >📧 <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span
+                  >‍📧
+                  <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span
                 >
                 <br />
                 <span>📞 <a href="tel:+66909177601">+66 90 917 7601</a></span>
                 <br />
-                <span>📞 <a href="tel:+911244182575">+91 124 418 2575</a></span>
+                <span
+                  >💬
+                  <a href="https://wa.me/+66909177601" target="_blank" rel="noopener noreferrer"
+                    >WhatsApp</a
+                  ></span
+                >
                 <br />
-                <span>📞 <a href="tel:+917303010446">+91 73030 10446</a></span>
-                <br />
-                <span>📞 <a href="tel:+66909177601">+66 90 917 7601</a></span>
+                <p class="muted" style="margin-top: 8px; font-size: 13px">
+                  India office:
+                  <a href="tel:+911244182575">+91 124 418 2575</a> /
+                  <a href="tel:+917303010446">+91 73030 10446</a>
+                </p>
               </div>
             </div>
             <div>
@@ -574,10 +564,9 @@
                 <a href="destinations.html">Destinations by Country</a><br />
                 <a href="destinations-themes.html">Destinations by Theme</a><br />
                 <a href="destinations-travelers.html">Destinations by Traveler</a><br />
-                <a href="visa/index.html">Visa</a><br />
                 <a href="services.html">Services</a><br />
                 <a href="contact.html">Contact</a><br />
-                <a href="terms-and-conditions.html">Terms & Conditions</a><br />
+                <a href="terms-and-conditions.html">Terms &amp; Conditions</a><br />
                 <a href="privacy-policy.html">Privacy Policy</a><br />
                 <a href="refund-policy.html">Refund Policy</a>
               </div>
@@ -610,6 +599,7 @@
                       width="24"
                       height="24"
                       class="social-icon-white"
+                      loading="lazy"
                     />
                   </a>
                   <a
@@ -625,6 +615,7 @@
                       width="24"
                       height="24"
                       class="social-icon-white"
+                      loading="lazy"
                     />
                   </a>
                   <a
@@ -640,6 +631,7 @@
                       width="24"
                       height="24"
                       class="social-icon-white"
+                      loading="lazy"
                     />
                   </a>
                   <a
@@ -655,6 +647,7 @@
                       width="24"
                       height="24"
                       class="social-icon-white"
+                      loading="lazy"
                     />
                   </a>
                 </div>
@@ -662,7 +655,7 @@
             </div>
           </div>
           <div class="text-center section-border-top mt-40 pt-30">
-            <p>&copy; 2025 Trippovention. All Rights Reserved.</p>
+            <p>© 2026 Trippovention. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
@@ -670,7 +663,7 @@
       <a href="contact.html" class="sticky-cta">💬 Quick Enquiry</a>
     </main>
 
-    <script src="assets/structured-data.js" defer></script>
+    <script src="assets/structured-data.js" defer=""></script>
     <script>
       window.structuredDataConfig = {
         pageType: "contact",
@@ -684,7 +677,7 @@
             url: "https://trippovention.co.th/contact.html"
           }
         ],
-        phones: ["+66-90-917-7601", "+91-124-418-2575"]
+        phones: ["+66-90-917-7601"]
       };
     </script>
 
@@ -701,11 +694,11 @@
       });
     </script>
 
-    <script src="assets/skip-link.js" defer></script>
-    <script src="assets/cookie-consent.js" defer></script>
-    <script src="assets/app.js" defer></script>
-    <script src="assets/analytics.js" defer></script>
-    <script src="assets/contact-form.js" defer></script>
+    <script src="assets/skip-link.js" defer=""></script>
+    <script src="assets/cookie-consent.js" defer=""></script>
+    <script src="assets/app.js" defer=""></script>
+    <script src="assets/analytics.js" defer=""></script>
+    <script src="assets/contact-form.js" defer=""></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -718,11 +711,11 @@
         "email": "query@trippovention.co.th",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Unit 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49",
-          "addressLocality": "Gurgaon",
-          "addressRegion": "Haryana",
-          "postalCode": "122018",
-          "addressCountry": "IN"
+          "streetAddress": "23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District",
+          "addressLocality": "Chonburi",
+          "addressRegion": "Chonburi Province",
+          "postalCode": "20150",
+          "addressCountry": "TH"
         }
       }
     </script>

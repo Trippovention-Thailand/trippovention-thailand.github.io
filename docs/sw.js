@@ -1,10 +1,10 @@
 /**
  * Service Worker for Trippovention
  * Enables offline support and faster repeat visits
- * Version: 3.4 - GTM integration + enhanced tracking
+ * Version: 3.6 - Google Translate CSP + explicit HTTPS script URL
  */
 
-const CACHE_VERSION = "3.4";
+const CACHE_VERSION = "3.7";
 const CACHE_NAME = `trippovention-v${CACHE_VERSION}`;
 const RUNTIME_CACHE = "trippovention-runtime";
 
