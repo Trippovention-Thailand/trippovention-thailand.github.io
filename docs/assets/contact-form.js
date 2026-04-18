@@ -29,39 +29,21 @@ function ensureFormVisibility() {
 function toggleConditionalFields() {
   const inquiryType = document.getElementById("inquiryType").value;
   const travelDetails = document.getElementById("travelDetails");
-  const visaDetails = document.getElementById("visaDetails");
 
-  // Hide all conditional sections first
   travelDetails.style.display = "none";
-  visaDetails.style.display = "none";
 
-  // Remove all conditional required attributes
-  document
-    .querySelectorAll(
-      "#travelDetails input, #travelDetails select, #visaDetails input, #visaDetails select"
-    )
-    .forEach(input => {
-      input.removeAttribute("required");
-    });
+  document.querySelectorAll("#travelDetails input, #travelDetails select").forEach(input => {
+    input.removeAttribute("required");
+  });
 
-  // Show relevant section and set required fields
   if (inquiryType === "Custom Trip Planning") {
     travelDetails.style.display = "block";
-    // Make key travel fields required (using &nbsp; for spaces)
     const requiredTravelFields = [
       "Preferred\u00A0Destination",
       "Number\u00A0of\u00A0Travelers",
       "Budget\u00A0Range"
     ];
     requiredTravelFields.forEach(name => {
-      const field = document.querySelector(`[name="${name}"]`);
-      if (field) field.setAttribute("required", "required");
-    });
-  } else if (inquiryType === "Visa Assistance") {
-    visaDetails.style.display = "block";
-    // Make key visa fields required (using &nbsp; for spaces)
-    const requiredVisaFields = ["Visa\u00A0Country", "Visa\u00A0Type"];
-    requiredVisaFields.forEach(name => {
       const field = document.querySelector(`[name="${name}"]`);
       if (field) field.setAttribute("required", "required");
     });
@@ -145,7 +127,7 @@ function validateForm() {
       phoneField.style.boxShadow = "0 0 0 2px rgba(255,100,100,0.2)";
       showFieldTooltip(
         phoneField,
-        "Please enter a valid phone number (min 10 digits, format: +91 98765 43210)"
+        "Please enter a valid phone number (min 10 digits, format: +66 XX XXX XXXX)"
       );
       validationErrors.push({
         field: phoneField,
@@ -156,21 +138,6 @@ function validateForm() {
       phoneField.style.boxShadow = "0 0 0 2px rgba(40,167,69,0.2)";
     }
   }
-
-  // Visa country validation for text input
-  const visaCountryField = form.querySelector('input[name="Visa\u00A0Country"]');
-  if (visaCountryField && visaCountryField.value) {
-    if (visaCountryField.value.length < 2) {
-      allValid = false;
-      visaCountryField.style.borderColor = "rgba(255,100,100,0.8)";
-      visaCountryField.style.boxShadow = "0 0 0 2px rgba(255,100,100,0.2)";
-      showFieldTooltip(visaCountryField, "Please enter a valid country name (min 2 characters)");
-    } else {
-      visaCountryField.style.borderColor = "rgba(40,167,69,0.8)";
-      visaCountryField.style.boxShadow = "0 0 0 2px rgba(40,167,69,0.2)";
-    }
-  }
-
   // Enhanced date validation for travel planning
   const startDate = form.querySelector('input[name="travel_start_date"]');
   const endDate = form.querySelector('input[name="travel_end_date"]');
@@ -381,30 +348,23 @@ function prefillDestinationFromURL() {
   const from = urlParams.get("from");
   const coupon = urlParams.get("coupon");
 
-  // Get form fields - with retry logic if elements are not yet available
   const inquiryTypeField = document.getElementById("inquiryType");
   const destinationField = document.querySelector('input[name="Preferred\u00A0Destination"]');
-  const visaCountryField = document.querySelector('input[name="Visa\u00A0Country"]');
   const couponField = document.querySelector('input[name="Coupon\u00A0Code"]');
 
-  // If critical fields are not found, retry after a short delay
   if (!inquiryTypeField) {
-    return; // Don't retry, will be called again by multiple setTimeout
+    return;
   }
 
-  // Check if we've already processed this (prevent multiple fills)
-  // Mark the form as processed by setting a data attribute
   const formElement = document.getElementById("contactForm");
   if (formElement && formElement.dataset.urlProcessed === "true") {
-    return; // Already processed, skip
+    return;
   }
 
-  // Mark as processing to prevent duplicate fills
   if (formElement) {
     formElement.dataset.urlProcessing = "true";
   }
 
-  // Helper function to format names (kebab-case to Title Case)
   const formatName = str => {
     return str
       .split("-")
@@ -412,19 +372,14 @@ function prefillDestinationFromURL() {
       .join(" ");
   };
 
-  // PRIORITY 0: Handle Coupon Code FIRST (?coupon=xxx)
-  // → Always apply coupon, regardless of other parameters
-  // → Coupon field is always visible, doesn't depend on inquiry type
   if (coupon && couponField) {
-    couponField.value = coupon.toUpperCase(); // Coupons are usually uppercase
+    couponField.value = coupon.toUpperCase();
 
-    // Highlight the coupon field briefly to draw attention
     setTimeout(() => {
       couponField.style.borderColor = "rgba(40,167,69,0.8)";
       couponField.style.boxShadow = "0 0 0 2px rgba(40,167,69,0.2)";
       couponField.style.transition = "all 0.3s ease";
 
-      // Reset after 2 seconds
       setTimeout(() => {
         couponField.style.borderColor = "";
         couponField.style.boxShadow = "";
@@ -432,40 +387,31 @@ function prefillDestinationFromURL() {
     }, 600);
   }
 
-  // PRIORITY 1: Handle Visa Service Queries (?service=xxx-visa)
-  if (service && visaCountryField && inquiryTypeField) {
-    // Extract country name from service (e.g., "singapore-visa" → "Singapore")
-    const countryName = service.replace(/-visa$/i, "");
-    const formattedCountry = formatName(countryName);
-
-    // Set inquiry type FIRST to trigger conditional fields
-    inquiryTypeField.value = "Visa Assistance";
-    toggleConditionalFields();
-
-    // Wait for fields to be visible, then set value
-    setTimeout(() => {
-      visaCountryField.value = formattedCountry;
-      setTimeout(() => {
-        visaCountryField.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-        visaCountryField.focus();
-      }, 200);
-    }, 150);
-    return; // Exit after handling visa
-  }
-
-  // PRIORITY 2: Handle Destination Queries (?destination=xxx)
-  // → Opens "Custom Trip Planning" with destination pre-filled
-  if (destination && destinationField && inquiryTypeField) {
-    const formattedDestination = formatName(destination);
-
-    // Set inquiry type FIRST to trigger conditional fields
+  if (service && destinationField && inquiryTypeField) {
+    const formattedService = formatName(service.replace(/-visa$/i, ""));
     inquiryTypeField.value = "Custom Trip Planning";
     toggleConditionalFields();
 
-    // Wait for fields to be visible, then set value
+    setTimeout(() => {
+      destinationField.value = formattedService;
+      destinationField.setAttribute("required", "required");
+
+      setTimeout(() => {
+        destinationField.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+        destinationField.focus();
+      }, 200);
+    }, 150);
+    return;
+  }
+
+  if (destination && destinationField && inquiryTypeField) {
+    const formattedDestination = formatName(destination);
+    inquiryTypeField.value = "Custom Trip Planning";
+    toggleConditionalFields();
+
     setTimeout(() => {
       destinationField.value = formattedDestination;
       destinationField.setAttribute("required", "required");
@@ -478,59 +424,32 @@ function prefillDestinationFromURL() {
         destinationField.focus();
       }, 200);
     }, 150);
-    return; // Exit after handling destination
+    return;
   }
 
-  // PRIORITY 3: Handle Category/Page Context (?from=xxx)
-  if (from && inquiryTypeField) {
+  if (from && inquiryTypeField && destinationField) {
     const formattedFrom = formatName(from);
-
-    // Special handling for visa page - open visa assistance form
-    if (from.toLowerCase() === "visa" && visaCountryField) {
-      inquiryTypeField.value = "Visa Assistance";
-      toggleConditionalFields();
-
-      setTimeout(() => {
-        visaCountryField.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-        visaCountryField.focus();
-      }, 350);
-      return; // Exit after handling visa
-    }
-
-    // For other pages → Opens "Custom Trip Planning" with category context
-    if (destinationField) {
-      // Set inquiry type FIRST to trigger conditional fields
-      inquiryTypeField.value = "Custom Trip Planning";
-      toggleConditionalFields();
-
-      // Wait for fields to be visible, then set value
-      setTimeout(() => {
-        destinationField.value = formattedFrom;
-        setTimeout(() => {
-          destinationField.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-          });
-          destinationField.focus();
-        }, 200);
-      }, 150);
-      return; // Exit after handling from
-    }
-  }
-
-  // PRIORITY 4: Handle Specific Package Queries (?package=xxx)
-  // → Opens "Custom Trip Planning" with package name as destination
-  if (packageParam && destinationField && inquiryTypeField) {
-    const formattedPackage = formatName(packageParam);
-
-    // Set inquiry type FIRST to trigger conditional fields
     inquiryTypeField.value = "Custom Trip Planning";
     toggleConditionalFields();
 
-    // Wait for fields to be visible, then set value
+    setTimeout(() => {
+      destinationField.value = formattedFrom;
+      setTimeout(() => {
+        destinationField.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+        destinationField.focus();
+      }, 200);
+    }, 150);
+    return;
+  }
+
+  if (packageParam && destinationField && inquiryTypeField) {
+    const formattedPackage = formatName(packageParam);
+    inquiryTypeField.value = "Custom Trip Planning";
+    toggleConditionalFields();
+
     setTimeout(() => {
       destinationField.value = formattedPackage;
       destinationField.setAttribute("required", "required");
@@ -545,7 +464,6 @@ function prefillDestinationFromURL() {
     }, 150);
   }
 
-  // Mark form as fully processed to prevent duplicate fills
   if (formElement) {
     formElement.dataset.urlProcessed = "true";
   }

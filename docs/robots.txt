@@ -1,6 +1,10 @@
 # Robots.txt for Trippovention Website
 # https://trippovention.co.th/
-# Last Updated: November 1, 2025
+# Last Updated: February 28, 2026
+
+# LLMs.txt for AI crawlers
+# https://trippovention.co.th/llms.txt
+# https://trippovention.co.th/llms-full.txt
 
 # Global rules for all bots
 User-agent: *
@@ -15,9 +19,9 @@ Disallow: /404.html
 Disallow: /offline.html
 Disallow: /*?error=*
 
-# Disallow admin or private areas (if any in future)
-# Disallow: /admin/
-# Disallow: /private/
+# Disallow validation and development folders
+Disallow: /_validation/
+Disallow: /node_modules/
 
 # Explicitly allow crawling of assets for better rendering (Mobile-First Indexing)
 Allow: /assets/*.css
@@ -85,8 +89,32 @@ Disallow: /
 User-agent: PetalBot
 Crawl-delay: 10
 
+# AI/LLM Crawlers — Explicitly ALLOWED for discoverability
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 
 # Host directive (for clarity)
 Host: https://trippovention.co.th
-
 

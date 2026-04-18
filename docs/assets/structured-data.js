@@ -185,7 +185,7 @@ const StructuredData = (() => {
       url: COMPANY_INFO.url,
       logo: COMPANY_INFO.logo,
       description:
-        "Leading travel agency specializing in India and worldwide tours with 15+ years of experience",
+        "Leading travel agency specializing in Thailand and worldwide tours with 15+ years of experience",
       foundingDate: "2010",
       slogan: "Your Trusted Travel Partner",
       address: COMPANY_INFO.address,
@@ -211,7 +211,7 @@ const StructuredData = (() => {
       }
     }),
 
-    // 4. Service Schema (Services, Visa)
+    // 4. Service Schema (Services)
     service: config => ({
       "@context": "https://schema.org",
       "@type": "Service",
@@ -280,7 +280,7 @@ const StructuredData = (() => {
         name: COMPANY_INFO.name,
         url: COMPANY_INFO.url,
         logo: COMPANY_INFO.logo,
-        telephone: config.multiplePhones || [COMPANY_INFO.telephone, "+91-124-418-2575"],
+        telephone: config.multiplePhones || [COMPANY_INFO.telephone],
         email: COMPANY_INFO.email,
         address: COMPANY_INFO.address,
         geo: COMPANY_INFO.geo,
@@ -300,10 +300,10 @@ const StructuredData = (() => {
           },
           {
             "@type": "ContactPoint",
-            telephone: "+91-73030-10446",
+            telephone: "+66-90-917-7601",
             contactType: "Sales",
-            areaServed: ["IN", "SG", "TH", "MY", "AE"],
-            availableLanguage: ["English", "Hindi"]
+            areaServed: ["TH", "SG", "MY", "AE", "IN"],
+            availableLanguage: ["English", "Thai"]
           },
           {
             "@type": "ContactPoint",
@@ -359,7 +359,7 @@ const StructuredData = (() => {
           schemas.travelAgency({
             description:
               config.description ||
-              "Your trusted travel partner for unforgettable journeys across India and the world",
+              "Your trusted travel partner for unforgettable journeys across Thailand and the world",
             url: COMPANY_INFO.url,
             aggregateRating: {
               value: "4.8",
@@ -396,19 +396,6 @@ const StructuredData = (() => {
             hasOfferCatalog: config.offerCatalog
           }),
           "Structured Data: Service with OfferCatalog"
-        );
-        break;
-
-      case "visa":
-        injectSchema(
-          schemas.service({
-            serviceType: "Visa Assistance Services",
-            name: "Visa Services by Trippovention",
-            description: config.description,
-            offers: config.offers,
-            serviceOutput: config.serviceOutput
-          }),
-          "Structured Data: Service (Visa Assistance)"
         );
         break;
 

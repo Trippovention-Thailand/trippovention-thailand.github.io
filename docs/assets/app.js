@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+
   // Enhanced lazy loading for images with error handling
   document.querySelectorAll("img[data-src]").forEach(img => {
     // Fallback for browsers without IntersectionObserver
@@ -201,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Language Toggle (same pattern as dark mode)
+  // Language Toggle (TH <=> EN via Google Translate)
   const langToggle = document.getElementById("langToggle");
   if (langToggle) {
     const LANG_KEY = "trippovention_lang";
@@ -264,7 +265,8 @@ document.addEventListener("DOMContentLoaded", function () {
       };
       if (!document.querySelector('script[src*="translate.google.com"]')) {
         const script = document.createElement("script");
-        script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        script.src =
+          "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
         document.body.appendChild(script);
       }
     }
@@ -420,7 +422,7 @@ if ("serviceWorker" in navigator) {
       .then(registration => {
         // Only log in development
         if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-          console.log("✓ Service Worker registered:", registration.scope);
+          console.log("Service Worker registered:", registration.scope);
         }
 
         // Check for updates
@@ -445,7 +447,7 @@ if ("serviceWorker" in navigator) {
       })
       .catch(error => {
         // Always log errors
-        console.error("✗ Service Worker registration failed:", error);
+        console.error("Service Worker registration failed:", error);
       });
   });
 }
@@ -470,7 +472,7 @@ function showUpdateNotification() {
         Update Now
       </button>
       <button onclick="document.getElementById('update-banner').remove()" class="update-close" aria-label="Dismiss update notification">
-        ✕
+        &#x2715;
       </button>
     </div>
   `;
@@ -490,18 +492,10 @@ function showUpdateNotification() {
       box-shadow: 0 2px 10px rgba(0,0,0,0.2);
       animation: slideDown 0.3s ease-out;
     }
-
     @keyframes slideDown {
-      from {
-        transform: translateY(-100%);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
+      from { transform: translateY(-100%); opacity: 0; }
+      to   { transform: translateY(0);     opacity: 1; }
     }
-
     .update-content {
       max-width: 1200px;
       margin: 0 auto;
@@ -511,16 +505,8 @@ function showUpdateNotification() {
       gap: 12px;
       flex-wrap: wrap;
     }
-
-    .update-icon {
-      font-size: 20px;
-    }
-
-    .update-text {
-      font-weight: 600;
-      font-size: 14px;
-    }
-
+    .update-icon  { font-size: 20px; }
+    .update-text  { font-weight: 600; font-size: 14px; }
     .update-btn {
       background: white;
       color: var(--orange, #d6804e);
@@ -532,12 +518,10 @@ function showUpdateNotification() {
       cursor: pointer;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
-
     .update-btn:hover {
       transform: translateY(-1px);
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-
     .update-close {
       background: transparent;
       border: none;
@@ -548,19 +532,10 @@ function showUpdateNotification() {
       opacity: 0.8;
       transition: opacity 0.2s ease;
     }
-
-    .update-close:hover {
-      opacity: 1;
-    }
-
+    .update-close:hover { opacity: 1; }
     @media (max-width: 640px) {
-      .update-content {
-        flex-direction: column;
-        text-align: center;
-      }
-      .update-btn {
-        width: 100%;
-      }
+      .update-content { flex-direction: column; text-align: center; }
+      .update-btn { width: 100%; }
     }
   `;
 
@@ -570,8 +545,6 @@ function showUpdateNotification() {
   // Auto-dismiss after 30 seconds if user doesn't interact
   setTimeout(() => {
     const existingBanner = document.getElementById("update-banner");
-    if (existingBanner) {
-      existingBanner.remove();
-    }
+    if (existingBanner) existingBanner.remove();
   }, 30000);
 }

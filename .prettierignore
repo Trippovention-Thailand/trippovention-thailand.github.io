@@ -1,0 +1,21 @@
+# Validation files
+_validation/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Minified files
+*.min.js
+*.min.css
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
