@@ -2,9 +2,9 @@
 """
 import_new_itineraries.py
 
-Parses all .docx itineraries from 'New Itineraries' directory and creates
-structured HTML package pages and destination landing index pages under
-docs/packages/thailand/<destination>/ (Bangkok, Krabi, Pattaya, Phuket).
+Parses all .docx itineraries from both 'Itineraries' and 'New Itineraries' directories
+and creates structured HTML package pages and destination landing index pages under
+docs/packages/thailand/<destination>/ across 16 Thailand destinations.
 """
 
 import os
@@ -14,25 +14,117 @@ import xml.etree.ElementTree as ET
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
-NEW_ITINERARIES_DIR = os.path.join(BASE_DIR, "..", "New Itineraries")
+PARENT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
 THAILAND_PACKAGES_DIR = os.path.join(DOCS_DIR, "packages", "thailand")
 
-# Map of images for hero banners and cards based on destination and theme
+# Map of hero images based on destination key
 HERO_IMAGE_MAP = {
+    'ayutthaya': 'assets/images/packages/thailand/hero_thailand_culture.webp',
     'bangkok': 'assets/images/packages/thailand/hero_pattaya_bangkok.webp',
+    'chiang-mai': 'assets/images/packages/thailand/hero_chiang_mai_chiang_rai.webp',
+    'chiang-rai': 'assets/images/packages/thailand/hero_chiang_mai_chiang_rai_bangkok.webp',
+    'hua-hin': 'assets/images/packages/thailand/hero_thailand_beach.webp',
+    'koh-larn': 'assets/images/packages/thailand/hero_pattaya_bangkok_beach.webp',
+    'koh-mook': 'assets/images/packages/thailand/hero_krabi_phuket.webp',
+    'koh-phangan': 'assets/images/packages/thailand/hero_thailand_friends_traveler.webp',
+    'koh-samet': 'assets/images/packages/thailand/hero_koh_samet_pattaya_bangkok.webp',
+    'koh-samui': 'assets/images/packages/thailand/hero_koh_samui_bangkok.webp',
+    'koh-yao-yai': 'assets/images/packages/thailand/hero_explore_more_thailand.webp',
     'krabi': 'assets/images/packages/thailand/hero_krabi_phuket.webp',
     'pattaya': 'assets/images/packages/thailand/hero_pattaya_bangkok_beach.webp',
+    'phi-phi-island': 'assets/images/packages/thailand/hero_phuket_beach.webp',
     'phuket': 'assets/images/packages/thailand/hero_phuket_beach.webp',
+    'trang': 'assets/images/packages/thailand/hero_thailand_wellness.webp'
 }
 
 DESTINATION_METADATA = {
+    'ayutthaya': {
+        'name': 'Ayutthaya',
+        'title': 'Ayutthaya Tour Packages | Trippovention',
+        'meta_desc': 'Discover ancient Ayutthaya tour packages: UNESCO World Heritage temples, historical ruins & scenic river cruises.',
+        'hero_title': 'Explore Ayutthaya Packages',
+        'hero_sub': 'UNESCO Ancient Temples, Royal Palaces & Scenic River Cruises in Thailand',
+        'image': '../../assets/images/packages/thailand/hero_thailand_culture.webp'
+    },
     'bangkok': {
         'name': 'Bangkok',
         'title': 'Bangkok Tour Packages | Trippovention',
         'meta_desc': 'Discover exciting Bangkok tour packages: Grand Palace, Floating Markets, Safari World, Chao Phraya cruises & vibrant city escapes.',
         'hero_title': 'Explore Bangkok Packages',
-        'hero_sub': 'Temples, Wildlife, Skyline & Culinary Adventures in Thailand\'s Vibrant Capital',
+        'hero_sub': 'Temples, Wildlife, Skyline & Culinary Adventures in Thailand\'s Capital',
         'image': '../../assets/images/packages/thailand/hero_pattaya_bangkok.webp'
+    },
+    'chiang-mai': {
+        'name': 'Chiang Mai',
+        'title': 'Chiang Mai Tour Packages | Trippovention',
+        'meta_desc': 'Explore Chiang Mai tour packages: Doi Suthep, Elephant Sanctuaries, Night Bazaars & Lanna cultural retreats.',
+        'hero_title': 'Explore Chiang Mai Packages',
+        'hero_sub': 'Lanna Heritage, Mountain Sanctuaries & Vibrant Northern Thai Culture',
+        'image': '../../assets/images/packages/thailand/hero_chiang_mai_chiang_rai.webp'
+    },
+    'chiang-rai': {
+        'name': 'Chiang Rai',
+        'title': 'Chiang Rai Tour Packages | Trippovention',
+        'meta_desc': 'Book Chiang Rai tour packages: Wat Rong Khun White Temple, Blue Temple, Golden Triangle & tea plantations.',
+        'hero_title': 'Explore Chiang Rai Packages',
+        'hero_sub': 'The Iconic White Temple, Golden Triangle & Breathtaking Northern Highlands',
+        'image': '../../assets/images/packages/thailand/hero_chiang_mai_chiang_rai_bangkok.webp'
+    },
+    'hua-hin': {
+        'name': 'Hua Hin',
+        'title': 'Hua Hin Tour Packages | Trippovention',
+        'meta_desc': 'Experience Hua Hin tour packages: Royal beach resorts, night markets, Vana Nava water park & seaside serenity.',
+        'hero_title': 'Explore Hua Hin Packages',
+        'hero_sub': 'Royal Seaside Resort, Pristine Beaches & Relaxing Coastal Charms',
+        'image': '../../assets/images/packages/thailand/hero_thailand_beach.webp'
+    },
+    'koh-larn': {
+        'name': 'Koh Larn',
+        'title': 'Koh Larn Coral Island Packages | Trippovention',
+        'meta_desc': 'Book Koh Larn tour packages: Speedboat island transfers, water sports, white sand beaches & Pattaya day trips.',
+        'hero_title': 'Explore Koh Larn Packages',
+        'hero_sub': 'Crystal Turquoise Waters, Coral Reefs & White Sand Beach Escapes',
+        'image': '../../assets/images/packages/thailand/hero_pattaya_bangkok_beach.webp'
+    },
+    'koh-mook': {
+        'name': 'Koh Mook',
+        'title': 'Koh Mook Tour Packages | Trippovention',
+        'meta_desc': 'Discover Koh Mook tour packages: The famous Emerald Cave (Tham Morakot), tranquil beaches & Trang archipelago.',
+        'hero_title': 'Explore Koh Mook Packages',
+        'hero_sub': 'The Enchanting Emerald Cave & Unspoiled Andaman Island Serenity',
+        'image': '../../assets/images/packages/thailand/hero_krabi_phuket.webp'
+    },
+    'koh-phangan': {
+        'name': 'Koh Phangan',
+        'title': 'Koh Phangan Tour Packages | Trippovention',
+        'meta_desc': 'Book Koh Phangan tour packages: Tropical palm beaches, Full Moon festival vibes, waterfalls & island relaxation.',
+        'hero_title': 'Explore Koh Phangan Packages',
+        'hero_sub': 'Lush Tropical Jungles, Vibrant Beach Festivals & Hidden Bays',
+        'image': '../../assets/images/packages/thailand/hero_thailand_friends_traveler.webp'
+    },
+    'koh-samet': {
+        'name': 'Koh Samet',
+        'title': 'Koh Samet Tour Packages | Trippovention',
+        'meta_desc': 'Explore Koh Samet tour packages: Sai Kaew Beach, fire shows, turquoise waters & quick weekend island getaways.',
+        'hero_title': 'Explore Koh Samet Packages',
+        'hero_sub': 'Powdery Sand Beaches, Island Fire Shows & Sun-Kissed Relaxation',
+        'image': '../../assets/images/packages/thailand/hero_koh_samet_pattaya_bangkok.webp'
+    },
+    'koh-samui': {
+        'name': 'Koh Samui',
+        'title': 'Koh Samui Tour Packages | Trippovention',
+        'meta_desc': 'Discover Koh Samui tour packages: Chaweng Beach, Big Buddha, Ang Thong National Marine Park & luxury island resorts.',
+        'hero_title': 'Explore Koh Samui Packages',
+        'hero_sub': 'Tropical Gulf Islands, Angthong Marine Park & Luxury Beach Resorts',
+        'image': '../../assets/images/packages/thailand/hero_koh_samui_bangkok.webp'
+    },
+    'koh-yao-yai': {
+        'name': 'Koh Yao Yai',
+        'title': 'Koh Yao Yai Tour Packages | Trippovention',
+        'meta_desc': 'Book Koh Yao Yai tour packages: Tranquil island sanctuaries, Phang Nga Bay views & eco-luxury beach retreats.',
+        'hero_title': 'Explore Koh Yao Yai Packages',
+        'hero_sub': 'Peaceful Island Hideaways, Lime Rock Views & Untouched Nature',
+        'image': '../../assets/images/packages/thailand/hero_explore_more_thailand.webp'
     },
     'krabi': {
         'name': 'Krabi',
@@ -50,6 +142,14 @@ DESTINATION_METADATA = {
         'hero_sub': 'Sun-Kissed Beaches, Island Cruises, Theme Parks & Vibrant Entertainment',
         'image': '../../assets/images/packages/thailand/hero_pattaya_bangkok_beach.webp'
     },
+    'phi-phi-island': {
+        'name': 'Phi Phi Island',
+        'title': 'Phi Phi Island Tour Packages | Trippovention',
+        'meta_desc': 'Discover Phi Phi Island tour packages: Maya Bay, Pileh Lagoon, Monkey Beach, snorkeling cruises & paradise island stays.',
+        'hero_title': 'Explore Phi Phi Island Packages',
+        'hero_sub': 'Maya Bay, Emerald Lagoons & World-Famous Andaman Island Paradise',
+        'image': '../../assets/images/packages/thailand/hero_phuket_beach.webp'
+    },
     'phuket': {
         'name': 'Phuket',
         'title': 'Phuket Tour Packages | Trippovention',
@@ -57,6 +157,14 @@ DESTINATION_METADATA = {
         'hero_title': 'Explore Phuket Packages',
         'hero_sub': 'Pearl of the Andaman: World-Class Beaches, Island Cruises & Tropical Luxury',
         'image': '../../assets/images/packages/thailand/hero_phuket_beach.webp'
+    },
+    'trang': {
+        'name': 'Trang',
+        'title': 'Trang Tour Packages | Trippovention',
+        'meta_desc': 'Explore Trang tour packages: Hidden island paradises, Koh Kradan, Koh Chaki & authentic southern Thai coastal nature.',
+        'hero_title': 'Explore Trang Packages',
+        'hero_sub': 'Unspoiled Southern Thai Islands, Coral Reefs & Coastal Wonders',
+        'image': '../../assets/images/packages/thailand/hero_thailand_wellness.webp'
     }
 }
 
@@ -74,8 +182,8 @@ def get_docx_paragraphs(path):
 def parse_itinerary_docx(path):
     paras = get_docx_paragraphs(path)
     data = {
-        'title': paras[0],
-        'subtitle': paras[1],
+        'title': paras[0] if len(paras) > 0 else '',
+        'subtitle': paras[1] if len(paras) > 1 else '',
         'duration': '',
         'price': 'On Request',
         'ideal_for': 'Families | Couples | Friends',
@@ -183,7 +291,11 @@ def slugify(text):
     return text.strip('_')
 
 def build_package_html(dest_key, slug, data):
-    dest_name = DESTINATION_METADATA[dest_key]['name']
+    dest_meta = DESTINATION_METADATA.get(dest_key, {
+        'name': dest_key.replace('-', ' ').title(),
+        'image': 'assets/images/packages/thailand/hero_explore_more_thailand.webp'
+    })
+    dest_name = dest_meta['name']
     title = f"{data['title']} - {data['duration']} | Trippovention"
     meta_desc = f"{data['title']}: {data['duration']} - {data['subtitle']}"
     canonical_url = f"https://trippovention.co.th/packages/thailand/{dest_key}/{slug}.html"
@@ -217,6 +329,8 @@ def build_package_html(dest_key, slug, data):
     inc_li = "\n".join([f"                <li>{inc}</li>" for inc in data['inclusions']])
     exc_li = "\n".join([f"                <li>{exc}</li>" for exc in data['exclusions']])
     
+    hero_img = HERO_IMAGE_MAP.get(dest_key, 'assets/images/packages/thailand/hero_explore_more_thailand.webp')
+    
     html = f"""<!doctype html>
 <html lang="en">
   <head>
@@ -247,13 +361,13 @@ def build_package_html(dest_key, slug, data):
     <meta property="og:url" content="{canonical_url}" />
     <meta property="og:title" content="{title}" />
     <meta property="og:description" content="{meta_desc}" />
-    <meta property="og:image" content="https://trippovention.co.th/assets/images/packages/thailand/hero_pattaya_bangkok.webp" />
+    <meta property="og:image" content="https://trippovention.co.th/{hero_img}" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{canonical_url}" />
     <meta property="twitter:title" content="{title}" />
     <meta property="twitter:description" content="{meta_desc}" />
-    <meta property="twitter:image" content="https://trippovention.co.th/assets/images/packages/thailand/hero_pattaya_bangkok.webp" />
+    <meta property="twitter:image" content="https://trippovention.co.th/{hero_img}" />
 
     <link rel="canonical" href="{canonical_url}" />
     <link rel="icon" type="image/x-icon" href="../../../assets/images/favicon.ico" />
@@ -574,18 +688,25 @@ def build_package_html(dest_key, slug, data):
     return html
 
 def build_destination_index_html(dest_key, packages):
-    meta = DESTINATION_METADATA[dest_key]
+    meta = DESTINATION_METADATA.get(dest_key, {
+        'name': dest_key.replace('-', ' ').title(),
+        'title': f"{dest_key.replace('-', ' ').title()} Tour Packages | Trippovention",
+        'meta_desc': f"Discover top {dest_key.replace('-', ' ').title()} tour packages with Trippovention.",
+        'hero_title': f"Explore {dest_key.replace('-', ' ').title()} Packages",
+        'hero_sub': f"Handcrafted itineraries & tropical escapes in {dest_key.replace('-', ' ').title()}"
+    })
     dest_name = meta['name']
     title = meta['title']
     meta_desc = meta['meta_desc']
     canonical_url = f"https://trippovention.co.th/packages/thailand/{dest_key}/"
+    hero_img = HERO_IMAGE_MAP.get(dest_key, 'assets/images/packages/thailand/hero_explore_more_thailand.webp')
     
     cards_html_list = []
     for pkg in packages:
         card = f"""            <div class="card">
               <div class="img-wrap">
                 <img
-                  src="../../../{HERO_IMAGE_MAP[dest_key]}"
+                  src="../../../{hero_img}"
                   alt="{pkg['title']}"
                   loading="lazy"
                 />
@@ -636,13 +757,13 @@ def build_destination_index_html(dest_key, packages):
     <meta property="og:url" content="{canonical_url}" />
     <meta property="og:title" content="{title}" />
     <meta property="og:description" content="{meta_desc}" />
-    <meta property="og:image" content="https://trippovention.co.th/assets/images/logo.webp" />
+    <meta property="og:image" content="https://trippovention.co.th/{hero_img}" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{canonical_url}" />
     <meta property="twitter:title" content="{title}" />
     <meta property="twitter:description" content="{meta_desc}" />
-    <meta property="twitter:image" content="https://trippovention.co.th/assets/images/logo.webp" />
+    <meta property="twitter:image" content="https://trippovention.co.th/{hero_img}" />
 
     <link rel="canonical" href="{canonical_url}" />
     <link rel="icon" type="image/x-icon" href="../../../assets/images/favicon.ico" />
@@ -886,42 +1007,66 @@ def build_destination_index_html(dest_key, packages):
     return html
 
 def main():
-    print("Starting import of New Itineraries...")
+    print("Starting import of all Thailand Itineraries...")
     
-    destinations = ['Bangkok', 'Krabi', 'Pattaya', 'Phuket']
+    # Collect all source folders from both 'Itineraries' and 'New Itineraries'
+    source_roots = [
+        os.path.join(PARENT_DIR, "Itineraries"),
+        os.path.join(PARENT_DIR, "New Itineraries")
+    ]
+    
+    dest_file_map = {}
+    
+    for sroot in source_roots:
+        if not os.path.exists(sroot):
+            continue
+        for sub in os.listdir(sroot):
+            sub_path = os.path.join(sroot, sub)
+            if os.path.isdir(sub_path):
+                dest_key = slugify(sub)
+                if dest_key not in dest_file_map:
+                    dest_file_map[dest_key] = []
+                for f in os.listdir(sub_path):
+                    if f.endswith('.docx') and not f.startswith('~$'):
+                        fp = os.path.join(sub_path, f)
+                        if fp not in dest_file_map[dest_key]:
+                            dest_file_map[dest_key].append(fp)
+
     all_dest_packages = {}
     
-    for dest_dir_name in destinations:
-        dest_key = dest_dir_name.lower()
+    for dest_key in sorted(dest_file_map.keys()):
         all_dest_packages[dest_key] = []
-        source_dir = os.path.join(NEW_ITINERARIES_DIR, dest_dir_name)
         target_dir = os.path.join(THAILAND_PACKAGES_DIR, dest_key)
         os.makedirs(target_dir, exist_ok=True)
         
-        files = sorted(os.listdir(source_dir))
-        for f in files:
-            if f.endswith('.docx') and not f.startswith('~$'):
-                fp = os.path.join(source_dir, f)
-                data = parse_itinerary_docx(fp)
-                raw_name = os.path.splitext(f)[0]
-                slug = slugify(raw_name)
-                
-                pkg_info = {
-                    'title': data['title'],
-                    'subtitle': data['subtitle'],
-                    'duration': data['duration'],
-                    'price': data['price'],
-                    'slug': slug
-                }
-                all_dest_packages[dest_key].append(pkg_info)
-                
-                # Write individual package HTML page
-                pkg_html = build_package_html(dest_key, slug, data)
-                out_path = os.path.join(target_dir, f"{slug}.html")
-                with open(out_path, 'w', encoding='utf-8') as out_f:
-                    out_f.write(pkg_html)
-                print(f"Created: {out_path}")
-                
+        file_paths = sorted(dest_file_map[dest_key])
+        seen_slugs = set()
+        
+        for fp in file_paths:
+            data = parse_itinerary_docx(fp)
+            raw_name = os.path.splitext(os.path.basename(fp))[0]
+            slug = slugify(raw_name)
+            
+            if slug in seen_slugs:
+                continue
+            seen_slugs.add(slug)
+            
+            pkg_info = {
+                'title': data['title'],
+                'subtitle': data['subtitle'],
+                'duration': data['duration'],
+                'price': data['price'],
+                'slug': slug
+            }
+            all_dest_packages[dest_key].append(pkg_info)
+            
+            # Write individual package HTML page
+            pkg_html = build_package_html(dest_key, slug, data)
+            out_path = os.path.join(target_dir, f"{slug}.html")
+            with open(out_path, 'w', encoding='utf-8') as out_f:
+                out_f.write(pkg_html)
+            print(f"Created: {out_path}")
+            
         # Write destination index HTML page
         dest_index_html = build_destination_index_html(dest_key, all_dest_packages[dest_key])
         dest_index_path = os.path.join(target_dir, "index.html")
@@ -929,7 +1074,7 @@ def main():
             out_f.write(dest_index_html)
         print(f"Created destination index: {dest_index_path}")
         
-    print("Import completed successfully!")
+    print(f"Import completed successfully for {len(all_dest_packages)} destinations!")
 
 if __name__ == "__main__":
     main()
