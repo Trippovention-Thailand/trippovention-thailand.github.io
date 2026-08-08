@@ -66,6 +66,13 @@
     <link rel="manifest" href="site.webmanifest" />
     <meta name="theme-color" content="#667eea" />
 
+    <!-- AI / crawler discovery (static site — see auth.md and llms.txt) -->
+    <link rel="api-catalog" type="application/linkset+json" href="/.well-known/api-catalog.json" />
+    <link rel="agent-skills" type="application/json" href="/.well-known/agent-skills/index.json" />
+    <link rel="mcp-server-card" type="application/json" href="/.well-known/mcp/server-card.json" />
+    <link rel="alternate" type="text/markdown" href="/auth.md" title="AI agents and crawlers" />
+    <link rel="service-doc" href="/llms.txt" />
+
     <meta name="referrer" content="strict-origin-when-cross-origin" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -86,6 +93,18 @@
       gtag("js", new Date());
 
       gtag("config", "AW-11395302765");
+    </script>
+
+    <!-- Organization Schema (Goodie / schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Trippovention",
+        "description": "Your trusted travel partner for Thailand tours, custom packages, and ground operations.",
+        "url": "https://trippovention.co.th/",
+        "logo": "https://trippovention.co.th/assets/images/logo.webp"
+      }
     </script>
   </head>
 
@@ -1233,6 +1252,7 @@
     <script src="assets/cookie-consent.js" defer=""></script>
     <script src="assets/app.js" defer=""></script>
     <script src="assets/analytics.js" defer=""></script>
+    <script src="assets/webmcp-agent.js" defer=""></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",

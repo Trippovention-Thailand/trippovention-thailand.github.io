@@ -1,0 +1,33 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://trippovention.co.th/",
+      "service-doc": [
+        {
+          "href": "https://trippovention.co.th/llms.txt",
+          "type": "text/plain"
+        },
+        {
+          "href": "https://trippovention.co.th/llms-full.txt",
+          "type": "text/plain"
+        },
+        {
+          "href": "https://trippovention.co.th/auth.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://trippovention.co.th/.well-known/agent-skills/index.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://trippovention.co.th/",
+      "rel": "mcp-server-card",
+      "href": "https://trippovention.co.th/.well-known/mcp/server-card.json",
+      "type": "application/json"
+    }
+  ]
+}

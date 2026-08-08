@@ -1,12 +1,14 @@
 # Robots.txt for Trippovention Website
 # https://trippovention.co.th/
-# Last Updated: February 28, 2026
+# Last Updated: August 9, 2026
 
-# LLMs.txt for AI crawlers
+# LLMs.txt & Content Signals for AI Crawlers and Agents
 # https://trippovention.co.th/llms.txt
 # https://trippovention.co.th/llms-full.txt
+# Content Signals (https://contentsignals.org/):
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 
-# Global rules for all bots
+# Global rules for all bots (includes every AI/LLM crawler unless a specific block below overrides)
 User-agent: *
 Allow: /
 
@@ -40,7 +42,6 @@ Allow: /assets/images/
 # Specific bot instructions
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 0.5
 
 User-agent: Googlebot-Image
 Allow: /assets/images/
@@ -89,7 +90,17 @@ Disallow: /
 User-agent: PetalBot
 Crawl-delay: 10
 
-# AI/LLM Crawlers — Explicitly ALLOWED for discoverability
+# Google Ads crawlers — Explicitly ALLOWED for ad verification
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: AdsBot-Google-Mobile-Apps
+Allow: /
+
+# AI/LLM Crawlers — Explicit policy (same access as User-agent: *); listed for scanner clarity
 User-agent: GPTBot
 Allow: /
 
@@ -114,7 +125,27 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
 
 # Host directive (for clarity)
 Host: https://trippovention.co.th
-

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "site-overview",
+      "type": "skill-md",
+      "description": "Curated overview of Trippovention Thailand services, destinations, and key URLs for LLM crawlers",
+      "url": "https://trippovention.co.th/.well-known/agent-skills/site-overview/SKILL.md",
+      "digest": "sha256:7f8bb6bc1f938c3ac5efcaefd2f4c7ab55b8468d348e32211f7fecec9ae28418"
+    },
+    {
+      "name": "full-site-map",
+      "type": "skill-md",
+      "description": "Expanded package and page listings for Trippovention Thailand site",
+      "url": "https://trippovention.co.th/.well-known/agent-skills/full-site-map/SKILL.md",
+      "digest": "sha256:4d00c70cbda3baf7c281d8c44a0f843839bb220cf25f3d0882031f0a70a2dba8"
+    },
+    {
+      "name": "thailand-packages",
+      "type": "skill-md",
+      "description": "Thailand tour packages by region — Bangkok, Phuket, Krabi, Pattaya, and more",
+      "url": "https://trippovention.co.th/.well-known/agent-skills/thailand-packages/SKILL.md",
+      "digest": "sha256:4c09b0b246e5ee4f02b3abd079c489eeee21e49bb5ed7dda0a1c17fe29873b5f"
+    },
+    {
+      "name": "contact-and-inquiries",
+      "type": "skill-md",
+      "description": "Contact form and inquiry channel for custom travel quotes on trippovention.co.th",
+      "url": "https://trippovention.co.th/.well-known/agent-skills/contact-and-inquiries/SKILL.md",
+      "digest": "sha256:63094faa04cb46da639bff9c9fd1b0fe106b18734ccbdb57d6fccadf6985a811"
+    }
+  ]
+}
