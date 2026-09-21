@@ -42,8 +42,11 @@ def check_file(filepath, all_files_set):
         if ext in SKIP_EXTENSIONS:
             continue
 
-        # Resolve relative path
-        target = os.path.normpath(os.path.join(file_dir, unquote(clean)))
+        # Resolve relative or root-relative path
+        if clean.startswith("/"):
+            target = os.path.normpath(os.path.join(DOCS_DIR, unquote(clean.lstrip("/"))))
+        else:
+            target = os.path.normpath(os.path.join(file_dir, unquote(clean)))
 
         if not os.path.exists(target):
             rel_path = os.path.relpath(filepath, DOCS_DIR)

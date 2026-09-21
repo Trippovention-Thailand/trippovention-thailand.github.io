@@ -6,10 +6,8 @@
 
 - **Website**: [https://trippovention.co.th](https://trippovention.co.th)
 - **Email**: query@trippovention.co.th
-- **Phone (Thailand)**: +66 90 917 7601
-- **Phone (India)**: +91 73030 10446
-- **Thailand Office**: 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province — 20150
-- **India Office**: Unit 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49, Sohna Road, Gurgaon, Haryana, India — 122018
+- **Phone (Thailand / WhatsApp)**: +66 90 917 7601
+- **Headquarters**: 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province — 20150, Thailand
 
 ## Services
 
@@ -28,9 +26,9 @@
 - [Services & About Us](https://trippovention.co.th/services.html): Full service listing and company information
 - [Contact Us](https://trippovention.co.th/contact.html): Inquiry form, office addresses, phone numbers
 
-## International Destinations (40 Countries)
+## Core Destinations
 
-Packages available for: Argentina, Australia, Austria, Bora Bora, Brazil, Canada, Chile, Colombia, Costa Rica, Egypt, Europe (multi-country), Finland, France, Germany, Greece, Iceland, Indonesia (Bali), Italy, Japan, Kenya, Malaysia, Maldives, Mauritius, Mexico, Morocco, Netherlands, New Zealand, Norway, Peru, Singapore, South Africa, Spain, Sri Lanka, Tanzania, Thailand, UAE (Dubai), UK, USA, Vietnam
+Packages available for: **Thailand**, **India**, and **Vietnam**
 
 ## Thailand Destinations & Regions
 
@@ -39,10 +37,18 @@ Packages available for: Argentina, Australia, Austria, Bora Bora, Brazil, Canada
   - [Krabi Packages](https://trippovention.co.th/packages/thailand/krabi/): Island hopping, Railay beach, Emerald Pool, natural hot springs
   - [Pattaya Packages](https://trippovention.co.th/packages/thailand/pattaya/): Coral Island, Nong Nooch Garden, cabaret shows, coastal family escapes
   - [Phuket Packages](https://trippovention.co.th/packages/thailand/phuket/): Phi Phi Islands, Phang Nga Bay, James Bond Island, Old Town culture
+  - [Koh Samui Packages](https://trippovention.co.th/packages/thailand/koh_samui/): Island retreats, beaches, luxury stays
+  - [Chiang Mai Packages](https://trippovention.co.th/packages/thailand/chiang_mai/): Highland temples, Lanna culture, scenic mountains
 
-## India Domestic Destinations
+## India Destinations & Packages
 
-Packages available for: Andaman, Ayodhya, Goa, Golden Triangle, Gujarat, Himachal Pradesh (Shimla-Manali), Karnataka, Kerala, Madhya Pradesh, Maharashtra, North East India, Odisha, Rajasthan, Tamil Nadu, Telangana, Tirupati, Varanasi, Vaishno Devi
+- [India Tour Packages](https://trippovention.co.th/packages/india/): Sacred Buddhist circuits, Bodh Gaya enlightenment tours, and Andaman tropical island escapes
+  - [Buddha Circuit Packages](https://trippovention.co.th/packages/india/buddha/): Varanasi, Bodh Gaya, Rajgir, Nalanda, Kushinagar
+  - [Andaman Packages](https://trippovention.co.th/packages/india/andaman/): Port Blair, Havelock Island, Neil Island tropical getaways
+
+## Vietnam Destinations & Packages
+
+- [Vietnam Tour Packages](https://trippovention.co.th/packages/vietnam/): Ha Long Bay cruises, Golden Route, Da Nang Golden Bridge, Hoi An lantern town, and Phu Quoc island adventures
 
 ## Pricing
 

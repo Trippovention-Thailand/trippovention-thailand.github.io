@@ -82,14 +82,9 @@ trippovention-thailand.github.io/
 
 ### Thailand Office (Primary)
 - **Address**: 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province - 20150, Thailand
-- **Phone**: +66 94 931 9572
-- **WhatsApp**: +66 94 931 9572
+- **Phone**: +66 90 917 7601
+- **WhatsApp**: +66 90 917 7601
 - **Email**: query@trippovention.co.th
-
-### India Office (Secondary)
-- **Address**: Unit No. 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49, Sohna Road, Gurgaon, Haryana - 122018
-- **Phone**: +91 73030 10446
-- **Landline**: +91 124 418 2575
 
 ## Deployment
 

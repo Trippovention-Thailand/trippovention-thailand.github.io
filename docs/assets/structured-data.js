@@ -378,7 +378,7 @@ const StructuredData = (() => {
           schemas.travelAgency({
             description:
               config.description ||
-              "International travel packages for Singapore, Thailand, Malaysia, UAE, Vietnam, Europe and more",
+              "Travel packages for Thailand, India, and Vietnam",
             url: config.url
           }),
           "Structured Data: TravelAgency"
