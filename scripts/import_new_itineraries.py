@@ -644,12 +644,6 @@ def build_package_html(dest_key, slug, data):
                   >WhatsApp</a
                 ></span
               >
-              <br />
-              <p class="muted" style="margin-top: 8px; font-size: 13px">
-                India office:
-                <a href="tel:+911244182575">+91 124 418 2575</a> /
-                <a href="tel:+917303010446">+91 73030 10446</a>
-              </p>
             </div>
           </div>
           <div>
@@ -668,13 +662,6 @@ def build_package_html(dest_key, slug, data):
             <p>
               23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province-20150
             </p>
-            <div class="mt-20">
-              <h3>India Office</h3>
-              <p>
-                Unit No. - 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49, Sohna Road,
-                Gurgaon, Haryana, India, 122018.
-              </p>
-            </div>
           </div>
         </div>
         <div class="footer-bottom mt-40">
@@ -963,12 +950,6 @@ def build_destination_index_html(dest_key, packages):
                   >WhatsApp</a
                 ></span
               >
-              <br />
-              <p class="muted" style="margin-top: 8px; font-size: 13px">
-                India office:
-                <a href="tel:+911244182575">+91 124 418 2575</a> /
-                <a href="tel:+917303010446">+91 73030 10446</a>
-              </p>
             </div>
           </div>
           <div>
@@ -987,13 +968,6 @@ def build_destination_index_html(dest_key, packages):
             <p>
               23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province-20150
             </p>
-            <div class="mt-20">
-              <h3>India Office</h3>
-              <p>
-                Unit No. - 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49, Sohna Road,
-                Gurgaon, Haryana, India, 122018.
-              </p>
-            </div>
           </div>
         </div>
         <div class="footer-bottom mt-40">

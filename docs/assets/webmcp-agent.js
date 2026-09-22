@@ -99,7 +99,7 @@
         properties: {
           country: {
             type: 'string',
-            description: 'Destination country name (e.g., "Thailand", "Singapore", "Vietnam", "UK", "USA")'
+            description: 'Destination country name (e.g., "Thailand", "India", "Vietnam")'
           }
         },
         required: ['country']

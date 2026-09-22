@@ -25,25 +25,12 @@ THAI_FOOTER_CONTACT = """<h3 class="muted font-weight-600">Contact Details</h3>
                     rel="noopener noreferrer"
                     >WhatsApp</a
                   ></span
-                >
-                <br />
-                <p class="muted" style="margin-top: 8px; font-size: 13px">
-                  India office:
-                  <a href="tel:+911244182575">+91 124 418 2575</a> /
-                  <a href="tel:+917303010446">+91 73030 10446</a>
-                </p>"""
+                >"""
 
 THAI_FOOTER_OFFICES = """<h3>Thailand Office</h3>
               <p>
                 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province-20150
-              </p>
-              <div class="mt-20">
-                <h3>India Office</h3>
-                <p>
-                  Unit No. - 337 A, 3rd Floor, Spaze IT Park, Tower A, Sector 49, Sohna Road,
-                  Gurgaon, Haryana, India, 122018.
-                </p>
-              </div>"""
+              </p>"""
 
 THAI_JSON_LD_ADDRESS = """"address": {
           "@type": "PostalAddress",
