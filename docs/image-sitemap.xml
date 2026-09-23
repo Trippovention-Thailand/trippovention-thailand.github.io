@@ -1056,4 +1056,39 @@
       <image:title>Hero Thailand Songkran Festival</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/bangkok/full_day_bangkok_city_tour.html</loc>
+    <image:image>
+      <image:loc>https://trippovention.co.th/assets/images/packages/thailand/bangkok/hero_full_day_bangkok_city_tour.webp</image:loc>
+      <image:title>Full Day Bangkok City Tour</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/bangkok/mahanakhon_skywalk.html</loc>
+    <image:image>
+      <image:loc>https://trippovention.co.th/assets/images/packages/thailand/bangkok/hero_mahanakhon_skywalk.webp</image:loc>
+      <image:title>Mahanakhon SkyWalk Bangkok</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html</loc>
+    <image:image>
+      <image:loc>https://trippovention.co.th/assets/images/packages/thailand/bangkok/hero_princess_chao_phraya_dinner_cruise.webp</image:loc>
+      <image:title>Princess Chao Phraya Dinner Cruise</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/bangkok/safari_world_and_marine_park.html</loc>
+    <image:image>
+      <image:loc>https://trippovention.co.th/assets/images/packages/thailand/bangkok/hero_safari_world_and_marine_park.webp</image:loc>
+      <image:title>Safari World and Marine Park Bangkok</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/bangkok/space_and_time_cube_mail_hall.html</loc>
+    <image:image>
+      <image:loc>https://trippovention.co.th/assets/images/packages/thailand/bangkok/hero_space_and_time_cube_mail_hall.webp</image:loc>
+      <image:title>Space and Time Cube Bangkok</image:title>
+    </image:image>
+  </url>
 </urlset>

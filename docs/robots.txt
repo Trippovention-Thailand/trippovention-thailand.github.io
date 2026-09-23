@@ -19,6 +19,7 @@ Sitemap: https://trippovention.co.th/image-sitemap.xml
 # Disallow error and utility pages from indexing
 Disallow: /404.html
 Disallow: /offline.html
+Disallow: /thank-you.html
 Disallow: /*?error=*
 
 # Disallow validation and development folders
