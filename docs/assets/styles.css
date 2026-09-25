@@ -545,6 +545,30 @@ main {
     url("images/packages/vietnam/hero_vietnam.webp") center/cover no-repeat;
 }
 
+.hero-packages {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/packages/thailand/hero_thailand_beach.webp") center/cover no-repeat;
+}
+
+.hero-sightseeing {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/packages/thailand/sightseeing/hero_safari_world_and_marine_park.webp") center/cover no-repeat;
+}
+
+.hero-transfers {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/banner_cab.webp") center/cover no-repeat;
+}
+
+.hero-day-trips {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/packages/thailand/sightseeing/hero_phi_phi_island_and_khai_island_tour_with_lunch_round_trip_transfer.webp") center/cover no-repeat;
+}
+
 @keyframes heroZoom {
   0% {
     background-size: 100%;
