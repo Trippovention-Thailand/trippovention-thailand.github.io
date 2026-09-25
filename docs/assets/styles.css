@@ -2590,14 +2590,18 @@ th,
   /* Ensure consistent body height */
 }
 
-.grid.cols-3 .card .feature-icon {
+.grid.cols-3 .card .feature-icon,
+.grid.cols-4 .card .feature-icon,
+.grid.cols-5 .card .feature-icon {
   font-size: 48px;
   margin-bottom: 16px;
   flex-shrink: 0;
   /* Prevent icon from shrinking */
 }
 
-.grid.cols-3 .card h3 {
+.grid.cols-3 .card h3,
+.grid.cols-4 .card h3,
+.grid.cols-5 .card h3 {
   margin: 16px 0;
   line-height: 1.4;
   /* Controlled line height */
@@ -2607,7 +2611,14 @@ th,
   /* Prevent heading from shrinking */
 }
 
-.grid.cols-3 .card .muted {
+.grid.cols-5 .card h3 {
+  font-size: 16px;
+  margin: 12px 0 8px;
+}
+
+.grid.cols-3 .card .muted,
+.grid.cols-4 .card .muted,
+.grid.cols-5 .card .muted {
   flex-grow: 1;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -2618,12 +2629,26 @@ th,
   /* Handle long text gracefully */
 }
 
-.grid.cols-3 .card .btn {
+.grid.cols-5 .card .muted {
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.grid.cols-3 .card .btn,
+.grid.cols-4 .card .btn,
+.grid.cols-5 .card .btn {
   margin-top: auto;
   align-self: center;
   /* Center button horizontally */
   flex-shrink: 0;
   /* Prevent button from shrinking */
+}
+
+.grid.cols-3 .card .price-row,
+.grid.cols-4 .card .price-row,
+.grid.cols-5 .card .price-row {
+  margin-top: auto;
+  width: 100%;
 }
 
 /* WhatsApp icon styling */
