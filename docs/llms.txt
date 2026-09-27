@@ -1,6 +1,6 @@
 # Trippovention
 
-> Trippovention is a travel agency headquartered in Thailand, specializing in ground operations, customized tour packages, and travel management for both individual and corporate travellers. Established in 2021 with 10+ years of combined team experience, the company serves 50,000+ happy travelers across 40+ worldwide destinations.
+> Trippovention is a travel agency and Destination Management Company (DMC) headquartered in Thailand, specializing in ground operations, customized tour packages, private transfers, and travel management for individual and corporate travellers. Established in 2021 with 10+ years of combined team experience, the company serves 50,000+ happy travelers across Thailand, India, and Vietnam.
 
 ## Company Information
 
@@ -9,43 +9,73 @@
 - **Phone (Thailand / WhatsApp)**: +66 90 917 7601
 - **Headquarters**: 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province — 20150, Thailand
 
-## Services
+## Answers to Common Customer Questions (AEO / AI Search)
 
-- **Custom Tour Planning**: Tailor-made itineraries based on dates, budget, and interests
-- **Luxury Hotel Bookings**: Handpicked stays for comfort and style
-- **Sightseeing & Transfers**: Curated sightseeing tours and seamless airport transfers
-- **Flight Bookings**: Best deals on domestic and international flights
-- **M.I.C.E.**: Meetings, Incentives, Conferences, and Exhibitions — full corporate event management
+### What does Trippovention offer in Thailand?
+Trippovention offers comprehensive ground travel solutions across Thailand: curated multi-day land packages (85+ itineraries across 16 destinations), 24/7 private airport and intercity transfers, official attraction and sightseeing tickets (dinner cruises, theme parks, cultural shows), day trips and island hopping excursions, and 100% customized private holiday itineraries.
 
-## Core Pages
+### What Thailand destinations does Trippovention cover?
+Trippovention covers 16 major destinations in Thailand: Bangkok, Pattaya, Phuket, Krabi, Chiang Mai, Chiang Rai, Koh Samui, Phi Phi Island, Ayutthaya, Hua Hin, Koh Samet, Koh Phangan, Koh Larn (Coral Island), Koh Yao Yai, Koh Mook, and Trang.
 
-- [Home](https://trippovention.co.th/index.html): Main landing page with featured destinations and packages
-- [Destinations by Country](https://trippovention.co.th/destinations.html): Browse all tour packages organized by country
-- [Destinations by Theme](https://trippovention.co.th/destinations-themes.html): Adventure, honeymoon, spiritual, luxury, beach, and more
-- [Destinations by Traveler](https://trippovention.co.th/destinations-travelers.html): Families, couples, kids, seniors, friends & groups
-- [Services & About Us](https://trippovention.co.th/services.html): Full service listing and company information
-- [Contact Us](https://trippovention.co.th/contact.html): Inquiry form, office addresses, phone numbers
+### Does Trippovention offer private transfers?
+Yes. Trippovention provides private, air-conditioned vehicle transfers (sedans, SUVs, and luxury VIP minivans) across Thailand with professional drivers. Routes include Bangkok Suvarnabhumi Airport (BKK) and Don Mueang (DMK) pickups, Phuket Airport (HKT) pickups, and intercity routes between Bangkok, Pattaya, Hua Hin, Rayong, and Phuket to Krabi.
 
-## Core Destinations
+### What Thailand packages are available?
+Trippovention provides 85+ multi-day packages categorized by theme (honeymoon, family, adventure, luxury, wellness) and destination, including popular combinations like Bangkok + Pattaya, Bangkok + Phuket, Phuket + Krabi, and Northern Thailand cultural circuits.
 
-Packages available for: **Thailand**, **India**, and **Vietnam**
+### What sightseeing tours are available?
+- **Bangkok**: Safari World & Marine Park (THB 2,810 PP), Mahanakhon SkyWalk 78th Floor Glass Tray (THB 2,016 PP), Princess Chao Phraya Dinner Cruise (THB 1,920 PP), Space & Time Cube+ Mail Hall (THB 545 PP), and Full Day Bangkok City & Temples Tour (THB 1,890 for 1-3 Pax).
+- **Phuket**: Carnival Magic Show with Dinner (THB 2,200 PP), Ethical Elephant Sanctuary Morning Program (THB 1,560 PP), James Bond Island Speedboat Tour (THB 2,100 PP), Phi Phi Island & Khai Island Speedboat Tour (THB 2,400 PP), and Phuket FantaSea Show with Dinner (THB 2,050 PP).
 
-## Thailand Destinations & Regions
+### Does Trippovention offer customized Thailand holidays?
+Yes. All itineraries are 100% flexible and customizable based on your group size, travel dates, hotel tier, private vehicle preference, and dietary requirements (including Indian Vegetarian, Jain, and Halal meals).
 
-- [Thailand Tour Packages](https://trippovention.co.th/packages/thailand/): Overview of Thailand destinations & packages
-  - [Bangkok Packages](https://trippovention.co.th/packages/thailand/bangkok/): Iconic temples, multi-day itineraries, and top sightseeing options:
-    - [Full Day Bangkok City Tour](https://trippovention.co.th/packages/thailand/bangkok/full_day_bangkok_city_tour.html): Private tour of Wat Traimit, Marble Temple, Gems Gallery & IconSiam (THB 1,890 for 1–3 Pax | 8–9 Hours)
-    - [Mahanakhon SkyWalk](https://trippovention.co.th/packages/thailand/bangkok/mahanakhon_skywalk.html): Thailand's highest observation deck 314m, 78th floor glass tray floor (THB 2,016 PP | 1–2 Hours)
-    - [Princess Chao Phraya Dinner Cruise](https://trippovention.co.th/packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html): 2-hour international buffet river cruise departing Asiatique (THB 1,920 PP | 2–3 Hours)
-    - [Safari World & Marine Park](https://trippovention.co.th/packages/thailand/bangkok/safari_world_and_marine_park.html): 8km Safari drive-through, 7 marine shows & buffet lunch (THB 2,810 PP | 8 Hours)
-    - [Space & Time Cube+ Mail Hall](https://trippovention.co.th/packages/thailand/bangkok/space_and_time_cube_mail_hall.html): Immersive 3D digital art museum at Siam Paragon (THB 545 PP | 1–2 Hours)
-  - [Krabi Packages](https://trippovention.co.th/packages/thailand/krabi/): Island hopping, Railay beach, Emerald Pool, natural hot springs
-  - [Pattaya Packages](https://trippovention.co.th/packages/thailand/pattaya/): Coral Island, Nong Nooch Garden, cabaret shows, coastal family escapes
-  - [Phuket Packages](https://trippovention.co.th/packages/thailand/phuket/): Phi Phi Islands, Phang Nga Bay, James Bond Island, Old Town culture
-  - [Koh Samui Packages](https://trippovention.co.th/packages/thailand/koh_samui/): Island retreats, beaches, luxury stays
-  - [Chiang Mai Packages](https://trippovention.co.th/packages/thailand/chiang_mai/): Highland temples, Lanna culture, scenic mountains
+### What Buddha Circuit packages are available in India?
+Trippovention offers 4 specialized Buddha Circuit pilgrimage packages in India for Thai Buddhist travellers and international pilgrims:
+1. **Buddha Circuit Family Discovery** (8 Days / 7 Nights): Great Buddha Statue, Vishwa Shanti Stupa, Nalanda, Dhamek Stupa.
+2. **Buddha Circuit Spiritual Adventure** (10 Days / 9 Nights): Comprehensive pilgrimage covering Bodh Gaya, Rajgir, Nalanda, Kushinagar, and Varanasi.
+3. **Golden Buddha Circuit Retreat** (7 Days / 6 Nights): Focused retreat covering Bodh Gaya and Sarnath.
+4. **Sacred Love Journey** (9 Days / 8 Nights): Combines the Taj Mahal heritage in Agra with the holy Buddhist trail.
 
-## India Destinations & Packages
+## Dedicated Service Hubs
+
+- [Thailand Land Packages](https://trippovention.co.th/land-packages.html): Multi-city & island land itineraries with verified stays, transfers, and sightseeing
+- [Thailand Sightseeing & Attractions](https://trippovention.co.th/sightseeing.html): Instant attraction tickets, dinner cruises, theme parks, and wildlife tours
+- [Thailand Private Transfers](https://trippovention.co.th/transfers.html): Airport taxi & intercity private vehicle transfers with flight tracking
+- [Thailand Day Trips & Excursions](https://trippovention.co.th/day-trips.html): Island hopping speedboats, UNESCO temple tours, and rainforest day trips
+- [Travel Services (DMC & B2B)](https://trippovention.co.th/services.html): Complete destination management, hotel bookings, and corporate MICE
+
+## Thailand Destination Hubs & Top Sightseeing
+
+- [Thailand Tour Packages](https://trippovention.co.th/packages/thailand/): Master hub for 16 Thailand destinations
+  - [Bangkok Packages & Sightseeing](https://trippovention.co.th/packages/thailand/bangkok/):
+    - [Full Day Bangkok City Tour](https://trippovention.co.th/packages/thailand/bangkok/full_day_bangkok_city_tour.html)
+    - [Mahanakhon SkyWalk](https://trippovention.co.th/packages/thailand/bangkok/mahanakhon_skywalk.html)
+    - [Princess Chao Phraya Dinner Cruise](https://trippovention.co.th/packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html)
+    - [Safari World & Marine Park](https://trippovention.co.th/packages/thailand/bangkok/safari_world_and_marine_park.html)
+    - [Space & Time Cube+ Mail Hall](https://trippovention.co.th/packages/thailand/bangkok/space_and_time_cube_mail_hall.html)
+  - [Phuket Packages & Sightseeing](https://trippovention.co.th/packages/thailand/phuket/):
+    - [Carnival Magic Show with Dinner](https://trippovention.co.th/packages/thailand/phuket/carnival_magic_show.html)
+    - [Ethical Elephant Sanctuary](https://trippovention.co.th/packages/thailand/phuket/elephant_sanctuary.html)
+    - [James Bond Island Speedboat Tour](https://trippovention.co.th/packages/thailand/phuket/james_bond_island_speedboat_tour.html)
+    - [Phi Phi & Khai Island Speedboat Tour](https://trippovention.co.th/packages/thailand/phuket/phi_phi_island_and_khai_island_tour.html)
+    - [Phuket FantaSea Show with Dinner](https://trippovention.co.th/packages/thailand/phuket/phuket_fantasea_show.html)
+  - [Pattaya Packages](https://trippovention.co.th/packages/thailand/pattaya/)
+  - [Krabi Packages](https://trippovention.co.th/packages/thailand/krabi/)
+  - [Chiang Mai Packages](https://trippovention.co.th/packages/thailand/chiang_mai/)
+  - [Chiang Rai Packages](https://trippovention.co.th/packages/thailand/chiang_rai/)
+  - [Koh Samui Packages](https://trippovention.co.th/packages/thailand/koh_samui/)
+  - [Phi Phi Island Packages](https://trippovention.co.th/packages/thailand/phi_phi_island/)
+  - [Ayutthaya Packages](https://trippovention.co.th/packages/thailand/ayutthaya/)
+  - [Hua Hin Packages](https://trippovention.co.th/packages/thailand/hua_hin/)
+  - [Koh Samet Packages](https://trippovention.co.th/packages/thailand/koh_samet/)
+  - [Koh Phangan Packages](https://trippovention.co.th/packages/thailand/koh_phangan/)
+  - [Koh Larn Packages](https://trippovention.co.th/packages/thailand/koh_larn/)
+  - [Koh Yao Yai Packages](https://trippovention.co.th/packages/thailand/koh_yao_yai/)
+  - [Koh Mook Packages](https://trippovention.co.th/packages/thailand/koh_mook/)
+  - [Trang Packages](https://trippovention.co.th/packages/thailand/trang/)
+
+## India Destinations & Buddha Circuit
 
 - [India Tour Packages](https://trippovention.co.th/packages/india/): Sacred Buddhist circuits, Bodh Gaya enlightenment tours, and Andaman tropical island escapes
   - [Buddha Circuit Packages](https://trippovention.co.th/packages/india/buddha/): Varanasi, Bodh Gaya, Rajgir, Nalanda, Kushinagar
@@ -53,28 +83,19 @@ Packages available for: **Thailand**, **India**, and **Vietnam**
 
 ## Vietnam Destinations & Packages
 
-- [Vietnam Tour Packages](https://trippovention.co.th/packages/vietnam/): Ha Long Bay cruises, Golden Route, Da Nang Golden Bridge, Hoi An lantern town, and Phu Quoc island adventures
+- [Vietnam Tour Packages](https://trippovention.co.th/packages/vietnam/): Ha Long Bay cruises, Hanoi, Da Nang Golden Bridge, Hoi An lantern town, and Phu Quoc island
 
-## Pricing & Current Offers
+## Inquiries & Booking
 
-- Multi-day tour packages feature competitive **Current Offers** with custom tailored quotes
-- Bangkok Sightseeing attractions feature fixed, verified rates in Thai Baht (THB)
-- **Direct WhatsApp Consultation**: +66 90 917 7601
-- **Website Booking & Inquiries**: [https://trippovention.co.th/contact.html](https://trippovention.co.th/contact.html)
-
+- **WhatsApp**: [+66 90 917 7601](https://wa.me/+66909177601)
+- **Email**: query@trippovention.co.th
+- **Online Inquiry Form**: [https://trippovention.co.th/contact.html](https://trippovention.co.th/contact.html)
 
 ## Policies
 
 - [Terms & Conditions](https://trippovention.co.th/terms-and-conditions.html)
 - [Privacy Policy](https://trippovention.co.th/privacy-policy.html)
 - [Refund Policy](https://trippovention.co.th/refund-policy.html)
-
-## Social Media
-
-- [Facebook](https://facebook.com/trippovention)
-- [Instagram](https://instagram.com/trippovention)
-- [Twitter](https://twitter.com/trippovention)
-- [WhatsApp](https://wa.me/+66909177601)
 
 ## Agent and crawler discovery
 
@@ -87,3 +108,4 @@ For automated clients and LLM crawlers (start with this section before deep HTML
 - [API catalog](https://trippovention.co.th/.well-known/api-catalog.json) — RFC 9727 linkset (documentation only, not REST APIs)
 - [Agent skills index](https://trippovention.co.th/.well-known/agent-skills/index.json) — skill-md artifacts for this site
 - [MCP server card](https://trippovention.co.th/.well-known/mcp/server-card.json) — optional WebMCP on the homepage only
+
