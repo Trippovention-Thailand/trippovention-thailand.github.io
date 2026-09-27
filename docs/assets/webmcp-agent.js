@@ -81,7 +81,7 @@
           status: 'success',
           packageName: args.packageName,
           provider: 'Trippovention Thailand',
-          experience: '15+ Years Ground Operations Experience',
+          experience: '10+ Years Ground Operations Experience',
           contact: {
             phone: '+66-90-917-7601',
             email: 'query@trippovention.co.th',

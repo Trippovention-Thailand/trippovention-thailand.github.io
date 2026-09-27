@@ -80,7 +80,12 @@ Professional event management for corporate meetings, incentive tours, conferenc
 - [Destinations by Country](https://trippovention.co.th/destinations.html): Browse all tour packages organized by country
 - [Destinations by Theme](https://trippovention.co.th/destinations-themes.html): Adventure, honeymoon, spiritual, luxury, beach, and more
 - [Destinations by Traveler](https://trippovention.co.th/destinations-travelers.html): Families, couples, kids, seniors, friends & groups
-- [Services & About Us](https://trippovention.co.th/services.html): Full service listing and company information
+- [Services & About Us](https://trippovention.co.th/services.html)
+- [Thailand Land Packages](https://trippovention.co.th/land-packages.html) — Multi-city and island packages
+- [Thailand Sightseeing & Attractions](https://trippovention.co.th/sightseeing.html) — Attraction tickets and tour bookings
+- [Thailand Private Transfers](https://trippovention.co.th/transfers.html) — Airport and intercity vehicle transfers
+- [Thailand Day Trips & Excursions](https://trippovention.co.th/day-trips.html) — Island hopping and cultural day tours
+: Full service listing and company information
 - [Contact Us](https://trippovention.co.th/contact.html): Inquiry form, office addresses, phone numbers
 - [Terms & Conditions](https://trippovention.co.th/terms-and-conditions.html)
 - [Privacy Policy](https://trippovention.co.th/privacy-policy.html)

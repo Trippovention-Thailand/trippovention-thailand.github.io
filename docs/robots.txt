@@ -1,6 +1,6 @@
 # Robots.txt for Trippovention Website
 # https://trippovention.co.th/
-# Last Updated: August 9, 2026
+# Last Updated: September 2026
 
 # LLMs.txt & Content Signals for AI Crawlers and Agents
 # https://trippovention.co.th/llms.txt
