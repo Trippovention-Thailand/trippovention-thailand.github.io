@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://trippovention.co.th/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,13 +44,13 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/sightseeing.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/transfers.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -68,7 +68,7 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -98,19 +98,19 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/bangkok/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/chiang_mai/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/chiang_rai/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/koh_samui/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -158,13 +158,13 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/krabi/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/pattaya/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/phuket/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -284,31 +284,31 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/bangkok/full_day_bangkok_city_tour.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/bangkok/mahanakhon_skywalk.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/bangkok/safari_world_and_marine_park.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/bangkok/space_and_time_cube_mail_hall.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -349,6 +349,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/doi_inthanon_national_park_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/giant_rain_tree_and_sticky_waterfall_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/kerchor_elephant_eco_park_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/khantoke_dinner_and_cultural_show.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/white_and_blue_temple_cultural_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://trippovention.co.th/packages/thailand/chiang_rai/elegant_chiang_rai_cultural_retreat.html</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -375,6 +405,24 @@
   <url>
     <loc>https://trippovention.co.th/packages/thailand/chiang_rai/vibrant_northern_thailand_bangkok_escape.html</loc>
     <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_rai/chiang_rai_temples_and_hot_spring_experience.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_rai/chiang_rai_hill_tribe_and_cultural_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_rai/wat_phra_that_doi_tung_and_royal_villa_cultural_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -559,6 +607,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samui/ang_thong_marine_park_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samui/atv_adventure_experience.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samui/koh_madsum_and_koh_tan_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samui/koh_phangan_island_visit.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samui/koh_samui_city_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://trippovention.co.th/packages/thailand/koh_yao_yai/celestial_koh_yao_yai_island_retreat.html</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -619,6 +697,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://trippovention.co.th/packages/thailand/krabi/elephant_sanctuary_morning_program.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/krabi/hong_islands_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/krabi/krabi_4_islands_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/krabi/krabi_7_islands_sunset_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/krabi/krabi_hot_springs_and_emerald_pool.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://trippovention.co.th/packages/thailand/pattaya/classic_pattaya.html</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -645,6 +753,36 @@
   <url>
     <loc>https://trippovention.co.th/packages/thailand/pattaya/thailand_heritage_coastal_escape.html</loc>
     <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/pattaya/alcazar_cabaret_show.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/pattaya/coral_island_tour.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/pattaya/dolphin_show_with_tiger_park.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/pattaya/nong_nooch_tropical_garden.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/thailand/pattaya/pattaya_city_tour_with_colosseum_show.html</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -710,31 +848,31 @@
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/phuket/carnival_magic_show.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/phuket/elephant_sanctuary.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/phuket/james_bond_island_speedboat_tour.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/phuket/phi_phi_island_and_khai_island_tour.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/thailand/phuket/phuket_fantasea_show.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
