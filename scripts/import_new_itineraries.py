@@ -704,8 +704,8 @@ def build_destination_index_html(dest_key, packages):
                 <h3>{pkg['title']}</h3>
                 <p class="muted">{pkg['subtitle']}</p>
                 <div class="price-row">
-                  <span class="price-label">Starting from</span>
-                  <span class="price">On Request</span>
+                  <span class="price-label">Contact us for</span>
+                  <span class="price">Current Offer</span>
                 </div>
                 <a class="btn" href="{pkg['slug']}.html">View Details →</a>
               </div>
