@@ -185,8 +185,8 @@ const StructuredData = (() => {
       url: COMPANY_INFO.url,
       logo: COMPANY_INFO.logo,
       description:
-        "Leading travel agency specializing in Thailand and worldwide tours with 10+ years of combined experience",
-      foundingDate: "2010",
+        "Leading travel agency specializing in Thailand and worldwide tours with 5+ years of combined experience",
+      foundingDate: "2021",
       slogan: "Your Trusted Travel Partner",
       address: COMPANY_INFO.address,
       contactPoint: {

@@ -1,6 +1,6 @@
 # Trippovention
 
-> Trippovention is a travel agency and Destination Management Company (DMC) headquartered in Thailand, specializing in ground operations, customized tour packages, private transfers, and travel management for individual and corporate travellers. Established in 2021 with 10+ years of combined team experience, the company serves 50,000+ happy travelers across Thailand, India, and Vietnam.
+> Trippovention is a travel and ground operations company with its established presence in India and Thailand, specializing in ground operations, customized tour packages, private transfers, and travel management for individual and corporate travellers. Established in 2021 with 5+ years of combined team experience, the company serves 5,000+ happy travelers across Thailand, India, and Vietnam.
 
 ## Company Information
 
@@ -43,7 +43,7 @@ Trippovention offers 4 specialized Buddha Circuit pilgrimage packages in India f
 - [Thailand Sightseeing & Attractions](https://trippovention.co.th/sightseeing.html): Instant attraction tickets, dinner cruises, theme parks, and wildlife tours
 - [Thailand Private Transfers](https://trippovention.co.th/transfers.html): Airport taxi & intercity private vehicle transfers with flight tracking
 - [Thailand Day Trips & Excursions](https://trippovention.co.th/day-trips.html): Island hopping speedboats, UNESCO temple tours, and rainforest day trips
-- [Travel Services (DMC & B2B)](https://trippovention.co.th/services.html): Complete destination management, hotel bookings, and corporate MICE
+- [Travel Services & Ground Operations](https://trippovention.co.th/services.html): Complete ground support, hotel bookings, and corporate travel
 
 ## Thailand Destination Hubs & Top Sightseeing
 
