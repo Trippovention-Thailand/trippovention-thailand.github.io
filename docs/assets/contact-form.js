@@ -407,23 +407,68 @@ function prefillDestinationFromURL() {
     return;
   }
 
+  const tour = urlParams.get("tour") || urlParams.get("activity");
+
+  if (tour && !destination && destinationField && inquiryTypeField) {
+    inquiryTypeField.value = "Custom Trip Planning";
+    toggleConditionalFields();
+
+    destinationField.value = tour;
+    destinationField.setAttribute("required", "required");
+
+    const msgEl = document.getElementById("message") || document.querySelector('textarea[name="Message"]');
+    if (msgEl && !msgEl.value.trim()) {
+      msgEl.value = "Hello, I would like to enquire about the " + tour + ". Please provide quotation, schedule, and availability details.";
+      const counter = document.getElementById("messageCounter");
+      if (counter) {
+        counter.textContent = msgEl.value.length + "/1000 characters";
+      }
+      msgEl.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+
+    if (formElement) {
+      formElement.dataset.urlProcessed = "true";
+    }
+
+    setTimeout(() => {
+      destinationField.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+      destinationField.focus();
+    }, 200);
+    return;
+  }
+
   if (destination && destinationField && inquiryTypeField) {
     const formattedDestination = formatName(destination);
     inquiryTypeField.value = "Custom Trip Planning";
     toggleConditionalFields();
 
-    setTimeout(() => {
-      destinationField.value = formattedDestination;
-      destinationField.setAttribute("required", "required");
+    destinationField.value = tour ? formattedDestination + " - " + tour : formattedDestination;
+    destinationField.setAttribute("required", "required");
 
-      setTimeout(() => {
-        destinationField.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-        destinationField.focus();
-      }, 200);
-    }, 150);
+    const msgEl = document.getElementById("message") || document.querySelector('textarea[name="Message"]');
+    if (tour && msgEl && !msgEl.value.trim()) {
+      msgEl.value = "Hello, I would like to enquire about the " + tour + " in " + formattedDestination + ". Please provide quotation, schedule, and availability details.";
+      const counter = document.getElementById("messageCounter");
+      if (counter) {
+        counter.textContent = msgEl.value.length + "/1000 characters";
+      }
+      msgEl.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+
+    if (formElement) {
+      formElement.dataset.urlProcessed = "true";
+    }
+
+    setTimeout(() => {
+      destinationField.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+      destinationField.focus();
+    }, 200);
     return;
   }
 
