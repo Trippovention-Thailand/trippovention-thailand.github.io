@@ -572,3 +572,21 @@ function showUpdateNotification() {
   }
 })();
 
+// FAQ Accordion Enhancement: single-open accordion behavior per FAQ container
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".faq-container").forEach(container => {
+    const detailsList = container.querySelectorAll("details.faq-item");
+    detailsList.forEach(targetDetail => {
+      targetDetail.addEventListener("toggle", () => {
+        if (targetDetail.open) {
+          detailsList.forEach(otherDetail => {
+            if (otherDetail !== targetDetail && otherDetail.open) {
+              otherDetail.removeAttribute("open");
+            }
+          });
+        }
+      });
+    });
+  });
+});
+
