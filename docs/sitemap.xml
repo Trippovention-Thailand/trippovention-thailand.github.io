@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://trippovention.co.th/index.html</loc>
+    <loc>https://trippovention.co.th/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/contact.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/day-trips.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -31,148 +37,154 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://trippovention.co.th/land-packages.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://trippovention.co.th/services.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/india/andaman/index.html</loc>
+    <loc>https://trippovention.co.th/sightseeing.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/transfers.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://trippovention.co.th/packages/india/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/india/buddha/index.html</loc>
+    <loc>https://trippovention.co.th/packages/india/andaman/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/india/index.html</loc>
+    <loc>https://trippovention.co.th/packages/india/buddha/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/ayutthaya/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/bangkok/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/ayutthaya/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/bangkok/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/chiang_rai/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_mai/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/hua_hin/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/chiang_rai/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/hua_hin/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/koh_larn/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/koh_larn/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/koh_mook/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/koh_mook/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/koh_phangan/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/koh_phangan/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/koh_samet/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samet/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/koh_samui/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/koh_samui/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/koh_yao_yai/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/koh_yao_yai/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/krabi/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/krabi/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/pattaya/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/pattaya/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/phi_phi_island/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/phi_phi_island/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/phuket/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/phuket/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/thailand/trang/index.html</loc>
+    <loc>https://trippovention.co.th/packages/thailand/trang/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/packages/vietnam/index.html</loc>
+    <loc>https://trippovention.co.th/packages/vietnam/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/day-trips.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/land-packages.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://trippovention.co.th/packages/india/andaman/andaman_tropical_escape_port_blair_havelock_neil_island.html</loc>
@@ -1075,24 +1087,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://trippovention.co.th/search.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/sightseeing.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/transfers.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://trippovention.co.th/privacy-policy.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1109,23 +1103,5 @@
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/404.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/offline.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://trippovention.co.th/thank-you.html</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>

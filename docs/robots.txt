@@ -149,4 +149,4 @@ Allow: /
 
 
 # Host directive (for clarity)
-Host: https://trippovention.co.th
+Host: trippovention.co.th

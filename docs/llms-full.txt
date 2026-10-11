@@ -1,6 +1,6 @@
 # Trippovention — Complete Site Information for AI
 
-> Trippovention is a travel agency headquartered in Thailand, specializing in ground operations, customized tour packages, visa assistance, and travel management for both individual and corporate travellers. Established in 2021 with a team boasting 10+ years of combined experience, the company has served 50,000+ happy travelers across 40+ worldwide destinations.
+> Trippovention is a travel and ground operations company with its established presence in India and Thailand, specializing in ground operations, customized tour packages, visa assistance, and travel management for both individual and corporate travellers. Established in 2021 with a team boasting 5+ years of combined experience, the company has served 5,000+ happy travelers across 40+ worldwide destinations.
 
 ## Agent and crawler discovery
 
@@ -25,7 +25,7 @@ To blend local expertise with global connectivity, offering travellers and partn
 ### Key Differentiators
 - Strong operational base with offices in Thailand and India
 - Global reach through trusted supplier partnerships across continents
-- Decade of experience in ground operations and destination management
+- 5+ years of experience in ground operations and destination management
 - Personalized service with attention to every detail
 - Transparent pricing with no hidden costs via direct sales model
 - Multilingual team serving global clients
@@ -181,4 +181,4 @@ You can book directly via WhatsApp (+66 90 917 7601), email (query@trippovention
 Yes, we specialize in fully customized tour packages tailored to your preferences, budget, and travel dates. Whether you want adventure tours, family vacations, honeymoon packages, or group travel, we create personalized itineraries to match your dream holiday.
 
 ### How experienced is the Trippovention team?
-Established in 2021, Trippovention has a dedicated team with 10+ years of combined experience in the travel industry. We've successfully served over 50,000 happy travelers, offering expert guidance and seamless travel experiences across India and worldwide destinations.
+Established in 2021, Trippovention has a dedicated team with 5+ years of combined experience in the travel industry. We've successfully served over 5,000 happy travelers, offering expert guidance and seamless travel experiences across India and worldwide destinations.

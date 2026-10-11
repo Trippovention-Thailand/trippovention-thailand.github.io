@@ -27,8 +27,10 @@ function ensureFormVisibility() {
 
 // Enhanced form functionality with conditional fields
 function toggleConditionalFields() {
-  const inquiryType = document.getElementById("inquiryType").value;
+  const inquiryType = document.getElementById("inquiryType") ? document.getElementById("inquiryType").value : "";
   const travelDetails = document.getElementById("travelDetails");
+
+  if (!travelDetails) return;
 
   travelDetails.style.display = "none";
 
@@ -36,17 +38,23 @@ function toggleConditionalFields() {
     input.removeAttribute("required");
   });
 
-  if (inquiryType === "Custom Trip Planning") {
+  if (inquiryType === "Custom Trip Planning" || inquiryType === "Ground Operations") {
     travelDetails.style.display = "block";
-    const requiredTravelFields = [
-      "Preferred\u00A0Destination",
-      "Number\u00A0of\u00A0Travelers",
-      "Budget\u00A0Range"
-    ];
-    requiredTravelFields.forEach(name => {
-      const field = document.querySelector(`[name="${name}"]`);
-      if (field) field.setAttribute("required", "required");
-    });
+    const destField = document.getElementById("destination") || document.querySelector('[name="Preferred\u00A0Destination"]');
+    if (destField) {
+      destField.setAttribute("required", "required");
+    }
+
+    if (inquiryType === "Custom Trip Planning") {
+      const requiredTravelFields = [
+        "Number\u00A0of\u00A0Travelers",
+        "Budget\u00A0Range"
+      ];
+      requiredTravelFields.forEach(name => {
+        const field = document.querySelector(`[name="${name}"]`);
+        if (field) field.setAttribute("required", "required");
+      });
+    }
   }
 
   validateForm();
@@ -345,11 +353,16 @@ function prefillDestinationFromURL() {
   const destination = urlParams.get("destination");
   const service = urlParams.get("service");
   const packageParam = urlParams.get("package");
+  const route = urlParams.get("route");
+  const type = urlParams.get("type");
   const from = urlParams.get("from");
   const coupon = urlParams.get("coupon");
+  const tour = urlParams.get("tour") || urlParams.get("activity");
 
   const inquiryTypeField = document.getElementById("inquiryType");
-  const destinationField = document.querySelector('input[name="Preferred\u00A0Destination"]');
+  const destinationField =
+    document.getElementById("destination") ||
+    document.querySelector('input[name="Preferred\u00A0Destination"]');
   const couponField = document.querySelector('input[name="Coupon\u00A0Code"]');
 
   if (!inquiryTypeField) {
@@ -367,7 +380,7 @@ function prefillDestinationFromURL() {
 
   const formatName = str => {
     return str
-      .split("-")
+      .split(/[-_]/)
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
   };
@@ -387,28 +400,77 @@ function prefillDestinationFromURL() {
     }, 600);
   }
 
-  if (service && destinationField && inquiryTypeField) {
-    const formattedService = formatName(service.replace(/-visa$/i, ""));
-    inquiryTypeField.value = "Custom Trip Planning";
+  // 1. Transfer Route Enquiries
+  if ((route || service === "transfer" || type === "transfer") && destinationField && inquiryTypeField) {
+    inquiryTypeField.value = "Ground Operations";
     toggleConditionalFields();
 
-    setTimeout(() => {
-      destinationField.value = formattedService;
-      destinationField.setAttribute("required", "required");
+    const formattedRoute = route ? route.replace(/\+/g, " ") : "Thailand Private Transfers";
+    destinationField.value = route ? "Transfer: " + formattedRoute : "Private Transfer Request";
+    destinationField.setAttribute("required", "required");
 
-      setTimeout(() => {
-        destinationField.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-        destinationField.focus();
-      }, 200);
-    }, 150);
+    const msgEl = document.getElementById("message") || document.querySelector('textarea[name="Message"]');
+    if (msgEl && !msgEl.value.trim()) {
+      if (route) {
+        msgEl.value = "Hello, I would like to request a quotation and check availability for private transfer: " + formattedRoute + ". Please provide vehicle options, pricing, and booking details.";
+      } else {
+        msgEl.value = "Hello, I would like to enquire about private airport and intercity transfers in Thailand. Please provide vehicle options and rates.";
+      }
+      const counter = document.getElementById("messageCounter");
+      if (counter) {
+        counter.textContent = msgEl.value.length + "/1000 characters";
+      }
+      msgEl.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+
+    if (formElement) {
+      formElement.dataset.urlProcessed = "true";
+    }
+
+    setTimeout(() => {
+      destinationField.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+      destinationField.focus();
+    }, 200);
     return;
   }
 
-  const tour = urlParams.get("tour") || urlParams.get("activity");
+  // 2. Multi-Day Holiday Package Enquiries
+  if (packageParam && destinationField && inquiryTypeField) {
+    const formattedPackage = formatName(packageParam);
+    inquiryTypeField.value = "Custom Trip Planning";
+    toggleConditionalFields();
 
+    destinationField.value = formattedPackage;
+    destinationField.setAttribute("required", "required");
+
+    const msgEl = document.getElementById("message") || document.querySelector('textarea[name="Message"]');
+    if (msgEl && !msgEl.value.trim()) {
+      msgEl.value = "Hello, I would like to enquire about the " + formattedPackage + " holiday package. Please provide current offer quotation, itinerary details, and hotel options.";
+      const counter = document.getElementById("messageCounter");
+      if (counter) {
+        counter.textContent = msgEl.value.length + "/1000 characters";
+      }
+      msgEl.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+
+    if (formElement) {
+      formElement.dataset.urlProcessed = "true";
+    }
+
+    setTimeout(() => {
+      destinationField.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+      destinationField.focus();
+    }, 200);
+    return;
+  }
+
+  // 3. Sightseeing & Activity Enquiries
   if (tour && !destination && destinationField && inquiryTypeField) {
     inquiryTypeField.value = "Custom Trip Planning";
     toggleConditionalFields();
@@ -440,6 +502,7 @@ function prefillDestinationFromURL() {
     return;
   }
 
+  // 4. Destination + Tour Enquiries
   if (destination && destinationField && inquiryTypeField) {
     const formattedDestination = formatName(destination);
     inquiryTypeField.value = "Custom Trip Planning";
@@ -472,6 +535,27 @@ function prefillDestinationFromURL() {
     return;
   }
 
+  // 5. General Services (Custom Trip / Day Trip / Ground Operations)
+  if ((service || type) && service !== "transfer" && type !== "transfer" && destinationField && inquiryTypeField) {
+    const sType = service || type;
+    const formattedService = formatName(sType.replace(/-visa$/i, ""));
+    inquiryTypeField.value = "Custom Trip Planning";
+    toggleConditionalFields();
+
+    destinationField.value = formattedService;
+    destinationField.setAttribute("required", "required");
+
+    setTimeout(() => {
+      destinationField.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+      destinationField.focus();
+    }, 200);
+    return;
+  }
+
+  // 6. Referral Source / From Param
   if (from && inquiryTypeField && destinationField) {
     const formattedFrom = formatName(from);
     inquiryTypeField.value = "Custom Trip Planning";
@@ -488,25 +572,6 @@ function prefillDestinationFromURL() {
       }, 200);
     }, 150);
     return;
-  }
-
-  if (packageParam && destinationField && inquiryTypeField) {
-    const formattedPackage = formatName(packageParam);
-    inquiryTypeField.value = "Custom Trip Planning";
-    toggleConditionalFields();
-
-    setTimeout(() => {
-      destinationField.value = formattedPackage;
-      destinationField.setAttribute("required", "required");
-
-      setTimeout(() => {
-        destinationField.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-        destinationField.focus();
-      }, 200);
-    }, 150);
   }
 
   if (formElement) {
