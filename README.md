@@ -6,7 +6,7 @@ A static website for **Trippovention Thailand** (trippovention.co.th) - Your tru
 
 This is a simple static website copied from the main Trippovention site (trippovention.com) and customized for the Thailand market with:
 
-- **Thailand as Primary Contact**: Thailand office and phone number (+66 94 931 9572) highlighted first
+- **Thailand as Primary Contact**: Thailand office and phone number (+66 94 693 4392) highlighted first
 - **Updated Domain**: All URLs point to trippovention.co.th
 - **Thai Email**: query@trippovention.co.th
 - **Multilingual Support**: Google Translate integration for English/Thai
@@ -82,8 +82,8 @@ trippovention-thailand.github.io/
 
 ### Thailand Office (Primary)
 - **Address**: 23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province - 20150, Thailand
-- **Phone**: +66 90 917 7601
-- **WhatsApp**: +66 90 917 7601
+- **Phone**: +66 94 693 4392
+- **WhatsApp**: +66 94 693 4392
 - **Email**: query@trippovention.co.th
 
 ## Deployment

@@ -172,7 +172,7 @@ DESTINATION_HUBS_FAQS = {
             ("Are national park entrance fees included in Phi Phi tours?",
              "Phi Phi Leh is part of Hat Noppharat Thara-Mu Ko Phi Phi National Park. The foreign visitor entrance fee is THB 400 per adult and THB 200 per child. Depending on your customized quote, this can be prepaid or settled directly at the national park ranger station."),
             ("How do I request a quotation or customized Phi Phi package?",
-             "Click 'Request Custom Quote' or message our team on WhatsApp (+66 90 917 7601). We will verify boat schedules and resort availability for your travel dates and provide a detailed quotation.")
+             "Click 'Request Custom Quote' or message our team on WhatsApp (+66 94 693 4392). We will verify boat schedules and resort availability for your travel dates and provide a detailed quotation.")
         ]
     ),
     'docs/packages/thailand/ayutthaya/index.html': (
@@ -185,7 +185,7 @@ DESTINATION_HUBS_FAQS = {
             ("What is the dress code for visiting Ayutthaya historical temples?",
              "As active sacred sites, modest dress is strictly enforced: shoulders and knees must be fully covered (no sleeveless shirts, short skirts, or ripped clothing). Comfortable walking shoes and sun protection are strongly recommended."),
             ("How do I book a private Ayutthaya tour or transfer?",
-             "Click 'Get Custom Quote' or contact us via WhatsApp (+66 90 917 7601). We provide private vehicle options (sedans, SUVs, luxury VIP minivans) with licensed English-speaking guides and door-to-door Bangkok hotel pickup.")
+             "Click 'Get Custom Quote' or contact us via WhatsApp (+66 94 693 4392). We provide private vehicle options (sedans, SUVs, luxury VIP minivans) with licensed English-speaking guides and door-to-door Bangkok hotel pickup.")
         ]
     ),
     'docs/packages/thailand/hua_hin/index.html': (
@@ -211,7 +211,7 @@ DESTINATION_HUBS_FAQS = {
             ("Are national park fees payable on Koh Samet?",
              "Yes, Koh Samet is part of Khao Laem Ya-Mu Ko Samet National Park. Foreign visitors pay an entry fee (THB 200 per adult, THB 100 per child) upon arrival at the island pier, which remains valid for the duration of your stay."),
             ("How can I request a customized Koh Samet holiday?",
-             "Submit an enquiry through our contact form or chat with our destination team on WhatsApp (+66 90 917 7601). We arrange boutique beach resort bookings, private transfers, and island activities with manual confirmation.")
+             "Submit an enquiry through our contact form or chat with our destination team on WhatsApp (+66 94 693 4392). We arrange boutique beach resort bookings, private transfers, and island activities with manual confirmation.")
         ]
     ),
     'docs/packages/thailand/koh_phangan/index.html': (
@@ -237,7 +237,7 @@ DESTINATION_HUBS_FAQS = {
             ("Are water sports and lunches included in the Coral Island day trip?",
              "Our standard Coral Island tour includes roundtrip speedboat transfers, life jackets, and a beachside Indian or international lunch. Parasailing, sea walking, and banana boat activities can be packaged in advance or chosen on-site."),
             ("How do I enquire about a Koh Larn day excursion?",
-             "Click 'Request Custom Quote' or chat on WhatsApp (+66 90 917 7601). Inform us of your group size and date, and we will share available departure times and quote options.")
+             "Click 'Request Custom Quote' or chat on WhatsApp (+66 94 693 4392). Inform us of your group size and date, and we will share available departure times and quote options.")
         ]
     ),
     'docs/packages/thailand/koh_yao_yai/index.html': (
@@ -276,7 +276,7 @@ DESTINATION_HUBS_FAQS = {
             ("Can Trang be combined with Krabi and Phuket?",
              "Yes! We specialize in Southern Thailand island odysseys that seamlessly link Phuket, Krabi, and Trang via private vehicles and speedboats, showcasing both famous landmarks and hidden gems."),
             ("How do I get in touch to book a Trang itinerary?",
-             "Reach out to our team via WhatsApp (+66 90 917 7601) or our contact page. We will build a customized travel itinerary with transparent pricing and manual voucher fulfillment.")
+             "Reach out to our team via WhatsApp (+66 94 693 4392) or our contact page. We will build a customized travel itinerary with transparent pricing and manual voucher fulfillment.")
         ]
     ),
     'docs/destinations.html': (
@@ -289,7 +289,7 @@ DESTINATION_HUBS_FAQS = {
             ("Can I combine multiple countries in one itinerary?",
              "Yes! We create multi-country Southeast Asia itineraries, combining Thailand with Vietnam, or India pilgrimage packages with leisure beach extensions, managing all private road transfers, domestic flights, and local guides."),
             ("How do I get a custom multi-destination quotation?",
-             "Click 'Request Custom Quote' or message our specialists on WhatsApp (+66 90 917 7601). We will design a custom itinerary with verified hotel options and transparent pricing.")
+             "Click 'Request Custom Quote' or message our specialists on WhatsApp (+66 94 693 4392). We will design a custom itinerary with verified hotel options and transparent pricing.")
         ]
     ),
     'docs/destinations-themes.html': (
@@ -302,7 +302,7 @@ DESTINATION_HUBS_FAQS = {
             ("Are activities, entrance tickets, and guides included in themed packages?",
              "Our themed packages include curated activities, verified attraction admissions, and licensed English-speaking local guides as detailed in each itinerary. Check specific inclusions or request a tailored quotation."),
             ("How do I check availability for a themed holiday?",
-             "Submit an inquiry through our contact form or chat with us on WhatsApp (+66 90 917 7601). Our team will verify seasonal availability and deliver your custom proposal.")
+             "Submit an inquiry through our contact form or chat with us on WhatsApp (+66 94 693 4392). Our team will verify seasonal availability and deliver your custom proposal.")
         ]
     ),
     'docs/destinations-travelers.html': (
@@ -315,14 +315,14 @@ DESTINATION_HUBS_FAQS = {
             ("Do you provide accessible transport and gentle pacing for senior travelers?",
              "Yes. Our senior travel itineraries prioritize ground-floor or elevator-accessible hotels, minimal walking steps, private air-conditioned transport with luggage assistance, and unhurried daily schedules."),
             ("How can I request a quotation for our specific travel group?",
-             "Contact us via our website form or WhatsApp (+66 90 917 7601) specifying your group composition (adults, children, seniors). Our team will tailor the ideal itinerary and share a transparent quote.")
+             "Contact us via our website form or WhatsApp (+66 94 693 4392) specifying your group composition (adults, children, seniors). Our team will tailor the ideal itinerary and share a transparent quote.")
         ]
     ),
     'docs/contact.html': (
         "Common questions about contacting our team, response times, and booking workflow",
         [
             ("How quickly will your team respond to my travel enquiry?",
-             "Our destination specialists review and respond to inquiries within 24 business hours. For immediate assistance or urgent travel dates, message our team directly via WhatsApp (+66 90 917 7601)."),
+             "Our destination specialists review and respond to inquiries within 24 business hours. For immediate assistance or urgent travel dates, message our team directly via WhatsApp (+66 94 693 4392)."),
             ("Where is Trippovention's Thailand office located?",
              "Our Thailand headquarters is located in Chonburi Province (23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District), supporting ground operations across Bangkok, Pattaya, Phuket, and Krabi, alongside our established operations base in India."),
             ("How does Trippovention's offline booking process work?",
@@ -385,7 +385,7 @@ for p in all_html:
             (f"What are the operating hours and recommended duration for {title}?",
              f"Operating schedules vary by attraction. Most guests spend between 1 to 3 hours enjoying the experiences and taking photos. Please check the visiting details section above or ask our team for recommended visit time slots."),
             (f"How do I check ticket availability and request a quotation?",
-             f"Click 'Request Custom Quote' or message us on WhatsApp (+66 90 917 7601) with your preferred visit date and number of tickets. Our team will verify slot availability and share current promotional rates.")
+             f"Click 'Request Custom Quote' or message us on WhatsApp (+66 94 693 4392) with your preferred visit date and number of tickets. Our team will verify slot availability and share current promotional rates.")
         ]
     elif is_multi_day:
         sub = f"Everything you need to know about the {title} holiday package"
@@ -395,7 +395,7 @@ for p in all_html:
             (f"Can this itinerary, hotel category, and duration be customized?",
              f"Yes, 100%. All Trippovention packages can be tailored to match your specific travel dates, preferred hotel tier (3-star, 4-star, or 5-star luxury), travel pacing, and special dietary requirements (including Indian Vegetarian, Jain, or Halal dining)."),
             (f"How do I request a custom quotation and check dates?",
-             f"Click 'Get Custom Quote' or message our destination specialists on WhatsApp (+66 90 917 7601). Share your travel dates and traveler count, and we will verify hotel and vehicle availability to provide a customized proposal within 24 hours."),
+             f"Click 'Get Custom Quote' or message our destination specialists on WhatsApp (+66 94 693 4392). Share your travel dates and traveler count, and we will verify hotel and vehicle availability to provide a customized proposal within 24 hours."),
             (f"How are bookings confirmed and payments handled?",
              f"Trippovention operates via an offline quotation model. Once you approve your tailored itinerary and quote, our team provides payment instructions (bank transfer or secure payment link) and issues your formal confirmation vouchers.")
         ]
@@ -409,7 +409,7 @@ for p in all_html:
             (f"What items should I bring on this excursion?",
              f"We recommend bringing swimwear, a towel, sunscreen, sunglasses, comfortable walking or water shoes, a waterproof bag for mobile devices, and local Thai Baht cash for national park fees or personal souvenirs."),
             (f"How do I check availability and confirm my tour reservation?",
-             f"Click 'Get Custom Quote' or contact our destination team via WhatsApp (+66 90 917 7601). We will verify sea conditions and vehicle availability for your date and guide you through our straightforward offline booking process.")
+             f"Click 'Get Custom Quote' or contact our destination team via WhatsApp (+66 94 693 4392). We will verify sea conditions and vehicle availability for your date and guide you through our straightforward offline booking process.")
         ]
     
     ok = update_file(p, sub, qas)

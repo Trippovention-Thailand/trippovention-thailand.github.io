@@ -310,7 +310,7 @@ for tour in TOURS_DATA:
             >
             <a
               class="btn btn-lg ghost ml-16"
-              href="https://wa.me/+66909177601?text=Hello,%20I%20am%20interested%20in%20booking%20the%20{contact_param}%20in%20Krabi"
+              href="https://wa.me/66946934392?text=Hello,%20I%20am%20interested%20in%20booking%20the%20{contact_param}%20in%20Krabi"
               target="_blank"
               rel="noopener noreferrer"
               >💬 WhatsApp Us</a
