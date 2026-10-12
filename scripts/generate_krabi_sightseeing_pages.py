@@ -1295,8 +1295,7 @@ HTML_TEMPLATE = """<!doctype html>
               href="https://wa.me/66946934392?text=Hello,%20I%20am%20interested%20in%20booking%20the%20{contact_tour_param}%20in%20Krabi"
               target="_blank"
               rel="noopener noreferrer"
-              >💬 WhatsApp Us</a
-            >
+              >💬 WhatsApp: +66 94 693 4392</a>
           </div>
           <div class="grid cols-3 mt-40">
             <div class="stats">

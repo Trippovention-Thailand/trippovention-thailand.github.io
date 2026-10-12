@@ -601,8 +601,7 @@ def build_package_html(dest_key, slug, data):
               href="https://wa.me/66946934392"
               target="_blank"
               rel="noopener noreferrer"
-              >💬 WhatsApp Us</a
-            >
+              >💬 WhatsApp: +66 94 693 4392</a>
           </div>
           <div class="grid cols-3 mt-40">
             <div class="stats">
@@ -921,8 +920,7 @@ def build_destination_index_html(dest_key, packages):
               href="https://wa.me/66946934392"
               target="_blank"
               rel="noopener noreferrer"
-              >💬 WhatsApp Us</a
-            >
+              >💬 WhatsApp: +66 94 693 4392</a>
           </div>
         </div>
       </section>
