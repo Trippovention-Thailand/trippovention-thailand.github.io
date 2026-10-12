@@ -1055,11 +1055,11 @@ HTML_TEMPLATE = """<!doctype html>
         <div class="nav-right">
           <div class="actions">
             <button class="lang-btn notranslate" id="langToggle" translate="no">TH</button>
-            <a class="icon" title="Call Us" href="tel:+66909177601">📞</a>
+            <a class="icon" title="Call Us" href="tel:+66946934392">📞</a>
             <a
               class="icon"
               title="WhatsApp"
-              href="https://wa.me/+66909177601"
+              href="https://wa.me/66946934392"
               aria-label="Chat on WhatsApp"
               rel="noopener noreferrer"
               target="_blank"
@@ -1292,7 +1292,7 @@ HTML_TEMPLATE = """<!doctype html>
             >
             <a
               class="btn btn-lg ghost ml-16"
-              href="https://wa.me/+66909177601?text=Hello,%20I%20am%20interested%20in%20booking%20the%20{contact_tour_param}%20in%20Krabi"
+              href="https://wa.me/66946934392?text=Hello,%20I%20am%20interested%20in%20booking%20the%20{contact_tour_param}%20in%20Krabi"
               target="_blank"
               rel="noopener noreferrer"
               >💬 WhatsApp Us</a
@@ -1331,10 +1331,10 @@ HTML_TEMPLATE = """<!doctype html>
                 >📧 <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span
               >
               <br />
-              <span>📞 <a href="tel:+66909177601">+66 90 917 7601</a></span>
+              <span>📞 <a href="tel:+66946934392">+66 94 693 4392</a></span>
               <br />
               <span>💬
-                <a href="https://wa.me/+66909177601" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer"
                   >WhatsApp</a
                 ></span
               >
@@ -1387,7 +1387,7 @@ HTML_TEMPLATE = """<!doctype html>
                 />
               </a>
               <a
-                href="https://wa.me/+66909177601"
+                href="https://wa.me/66946934392"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat with us on WhatsApp"
