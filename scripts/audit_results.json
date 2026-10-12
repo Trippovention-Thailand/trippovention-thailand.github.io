@@ -51,15 +51,16 @@
       "h1_list": [
         "Get in Touch"
       ],
-      "h2_count": 3,
+      "h2_count": 4,
       "h3_count": 11,
-      "word_count": 367,
+      "word_count": 537,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TravelAgency",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -75,8 +76,8 @@
         "Thailand Day Trips &amp; Excursions"
       ],
       "h2_count": 5,
-      "h3_count": 24,
-      "word_count": 843,
+      "h3_count": 20,
+      "word_count": 847,
       "images_count": 14,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -97,15 +98,16 @@
       "h1_list": [
         "Explore Destinations by Theme"
       ],
-      "h2_count": 10,
+      "h2_count": 11,
       "h3_count": 59,
-      "word_count": 1787,
+      "word_count": 1954,
       "images_count": 51,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TravelAgency",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -120,15 +122,16 @@
       "h1_list": [
         "Designed for Your Travel Style"
       ],
-      "h2_count": 6,
+      "h2_count": 7,
       "h3_count": 35,
-      "word_count": 986,
+      "word_count": 1154,
       "images_count": 31,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TravelAgency",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -143,15 +146,16 @@
       "h1_list": [
         "Explore Our Destinations"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 26,
-      "word_count": 808,
+      "word_count": 984,
       "images_count": 24,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TravelAgency",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -167,8 +171,8 @@
         "Travel Thailand, Your Way"
       ],
       "h2_count": 11,
-      "h3_count": 61,
-      "word_count": 2297,
+      "h3_count": 51,
+      "word_count": 2307,
       "images_count": 39,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -192,8 +196,8 @@
         "Thailand Land Packages"
       ],
       "h2_count": 5,
-      "h3_count": 26,
-      "word_count": 924,
+      "h3_count": 20,
+      "word_count": 930,
       "images_count": 14,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -234,15 +238,16 @@
       "h1_list": [
         "Blue Andaman Island Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 537,
+      "word_count": 736,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -258,8 +263,8 @@
         "Andaman Tour Packages"
       ],
       "h2_count": 3,
-      "h3_count": 11,
-      "word_count": 401,
+      "h3_count": 7,
+      "word_count": 405,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -280,15 +285,16 @@
       "h1_list": [
         "Bodh Gaya Holy Enlightenment Tour"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 469,
+      "word_count": 670,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -303,15 +309,16 @@
       "h1_list": [
         "Buddha Circuit Family Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 581,
+      "word_count": 780,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -326,15 +333,16 @@
       "h1_list": [
         "Buddha Circuit Family Heritage Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 16,
-      "word_count": 620,
+      "word_count": 821,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -349,15 +357,16 @@
       "h1_list": [
         "Buddha Circuit Spiritual Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 17,
-      "word_count": 655,
+      "word_count": 854,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -372,15 +381,16 @@
       "h1_list": [
         "Golden Buddha Circuit Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 18,
-      "word_count": 713,
+      "word_count": 912,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -396,8 +406,8 @@
         "Buddha Circuit Tour Packages in India"
       ],
       "h2_count": 3,
-      "h3_count": 15,
-      "word_count": 571,
+      "h3_count": 11,
+      "word_count": 575,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -418,15 +428,16 @@
       "h1_list": [
         "Sacred Love Journey"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 606,
+      "word_count": 803,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -442,8 +453,8 @@
         "Incredible India!"
       ],
       "h2_count": 5,
-      "h3_count": 23,
-      "word_count": 749,
+      "h3_count": 19,
+      "word_count": 750,
       "images_count": 15,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -464,15 +475,16 @@
       "h1_list": [
         "Dynamic Ayutthaya, Pattaya & Bangkok Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 521,
+      "word_count": 724,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -487,15 +499,16 @@
       "h1_list": [
         "Enchanting Ayutthaya, Kanchanaburi & Bangkok Explorer"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 520,
+      "word_count": 723,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -510,15 +523,16 @@
       "h1_list": [
         "Heritage Ayutthaya Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 10,
-      "word_count": 348,
+      "word_count": 545,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -533,15 +547,16 @@
       "h1_list": [
         "Imperial Ayutthaya & Bangkok Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 441,
+      "word_count": 642,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -556,15 +571,16 @@
       "h1_list": [
         "Explore Ayutthaya Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 422,
+      "word_count": 620,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -579,15 +595,16 @@
       "h1_list": [
         "Romantic Ayutthaya & Hua Hin Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 446,
+      "word_count": 649,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -602,15 +619,16 @@
       "h1_list": [
         "Bangkok Essentials Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 464,
+      "word_count": 661,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -625,15 +643,16 @@
       "h1_list": [
         "Bangkok &amp; Pattaya Ultimate Family Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 17,
-      "word_count": 751,
+      "word_count": 954,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -648,15 +667,16 @@
       "h1_list": [
         "Bangkok Prestige Journey"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 528,
+      "word_count": 725,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -671,15 +691,16 @@
       "h1_list": [
         "Classic Bangkok \u2013 Skyline &amp; Wildlife Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 517,
+      "word_count": 722,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -694,15 +715,16 @@
       "h1_list": [
         "Full Day Bangkok City Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 561,
+      "word_count": 756,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -718,8 +740,8 @@
         "Explore Bangkok Packages"
       ],
       "h2_count": 4,
-      "h3_count": 21,
-      "word_count": 778,
+      "h3_count": 17,
+      "word_count": 779,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -741,15 +763,16 @@
       "h1_list": [
         "Mahanakhon SkyWalk"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 452,
+      "word_count": 642,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -764,15 +787,16 @@
       "h1_list": [
         "Princess Chao Phraya Dinner Cruise"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 433,
+      "word_count": 628,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -787,15 +811,16 @@
       "h1_list": [
         "Safari World &amp; Marine Park"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 458,
+      "word_count": 653,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -810,15 +835,16 @@
       "h1_list": [
         "Space &amp; Time Cube+ (Mail Hall)"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 437,
+      "word_count": 639,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -833,15 +859,16 @@
       "h1_list": [
         "Thailand Island &amp; City Explorer"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 18,
-      "word_count": 797,
+      "word_count": 998,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -856,15 +883,16 @@
       "h1_list": [
         "Breathtaking Northern Thailand Expedition"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 584,
+      "word_count": 783,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -879,15 +907,16 @@
       "h1_list": [
         "Charming Chiang Mai Cultural Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 496,
+      "word_count": 697,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -902,15 +931,16 @@
       "h1_list": [
         "Doi Inthanon National Park Full-Day Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 655,
+      "word_count": 854,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -925,15 +955,16 @@
       "h1_list": [
         "Enchanting Chiang Mai Highland Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 538,
+      "word_count": 739,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -948,15 +979,16 @@
       "h1_list": [
         "Giant Rain Tree &amp; Sticky Waterfall Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 615,
+      "word_count": 816,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -972,7 +1004,7 @@
         "Explore Chiang Mai Packages"
       ],
       "h2_count": 4,
-      "h3_count": 21,
+      "h3_count": 17,
       "word_count": 926,
       "images_count": 16,
       "images_missing_alt": 0,
@@ -995,15 +1027,16 @@
       "h1_list": [
         "Kerchor Elephant Eco Park Half-Day Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 642,
+      "word_count": 841,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1018,15 +1051,16 @@
       "h1_list": [
         "Khantoke Dinner &amp; Cultural Show"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 656,
+      "word_count": 853,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1041,15 +1075,16 @@
       "h1_list": [
         "Magnificent Northern & Bangkok Fusion"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 613,
+      "word_count": 814,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1064,15 +1099,16 @@
       "h1_list": [
         "Scenic Northern Thailand Journey"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 555,
+      "word_count": 754,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1087,15 +1123,16 @@
       "h1_list": [
         "White &amp; Blue Temple Full-Day Cultural Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 695,
+      "word_count": 896,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1110,15 +1147,16 @@
       "h1_list": [
         "Chiang Rai One-Day Hill Tribe &amp; Cultural Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 591,
+      "word_count": 794,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1133,15 +1171,16 @@
       "h1_list": [
         "Chiang Rai Full-Day Temples &amp; Hot Spring Experience"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 589,
+      "word_count": 792,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1156,15 +1195,16 @@
       "h1_list": [
         "Elegant Chiang Rai Cultural Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 484,
+      "word_count": 685,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1179,15 +1219,16 @@
       "h1_list": [
         "Enchanting Northern Heritage Journey"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 661,
+      "word_count": 860,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1202,15 +1243,16 @@
       "h1_list": [
         "Exquisite Chiang Rai Nature Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 523,
+      "word_count": 724,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1226,7 +1268,7 @@
         "Explore Chiang Rai Packages"
       ],
       "h2_count": 4,
-      "h3_count": 19,
+      "h3_count": 15,
       "word_count": 805,
       "images_count": 14,
       "images_missing_alt": 0,
@@ -1249,15 +1291,16 @@
       "h1_list": [
         "Splendid Northern Thailand Trail"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 557,
+      "word_count": 756,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1272,15 +1315,16 @@
       "h1_list": [
         "Vibrant Northern Thailand & Bangkok Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 630,
+      "word_count": 833,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1295,15 +1339,16 @@
       "h1_list": [
         "Wat Phra That Doi Tung &amp; Royal Villa Cultural Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 561,
+      "word_count": 768,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1318,15 +1363,16 @@
       "h1_list": [
         "Coastal Hua Hin Serenity Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 480,
+      "word_count": 681,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1341,15 +1387,16 @@
       "h1_list": [
         "Explore Hua Hin Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 422,
+      "word_count": 624,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1364,15 +1411,16 @@
       "h1_list": [
         "Luminous Coast & City Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 542,
+      "word_count": 743,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1387,15 +1435,16 @@
       "h1_list": [
         "Mesmerizing Coastal Thailand Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 573,
+      "word_count": 772,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1410,15 +1459,16 @@
       "h1_list": [
         "Radiant Heritage & Coastal Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 521,
+      "word_count": 722,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1433,15 +1483,16 @@
       "h1_list": [
         "Timeless Thailand Heritage Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 602,
+      "word_count": 801,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1457,8 +1508,8 @@
         "Thailand Tour Packages &amp; Experiences"
       ],
       "h2_count": 5,
-      "h3_count": 38,
-      "word_count": 1086,
+      "h3_count": 33,
+      "word_count": 1088,
       "images_count": 27,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1479,15 +1530,16 @@
       "h1_list": [
         "Crystal Koh Larn Island Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 418,
+      "word_count": 619,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1502,15 +1554,16 @@
       "h1_list": [
         "Explore Koh Larn Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 433,
+      "word_count": 625,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1525,15 +1578,16 @@
       "h1_list": [
         "Playful Koh Larn, Ayutthaya & Bangkok Explorer"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 508,
+      "word_count": 713,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1548,15 +1602,16 @@
       "h1_list": [
         "Serene Koh Larn, Hua Hin & Bangkok Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 551,
+      "word_count": 758,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1571,15 +1626,16 @@
       "h1_list": [
         "Tropical Koh Larn & Pattaya Romance"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 467,
+      "word_count": 670,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1594,15 +1650,16 @@
       "h1_list": [
         "Vibrant Koh Larn, Pattaya & Bangkok Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 536,
+      "word_count": 741,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1617,15 +1674,16 @@
       "h1_list": [
         "Enchanting Koh Mook, Koh Lanta & Krabi Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 585,
+      "word_count": 792,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1640,15 +1698,16 @@
       "h1_list": [
         "Explore Koh Mook Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 439,
+      "word_count": 617,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1663,15 +1722,16 @@
       "h1_list": [
         "Picturesque Koh Mook, Krabi & Phuket Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 581,
+      "word_count": 786,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1686,15 +1746,16 @@
       "h1_list": [
         "Scenic Koh Mook & Krabi Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 480,
+      "word_count": 683,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1709,15 +1770,16 @@
       "h1_list": [
         "Serene Koh Mook & Trang Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 487,
+      "word_count": 690,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1732,15 +1794,16 @@
       "h1_list": [
         "Tranquil Koh Mook Island Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 403,
+      "word_count": 604,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1755,15 +1818,16 @@
       "h1_list": [
         "Explore Koh Phangan Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 424,
+      "word_count": 618,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1778,15 +1842,16 @@
       "h1_list": [
         "Koh Phangan Full Moon Festival Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 557,
+      "word_count": 760,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1801,15 +1866,16 @@
       "h1_list": [
         "Koh Phangan & Koh Samui Island Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 614,
+      "word_count": 819,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1824,15 +1890,16 @@
       "h1_list": [
         "Koh Phangan Tropical Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 475,
+      "word_count": 674,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1847,15 +1914,16 @@
       "h1_list": [
         "Southern Thailand Coastal Explorer"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 737,
+      "word_count": 936,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1870,15 +1938,16 @@
       "h1_list": [
         "Southern Thailand Island & Heritage Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 692,
+      "word_count": 895,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1893,15 +1962,16 @@
       "h1_list": [
         "Azure Koh Samet Beach Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 412,
+      "word_count": 613,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1916,15 +1986,16 @@
       "h1_list": [
         "Explore Koh Samet Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 445,
+      "word_count": 655,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1939,15 +2010,16 @@
       "h1_list": [
         "Radiant Koh Samet & Pattaya Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 514,
+      "word_count": 717,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1962,15 +2034,16 @@
       "h1_list": [
         "Serene Koh Samet & Bangkok Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 482,
+      "word_count": 685,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -1985,15 +2058,16 @@
       "h1_list": [
         "Splendid Koh Samet, Pattaya & Bangkok Journey"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 542,
+      "word_count": 747,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2008,15 +2082,16 @@
       "h1_list": [
         "Timeless Koh Samet, Hua Hin & Bangkok Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 558,
+      "word_count": 765,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2031,15 +2106,16 @@
       "h1_list": [
         "Ang Thong Marine Park Tour by Speedboat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 627,
+      "word_count": 828,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2054,15 +2130,16 @@
       "h1_list": [
         "ATV Adventure Experience \u2013 1 Hour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 524,
+      "word_count": 723,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2078,7 +2155,7 @@
         "Explore Koh Samui Packages"
       ],
       "h2_count": 4,
-      "h3_count": 21,
+      "h3_count": 17,
       "word_count": 865,
       "images_count": 16,
       "images_missing_alt": 0,
@@ -2101,15 +2178,16 @@
       "h1_list": [
         "Koh Madsum &amp; Koh Tan Half-Day Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 578,
+      "word_count": 779,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2124,15 +2202,16 @@
       "h1_list": [
         "Koh Phangan Island Visit by Ferry"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 578,
+      "word_count": 777,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2147,15 +2226,16 @@
       "h1_list": [
         "Koh Samui & Bangkok Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 658,
+      "word_count": 859,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2170,15 +2250,16 @@
       "h1_list": [
         "Koh Samui City Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 597,
+      "word_count": 792,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2193,15 +2274,16 @@
       "h1_list": [
         "Koh Samui Tropical Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 500,
+      "word_count": 699,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2216,15 +2298,16 @@
       "h1_list": [
         "Southern Thailand Island Explorer"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 627,
+      "word_count": 826,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2239,15 +2322,16 @@
       "h1_list": [
         "Southern Thailand Island & Heritage Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 680,
+      "word_count": 883,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2262,15 +2346,16 @@
       "h1_list": [
         "Ultimate Southern Thailand Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 16,
-      "word_count": 661,
+      "word_count": 860,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2285,15 +2370,16 @@
       "h1_list": [
         "Celestial Koh Yao Yai Island Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 428,
+      "word_count": 631,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2308,15 +2394,16 @@
       "h1_list": [
         "Enchanting Koh Yao Yai & Krabi Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 476,
+      "word_count": 681,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2331,15 +2418,16 @@
       "h1_list": [
         "Exquisite Koh Yao Yai, Phi Phi Island & Krabi Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 541,
+      "word_count": 752,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2354,15 +2442,16 @@
       "h1_list": [
         "Harmonious Koh Yao Yai, Phuket & Krabi Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 550,
+      "word_count": 757,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2377,15 +2466,16 @@
       "h1_list": [
         "Explore Koh Yao Yai Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 455,
+      "word_count": 635,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2400,15 +2490,16 @@
       "h1_list": [
         "Pristine Koh Yao Yai & Phuket Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 466,
+      "word_count": 671,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2423,15 +2514,16 @@
       "h1_list": [
         "Kayaking at Ao Thalane (Half Day Canoe)"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 539,
+      "word_count": 738,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2446,15 +2538,16 @@
       "h1_list": [
         "Banyan Tree Spa Krabi Luxury Wellness"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 555,
+      "word_count": 752,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2469,15 +2562,16 @@
       "h1_list": [
         "Dragon Crest Mountain (Khao Ngon Nak) Hiking Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 569,
+      "word_count": 770,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2492,15 +2586,16 @@
       "h1_list": [
         "Elephant Sanctuary \u2013 Morning Program"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 587,
+      "word_count": 782,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2515,15 +2610,16 @@
       "h1_list": [
         "Hong Islands Tour by Speedboat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 611,
+      "word_count": 806,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2538,15 +2634,16 @@
       "h1_list": [
         "Hong Islands Tour by Longtail Boat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 610,
+      "word_count": 807,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2562,8 +2659,8 @@
         "Explore Krabi Packages"
       ],
       "h2_count": 4,
-      "h3_count": 21,
-      "word_count": 814,
+      "h3_count": 17,
+      "word_count": 815,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2585,15 +2682,16 @@
       "h1_list": [
         "Khao Phanom Bencha & Huay Toh Waterfall"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 541,
+      "word_count": 740,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2608,15 +2706,16 @@
       "h1_list": [
         "Klong Root (Clear Water Canal) Kayaking"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 517,
+      "word_count": 714,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2631,15 +2730,16 @@
       "h1_list": [
         "Krabi 4 Islands Tour by Speedboat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 606,
+      "word_count": 803,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2654,15 +2754,16 @@
       "h1_list": [
         "Krabi 4 Islands Tour by Longtail Boat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 595,
+      "word_count": 794,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2677,15 +2778,16 @@
       "h1_list": [
         "Krabi 7 Islands Sunset Tour by Speedboat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 615,
+      "word_count": 814,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2700,15 +2802,16 @@
       "h1_list": [
         "Krabi 7 Islands Sunset Tour by Longtail Boat"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 587,
+      "word_count": 788,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2723,15 +2826,16 @@
       "h1_list": [
         "Krabi ATV Nature View Point Adventure"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 538,
+      "word_count": 735,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2746,15 +2850,16 @@
       "h1_list": [
         "Bioluminescent Swimming Experience from Krabi"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 545,
+      "word_count": 740,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2769,15 +2874,16 @@
       "h1_list": [
         "Krabi City Tour (Half Day \u2013 Private)"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 579,
+      "word_count": 778,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2792,15 +2898,16 @@
       "h1_list": [
         "Krabi Family Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 525,
+      "word_count": 722,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2815,15 +2922,16 @@
       "h1_list": [
         "Krabi Hot Springs &amp; Emerald Pool Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 581,
+      "word_count": 780,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2838,15 +2946,16 @@
       "h1_list": [
         "Krabi Luxury Sunset Cruise"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 564,
+      "word_count": 757,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2861,15 +2970,16 @@
       "h1_list": [
         "Krabi &amp; Phuket Coastal Romance"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 586,
+      "word_count": 787,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2884,15 +2994,16 @@
       "h1_list": [
         "Krabi & Phuket Nature Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 661,
+      "word_count": 862,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2907,15 +3018,16 @@
       "h1_list": [
         "Krabi Town Night Markets & Street Food Walk"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 560,
+      "word_count": 761,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2930,15 +3042,16 @@
       "h1_list": [
         "Krabi Tropical Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 460,
+      "word_count": 657,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2953,15 +3066,16 @@
       "h1_list": [
         "Phi Phi Islands Day Trip from Krabi"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 588,
+      "word_count": 787,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2976,15 +3090,16 @@
       "h1_list": [
         "Private Longtail Boat Tour to Railay & 4 Islands"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 583,
+      "word_count": 786,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -2999,15 +3114,16 @@
       "h1_list": [
         "Railay Beach Exploration & Phra Nang Cave"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 555,
+      "word_count": 754,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3022,15 +3138,16 @@
       "h1_list": [
         "Rock Climbing Courses at Railay Beach"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 585,
+      "word_count": 782,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3046,8 +3163,8 @@
         "Discover More of Krabi"
       ],
       "h2_count": 3,
-      "h3_count": 33,
-      "word_count": 2308,
+      "h3_count": 29,
+      "word_count": 2309,
       "images_count": 26,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3069,15 +3186,16 @@
       "h1_list": [
         "Stand-Up Paddleboarding (SUP) in Ao Nang"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 520,
+      "word_count": 717,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3092,15 +3210,16 @@
       "h1_list": [
         "Thailand Coastal Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 17,
-      "word_count": 875,
+      "word_count": 1072,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3115,15 +3234,16 @@
       "h1_list": [
         "Traditional Thai Cooking Class with Local Chef"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 13,
-      "word_count": 587,
+      "word_count": 786,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3138,15 +3258,16 @@
       "h1_list": [
         "Alcazar Cabaret Show (Private Transfer)"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 585,
+      "word_count": 784,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3161,15 +3282,16 @@
       "h1_list": [
         "Classic Pattaya \u2013 Culture, Coast &amp; Cabaret Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 546,
+      "word_count": 753,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3184,15 +3306,16 @@
       "h1_list": [
         "Coral Island Tour (Koh Larn)"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 611,
+      "word_count": 806,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3207,15 +3330,16 @@
       "h1_list": [
         "Dolphin Show with Tiger Park"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 587,
+      "word_count": 782,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3231,8 +3355,8 @@
         "Explore Pattaya Packages"
       ],
       "h2_count": 4,
-      "h3_count": 21,
-      "word_count": 809,
+      "h3_count": 17,
+      "word_count": 810,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3254,15 +3378,16 @@
       "h1_list": [
         "Nong Nooch Tropical Garden (Private Transfer)"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 613,
+      "word_count": 815,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3277,15 +3402,16 @@
       "h1_list": [
         "Pattaya Adventure &amp; Beach Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 577,
+      "word_count": 778,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3300,15 +3426,16 @@
       "h1_list": [
         "Pattaya Beach Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 393,
+      "word_count": 590,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3323,15 +3450,16 @@
       "h1_list": [
         "Pattaya City Tour with Colosseum Show"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 12,
-      "word_count": 623,
+      "word_count": 820,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristTrip",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3346,15 +3474,16 @@
       "h1_list": [
         "Pattaya Family Fun Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 572,
+      "word_count": 771,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3369,15 +3498,16 @@
       "h1_list": [
         "Thailand Heritage &amp; Coastal Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 642,
+      "word_count": 843,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3392,15 +3522,16 @@
       "h1_list": [
         "Andaman Island Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 632,
+      "word_count": 829,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3415,15 +3546,16 @@
       "h1_list": [
         "Andaman Island Serenity Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 582,
+      "word_count": 781,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3438,15 +3570,16 @@
       "h1_list": [
         "Explore Phi Phi Island Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 473,
+      "word_count": 700,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3461,15 +3594,16 @@
       "h1_list": [
         "Phi Phi Island Paradise Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 482,
+      "word_count": 683,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3484,15 +3618,16 @@
       "h1_list": [
         "Phi Phi & Phuket Island Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 604,
+      "word_count": 807,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3507,15 +3642,16 @@
       "h1_list": [
         "Phi Phi & Railay Coastal Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 603,
+      "word_count": 806,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3530,15 +3666,16 @@
       "h1_list": [
         "Carnival Magic Show with Dinner"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 15,
-      "word_count": 586,
+      "word_count": 781,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3553,15 +3690,16 @@
       "h1_list": [
         "Elephant Sanctuary \u2013 Morning Program"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 15,
-      "word_count": 598,
+      "word_count": 793,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3577,8 +3715,8 @@
         "Explore Phuket Packages"
       ],
       "h2_count": 4,
-      "h3_count": 21,
-      "word_count": 837,
+      "h3_count": 17,
+      "word_count": 838,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3600,15 +3738,16 @@
       "h1_list": [
         "James Bond Island Speedboat Tour"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 15,
-      "word_count": 632,
+      "word_count": 827,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3623,15 +3762,16 @@
       "h1_list": [
         "Phi Phi Island &amp; Khai Island Tour with Lunch"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 15,
-      "word_count": 647,
+      "word_count": 850,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3646,15 +3786,16 @@
       "h1_list": [
         "Phuket Beach Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 11,
-      "word_count": 474,
+      "word_count": 671,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3669,15 +3810,16 @@
       "h1_list": [
         "Phuket Family Adventure"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 510,
+      "word_count": 707,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3692,15 +3834,16 @@
       "h1_list": [
         "Phuket FantaSea Show with Dinner"
       ],
-      "h2_count": 7,
+      "h2_count": 8,
       "h3_count": 15,
-      "word_count": 609,
+      "word_count": 804,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3715,15 +3858,16 @@
       "h1_list": [
         "Phuket &amp; Krabi Coastal Retreat"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 668,
+      "word_count": 869,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3738,15 +3882,16 @@
       "h1_list": [
         "Phuket &amp; Krabi Island Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 593,
+      "word_count": 794,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3761,15 +3906,16 @@
       "h1_list": [
         "Ultimate Thailand Explorer"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 17,
-      "word_count": 846,
+      "word_count": 1043,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3784,15 +3930,16 @@
       "h1_list": [
         "Intimate Thailand Island-City Stay"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 492,
+      "word_count": 691,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3807,15 +3954,16 @@
       "h1_list": [
         "Lively Thailand Kids Trail"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 449,
+      "word_count": 648,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3830,15 +3978,16 @@
       "h1_list": [
         "Measured Northern Thailand Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 560,
+      "word_count": 759,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3853,15 +4002,16 @@
       "h1_list": [
         "Vivid Bangkok & Pattaya Circuit"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 471,
+      "word_count": 672,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3876,15 +4026,16 @@
       "h1_list": [
         "Explore Trang Packages"
       ],
-      "h2_count": 2,
+      "h2_count": 3,
       "h3_count": 11,
-      "word_count": 413,
+      "word_count": 587,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3899,15 +4050,16 @@
       "h1_list": [
         "Southern Thailand Island Odyssey"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 16,
-      "word_count": 839,
+      "word_count": 1038,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3922,15 +4074,16 @@
       "h1_list": [
         "Trang & Koh Mook Family Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 12,
-      "word_count": 546,
+      "word_count": 749,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3945,15 +4098,16 @@
       "h1_list": [
         "Trang, Koh Mook & Krabi Island Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 687,
+      "word_count": 892,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3968,15 +4122,16 @@
       "h1_list": [
         "Trang & Krabi Coastal Discovery"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 593,
+      "word_count": 794,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3991,15 +4146,16 @@
       "h1_list": [
         "Trang Nature Escape"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 10,
-      "word_count": 464,
+      "word_count": 661,
       "images_count": 2,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4014,15 +4170,16 @@
       "h1_list": [
         "Carefree Krabi Phuket Break"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 478,
+      "word_count": 677,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4038,8 +4195,8 @@
         "Vietnam Tour Packages &amp; Halong Bay Cruises"
       ],
       "h2_count": 4,
-      "h3_count": 20,
-      "word_count": 663,
+      "h3_count": 16,
+      "word_count": 664,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4060,15 +4217,16 @@
       "h1_list": [
         "Curious Phu Quoc Island Quest"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 388,
+      "word_count": 589,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4083,15 +4241,16 @@
       "h1_list": [
         "Layered Vietnam Cultural Route"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 16,
-      "word_count": 511,
+      "word_count": 710,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4106,15 +4265,16 @@
       "h1_list": [
         "Hidden Vietnam Scenic Route"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 14,
-      "word_count": 476,
+      "word_count": 675,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4129,15 +4289,16 @@
       "h1_list": [
         "Legend Vietnam North South Route"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 15,
-      "word_count": 571,
+      "word_count": 772,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4152,15 +4313,16 @@
       "h1_list": [
         "Heritage Vietnam Cultural Passage"
       ],
-      "h2_count": 5,
+      "h2_count": 6,
       "h3_count": 13,
-      "word_count": 457,
+      "word_count": 656,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
-        "TouristTrip"
+        "TouristTrip",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -4242,8 +4404,8 @@
         "Services &amp; About Us"
       ],
       "h2_count": 5,
-      "h3_count": 25,
-      "word_count": 806,
+      "h3_count": 21,
+      "word_count": 807,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4266,8 +4428,8 @@
         "Thailand Sightseeing &amp; Attractions"
       ],
       "h2_count": 5,
-      "h3_count": 28,
-      "word_count": 959,
+      "h3_count": 23,
+      "word_count": 964,
       "images_count": 18,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4334,8 +4496,8 @@
         "Thailand Private Transfers"
       ],
       "h2_count": 6,
-      "h3_count": 27,
-      "word_count": 945,
+      "h3_count": 20,
+      "word_count": 952,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -5486,7 +5648,7 @@
   "structured_data_inventory": {
     "TravelAgency": 9,
     "BreadcrumbList": 179,
-    "FAQPage": 19,
+    "FAQPage": 181,
     "Service": 4,
     "WebSite": 1,
     "Organization": 1,

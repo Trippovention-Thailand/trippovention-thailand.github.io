@@ -82,44 +82,44 @@
     </script>
       <!-- FAQ Schema for Rich Results & AI Search Engines -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What should I bring on an island speedboat day trip?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We recommend bringing swimwear, a towel, reef-safe sunscreen, sunglasses, a waterproof phone pouch, and a small amount of cash for national park entry fees or personal purchases."
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+            {
+                  "@type": "Question",
+                  "name": "What should I bring on an island speedboat day trip?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We recommend bringing swimwear, a towel, reef-safe sunscreen, sunglasses, a waterproof phone pouch, and a small amount of cash for national park entry fees or personal purchases."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Are national park fees included?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Certain island tours like Phi Phi Islands or Ang Thong Marine Park have government park fees payable in cash at the pier unless specified as included in your private booking."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "What happens in case of bad weather?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "If the Marine Department issues a weather warning preventing boat departures, you can reschedule to another day or receive a full refund."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Can day trips be booked privately?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our day trips are available both as shared tours (SIC) or as private VIP excursions with private speedboats and vehicles."
+                  }
             }
-          },
-          {
-            "@type": "Question",
-            "name": "Are national park fees included?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Certain island tours like Phi Phi Islands or Ang Thong Marine Park have government park fees payable in cash at the pier unless specified as included in your private booking."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What happens in case of bad weather?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "If the Marine Department issues a weather warning preventing boat departures, you can reschedule to another day or receive a full refund."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can day trips be booked privately?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, all our day excursions can be booked on a private basis with dedicated vehicle, private boat charter, and exclusive guide for your family or group."
-            }
-          }
-        ]
-      }
+      ]
+}
     </script>
       <!-- Service Schema (Schema.org) -->
     <script type="application/ld+json">
@@ -561,29 +561,30 @@
       </section>
 
       <!-- FAQs -->
-      <section class="section alt" id="faq">
+            <!-- FAQ Section -->
+      <section class="section alt faq-section" id="faq">
         <div class="container">
           <div class="section-title">
             <h2>Frequently Asked Questions</h2>
             <p class="subtitle">Quick answers about our Thailand day trips and excursions</p>
           </div>
-          <div class="grid cols-2" style="gap: 24px; max-width: 1000px; margin: 0 auto;">
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">What should I bring on an island speedboat day trip?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">We recommend bringing swimwear, a towel, reef-safe sunscreen, sunglasses, a waterproof phone pouch, and a small amount of cash for national park entry fees or personal purchases.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Are national park fees included?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Certain island tours like Phi Phi Islands or Ang Thong Marine Park have government park fees payable in cash at the pier unless specified as included in your private booking.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">What happens in case of bad weather?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">If the Marine Department issues a weather warning preventing boat departures, you can reschedule to another day or receive a full refund.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Can day trips be booked privately?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes, all our day trips are available both as shared tours (SIC) or as private VIP excursions with private speedboats and vehicles.</p>
-            </div>
+          <div class="faq-container">
+            <details class="faq-item" open>
+              <summary class="faq-question"><span>What should I bring on an island speedboat day trip?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>We recommend bringing swimwear, a towel, reef-safe sunscreen, sunglasses, a waterproof phone pouch, and a small amount of cash for national park entry fees or personal purchases.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Are national park fees included?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Certain island tours like Phi Phi Islands or Ang Thong Marine Park have government park fees payable in cash at the pier unless specified as included in your private booking.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>What happens in case of bad weather?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>If the Marine Department issues a weather warning preventing boat departures, you can reschedule to another day or receive a full refund.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Can day trips be booked privately?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes, all our day trips are available both as shared tours (SIC) or as private VIP excursions with private speedboats and vehicles.</p></div>
+            </details>
           </div>
         </div>
       </section>
