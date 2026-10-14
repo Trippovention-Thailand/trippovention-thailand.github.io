@@ -1484,7 +1484,7 @@ def generate_tour_page(t):
               <br />
               <span>💬
                 <a href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer"
-                  >WhatsApp</a
+                  >WhatsApp: +66 94 693 4392</a
                 ></span
               >
             </div>
@@ -1499,7 +1499,10 @@ def generate_tour_page(t):
               <a href="../../../services.html">Services</a><br />
               <a href="sightseeing.html">Pattaya Sightseeing Catalogue</a><br />
               <a href="index.html">Pattaya Tour Packages</a><br />
-              <a href="../../../contact.html">Contact Us</a>
+              <a href="../../../contact.html">Contact</a><br />
+              <a href="../../../terms-and-conditions.html">Terms &amp; Conditions</a><br />
+              <a href="../../../privacy-policy.html">Privacy Policy</a><br />
+              <a href="../../../refund-policy.html">Refund Policy</a>
             </div>
           </div>
           <div>
@@ -1511,7 +1514,7 @@ def generate_tour_page(t):
               <h3 class="muted font-weight-600">Follow Us</h3>
               <div class="social-icons">
                 <a
-                  href="https://facebook.com/trippovention"
+                  href="https://www.facebook.com/profile.php?id=61590071764774"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Follow us on Facebook"
@@ -1527,7 +1530,7 @@ def generate_tour_page(t):
                   />
                 </a>
                 <a
-                  href="https://instagram.com/trippovention"
+                  href="https://www.instagram.com/trippoventioncoltd/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Follow us on Instagram"
@@ -1536,6 +1539,22 @@ def generate_tour_page(t):
                   <img
                     src="../../../assets/images/social/instagram.svg"
                     alt="Instagram"
+                    width="24"
+                    height="24"
+                    class="social-icon-white"
+                    loading="lazy"
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/@TrippoventionCoLtd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow us on YouTube"
+                  title="YouTube"
+                >
+                  <img
+                    src="../../../assets/images/social/youtube.svg"
+                    alt="YouTube"
                     width="24"
                     height="24"
                     class="social-icon-white"
@@ -1562,8 +1581,8 @@ def generate_tour_page(t):
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Trippovention. All rights reserved.</p>
+        <div class="text-center section-border-top mt-40 pt-30">
+          <p>© 2026 Trippovention. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
