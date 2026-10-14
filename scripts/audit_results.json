@@ -1,14 +1,14 @@
 {
   "summary": {
-    "total_pages": 188,
+    "total_pages": 248,
     "canonical_mismatches": 0,
     "missing_titles": 0,
     "short_titles": 0,
-    "long_titles": 62,
+    "long_titles": 71,
     "duplicate_titles": 0,
     "missing_meta_descriptions": 0,
     "short_meta_descriptions": 0,
-    "long_meta_descriptions": 101,
+    "long_meta_descriptions": 124,
     "duplicate_meta_descriptions": 0,
     "missing_h1": 0,
     "multiple_h1": 0,
@@ -77,7 +77,7 @@
       ],
       "h2_count": 5,
       "h3_count": 20,
-      "word_count": 854,
+      "word_count": 858,
       "images_count": 14,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -197,7 +197,7 @@
       ],
       "h2_count": 5,
       "h3_count": 20,
-      "word_count": 937,
+      "word_count": 941,
       "images_count": 14,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -476,9 +476,9 @@
         "Dynamic Ayutthaya, Pattaya & Bangkok Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 731,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 745,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -500,9 +500,9 @@
         "Enchanting Ayutthaya, Kanchanaburi & Bangkok Explorer"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 730,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 744,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -524,9 +524,9 @@
         "Heritage Ayutthaya Discovery"
       ],
       "h2_count": 6,
-      "h3_count": 10,
-      "word_count": 552,
-      "images_count": 2,
+      "h3_count": 11,
+      "word_count": 566,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -548,9 +548,9 @@
         "Imperial Ayutthaya & Bangkok Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 649,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 663,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -573,7 +573,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 627,
+      "word_count": 630,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -596,14 +596,86 @@
         "Romantic Ayutthaya & Hua Hin Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 656,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 670,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html": {
+      "rel_path": "packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html",
+      "title": "Ancient City (Muang Boran) & Erawan Museum Tour | Trippovention",
+      "description": "Visit the Ancient City (Muang Boran) and Erawan Museum in Samut Prakan from Bangkok. Explore the world's largest open-air museum and 250-ton three-headed bronze elephant.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html",
+      "h1_list": [
+        "Ancient City (Muang Boran) & Erawan Museum"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 755,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html": {
+      "rel_path": "packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html",
+      "title": "Ayutthaya Historical Park Full-Day Tour from Bangkok | Trippovention",
+      "description": "Explore the UNESCO World Heritage ancient capital of Ayutthaya on a full-day tour from Bangkok. Visit Wat Mahathat, Wat Chaiwatthanaram, and enjoy a Thai buffet lunch.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html",
+      "h1_list": [
+        "Ayutthaya Historical Park Full-Day Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 737,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/bangkok_canals_private_longtail_boat_tour.html": {
+      "rel_path": "packages/thailand/bangkok/bangkok_canals_private_longtail_boat_tour.html",
+      "title": "Bangkok Canals Private Longtail Boat Tour | Trippovention",
+      "description": "Cruise Bangkok's historic Thonburi canals on a private traditional wooden longtail boat. See traditional stilt houses, the giant Wat Paknam Buddha, and Baan Silapin.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/bangkok_canals_private_longtail_boat_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/bangkok_canals_private_longtail_boat_tour.html",
+      "h1_list": [
+        "Bangkok Canals Private Longtail Boat Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 721,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -621,13 +693,37 @@
       ],
       "h2_count": 6,
       "h3_count": 12,
-      "word_count": 668,
+      "word_count": 674,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html": {
+      "rel_path": "packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html",
+      "title": "Bangkok Midnight Food & Tuk Tuk Tour | Trippovention",
+      "description": "Zip through Bangkok's illuminated streets in a private tuk-tuk on an evening food tour. Taste Michelin-guide street food, visit Wat Pho at night, and explore the flower market.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html",
+      "h1_list": [
+        "Bangkok Midnight Food & Tuk Tuk Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 759,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -645,7 +741,7 @@
       ],
       "h2_count": 6,
       "h3_count": 17,
-      "word_count": 961,
+      "word_count": 967,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -669,13 +765,109 @@
       ],
       "h2_count": 6,
       "h3_count": 13,
-      "word_count": 732,
+      "word_count": 738,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/bangkok_temples_and_heritage_tour.html": {
+      "rel_path": "packages/thailand/bangkok/bangkok_temples_and_heritage_tour.html",
+      "title": "Bangkok Temples & Heritage Tour | Trippovention",
+      "description": "Experience Bangkok's most famous temples: the 5.5-ton solid gold Buddha at Wat Traimit, the Reclining Buddha at Wat Pho, and the Italian marble Wat Benchamabophit.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/bangkok_temples_and_heritage_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/bangkok_temples_and_heritage_tour.html",
+      "h1_list": [
+        "Bangkok Temples & Cultural Heritage Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 674,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/calypso_cabaret_show_bangkok.html": {
+      "rel_path": "packages/thailand/bangkok/calypso_cabaret_show_bangkok.html",
+      "title": "Calypso Cabaret Show Bangkok | Trippovention",
+      "description": "Experience Bangkok's legendary Calypso Cabaret show at Asiatique The Riverfront. Enjoy world-class Broadway-style dance, dazzling costumes, and comedy performances.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/calypso_cabaret_show_bangkok.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/calypso_cabaret_show_bangkok.html",
+      "h1_list": [
+        "Calypso Cabaret Show Bangkok"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 699,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/chao_phraya_river_sightseeing_cruise.html": {
+      "rel_path": "packages/thailand/bangkok/chao_phraya_river_sightseeing_cruise.html",
+      "title": "Chao Phraya River Sightseeing Cruise Bangkok | Trippovention",
+      "description": "Cruise the River of Kings in Bangkok with an unlimited hop-on hop-off Chao Phraya day pass. Discover Wat Arun, IconSiam, Grand Palace, and riverside heritage.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/chao_phraya_river_sightseeing_cruise.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/chao_phraya_river_sightseeing_cruise.html",
+      "h1_list": [
+        "Chao Phraya River Sightseeing Cruise"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 694,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/chinatown_yaowarat_street_food_tour.html": {
+      "rel_path": "packages/thailand/bangkok/chinatown_yaowarat_street_food_tour.html",
+      "title": "Chinatown & Yaowarat Street Food Tour Bangkok | Trippovention",
+      "description": "Explore Bangkok Chinatown (Yaowarat) on a guided evening walking food tour. Taste 6 to 8 Michelin Bib Gourmand street dishes, dim sum, and Thai-Chinese desserts.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/chinatown_yaowarat_street_food_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/chinatown_yaowarat_street_food_tour.html",
+      "h1_list": [
+        "Chinatown & Yaowarat Street Food Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 716,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -693,13 +885,37 @@
       ],
       "h2_count": 6,
       "h3_count": 12,
-      "word_count": 729,
+      "word_count": 735,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/damnoen_saduak_floating_market_tour.html": {
+      "rel_path": "packages/thailand/bangkok/damnoen_saduak_floating_market_tour.html",
+      "title": "Damnoen Saduak Floating Market Tour Bangkok | Trippovention",
+      "description": "Experience the world-famous Damnoen Saduak Floating Market from Bangkok. Ride a wooden paddle boat along narrow canals filled with fruit vendors and noodle boats.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/damnoen_saduak_floating_market_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/damnoen_saduak_floating_market_tour.html",
+      "h1_list": [
+        "Damnoen Saduak Floating Market Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 717,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -717,7 +933,31 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 763,
+      "word_count": 771,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/grand_palace_and_wat_phra_kaew_tour.html": {
+      "rel_path": "packages/thailand/bangkok/grand_palace_and_wat_phra_kaew_tour.html",
+      "title": "Grand Palace & Wat Phra Kaew Tour Bangkok | Trippovention",
+      "description": "Explore Bangkok's Grand Palace and Wat Phra Kaew (Temple of the Emerald Buddha) with a licensed guide. Discover Thai royal history and intricate temple art.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/grand_palace_and_wat_phra_kaew_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/grand_palace_and_wat_phra_kaew_tour.html",
+      "h1_list": [
+        "Grand Palace & Wat Phra Kaew Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 765,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -741,12 +981,60 @@
       ],
       "h2_count": 4,
       "h3_count": 17,
-      "word_count": 786,
+      "word_count": 792,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristDestination",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/madame_tussauds_bangkok.html": {
+      "rel_path": "packages/thailand/bangkok/madame_tussauds_bangkok.html",
+      "title": "Madame Tussauds Bangkok Tickets | Trippovention",
+      "description": "Visit Madame Tussauds Bangkok at Siam Discovery. Walk the red carpet with world leaders, sports legends, Hollywood actors, and Thai celebrities in 8 themed zones.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/madame_tussauds_bangkok.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/madame_tussauds_bangkok.html",
+      "h1_list": [
+        "Madame Tussauds Bangkok"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 721,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/maeklong_railway_market_and_floating_market_tour.html": {
+      "rel_path": "packages/thailand/bangkok/maeklong_railway_market_and_floating_market_tour.html",
+      "title": "Maeklong Railway Market & Floating Market Tour | Trippovention",
+      "description": "Experience two world-famous markets in one day from Bangkok: the folding umbrella market on the Maeklong train tracks and Damnoen Saduak Floating Market.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/maeklong_railway_market_and_floating_market_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/maeklong_railway_market_and_floating_market_tour.html",
+      "h1_list": [
+        "Maeklong Railway & Floating Market Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 763,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
         "BreadcrumbList",
         "FAQPage"
       ],
@@ -765,12 +1053,36 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 649,
+      "word_count": 655,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html": {
+      "rel_path": "packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html",
+      "title": "Mirinn Cabaret & Cultural Show Bangkok | Trippovention",
+      "description": "Watch the vibrant Mirinn Cabaret Show in Bangkok featuring traditional Thai martial arts, Muay Thai fight choreography, and dazzling transgender cabaret performances.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html",
+      "h1_list": [
+        "Mirinn Cabaret & Thai Cultural Show"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 678,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
         "BreadcrumbList",
         "FAQPage"
       ],
@@ -789,7 +1101,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 635,
+      "word_count": 619,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -813,12 +1125,108 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 660,
+      "word_count": 662,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/safari_world_open_zoo_drive_tour.html": {
+      "rel_path": "packages/thailand/bangkok/safari_world_open_zoo_drive_tour.html",
+      "title": "Safari World Open Zoo Drive Tour Bangkok | Trippovention",
+      "description": "Experience Bangkok's Safari World Open Zoo drive-through tour. View free-roaming lions, tigers, zebras, and giraffes in an open African-style savannah setting.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/safari_world_open_zoo_drive_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/safari_world_open_zoo_drive_tour.html",
+      "h1_list": [
+        "Safari World Open Zoo Drive Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 725,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/sea_life_bangkok_ocean_world.html": {
+      "rel_path": "packages/thailand/bangkok/sea_life_bangkok_ocean_world.html",
+      "title": "SEA LIFE Bangkok Ocean World Tickets | Trippovention",
+      "description": "Book discounted SEA LIFE Bangkok Ocean World tickets at Siam Paragon. Explore Southeast Asia's largest aquarium featuring 30,000 marine animals and a 270\u00b0 ocean tunnel.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/sea_life_bangkok_ocean_world.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/sea_life_bangkok_ocean_world.html",
+      "h1_list": [
+        "SEA LIFE Bangkok Ocean World"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 748,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/siam_amazing_park_bangkok.html": {
+      "rel_path": "packages/thailand/bangkok/siam_amazing_park_bangkok.html",
+      "title": "Siam Amazing Park Bangkok Tickets | Trippovention",
+      "description": "Book Siam Amazing Park Bangkok tickets. Enjoy the Guinness World Record giant wave pool, water slides, Vortex roller coaster, and unlimited rides in 5 themed zones.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/siam_amazing_park_bangkok.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/siam_amazing_park_bangkok.html",
+      "h1_list": [
+        "Siam Amazing Park (Water & Theme Park)"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 729,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/sightseeing.html": {
+      "rel_path": "packages/thailand/bangkok/sightseeing.html",
+      "title": "Bangkok Sightseeing Tours &amp; Attractions | Trippovention",
+      "description": "Explore Bangkok sightseeing tours, temples, river cruises, Safari World, city attractions and day trips. Enquire with Trippovention for current offers and travel arrangements.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/sightseeing.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/sightseeing.html",
+      "h1_list": [
+        "Discover the Best of Bangkok"
+      ],
+      "h2_count": 3,
+      "h3_count": 30,
+      "word_count": 1690,
+      "images_count": 30,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristDestination",
         "BreadcrumbList",
         "FAQPage"
       ],
@@ -837,7 +1245,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 646,
+      "word_count": 652,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -861,13 +1269,85 @@
       ],
       "h2_count": 6,
       "h3_count": 18,
-      "word_count": 1005,
+      "word_count": 1011,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/wat_arun_temple_of_dawn_tour.html": {
+      "rel_path": "packages/thailand/bangkok/wat_arun_temple_of_dawn_tour.html",
+      "title": "Wat Arun (Temple of Dawn) Tour Bangkok | Trippovention",
+      "description": "Discover Wat Arun (The Temple of Dawn) in Bangkok. Climb the iconic riverside prang adorned in colorful Chinese porcelain and enjoy Chao Phraya River views.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/wat_arun_temple_of_dawn_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/wat_arun_temple_of_dawn_tour.html",
+      "h1_list": [
+        "Wat Arun \u2013 Temple of Dawn Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 733,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/wat_pho_and_reclining_buddha_tour.html": {
+      "rel_path": "packages/thailand/bangkok/wat_pho_and_reclining_buddha_tour.html",
+      "title": "Wat Pho & Reclining Buddha Tour Bangkok | Trippovention",
+      "description": "Visit Wat Pho in Bangkok to see the 46-meter Reclining Buddha, mother-of-pearl soles, 91 royal chedis, and the historic birthplace of traditional Thai massage.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/wat_pho_and_reclining_buddha_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/wat_pho_and_reclining_buddha_tour.html",
+      "h1_list": [
+        "Wat Pho & Reclining Buddha Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 729,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/bangkok/white_orchid_river_dinner_cruise.html": {
+      "rel_path": "packages/thailand/bangkok/white_orchid_river_dinner_cruise.html",
+      "title": "White Orchid Chao Phraya Dinner Cruise Bangkok | Trippovention",
+      "description": "Sail aboard the White Orchid Chao Phraya River Dinner Cruise in Bangkok. Enjoy an international seafood buffet, live cabaret show, music, and illuminated temple views.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/white_orchid_river_dinner_cruise.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/white_orchid_river_dinner_cruise.html",
+      "h1_list": [
+        "White Orchid Chao Phraya Dinner Cruise"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 732,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -884,9 +1364,9 @@
         "Breathtaking Northern Thailand Expedition"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 790,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 805,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -908,9 +1388,9 @@
         "Charming Chiang Mai Cultural Retreat"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 704,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 719,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -932,9 +1412,9 @@
         "Doi Inthanon National Park Full-Day Tour"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 861,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 864,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -956,9 +1436,9 @@
         "Enchanting Chiang Mai Highland Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 746,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 761,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -980,9 +1460,9 @@
         "Giant Rain Tree &amp; Sticky Waterfall Tour"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 823,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 826,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1005,7 +1485,7 @@
       ],
       "h2_count": 4,
       "h3_count": 17,
-      "word_count": 933,
+      "word_count": 699,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1028,9 +1508,9 @@
         "Kerchor Elephant Eco Park Half-Day Tour"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 848,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 851,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1052,9 +1532,9 @@
         "Khantoke Dinner &amp; Cultural Show"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 860,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 863,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1077,7 +1557,7 @@
       ],
       "h2_count": 6,
       "h3_count": 15,
-      "word_count": 821,
+      "word_count": 825,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1100,9 +1580,9 @@
         "Scenic Northern Thailand Journey"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 761,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 776,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1124,9 +1604,9 @@
         "White &amp; Blue Temple Full-Day Cultural Tour"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 903,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 906,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1149,7 +1629,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 801,
+      "word_count": 805,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1173,7 +1653,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 799,
+      "word_count": 803,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1196,9 +1676,9 @@
         "Elegant Chiang Rai Cultural Retreat"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 692,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 707,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1220,9 +1700,9 @@
         "Enchanting Northern Heritage Journey"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 867,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 882,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1244,9 +1724,9 @@
         "Exquisite Chiang Rai Nature Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 731,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 746,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1269,7 +1749,7 @@
       ],
       "h2_count": 4,
       "h3_count": 15,
-      "word_count": 812,
+      "word_count": 619,
       "images_count": 14,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1292,9 +1772,9 @@
         "Splendid Northern Thailand Trail"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 763,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 778,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1316,9 +1796,9 @@
         "Vibrant Northern Thailand & Bangkok Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 840,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 855,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1341,7 +1821,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 775,
+      "word_count": 779,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1364,9 +1844,9 @@
         "Coastal Hua Hin Serenity Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 688,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 703,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1389,7 +1869,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 631,
+      "word_count": 635,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1412,9 +1892,9 @@
         "Luminous Coast & City Discovery"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 750,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 765,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1436,9 +1916,9 @@
         "Mesmerizing Coastal Thailand Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 779,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 794,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1460,9 +1940,9 @@
         "Radiant Heritage & Coastal Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 729,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 744,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1484,9 +1964,9 @@
         "Timeless Thailand Heritage Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 808,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 823,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1531,9 +2011,9 @@
         "Crystal Koh Larn Island Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 626,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 641,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1556,7 +2036,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 632,
+      "word_count": 636,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1579,9 +2059,9 @@
         "Playful Koh Larn, Ayutthaya & Bangkok Explorer"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 720,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 735,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1603,9 +2083,9 @@
         "Serene Koh Larn, Hua Hin & Bangkok Retreat"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 765,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 780,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1627,9 +2107,9 @@
         "Tropical Koh Larn & Pattaya Romance"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 677,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 692,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1651,9 +2131,9 @@
         "Vibrant Koh Larn, Pattaya & Bangkok Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 748,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 763,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1675,9 +2155,9 @@
         "Enchanting Koh Mook, Koh Lanta & Krabi Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 799,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 814,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1700,7 +2180,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 624,
+      "word_count": 628,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1723,9 +2203,9 @@
         "Picturesque Koh Mook, Krabi & Phuket Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 793,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 808,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1747,9 +2227,9 @@
         "Scenic Koh Mook & Krabi Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 690,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 705,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1771,9 +2251,9 @@
         "Serene Koh Mook & Trang Discovery"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 697,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 712,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1795,9 +2275,9 @@
         "Tranquil Koh Mook Island Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 611,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 626,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1820,7 +2300,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 625,
+      "word_count": 629,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -1843,9 +2323,9 @@
         "Koh Phangan Full Moon Festival Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 767,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 782,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1867,9 +2347,9 @@
         "Koh Phangan & Koh Samui Island Escape"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 826,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 841,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1891,9 +2371,9 @@
         "Koh Phangan Tropical Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 681,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 696,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1915,9 +2395,9 @@
         "Southern Thailand Coastal Explorer"
       ],
       "h2_count": 6,
-      "h3_count": 15,
-      "word_count": 943,
-      "images_count": 2,
+      "h3_count": 16,
+      "word_count": 958,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1939,9 +2419,9 @@
         "Southern Thailand Island & Heritage Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 902,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 917,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1963,9 +2443,9 @@
         "Azure Koh Samet Beach Retreat"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 620,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 635,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -1988,7 +2468,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 662,
+      "word_count": 666,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2011,9 +2491,9 @@
         "Radiant Koh Samet & Pattaya Escape"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 724,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 739,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2035,9 +2515,9 @@
         "Serene Koh Samet & Bangkok Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 692,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 707,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2059,9 +2539,9 @@
         "Splendid Koh Samet, Pattaya & Bangkok Journey"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 754,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 769,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2083,9 +2563,9 @@
         "Timeless Koh Samet, Hua Hin & Bangkok Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 772,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 787,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2108,7 +2588,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 835,
+      "word_count": 839,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2132,7 +2612,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 730,
+      "word_count": 734,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2156,7 +2636,7 @@
       ],
       "h2_count": 4,
       "h3_count": 17,
-      "word_count": 872,
+      "word_count": 613,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2180,7 +2660,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 786,
+      "word_count": 790,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2204,7 +2684,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 784,
+      "word_count": 788,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2228,7 +2708,7 @@
       ],
       "h2_count": 6,
       "h3_count": 15,
-      "word_count": 866,
+      "word_count": 870,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2252,7 +2732,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 799,
+      "word_count": 803,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2275,9 +2755,9 @@
         "Koh Samui Tropical Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 706,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 721,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2299,9 +2779,9 @@
         "Southern Thailand Island Explorer"
       ],
       "h2_count": 6,
-      "h3_count": 15,
-      "word_count": 833,
-      "images_count": 2,
+      "h3_count": 16,
+      "word_count": 848,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2323,9 +2803,9 @@
         "Southern Thailand Island & Heritage Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 890,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 905,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2347,9 +2827,9 @@
         "Ultimate Southern Thailand Escape"
       ],
       "h2_count": 6,
-      "h3_count": 16,
-      "word_count": 867,
-      "images_count": 2,
+      "h3_count": 17,
+      "word_count": 882,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2371,9 +2851,9 @@
         "Celestial Koh Yao Yai Island Retreat"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 638,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 654,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2395,9 +2875,9 @@
         "Enchanting Koh Yao Yai & Krabi Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 688,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 704,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2419,9 +2899,9 @@
         "Exquisite Koh Yao Yai, Phi Phi Island & Krabi Escape"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 759,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 775,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2443,9 +2923,9 @@
         "Harmonious Koh Yao Yai, Phuket & Krabi Escape"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 764,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 780,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2468,7 +2948,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 642,
+      "word_count": 647,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2491,9 +2971,9 @@
         "Pristine Koh Yao Yai & Phuket Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 678,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 694,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2516,7 +2996,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 745,
+      "word_count": 749,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2540,7 +3020,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 759,
+      "word_count": 763,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2564,7 +3044,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 777,
+      "word_count": 781,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2588,7 +3068,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 789,
+      "word_count": 795,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2612,7 +3092,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 813,
+      "word_count": 819,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2636,7 +3116,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 814,
+      "word_count": 818,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2660,7 +3140,7 @@
       ],
       "h2_count": 4,
       "h3_count": 17,
-      "word_count": 822,
+      "word_count": 828,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2684,7 +3164,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 747,
+      "word_count": 751,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2708,7 +3188,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 721,
+      "word_count": 725,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2732,7 +3212,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 810,
+      "word_count": 816,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2756,7 +3236,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 801,
+      "word_count": 805,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2780,7 +3260,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 821,
+      "word_count": 827,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2804,7 +3284,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 795,
+      "word_count": 799,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2828,7 +3308,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 742,
+      "word_count": 746,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2852,7 +3332,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 747,
+      "word_count": 751,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2876,7 +3356,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 785,
+      "word_count": 789,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2899,9 +3379,9 @@
         "Krabi Family Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 729,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 746,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2924,7 +3404,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 787,
+      "word_count": 793,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2948,7 +3428,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 764,
+      "word_count": 768,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -2971,9 +3451,9 @@
         "Krabi &amp; Phuket Coastal Romance"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 794,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 811,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -2995,9 +3475,9 @@
         "Krabi & Phuket Nature Retreat"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 869,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 886,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3020,7 +3500,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 768,
+      "word_count": 772,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3043,9 +3523,9 @@
         "Krabi Tropical Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 664,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 681,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3068,7 +3548,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 794,
+      "word_count": 798,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3092,7 +3572,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 793,
+      "word_count": 797,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3116,7 +3596,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 761,
+      "word_count": 765,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3140,7 +3620,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 789,
+      "word_count": 793,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3163,9 +3643,9 @@
         "Discover More of Krabi"
       ],
       "h2_count": 3,
-      "h3_count": 29,
-      "word_count": 2313,
-      "images_count": 26,
+      "h3_count": 30,
+      "word_count": 1312,
+      "images_count": 30,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3188,7 +3668,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 724,
+      "word_count": 728,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3211,9 +3691,9 @@
         "Thailand Coastal Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 17,
-      "word_count": 1079,
-      "images_count": 2,
+      "h3_count": 18,
+      "word_count": 1096,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3236,7 +3716,7 @@
       ],
       "h2_count": 8,
       "h3_count": 13,
-      "word_count": 793,
+      "word_count": 797,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3259,9 +3739,57 @@
         "Alcazar Cabaret Show (Private Transfer)"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 791,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 775,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/art_in_paradise_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/art_in_paradise_pattaya.html",
+      "title": "Art in Paradise Pattaya 3D Optical Illusion Museum | Trippovention",
+      "description": "Immerse yourself in 140+ interactive 3D trompe-l'\u0153il paintings at Art in Paradise Pattaya. Pose inside surreal landscapes, safari scenes, and classic art parodies.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/art_in_paradise_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/art_in_paradise_pattaya.html",
+      "h1_list": [
+        "Art in Paradise 3D Museum"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 724,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/atv_off_road_adventure_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/atv_off_road_adventure_pattaya.html",
+      "title": "ATV Off-Road Adventure Tour Pattaya | Trippovention",
+      "description": "Conquer Pattaya's rugged backcountry on a guided ATV quad-bike tour. Ride through red-dirt tracks, jungle trails, mud ruts, and scenic pineapple farms.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/atv_off_road_adventure_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/atv_off_road_adventure_pattaya.html",
+      "h1_list": [
+        "ATV Off-Road Adventure Pattaya"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 741,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3284,13 +3812,61 @@
       ],
       "h2_count": 6,
       "h3_count": 12,
-      "word_count": 760,
+      "word_count": 766,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/colosseum_cabaret_show_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/colosseum_cabaret_show_pattaya.html",
+      "title": "Colosseum Cabaret Show Pattaya Tickets & Transfers | Trippovention",
+      "description": "Book Colosseum Show Pattaya tickets with Trippovention. Enjoy 14 magnificent musical dance acts in Pattaya's largest Roman colosseum-style theatre.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/colosseum_cabaret_show_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/colosseum_cabaret_show_pattaya.html",
+      "h1_list": [
+        "Colosseum Cabaret Show Pattaya"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 678,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/columbia_pictures_aquaverse_tickets.html": {
+      "rel_path": "packages/thailand/pattaya/columbia_pictures_aquaverse_tickets.html",
+      "title": "Columbia Pictures Aquaverse Water Park Tickets Pattaya | Trippovention",
+      "description": "Book Columbia Pictures Aquaverse tickets in Pattaya. Enjoy themed water rides, Ghostbusters proton stream, Jumanji jungle drop, Bad Boys go-karts & wave pool.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/columbia_pictures_aquaverse_tickets.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/columbia_pictures_aquaverse_tickets.html",
+      "h1_list": [
+        "Columbia Pictures Aquaverse Water Park"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 786,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3307,9 +3883,9 @@
         "Coral Island Tour (Koh Larn)"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 813,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 801,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3331,9 +3907,33 @@
         "Dolphin Show with Tiger Park"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 789,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 762,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/harborland_pattaya_tickets.html": {
+      "rel_path": "packages/thailand/pattaya/harborland_pattaya_tickets.html",
+      "title": "HarborLand Pattaya Indoor Playground Day Pass | Trippovention",
+      "description": "Treat your family to HarborLand Pattaya indoor playground at Harbor Mall. Featuring European-safety certified multi-tier climbing structures, slides, and ninja courses.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/harborland_pattaya_tickets.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/harborland_pattaya_tickets.html",
+      "h1_list": [
+        "HarborLand Indoor Playground Pattaya"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 739,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3356,7 +3956,7 @@
       ],
       "h2_count": 4,
       "h3_count": 17,
-      "word_count": 817,
+      "word_count": 823,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3364,6 +3964,102 @@
         "TouristDestination",
         "FAQPage",
         "BreadcrumbList"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/khao_chi_chan_and_wat_yan_tour.html": {
+      "rel_path": "packages/thailand/pattaya/khao_chi_chan_and_wat_yan_tour.html",
+      "title": "Khao Chi Chan & Wat Yansangwararam Tour Pattaya | Trippovention",
+      "description": "Tour Pattaya's cultural crown jewels: the 109-meter cliff-carved laser Buddha at Khao Chi Chan, the serene royal monastery of Wat Yansangwararam, and Viharn Sien.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/khao_chi_chan_and_wat_yan_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/khao_chi_chan_and_wat_yan_tour.html",
+      "h1_list": [
+        "Khao Chi Chan & Wat Yansangwararam Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 787,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/khao_kheow_open_zoo_tour.html": {
+      "rel_path": "packages/thailand/pattaya/khao_kheow_open_zoo_tour.html",
+      "title": "Khao Kheow Open Zoo Excursion Pattaya with Transfers | Trippovention",
+      "description": "Day trip from Pattaya to Khao Kheow Open Zoo. Travel through sprawling open wildlife habitats, home to pygmy hippos, white lions, rhinos, giraffes, and lemurs.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/khao_kheow_open_zoo_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/khao_kheow_open_zoo_tour.html",
+      "h1_list": [
+        "Khao Kheow Open Zoo Excursion"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 751,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/koh_larn_private_speedboat_tour.html": {
+      "rel_path": "packages/thailand/pattaya/koh_larn_private_speedboat_tour.html",
+      "title": "Koh Larn Private Speedboat Charter from Pattaya | Trippovention",
+      "description": "Charter an exclusive private speedboat from Pattaya to Koh Larn (Coral Island). Visit secluded beaches (Tawaen, Tien, Samae) at your own schedule without crowds.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/koh_larn_private_speedboat_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/koh_larn_private_speedboat_tour.html",
+      "h1_list": [
+        "Koh Larn Private Speedboat Charter"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 755,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/max_muay_thai_stadium_tickets.html": {
+      "rel_path": "packages/thailand/pattaya/max_muay_thai_stadium_tickets.html",
+      "title": "Max Muay Thai Stadium Pattaya Live Fight Tickets | Trippovention",
+      "description": "Watch real, hard-hitting live Muay Thai bouts at Max Muay Thai Stadium in Pattaya. Ringside and stadium seats with hotel transfer options.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/max_muay_thai_stadium_tickets.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/max_muay_thai_stadium_tickets.html",
+      "h1_list": [
+        "Max Muay Thai Stadium Live Fights"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 733,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
       ],
       "internal_links_out": [],
       "is_in_sitemap": true
@@ -3379,9 +4075,9 @@
         "Nong Nooch Tropical Garden (Private Transfer)"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 822,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 810,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3404,7 +4100,7 @@
       ],
       "h2_count": 6,
       "h3_count": 13,
-      "word_count": 785,
+      "word_count": 791,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3428,13 +4124,37 @@
       ],
       "h2_count": 6,
       "h3_count": 11,
-      "word_count": 597,
+      "word_count": 603,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/pattaya_city_landmarks_tour.html": {
+      "rel_path": "packages/thailand/pattaya/pattaya_city_landmarks_tour.html",
+      "title": "Pattaya City Highlights & Landmarks Tour | Trippovention",
+      "description": "Discover the best of Pattaya in half a day. Take in the crescent bay views from Pratumnak Viewpoint, ascend Wat Phra Yai's Golden Buddha, and cruise Beach Road.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_city_landmarks_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_city_landmarks_tour.html",
+      "h1_list": [
+        "Pattaya City Highlights & Landmarks Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 758,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3451,9 +4171,57 @@
         "Pattaya City Tour with Colosseum Show"
       ],
       "h2_count": 8,
-      "h3_count": 12,
-      "word_count": 827,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 807,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/pattaya_dolphinarium_show.html": {
+      "rel_path": "packages/thailand/pattaya/pattaya_dolphinarium_show.html",
+      "title": "Pattaya Dolphinarium Dolphin & Seal Show Tickets | Trippovention",
+      "description": "Experience the spectacular dolphin and South American fur seal show at Pattaya Dolphinarium. Enjoy acrobatic stunts, synchronized leaps, and photo sessions.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_dolphinarium_show.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_dolphinarium_show.html",
+      "h1_list": [
+        "Pattaya Dolphinarium Dolphin & Seal Show"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 731,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/pattaya_elephant_sanctuary_tour.html": {
+      "rel_path": "packages/thailand/pattaya/pattaya_elephant_sanctuary_tour.html",
+      "title": "Ethical Elephant Sanctuary Experience Pattaya | Trippovention",
+      "description": "Experience a truly ethical elephant encounter in Pattaya. Prepare nutrient-rich fruit balls, join elephants for a mud spa and natural bath without riding.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_elephant_sanctuary_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_elephant_sanctuary_tour.html",
+      "h1_list": [
+        "Pattaya Elephant Sanctuary Experience"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 748,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3476,13 +4244,157 @@
       ],
       "h2_count": 6,
       "h3_count": 14,
-      "word_count": 778,
+      "word_count": 784,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/pattaya_golf_package_with_transfers.html": {
+      "rel_path": "packages/thailand/pattaya/pattaya_golf_package_with_transfers.html",
+      "title": "Pattaya Championship Golf Package with Private Transfers | Trippovention",
+      "description": "Book a premier 18-hole golf package in Pattaya with Trippovention. Play top-ranked championship courses with private roundtrip transfers, motorized cart, and caddy.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_golf_package_with_transfers.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_golf_package_with_transfers.html",
+      "h1_list": [
+        "Pattaya Championship Golf Package"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 764,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/pattaya_sunset_catamaran_cruise.html": {
+      "rel_path": "packages/thailand/pattaya/pattaya_sunset_catamaran_cruise.html",
+      "title": "Pattaya Sunset Catamaran Cruise & Island Snorkel | Trippovention",
+      "description": "Sail into the Gulf of Thailand aboard a luxury catamaran cruise from Ocean Marina Pattaya. Enjoy snorkeling at Koh Phai, onboard BBQ dinner, and ocean sunset.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_sunset_catamaran_cruise.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/pattaya_sunset_catamaran_cruise.html",
+      "h1_list": [
+        "Pattaya Sunset Catamaran Cruise"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 739,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/ramayana_water_park_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/ramayana_water_park_pattaya.html",
+      "title": "Ramayana Water Park Pattaya Tickets & Day Pass | Trippovention",
+      "description": "Spend an exhilarating day at Ramayana Water Park Pattaya. 21 thrilling water slides, 2 dedicated kids zones, lazy river, and crystal-clear spring-fed pools.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/ramayana_water_park_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/ramayana_water_park_pattaya.html",
+      "h1_list": [
+        "Ramayana Water Park Pattaya"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 755,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/sanctuary_of_truth_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/sanctuary_of_truth_pattaya.html",
+      "title": "Sanctuary of Truth Museum Pattaya Admission & Guided Tour | Trippovention",
+      "description": "Visit Pattaya's Sanctuary of Truth Museum (Prasat Sut Ja-Tum) with admission, hard hat, and guided tour. Discover traditional hand-carved wood architecture.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/sanctuary_of_truth_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/sanctuary_of_truth_pattaya.html",
+      "h1_list": [
+        "Sanctuary of Truth Museum Guided Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 833,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/scuba_diving_and_snorkeling_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/scuba_diving_and_snorkeling_pattaya.html",
+      "title": "Pattaya Scuba Diving & Snorkeling Day Trip | Trippovention",
+      "description": "Dive and snorkel in Pattaya's tropical waters. Full-day boat excursion with 2 dives, PADI certified instructors, coral reefs, sea turtles, and buffet lunch.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/scuba_diving_and_snorkeling_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/scuba_diving_and_snorkeling_pattaya.html",
+      "h1_list": [
+        "Pattaya Scuba Diving & Snorkeling Day Trip"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 774,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/sightseeing.html": {
+      "rel_path": "packages/thailand/pattaya/sightseeing.html",
+      "title": "Pattaya Sightseeing Tours &amp; Attractions | Trippovention",
+      "description": "Explore Pattaya sightseeing tours, Coral Island trips, water parks, tropical gardens and cabaret shows. Enquire with Trippovention for current offers.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/sightseeing.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/sightseeing.html",
+      "h1_list": [
+        "Discover the Best of Pattaya"
+      ],
+      "h2_count": 3,
+      "h3_count": 30,
+      "word_count": 1678,
+      "images_count": 30,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristDestination",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3500,13 +4412,61 @@
       ],
       "h2_count": 6,
       "h3_count": 15,
-      "word_count": 850,
+      "word_count": 856,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/tiffanys_show_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/tiffanys_show_pattaya.html",
+      "title": "Tiffany's Show Pattaya World-Class Cabaret Tickets | Trippovention",
+      "description": "Reserve Tiffany's Show Pattaya tickets. Southeast Asia's pioneer cabaret spectacular featuring glamorous Broadway-style sets, extravagant costumes, and theatrical music.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/tiffanys_show_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/tiffanys_show_pattaya.html",
+      "h1_list": [
+        "Tiffany's Show Pattaya"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 726,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/pattaya/underwater_world_pattaya.html": {
+      "rel_path": "packages/thailand/pattaya/underwater_world_pattaya.html",
+      "title": "Underwater World Pattaya Aquarium Tickets & Tunnel Tour | Trippovention",
+      "description": "Explore Underwater World Pattaya with tickets from Trippovention. Walk through the 100-meter underwater tunnel with sharks, giant stingrays, and coral reefs.",
+      "canonical": "https://trippovention.co.th/packages/thailand/pattaya/underwater_world_pattaya.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/pattaya/underwater_world_pattaya.html",
+      "h1_list": [
+        "Underwater World Pattaya"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 717,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3523,9 +4483,9 @@
         "Andaman Island Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 836,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 852,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3547,9 +4507,9 @@
         "Andaman Island Serenity Escape"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 788,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 804,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3572,7 +4532,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 707,
+      "word_count": 540,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3595,9 +4555,9 @@
         "Phi Phi Island Paradise Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 690,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 706,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3619,9 +4579,9 @@
         "Phi Phi & Phuket Island Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 814,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 830,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3643,14 +4603,62 @@
         "Phi Phi & Railay Coastal Escape"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 813,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 829,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/andamanda_phuket_water_park_tickets.html": {
+      "rel_path": "packages/thailand/phuket/andamanda_phuket_water_park_tickets.html",
+      "title": "Andamanda Phuket Water Park Admission Tickets | Trippovention",
+      "description": "Book Andamanda Phuket water park tickets. Enjoy 5 themed zones based on Thai mythology, thrilling drop slides, lazy river, and Southeast Asia's biggest wave pool.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/andamanda_phuket_water_park_tickets.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/andamanda_phuket_water_park_tickets.html",
+      "h1_list": [
+        "Andamanda Phuket Water Park Day Pass"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 835,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/aquaria_phuket_tickets.html": {
+      "rel_path": "packages/thailand/phuket/aquaria_phuket_tickets.html",
+      "title": "Aquaria Phuket & AR Trick Eye Museum Tickets | Trippovention",
+      "description": "Visit Aquaria Phuket at Central Phuket Floresta. Explore 4 thematic ocean zones, stingray feeding, mermaid shows, and the mind-bending AR Trick Eye Museum.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/aquaria_phuket_tickets.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/aquaria_phuket_tickets.html",
+      "h1_list": [
+        "Aquaria Phuket & AR Trick Eye Museum"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 850,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3668,12 +4676,36 @@
       ],
       "h2_count": 8,
       "h3_count": 15,
-      "word_count": 788,
+      "word_count": 805,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/coral_and_racha_island_tour.html": {
+      "rel_path": "packages/thailand/phuket/coral_and_racha_island_tour.html",
+      "title": "Coral & Racha Island Speedboat Snorkeling Tour from Phuket | Trippovention",
+      "description": "Discover Coral Island (Koh Hey) and Racha Yai on a full-day speedboat excursion from Phuket. Enjoy white sandy beaches, vibrant coral reefs, and buffet lunch.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/coral_and_racha_island_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/coral_and_racha_island_tour.html",
+      "h1_list": [
+        "Coral & Racha Island Speedboat Day Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 831,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
         "BreadcrumbList",
         "FAQPage"
       ],
@@ -3704,6 +4736,30 @@
       "internal_links_out": [],
       "is_in_sitemap": true
     },
+    "packages/thailand/phuket/hanuman_world_zipline_and_atv_adventure.html": {
+      "rel_path": "packages/thailand/phuket/hanuman_world_zipline_and_atv_adventure.html",
+      "title": "Hanuman World Zipline & ATV Jungle Adventure Phuket | Trippovention",
+      "description": "Experience Hanuman World Phuket with treetop ziplines, roller zipline, sky walk, and thrilling off-road ATV quad biking through lush tropical rainforests.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/hanuman_world_zipline_and_atv_adventure.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/hanuman_world_zipline_and_atv_adventure.html",
+      "h1_list": [
+        "Hanuman World Zipline & ATV Adventure"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 801,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
     "packages/thailand/phuket/index.html": {
       "rel_path": "packages/thailand/phuket/index.html",
       "title": "Phuket Tour Packages, Island Tours &amp; Stays | Trippovention",
@@ -3716,7 +4772,7 @@
       ],
       "h2_count": 4,
       "h3_count": 17,
-      "word_count": 845,
+      "word_count": 852,
       "images_count": 16,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3740,12 +4796,36 @@
       ],
       "h2_count": 8,
       "h3_count": 15,
-      "word_count": 834,
+      "word_count": 853,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/khao_sok_national_park_day_trip.html": {
+      "rel_path": "packages/thailand/phuket/khao_sok_national_park_day_trip.html",
+      "title": "Khao Sok National Park & Cheow Lan Lake Day Trip from Phuket | Trippovention",
+      "description": "Experience Khao Sok National Park and Cheow Lan Lake on a day trip from Phuket. Scenic longtail cruise, emerald waters, limestone pinnacles, and swimming at floating bungalows.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/khao_sok_national_park_day_trip.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/khao_sok_national_park_day_trip.html",
+      "h1_list": [
+        "Khao Sok National Park & Cheow Lan Lake Excursion"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 846,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
         "BreadcrumbList",
         "FAQPage"
       ],
@@ -3764,12 +4844,36 @@
       ],
       "h2_count": 8,
       "h3_count": 15,
-      "word_count": 857,
+      "word_count": 870,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "TouristAttraction",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html": {
+      "rel_path": "packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html",
+      "title": "Phi Phi, Maya Bay & Bamboo Island Premium Speedboat Tour | Trippovention",
+      "description": "Book premium Phi Phi Islands speedboat tour from Phuket including Maya Bay, crystal-clear Pileh Lagoon swimming, Viking Cave, Monkey Beach, and Bamboo Island lunch.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html",
+      "h1_list": [
+        "Phi Phi, Maya Bay & Bamboo Island Premium Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 895,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
         "BreadcrumbList",
         "FAQPage"
       ],
@@ -3787,14 +4891,38 @@
         "Phuket Beach Escape"
       ],
       "h2_count": 6,
-      "h3_count": 11,
-      "word_count": 678,
-      "images_count": 2,
+      "h3_count": 12,
+      "word_count": 695,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_city_highlights_tour.html": {
+      "rel_path": "packages/thailand/phuket/phuket_city_highlights_tour.html",
+      "title": "Phuket City Highlights & Landmarks Tour | Trippovention",
+      "description": "Explore Phuket's cultural landmarks and viewpoints on a guided city tour. Visit Karon Viewpoint, Big Buddha, Wat Chalong, and charming Sino-Portuguese Phuket Old Town.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_city_highlights_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_city_highlights_tour.html",
+      "h1_list": [
+        "Phuket City Highlights & Landmarks Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 872,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3811,9 +4939,9 @@
         "Phuket Family Adventure"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 714,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 731,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -3836,7 +4964,7 @@
       ],
       "h2_count": 8,
       "h3_count": 15,
-      "word_count": 811,
+      "word_count": 830,
       "images_count": 7,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3860,7 +4988,7 @@
       ],
       "h2_count": 6,
       "h3_count": 15,
-      "word_count": 876,
+      "word_count": 882,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -3883,14 +5011,327 @@
         "Phuket &amp; Krabi Island Discovery"
       ],
       "h2_count": 6,
-      "h3_count": 13,
-      "word_count": 801,
-      "images_count": 2,
+      "h3_count": 14,
+      "word_count": 818,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
         "BreadcrumbList",
         "TouristTrip",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html": {
+      "rel_path": "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
+      "title": "Phuket Luxury Thai Spa & Wellness Treatment Packages | Trippovention",
+      "description": "Rejuvenate body and mind with luxury Thai spa packages in Phuket. Featuring traditional herbal compresses, warm coconut oil massages, body scrubs, and peaceful botanical gardens.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
+      "h1_list": [
+        "Phuket Luxury Thai Spa & Wellness Retreat"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 804,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html": {
+      "rel_path": "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html",
+      "title": "Phuket Old Town Heritage & Street Food Walking Tour | Trippovention",
+      "description": "Explore Phuket Old Town with a local heritage guide. Discover Sino-Portuguese shophouses, street art murals, historic Chinese shrines, and authentic Peranakan delicacies.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html",
+      "h1_list": [
+        "Phuket Old Town Heritage & Street Food Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 850,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_private_yacht_charter.html": {
+      "rel_path": "packages/thailand/phuket/phuket_private_yacht_charter.html",
+      "title": "Phuket Private Luxury Yacht & Catamaran Charter | Trippovention",
+      "description": "Charter a private luxury motor yacht or sailing catamaran in Phuket. Tailored island-hopping itineraries, snorkeling equipment, stand-up paddleboards, and VIP hospitality.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_private_yacht_charter.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_private_yacht_charter.html",
+      "h1_list": [
+        "Phuket Private Luxury Yacht Charter"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 875,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_scuba_diving_day_trip.html": {
+      "rel_path": "packages/thailand/phuket/phuket_scuba_diving_day_trip.html",
+      "title": "Phuket Scuba Diving Day Trip to Racha Yai (2 Dives) | Trippovention",
+      "description": "Experience premier scuba diving from Phuket at Racha Yai Island. Includes 2 guided boat dives, full scuba gear, PADI divemasters, and onboard breakfast & buffet lunch.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_scuba_diving_day_trip.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_scuba_diving_day_trip.html",
+      "h1_list": [
+        "Phuket Scuba Diving Day Trip (Racha Yai)"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 865,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_sunset_catamaran_cruise.html": {
+      "rel_path": "packages/thailand/phuket/phuket_sunset_catamaran_cruise.html",
+      "title": "Phuket Sunset Catamaran Yacht Cruise to Promthep Cape | Trippovention",
+      "description": "Sail the Andaman Sea on a luxury sailing catamaran cruise from Phuket. Witness spectacular sunsets at Promthep Cape, enjoy snorkeling, drinks, and barbecue dinner on board.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_sunset_catamaran_cruise.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_sunset_catamaran_cruise.html",
+      "h1_list": [
+        "Phuket Sunset Catamaran Yacht Cruise"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 840,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html": {
+      "rel_path": "packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html",
+      "title": "Phuket Surfing & Stand-Up Paddleboard Lessons & Hire | Trippovention",
+      "description": "Learn to surf or stand-up paddleboard on Kata and Bang Tao beaches in Phuket. Includes ISA-certified coaching, rashguard, premium board rental, and safety instruction.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html",
+      "h1_list": [
+        "Phuket Surfing & Stand-Up Paddleboard Experience"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 795,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_thai_cooking_class.html": {
+      "rel_path": "packages/thailand/phuket/phuket_thai_cooking_class.html",
+      "title": "Authentic Thai Cooking Class with Local Market Tour Phuket | Trippovention",
+      "description": "Learn to cook authentic Thai dishes in Phuket. Enjoy guided morning market tour, master classic curries, Pad Thai, Tom Yum, and mango sticky rice with your recipe book.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_thai_cooking_class.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_thai_cooking_class.html",
+      "h1_list": [
+        "Authentic Thai Cooking Class with Market Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 807,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html": {
+      "rel_path": "packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html",
+      "title": "Phuket Viewpoints, Wat Chalong & Big Buddha Guided Tour | Trippovention",
+      "description": "Guided tour of Phuket's top panoramic viewpoints and sacred landmarks. Marvel at Big Buddha on Nakkerd Hill, visit Wat Chalong, Windmill Viewpoint, and Promthep Cape.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html",
+      "h1_list": [
+        "Phuket Viewpoints, Wat Chalong & Big Buddha Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 812,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html": {
+      "rel_path": "packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html",
+      "title": "Private Phuket City & Scenic Viewpoints Custom Tour | Trippovention",
+      "description": "Discover Phuket on your own terms with a private vehicle and chauffeur. Visit Promthep Cape, Big Buddha, Wat Chalong, Windmill Viewpoint, and Old Town at your own pace.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html",
+      "h1_list": [
+        "Private Phuket City & Scenic Viewpoints Tour"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 852,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/siam_niramit_phuket_show.html": {
+      "rel_path": "packages/thailand/phuket/siam_niramit_phuket_show.html",
+      "title": "Siam Niramit Phuket Cultural Show Tickets & Dinner | Trippovention",
+      "description": "Experience Siam Niramit Phuket cultural show with optional international buffet. Marvel at 700 years of Thai history, river stunts on stage, and authentic heritage village.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/siam_niramit_phuket_show.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/siam_niramit_phuket_show.html",
+      "h1_list": [
+        "Siam Niramit Phuket Cultural Spectacular"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 853,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/sightseeing.html": {
+      "rel_path": "packages/thailand/phuket/sightseeing.html",
+      "title": "Phuket Sightseeing Tours & Activities | Trippovention Thailand",
+      "description": "Explore the comprehensive Phuket sightseeing catalogue. Discover verified island-hopping speedboat tours to Phi Phi & James Bond Island, cultural viewpoints, ethical elephant sanctuaries, world-class evening shows, water parks, and outdoor adventures with Trippovention Thailand.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/sightseeing.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/sightseeing.html",
+      "h1_list": [
+        "Phuket Sightseeing &amp; Activities"
+      ],
+      "h2_count": 4,
+      "h3_count": 30,
+      "word_count": 2163,
+      "images_count": 30,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristDestination",
+        "BreadcrumbList",
+        "ItemList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/similan_islands_snorkeling_tour.html": {
+      "rel_path": "packages/thailand/phuket/similan_islands_snorkeling_tour.html",
+      "title": "Similan Islands Snorkeling Day Tour from Phuket (Seasonal) | Trippovention",
+      "description": "Experience world-class snorkeling at Similan Islands National Park from Phuket. Visit Donald Duck Bay, Sail Rock, pristine crystal beaches, and coral reefs with sea turtles.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/similan_islands_snorkeling_tour.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/similan_islands_snorkeling_tour.html",
+      "h1_list": [
+        "Similan Islands Snorkeling Excursion"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 905,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
+    "packages/thailand/phuket/simon_cabaret_show_phuket.html": {
+      "rel_path": "packages/thailand/phuket/simon_cabaret_show_phuket.html",
+      "title": "Phuket Simon Cabaret Show Tickets & Transfers | Trippovention",
+      "description": "Reserve VIP seats for Phuket Simon Cabaret in Patong. Enjoy world-class theatrical performances, stunning glamour costumes, and dynamic music and dance choreography.",
+      "canonical": "https://trippovention.co.th/packages/thailand/phuket/simon_cabaret_show_phuket.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/phuket/simon_cabaret_show_phuket.html",
+      "h1_list": [
+        "Phuket Simon Cabaret Show"
+      ],
+      "h2_count": 8,
+      "h3_count": 13,
+      "word_count": 793,
+      "images_count": 6,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
         "FAQPage"
       ],
       "internal_links_out": [],
@@ -3907,9 +5348,9 @@
         "Ultimate Thailand Explorer"
       ],
       "h2_count": 6,
-      "h3_count": 17,
-      "word_count": 1050,
-      "images_count": 2,
+      "h3_count": 18,
+      "word_count": 1067,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -4028,7 +5469,7 @@
       ],
       "h2_count": 3,
       "h3_count": 11,
-      "word_count": 594,
+      "word_count": 597,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4051,9 +5492,9 @@
         "Southern Thailand Island Odyssey"
       ],
       "h2_count": 6,
-      "h3_count": 16,
-      "word_count": 1045,
-      "images_count": 2,
+      "h3_count": 17,
+      "word_count": 1059,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -4075,9 +5516,9 @@
         "Trang & Koh Mook Family Escape"
       ],
       "h2_count": 6,
-      "h3_count": 12,
-      "word_count": 756,
-      "images_count": 2,
+      "h3_count": 13,
+      "word_count": 770,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -4099,9 +5540,9 @@
         "Trang, Koh Mook & Krabi Island Escape"
       ],
       "h2_count": 6,
-      "h3_count": 15,
-      "word_count": 899,
-      "images_count": 2,
+      "h3_count": 16,
+      "word_count": 913,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -4123,9 +5564,9 @@
         "Trang & Krabi Coastal Discovery"
       ],
       "h2_count": 6,
-      "h3_count": 14,
-      "word_count": 801,
-      "images_count": 2,
+      "h3_count": 15,
+      "word_count": 815,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -4147,9 +5588,9 @@
         "Trang Nature Escape"
       ],
       "h2_count": 6,
-      "h3_count": 10,
-      "word_count": 668,
-      "images_count": 2,
+      "h3_count": 11,
+      "word_count": 682,
+      "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -4385,7 +5826,7 @@
       ],
       "h2_count": 1,
       "h3_count": 5,
-      "word_count": 184,
+      "word_count": 188,
       "images_count": 6,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4429,7 +5870,7 @@
       ],
       "h2_count": 5,
       "h3_count": 23,
-      "word_count": 971,
+      "word_count": 975,
       "images_count": 18,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4497,7 +5938,7 @@
       ],
       "h2_count": 6,
       "h3_count": 20,
-      "word_count": 959,
+      "word_count": 963,
       "images_count": 11,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
@@ -4585,8 +6026,20 @@
     "Romantic Ayutthaya &amp; Hua Hin Escape - 5 Days / 4 Nights | Trippovention": [
       "packages/thailand/ayutthaya/romantic_ayutthaya_hua_hin_escape.html"
     ],
+    "Ancient City (Muang Boran) & Erawan Museum Tour | Trippovention": [
+      "packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html"
+    ],
+    "Ayutthaya Historical Park Full-Day Tour from Bangkok | Trippovention": [
+      "packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html"
+    ],
+    "Bangkok Canals Private Longtail Boat Tour | Trippovention": [
+      "packages/thailand/bangkok/bangkok_canals_private_longtail_boat_tour.html"
+    ],
     "Bangkok Essentials Escape - 4 Days / 3 Nights | Trippovention": [
       "packages/thailand/bangkok/bangkok_essentials_escape.html"
+    ],
+    "Bangkok Midnight Food & Tuk Tuk Tour | Trippovention": [
+      "packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html"
     ],
     "Bangkok &amp; Pattaya Ultimate Family Escape - 9 Days / 8 Nights | Trippovention": [
       "packages/thailand/bangkok/bangkok_pattaya_ultimate_family_escape.html"
@@ -4594,17 +6047,44 @@
     "Bangkok Prestige Journey - 5 Days / 4 Nights | Trippovention": [
       "packages/thailand/bangkok/bangkok_prestige_journey.html"
     ],
+    "Bangkok Temples & Heritage Tour | Trippovention": [
+      "packages/thailand/bangkok/bangkok_temples_and_heritage_tour.html"
+    ],
+    "Calypso Cabaret Show Bangkok | Trippovention": [
+      "packages/thailand/bangkok/calypso_cabaret_show_bangkok.html"
+    ],
+    "Chao Phraya River Sightseeing Cruise Bangkok | Trippovention": [
+      "packages/thailand/bangkok/chao_phraya_river_sightseeing_cruise.html"
+    ],
+    "Chinatown & Yaowarat Street Food Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/chinatown_yaowarat_street_food_tour.html"
+    ],
     "Classic Bangkok \u2013 Skyline &amp; Wildlife Escape - 4 Days / 3 Nights | Trippovention": [
       "packages/thailand/bangkok/classic_bangkok_skyline_wildlife_escape.html"
+    ],
+    "Damnoen Saduak Floating Market Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/damnoen_saduak_floating_market_tour.html"
     ],
     "Full Day Bangkok City Tour - Temples &amp; Landmarks | Trippovention": [
       "packages/thailand/bangkok/full_day_bangkok_city_tour.html"
     ],
+    "Grand Palace & Wat Phra Kaew Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/grand_palace_and_wat_phra_kaew_tour.html"
+    ],
     "Bangkok Tour Packages &amp; Sightseeing Tours | Trippovention": [
       "packages/thailand/bangkok/index.html"
     ],
+    "Madame Tussauds Bangkok Tickets | Trippovention": [
+      "packages/thailand/bangkok/madame_tussauds_bangkok.html"
+    ],
+    "Maeklong Railway Market & Floating Market Tour | Trippovention": [
+      "packages/thailand/bangkok/maeklong_railway_market_and_floating_market_tour.html"
+    ],
     "King Power Mahanakhon SkyWalk Bangkok - Glass Tray | Trippovention": [
       "packages/thailand/bangkok/mahanakhon_skywalk.html"
+    ],
+    "Mirinn Cabaret & Cultural Show Bangkok | Trippovention": [
+      "packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html"
     ],
     "Princess Chao Phraya Dinner Cruise Bangkok - River Buffet | Trippovention": [
       "packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html"
@@ -4612,11 +6092,32 @@
     "Safari World &amp; Marine Park Bangkok - Wildlife Tour | Trippovention": [
       "packages/thailand/bangkok/safari_world_and_marine_park.html"
     ],
+    "Safari World Open Zoo Drive Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/safari_world_open_zoo_drive_tour.html"
+    ],
+    "SEA LIFE Bangkok Ocean World Tickets | Trippovention": [
+      "packages/thailand/bangkok/sea_life_bangkok_ocean_world.html"
+    ],
+    "Siam Amazing Park Bangkok Tickets | Trippovention": [
+      "packages/thailand/bangkok/siam_amazing_park_bangkok.html"
+    ],
+    "Bangkok Sightseeing Tours &amp; Attractions | Trippovention": [
+      "packages/thailand/bangkok/sightseeing.html"
+    ],
     "Space &amp; Time Cube+ (Mail Hall) Bangkok - Digital Art | Trippovention": [
       "packages/thailand/bangkok/space_and_time_cube_mail_hall.html"
     ],
     "Thailand Island &amp; City Explorer - 10 Days / 9 Nights | Trippovention": [
       "packages/thailand/bangkok/thailand_island_city_explorer.html"
+    ],
+    "Wat Arun (Temple of Dawn) Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/wat_arun_temple_of_dawn_tour.html"
+    ],
+    "Wat Pho & Reclining Buddha Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/wat_pho_and_reclining_buddha_tour.html"
+    ],
+    "White Orchid Chao Phraya Dinner Cruise Bangkok | Trippovention": [
+      "packages/thailand/bangkok/white_orchid_river_dinner_cruise.html"
     ],
     "Breathtaking Northern Thailand Expedition - 7 Days / 6 Nights | Trippovention": [
       "packages/thailand/chiang_mai/breathtaking_northern_thailand_expedition.html"
@@ -4918,8 +6419,20 @@
     "Alcazar Cabaret Show Pattaya with Private Transfers | Trippovention": [
       "packages/thailand/pattaya/alcazar_cabaret_show.html"
     ],
+    "Art in Paradise Pattaya 3D Optical Illusion Museum | Trippovention": [
+      "packages/thailand/pattaya/art_in_paradise_pattaya.html"
+    ],
+    "ATV Off-Road Adventure Tour Pattaya | Trippovention": [
+      "packages/thailand/pattaya/atv_off_road_adventure_pattaya.html"
+    ],
     "Classic Pattaya \u2013 Culture, Coast &amp; Cabaret Escape - 4 Days / 3 Nights | Trippovention": [
       "packages/thailand/pattaya/classic_pattaya.html"
+    ],
+    "Colosseum Cabaret Show Pattaya Tickets & Transfers | Trippovention": [
+      "packages/thailand/pattaya/colosseum_cabaret_show_pattaya.html"
+    ],
+    "Columbia Pictures Aquaverse Water Park Tickets Pattaya | Trippovention": [
+      "packages/thailand/pattaya/columbia_pictures_aquaverse_tickets.html"
     ],
     "Coral Island Tour (Koh Larn) with Speedboat &amp; Lunch | Trippovention": [
       "packages/thailand/pattaya/coral_island_tour.html"
@@ -4927,8 +6440,23 @@
     "Dolphin Show with Tiger Park Pattaya | Trippovention": [
       "packages/thailand/pattaya/dolphin_show_with_tiger_park.html"
     ],
+    "HarborLand Pattaya Indoor Playground Day Pass | Trippovention": [
+      "packages/thailand/pattaya/harborland_pattaya_tickets.html"
+    ],
     "Pattaya Tour Packages &amp; Sightseeing Tours | Trippovention": [
       "packages/thailand/pattaya/index.html"
+    ],
+    "Khao Chi Chan & Wat Yansangwararam Tour Pattaya | Trippovention": [
+      "packages/thailand/pattaya/khao_chi_chan_and_wat_yan_tour.html"
+    ],
+    "Khao Kheow Open Zoo Excursion Pattaya with Transfers | Trippovention": [
+      "packages/thailand/pattaya/khao_kheow_open_zoo_tour.html"
+    ],
+    "Koh Larn Private Speedboat Charter from Pattaya | Trippovention": [
+      "packages/thailand/pattaya/koh_larn_private_speedboat_tour.html"
+    ],
+    "Max Muay Thai Stadium Pattaya Live Fight Tickets | Trippovention": [
+      "packages/thailand/pattaya/max_muay_thai_stadium_tickets.html"
     ],
     "Nong Nooch Tropical Garden with Bus &amp; Shows | Trippovention": [
       "packages/thailand/pattaya/nong_nooch_tropical_garden.html"
@@ -4939,14 +6467,47 @@
     "Pattaya Beach Escape - 3 Days / 2 Nights | Trippovention": [
       "packages/thailand/pattaya/pattaya_beach_escape.html"
     ],
+    "Pattaya City Highlights & Landmarks Tour | Trippovention": [
+      "packages/thailand/pattaya/pattaya_city_landmarks_tour.html"
+    ],
     "Pattaya City Tour with Colosseum Cabaret Show | Trippovention": [
       "packages/thailand/pattaya/pattaya_city_tour_with_colosseum_show.html"
+    ],
+    "Pattaya Dolphinarium Dolphin & Seal Show Tickets | Trippovention": [
+      "packages/thailand/pattaya/pattaya_dolphinarium_show.html"
+    ],
+    "Ethical Elephant Sanctuary Experience Pattaya | Trippovention": [
+      "packages/thailand/pattaya/pattaya_elephant_sanctuary_tour.html"
     ],
     "Pattaya Family Fun Escape - 6 Days / 5 Nights | Trippovention": [
       "packages/thailand/pattaya/pattaya_family_fun_escape.html"
     ],
+    "Pattaya Championship Golf Package with Private Transfers | Trippovention": [
+      "packages/thailand/pattaya/pattaya_golf_package_with_transfers.html"
+    ],
+    "Pattaya Sunset Catamaran Cruise & Island Snorkel | Trippovention": [
+      "packages/thailand/pattaya/pattaya_sunset_catamaran_cruise.html"
+    ],
+    "Ramayana Water Park Pattaya Tickets & Day Pass | Trippovention": [
+      "packages/thailand/pattaya/ramayana_water_park_pattaya.html"
+    ],
+    "Sanctuary of Truth Museum Pattaya Admission & Guided Tour | Trippovention": [
+      "packages/thailand/pattaya/sanctuary_of_truth_pattaya.html"
+    ],
+    "Pattaya Scuba Diving & Snorkeling Day Trip | Trippovention": [
+      "packages/thailand/pattaya/scuba_diving_and_snorkeling_pattaya.html"
+    ],
+    "Pattaya Sightseeing Tours &amp; Attractions | Trippovention": [
+      "packages/thailand/pattaya/sightseeing.html"
+    ],
     "Thailand Heritage &amp; Coastal Escape - 7 Days / 6 Nights | Trippovention": [
       "packages/thailand/pattaya/thailand_heritage_coastal_escape.html"
+    ],
+    "Tiffany's Show Pattaya World-Class Cabaret Tickets | Trippovention": [
+      "packages/thailand/pattaya/tiffanys_show_pattaya.html"
+    ],
+    "Underwater World Pattaya Aquarium Tickets & Tunnel Tour | Trippovention": [
+      "packages/thailand/pattaya/underwater_world_pattaya.html"
     ],
     "Andaman Island Adventure - 7 Days / 6 Nights | Trippovention": [
       "packages/thailand/phi_phi_island/andaman_island_adventure.html"
@@ -4966,11 +6527,23 @@
     "Phi Phi &amp; Railay Coastal Escape - 6 Days / 5 Nights | Trippovention": [
       "packages/thailand/phi_phi_island/phi_phi_railay_coastal_escape.html"
     ],
+    "Andamanda Phuket Water Park Admission Tickets | Trippovention": [
+      "packages/thailand/phuket/andamanda_phuket_water_park_tickets.html"
+    ],
+    "Aquaria Phuket & AR Trick Eye Museum Tickets | Trippovention": [
+      "packages/thailand/phuket/aquaria_phuket_tickets.html"
+    ],
     "Carnival Magic Show with Dinner Phuket | Trippovention": [
       "packages/thailand/phuket/carnival_magic_show.html"
     ],
+    "Coral & Racha Island Speedboat Snorkeling Tour from Phuket | Trippovention": [
+      "packages/thailand/phuket/coral_and_racha_island_tour.html"
+    ],
     "Elephant Sanctuary Phuket \u2013 Morning Program | Trippovention": [
       "packages/thailand/phuket/elephant_sanctuary.html"
+    ],
+    "Hanuman World Zipline & ATV Jungle Adventure Phuket | Trippovention": [
+      "packages/thailand/phuket/hanuman_world_zipline_and_atv_adventure.html"
     ],
     "Phuket Tour Packages, Island Tours &amp; Stays | Trippovention": [
       "packages/thailand/phuket/index.html"
@@ -4978,11 +6551,20 @@
     "James Bond Island Speedboat Tour &amp; Sea Canoeing | Trippovention": [
       "packages/thailand/phuket/james_bond_island_speedboat_tour.html"
     ],
+    "Khao Sok National Park & Cheow Lan Lake Day Trip from Phuket | Trippovention": [
+      "packages/thailand/phuket/khao_sok_national_park_day_trip.html"
+    ],
     "Phi Phi Island &amp; Khai Island Tour with Lunch | Trippovention": [
       "packages/thailand/phuket/phi_phi_island_and_khai_island_tour.html"
     ],
+    "Phi Phi, Maya Bay & Bamboo Island Premium Speedboat Tour | Trippovention": [
+      "packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html"
+    ],
     "Phuket Beach Escape - 4 Days / 3 Nights | Trippovention": [
       "packages/thailand/phuket/phuket_beach_escape.html"
+    ],
+    "Phuket City Highlights & Landmarks Tour | Trippovention": [
+      "packages/thailand/phuket/phuket_city_highlights_tour.html"
     ],
     "Phuket Family Adventure - 5 Days / 4 Nights | Trippovention": [
       "packages/thailand/phuket/phuket_family_adventure.html"
@@ -4995,6 +6577,45 @@
     ],
     "Phuket &amp; Krabi Island Discovery - 6 Days / 5 Nights | Trippovention": [
       "packages/thailand/phuket/phuket_krabi_island_discovery.html"
+    ],
+    "Phuket Luxury Thai Spa & Wellness Treatment Packages | Trippovention": [
+      "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html"
+    ],
+    "Phuket Old Town Heritage & Street Food Walking Tour | Trippovention": [
+      "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html"
+    ],
+    "Phuket Private Luxury Yacht & Catamaran Charter | Trippovention": [
+      "packages/thailand/phuket/phuket_private_yacht_charter.html"
+    ],
+    "Phuket Scuba Diving Day Trip to Racha Yai (2 Dives) | Trippovention": [
+      "packages/thailand/phuket/phuket_scuba_diving_day_trip.html"
+    ],
+    "Phuket Sunset Catamaran Yacht Cruise to Promthep Cape | Trippovention": [
+      "packages/thailand/phuket/phuket_sunset_catamaran_cruise.html"
+    ],
+    "Phuket Surfing & Stand-Up Paddleboard Lessons & Hire | Trippovention": [
+      "packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html"
+    ],
+    "Authentic Thai Cooking Class with Local Market Tour Phuket | Trippovention": [
+      "packages/thailand/phuket/phuket_thai_cooking_class.html"
+    ],
+    "Phuket Viewpoints, Wat Chalong & Big Buddha Guided Tour | Trippovention": [
+      "packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html"
+    ],
+    "Private Phuket City & Scenic Viewpoints Custom Tour | Trippovention": [
+      "packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html"
+    ],
+    "Siam Niramit Phuket Cultural Show Tickets & Dinner | Trippovention": [
+      "packages/thailand/phuket/siam_niramit_phuket_show.html"
+    ],
+    "Phuket Sightseeing Tours & Activities | Trippovention Thailand": [
+      "packages/thailand/phuket/sightseeing.html"
+    ],
+    "Similan Islands Snorkeling Day Tour from Phuket (Seasonal) | Trippovention": [
+      "packages/thailand/phuket/similan_islands_snorkeling_tour.html"
+    ],
+    "Phuket Simon Cabaret Show Tickets & Transfers | Trippovention": [
+      "packages/thailand/phuket/simon_cabaret_show_phuket.html"
     ],
     "Ultimate Thailand Explorer - 10 Days / 9 Nights | Trippovention": [
       "packages/thailand/phuket/ultimate_thailand_explorer.html"
@@ -5151,8 +6772,20 @@
     "Romantic Ayutthaya & Hua Hin Escape: 5 Days / 4 Nights - Experience the timeless charm of Ayutthaya's ancient heritage and the tranquil beauty of Hua Hin's beaches, creating the perfect blend of history, culture, and seaside relaxation for couples.": [
       "packages/thailand/ayutthaya/romantic_ayutthaya_hua_hin_escape.html"
     ],
+    "Visit the Ancient City (Muang Boran) and Erawan Museum in Samut Prakan from Bangkok. Explore the world's largest open-air museum and 250-ton three-headed bronze elephant.": [
+      "packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html"
+    ],
+    "Explore the UNESCO World Heritage ancient capital of Ayutthaya on a full-day tour from Bangkok. Visit Wat Mahathat, Wat Chaiwatthanaram, and enjoy a Thai buffet lunch.": [
+      "packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html"
+    ],
+    "Cruise Bangkok's historic Thonburi canals on a private traditional wooden longtail boat. See traditional stilt houses, the giant Wat Paknam Buddha, and Baan Silapin.": [
+      "packages/thailand/bangkok/bangkok_canals_private_longtail_boat_tour.html"
+    ],
     "Bangkok Essentials Escape: 4 Days / 3 Nights - Discover Bangkok's iconic golden temples, bustling river markets, modern shopping, and vibrant cultural highlights.'s iconic temples, exciting wildlife adventures, and vibrant city life with comfortable private transfers\u2014perfect for a hassle-free Thailand getaway.": [
       "packages/thailand/bangkok/bangkok_essentials_escape.html"
+    ],
+    "Zip through Bangkok's illuminated streets in a private tuk-tuk on an evening food tour. Taste Michelin-guide street food, visit Wat Pho at night, and explore the flower market.": [
+      "packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html"
     ],
     "Bangkok & Pattaya Ultimate Family Escape: 9 Days / 8 Nights - Experience the perfect blend of tropical beaches, vibrant city life, cultural attractions, thrilling theme parks, and unforgettable wildlife adventures across Pattaya and Bangkok.": [
       "packages/thailand/bangkok/bangkok_pattaya_ultimate_family_escape.html"
@@ -5160,17 +6793,44 @@
     "Bangkok Prestige Journey: 5 Days / 4 Nights - Experience the ultimate Bangkok holiday with iconic temples, breathtaking skyline views, a luxurious Chao Phraya Dinner Cruise, and an unforgettable Safari World adventure\u2014perfect for every traveler.": [
       "packages/thailand/bangkok/bangkok_prestige_journey.html"
     ],
+    "Experience Bangkok's most famous temples: the 5.5-ton solid gold Buddha at Wat Traimit, the Reclining Buddha at Wat Pho, and the Italian marble Wat Benchamabophit.": [
+      "packages/thailand/bangkok/bangkok_temples_and_heritage_tour.html"
+    ],
+    "Experience Bangkok's legendary Calypso Cabaret show at Asiatique The Riverfront. Enjoy world-class Broadway-style dance, dazzling costumes, and comedy performances.": [
+      "packages/thailand/bangkok/calypso_cabaret_show_bangkok.html"
+    ],
+    "Cruise the River of Kings in Bangkok with an unlimited hop-on hop-off Chao Phraya day pass. Discover Wat Arun, IconSiam, Grand Palace, and riverside heritage.": [
+      "packages/thailand/bangkok/chao_phraya_river_sightseeing_cruise.html"
+    ],
+    "Explore Bangkok Chinatown (Yaowarat) on a guided evening walking food tour. Taste 6 to 8 Michelin Bib Gourmand street dishes, dim sum, and Thai-Chinese desserts.": [
+      "packages/thailand/bangkok/chinatown_yaowarat_street_food_tour.html"
+    ],
     "Classic Bangkok \u2013 Skyline & Wildlife Escape: 4 Days / 3 Nights - Experience the best of Bangkok with iconic temples, breathtaking skyline views from Mahanakhon SkyWalk, and an exciting wildlife adventure at Safari World & Marine Park\u2014all with comfortable private transfers.": [
       "packages/thailand/bangkok/classic_bangkok_skyline_wildlife_escape.html"
+    ],
+    "Experience the world-famous Damnoen Saduak Floating Market from Bangkok. Ride a wooden paddle boat along narrow canals filled with fruit vendors and noodle boats.": [
+      "packages/thailand/bangkok/damnoen_saduak_floating_market_tour.html"
     ],
     "Discover the best of Bangkok on a private full-day city tour covering the Grand Palace, Wat Phra Kaew, Wat Pho, Wat Arun, Chinatown, and the Flower Market.": [
       "packages/thailand/bangkok/full_day_bangkok_city_tour.html"
     ],
+    "Explore Bangkok's Grand Palace and Wat Phra Kaew (Temple of the Emerald Buddha) with a licensed guide. Discover Thai royal history and intricate temple art.": [
+      "packages/thailand/bangkok/grand_palace_and_wat_phra_kaew_tour.html"
+    ],
     "Discover exciting Bangkok tour packages: Grand Palace, Floating Markets, Safari World, Chao Phraya cruises & vibrant city escapes with private transfers.": [
       "packages/thailand/bangkok/index.html"
     ],
+    "Visit Madame Tussauds Bangkok at Siam Discovery. Walk the red carpet with world leaders, sports legends, Hollywood actors, and Thai celebrities in 8 themed zones.": [
+      "packages/thailand/bangkok/madame_tussauds_bangkok.html"
+    ],
+    "Experience two world-famous markets in one day from Bangkok: the folding umbrella market on the Maeklong train tracks and Damnoen Saduak Floating Market.": [
+      "packages/thailand/bangkok/maeklong_railway_market_and_floating_market_tour.html"
+    ],
     "Experience King Power Mahanakhon SkyWalk in Bangkok. Enjoy breathtaking 360\u00b0 views, indoor observation deck, and the exhilarating 78th-floor Glass Tray.": [
       "packages/thailand/bangkok/mahanakhon_skywalk.html"
+    ],
+    "Watch the vibrant Mirinn Cabaret Show in Bangkok featuring traditional Thai martial arts, Muay Thai fight choreography, and dazzling transgender cabaret performances.": [
+      "packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html"
     ],
     "Sail along Bangkok's Chao Phraya River aboard the Princess Dinner Cruise with an international buffet, live saxophone music, and illuminated views of Wat Arun.": [
       "packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html"
@@ -5178,11 +6838,32 @@
     "Experience Safari World &amp; Marine Park Bangkok. Open-air safari drive-through with lions and giraffes, world-class dolphin shows, and private hotel transfers.": [
       "packages/thailand/bangkok/safari_world_and_marine_park.html"
     ],
+    "Experience Bangkok's Safari World Open Zoo drive-through tour. View free-roaming lions, tigers, zebras, and giraffes in an open African-style savannah setting.": [
+      "packages/thailand/bangkok/safari_world_open_zoo_drive_tour.html"
+    ],
+    "Book discounted SEA LIFE Bangkok Ocean World tickets at Siam Paragon. Explore Southeast Asia's largest aquarium featuring 30,000 marine animals and a 270\u00b0 ocean tunnel.": [
+      "packages/thailand/bangkok/sea_life_bangkok_ocean_world.html"
+    ],
+    "Book Siam Amazing Park Bangkok tickets. Enjoy the Guinness World Record giant wave pool, water slides, Vortex roller coaster, and unlimited rides in 5 themed zones.": [
+      "packages/thailand/bangkok/siam_amazing_park_bangkok.html"
+    ],
+    "Explore Bangkok sightseeing tours, temples, river cruises, Safari World, city attractions and day trips. Enquire with Trippovention for current offers and travel arrangements.": [
+      "packages/thailand/bangkok/sightseeing.html"
+    ],
     "Step into Space &amp; Time Cube+ at Mail Hall in Bangkok. Experience immersive digital art, kaleidoscopic infinity mirror rooms, and 3D projection mapping.": [
       "packages/thailand/bangkok/space_and_time_cube_mail_hall.html"
     ],
     "Thailand Island & City Explorer: 10 Days / 9 Nights - Experience the best of Thailand with vibrant city life in Bangkok, the lively beaches of Pattaya, and the tropical beauty of Phuket's world-famous islands and scenic bays.": [
       "packages/thailand/bangkok/thailand_island_city_explorer.html"
+    ],
+    "Discover Wat Arun (The Temple of Dawn) in Bangkok. Climb the iconic riverside prang adorned in colorful Chinese porcelain and enjoy Chao Phraya River views.": [
+      "packages/thailand/bangkok/wat_arun_temple_of_dawn_tour.html"
+    ],
+    "Visit Wat Pho in Bangkok to see the 46-meter Reclining Buddha, mother-of-pearl soles, 91 royal chedis, and the historic birthplace of traditional Thai massage.": [
+      "packages/thailand/bangkok/wat_pho_and_reclining_buddha_tour.html"
+    ],
+    "Sail aboard the White Orchid Chao Phraya River Dinner Cruise in Bangkok. Enjoy an international seafood buffet, live cabaret show, music, and illuminated temple views.": [
+      "packages/thailand/bangkok/white_orchid_river_dinner_cruise.html"
     ],
     "Breathtaking Northern Thailand Expedition: 7 Days / 6 Nights - Embark on an unforgettable journey through Northern Thailand, where ancient temples, ethical wildlife experiences, majestic mountains, and rich cultural heritage come together to create the perfect escape.": [
       "packages/thailand/chiang_mai/breathtaking_northern_thailand_expedition.html"
@@ -5484,8 +7165,20 @@
     "Book Alcazar Cabaret Show tickets in Pattaya with private hotel transfers. World-class theatrical performances, dazzling costumes, music, dance & light effects.": [
       "packages/thailand/pattaya/alcazar_cabaret_show.html"
     ],
+    "Immerse yourself in 140+ interactive 3D trompe-l'\u0153il paintings at Art in Paradise Pattaya. Pose inside surreal landscapes, safari scenes, and classic art parodies.": [
+      "packages/thailand/pattaya/art_in_paradise_pattaya.html"
+    ],
+    "Conquer Pattaya's rugged backcountry on a guided ATV quad-bike tour. Ride through red-dirt tracks, jungle trails, mud ruts, and scenic pineapple farms.": [
+      "packages/thailand/pattaya/atv_off_road_adventure_pattaya.html"
+    ],
     "Classic Pattaya \u2013 Culture, Coast & Cabaret Escape: 4 Days / 3 Nights - Discover the perfect blend of Pattaya's pristine beaches, iconic landmarks, vibrant entertainment, and lush tropical gardens for a memorable Thailand getaway.": [
       "packages/thailand/pattaya/classic_pattaya.html"
+    ],
+    "Book Colosseum Show Pattaya tickets with Trippovention. Enjoy 14 magnificent musical dance acts in Pattaya's largest Roman colosseum-style theatre.": [
+      "packages/thailand/pattaya/colosseum_cabaret_show_pattaya.html"
+    ],
+    "Book Columbia Pictures Aquaverse tickets in Pattaya. Enjoy themed water rides, Ghostbusters proton stream, Jumanji jungle drop, Bad Boys go-karts & wave pool.": [
+      "packages/thailand/pattaya/columbia_pictures_aquaverse_tickets.html"
     ],
     "Experience Pattaya's Coral Island (Koh Larn) with round-trip shared hotel transfers, speedboat cruise, delicious lunch, beach relaxation & optional water sports.": [
       "packages/thailand/pattaya/coral_island_tour.html"
@@ -5493,8 +7186,23 @@
     "Experience Pattaya Dolphinarium acrobatic dolphin show and Tiger Park Medium Tiger interaction with private air-conditioned hotel transfers & admission included.": [
       "packages/thailand/pattaya/dolphin_show_with_tiger_park.html"
     ],
+    "Treat your family to HarborLand Pattaya indoor playground at Harbor Mall. Featuring European-safety certified multi-tier climbing structures, slides, and ninja courses.": [
+      "packages/thailand/pattaya/harborland_pattaya_tickets.html"
+    ],
     "Discover top Pattaya tour packages & sightseeing tours: Coral Island speedboat trips, Alcazar Cabaret Show, Nong Nooch Garden, Dolphinarium & Tiger Park.": [
       "packages/thailand/pattaya/index.html"
+    ],
+    "Tour Pattaya's cultural crown jewels: the 109-meter cliff-carved laser Buddha at Khao Chi Chan, the serene royal monastery of Wat Yansangwararam, and Viharn Sien.": [
+      "packages/thailand/pattaya/khao_chi_chan_and_wat_yan_tour.html"
+    ],
+    "Day trip from Pattaya to Khao Kheow Open Zoo. Travel through sprawling open wildlife habitats, home to pygmy hippos, white lions, rhinos, giraffes, and lemurs.": [
+      "packages/thailand/pattaya/khao_kheow_open_zoo_tour.html"
+    ],
+    "Charter an exclusive private speedboat from Pattaya to Koh Larn (Coral Island). Visit secluded beaches (Tawaen, Tien, Samae) at your own schedule without crowds.": [
+      "packages/thailand/pattaya/koh_larn_private_speedboat_tour.html"
+    ],
+    "Watch real, hard-hitting live Muay Thai bouts at Max Muay Thai Stadium in Pattaya. Ringside and stadium seats with hotel transfer options.": [
+      "packages/thailand/pattaya/max_muay_thai_stadium_tickets.html"
     ],
     "Visit world-famous Nong Nooch Tropical Garden in Pattaya with private hotel transfers, sightseeing bus tour, Thai Cultural Show, and Elephant Show tickets included.": [
       "packages/thailand/pattaya/nong_nooch_tropical_garden.html"
@@ -5505,14 +7213,47 @@
     "Pattaya Beach Escape: 3 Days / 2 Nights - Experience the best of Pattaya with stunning beaches, exciting island adventures, vibrant nightlife, and unforgettable entertainment\u2014perfect for a relaxing tropical getaway.": [
       "packages/thailand/pattaya/pattaya_beach_escape.html"
     ],
+    "Discover the best of Pattaya in half a day. Take in the crescent bay views from Pratumnak Viewpoint, ascend Wat Phra Yai's Golden Buddha, and cruise Beach Road.": [
+      "packages/thailand/pattaya/pattaya_city_landmarks_tour.html"
+    ],
     "Private Pattaya City Tour visiting Big Buddha Temple (Wat Phra Yai), Khao Phra Tamnak Viewpoint, Gems Gallery, Beach Road & Colosseum Cabaret Show ticket.": [
       "packages/thailand/pattaya/pattaya_city_tour_with_colosseum_show.html"
+    ],
+    "Experience the spectacular dolphin and South American fur seal show at Pattaya Dolphinarium. Enjoy acrobatic stunts, synchronized leaps, and photo sessions.": [
+      "packages/thailand/pattaya/pattaya_dolphinarium_show.html"
+    ],
+    "Experience a truly ethical elephant encounter in Pattaya. Prepare nutrient-rich fruit balls, join elephants for a mud spa and natural bath without riding.": [
+      "packages/thailand/pattaya/pattaya_elephant_sanctuary_tour.html"
     ],
     "Pattaya Family Fun Escape: 6 Days / 5 Nights - Enjoy the perfect family holiday in Pattaya with exciting water adventures, cultural attractions, relaxing leisure time, and seamless private transfers throughout your journey.": [
       "packages/thailand/pattaya/pattaya_family_fun_escape.html"
     ],
+    "Book a premier 18-hole golf package in Pattaya with Trippovention. Play top-ranked championship courses with private roundtrip transfers, motorized cart, and caddy.": [
+      "packages/thailand/pattaya/pattaya_golf_package_with_transfers.html"
+    ],
+    "Sail into the Gulf of Thailand aboard a luxury catamaran cruise from Ocean Marina Pattaya. Enjoy snorkeling at Koh Phai, onboard BBQ dinner, and ocean sunset.": [
+      "packages/thailand/pattaya/pattaya_sunset_catamaran_cruise.html"
+    ],
+    "Spend an exhilarating day at Ramayana Water Park Pattaya. 21 thrilling water slides, 2 dedicated kids zones, lazy river, and crystal-clear spring-fed pools.": [
+      "packages/thailand/pattaya/ramayana_water_park_pattaya.html"
+    ],
+    "Visit Pattaya's Sanctuary of Truth Museum (Prasat Sut Ja-Tum) with admission, hard hat, and guided tour. Discover traditional hand-carved wood architecture.": [
+      "packages/thailand/pattaya/sanctuary_of_truth_pattaya.html"
+    ],
+    "Dive and snorkel in Pattaya's tropical waters. Full-day boat excursion with 2 dives, PADI certified instructors, coral reefs, sea turtles, and buffet lunch.": [
+      "packages/thailand/pattaya/scuba_diving_and_snorkeling_pattaya.html"
+    ],
+    "Explore Pattaya sightseeing tours, Coral Island trips, water parks, tropical gardens and cabaret shows. Enquire with Trippovention for current offers.": [
+      "packages/thailand/pattaya/sightseeing.html"
+    ],
     "Thailand Heritage & Coastal Escape: 7 Days / 6 Nights - Discover the perfect blend of Pattaya's tropical beaches, Bangkok's iconic landmarks, and Ayutthaya's ancient UNESCO World Heritage treasures for an unforgettable Thailand holiday.": [
       "packages/thailand/pattaya/thailand_heritage_coastal_escape.html"
+    ],
+    "Reserve Tiffany's Show Pattaya tickets. Southeast Asia's pioneer cabaret spectacular featuring glamorous Broadway-style sets, extravagant costumes, and theatrical music.": [
+      "packages/thailand/pattaya/tiffanys_show_pattaya.html"
+    ],
+    "Explore Underwater World Pattaya with tickets from Trippovention. Walk through the 100-meter underwater tunnel with sharks, giant stingrays, and coral reefs.": [
+      "packages/thailand/pattaya/underwater_world_pattaya.html"
     ],
     "Andaman Island Adventure: 7 Days / 6 Nights - Discover the perfect blend of island charm, coastal adventures, and vibrant nightlife as you explore Phi Phi Island, Krabi, and Phuket. From breathtaking viewpoints and island-hopping to world-class entertainment, this itinerary offers a unique experience without repeating attractions.": [
       "packages/thailand/phi_phi_island/andaman_island_adventure.html"
@@ -5532,11 +7273,23 @@
     "Phi Phi & Railay Coastal Escape: 6 Days / 5 Nights - Experience the ultimate Andaman paradise as you combine the vibrant island life of Phi Phi Island with the breathtaking limestone cliffs and pristine beaches of Railay. Perfect for travelers seeking relaxation, scenic beauty, and unforgettable coastal adventures.": [
       "packages/thailand/phi_phi_island/phi_phi_railay_coastal_escape.html"
     ],
+    "Book Andamanda Phuket water park tickets. Enjoy 5 themed zones based on Thai mythology, thrilling drop slides, lazy river, and Southeast Asia's biggest wave pool.": [
+      "packages/thailand/phuket/andamanda_phuket_water_park_tickets.html"
+    ],
+    "Visit Aquaria Phuket at Central Phuket Floresta. Explore 4 thematic ocean zones, stingray feeding, mermaid shows, and the mind-bending AR Trick Eye Museum.": [
+      "packages/thailand/phuket/aquaria_phuket_tickets.html"
+    ],
     "Experience Carnival Magic Phuket nighttime theme park with international buffet dinner, River Carnival Parade, illuminated spectacles & round-trip hotel transfers.": [
       "packages/thailand/phuket/carnival_magic_show.html"
     ],
+    "Discover Coral Island (Koh Hey) and Racha Yai on a full-day speedboat excursion from Phuket. Enjoy white sandy beaches, vibrant coral reefs, and buffet lunch.": [
+      "packages/thailand/phuket/coral_and_racha_island_tour.html"
+    ],
     "Experience an ethical elephant encounter in Phuket with jungle walk, mud spa, river bathing, feeding & Pad Thai cooking. Round-trip hotel transfers included.": [
       "packages/thailand/phuket/elephant_sanctuary.html"
+    ],
+    "Experience Hanuman World Phuket with treetop ziplines, roller zipline, sky walk, and thrilling off-road ATV quad biking through lush tropical rainforests.": [
+      "packages/thailand/phuket/hanuman_world_zipline_and_atv_adventure.html"
     ],
     "Discover unforgettable Phuket tour packages: Phi Phi Islands, James Bond Island, Patong Beach, Big Buddha & Andaman cruises with top sightseeing.": [
       "packages/thailand/phuket/index.html"
@@ -5544,11 +7297,20 @@
     "Full-day James Bond Island speedboat tour from Phuket: explore Phang Nga Bay, sea canoe through hidden caves, visit Ko Tapu & enjoy Thai buffet lunch. National Park fee included.": [
       "packages/thailand/phuket/james_bond_island_speedboat_tour.html"
     ],
+    "Experience Khao Sok National Park and Cheow Lan Lake on a day trip from Phuket. Scenic longtail cruise, emerald waters, limestone pinnacles, and swimming at floating bungalows.": [
+      "packages/thailand/phuket/khao_sok_national_park_day_trip.html"
+    ],
     "Full-day Phi Phi & Khai Island speedboat tour from Phuket: Maya Bay sightseeing, coral snorkeling, pristine beaches, buffet lunch & round-trip transfers.": [
       "packages/thailand/phuket/phi_phi_island_and_khai_island_tour.html"
     ],
+    "Book premium Phi Phi Islands speedboat tour from Phuket including Maya Bay, crystal-clear Pileh Lagoon swimming, Viking Cave, Monkey Beach, and Bamboo Island lunch.": [
+      "packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html"
+    ],
     "Phuket Beach Escape: 4 Days / 3 Nights - Experience the best of Phuket with stunning beaches, vibrant nightlife, breathtaking islands, and iconic landmarks\u2014perfect for friends seeking adventure and unforgettable memories.": [
       "packages/thailand/phuket/phuket_beach_escape.html"
+    ],
+    "Explore Phuket's cultural landmarks and viewpoints on a guided city tour. Visit Karon Viewpoint, Big Buddha, Wat Chalong, and charming Sino-Portuguese Phuket Old Town.": [
+      "packages/thailand/phuket/phuket_city_highlights_tour.html"
     ],
     "Phuket Family Adventure: 5 Days / 4 Nights - Create unforgettable family memories in Phuket with exciting island adventures, iconic landmarks, and a fun-filled day at one of Thailand's largest water parks.": [
       "packages/thailand/phuket/phuket_family_adventure.html"
@@ -5561,6 +7323,45 @@
     ],
     "Phuket & Krabi Island Discovery: 6 Days / 5 Nights - Escape to Thailand's premier Andaman destinations with 4 Island tours, Phi Phi day trips, and beachside luxury.'s tropical paradise with breathtaking islands, crystal-clear waters, natural hot springs, and scenic landscapes\u2014perfect for couples seeking romance and unforgettable experiences.": [
       "packages/thailand/phuket/phuket_krabi_island_discovery.html"
+    ],
+    "Rejuvenate body and mind with luxury Thai spa packages in Phuket. Featuring traditional herbal compresses, warm coconut oil massages, body scrubs, and peaceful botanical gardens.": [
+      "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html"
+    ],
+    "Explore Phuket Old Town with a local heritage guide. Discover Sino-Portuguese shophouses, street art murals, historic Chinese shrines, and authentic Peranakan delicacies.": [
+      "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html"
+    ],
+    "Charter a private luxury motor yacht or sailing catamaran in Phuket. Tailored island-hopping itineraries, snorkeling equipment, stand-up paddleboards, and VIP hospitality.": [
+      "packages/thailand/phuket/phuket_private_yacht_charter.html"
+    ],
+    "Experience premier scuba diving from Phuket at Racha Yai Island. Includes 2 guided boat dives, full scuba gear, PADI divemasters, and onboard breakfast & buffet lunch.": [
+      "packages/thailand/phuket/phuket_scuba_diving_day_trip.html"
+    ],
+    "Sail the Andaman Sea on a luxury sailing catamaran cruise from Phuket. Witness spectacular sunsets at Promthep Cape, enjoy snorkeling, drinks, and barbecue dinner on board.": [
+      "packages/thailand/phuket/phuket_sunset_catamaran_cruise.html"
+    ],
+    "Learn to surf or stand-up paddleboard on Kata and Bang Tao beaches in Phuket. Includes ISA-certified coaching, rashguard, premium board rental, and safety instruction.": [
+      "packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html"
+    ],
+    "Learn to cook authentic Thai dishes in Phuket. Enjoy guided morning market tour, master classic curries, Pad Thai, Tom Yum, and mango sticky rice with your recipe book.": [
+      "packages/thailand/phuket/phuket_thai_cooking_class.html"
+    ],
+    "Guided tour of Phuket's top panoramic viewpoints and sacred landmarks. Marvel at Big Buddha on Nakkerd Hill, visit Wat Chalong, Windmill Viewpoint, and Promthep Cape.": [
+      "packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html"
+    ],
+    "Discover Phuket on your own terms with a private vehicle and chauffeur. Visit Promthep Cape, Big Buddha, Wat Chalong, Windmill Viewpoint, and Old Town at your own pace.": [
+      "packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html"
+    ],
+    "Experience Siam Niramit Phuket cultural show with optional international buffet. Marvel at 700 years of Thai history, river stunts on stage, and authentic heritage village.": [
+      "packages/thailand/phuket/siam_niramit_phuket_show.html"
+    ],
+    "Explore the comprehensive Phuket sightseeing catalogue. Discover verified island-hopping speedboat tours to Phi Phi & James Bond Island, cultural viewpoints, ethical elephant sanctuaries, world-class evening shows, water parks, and outdoor adventures with Trippovention Thailand.": [
+      "packages/thailand/phuket/sightseeing.html"
+    ],
+    "Experience world-class snorkeling at Similan Islands National Park from Phuket. Visit Donald Duck Bay, Sail Rock, pristine crystal beaches, and coral reefs with sea turtles.": [
+      "packages/thailand/phuket/similan_islands_snorkeling_tour.html"
+    ],
+    "Reserve VIP seats for Phuket Simon Cabaret in Patong. Enjoy world-class theatrical performances, stunning glamour costumes, and dynamic music and dance choreography.": [
+      "packages/thailand/phuket/simon_cabaret_show_phuket.html"
     ],
     "Ultimate Thailand Explorer: 10 Days / 9 Nights - Embark on an exciting family adventure through Thailand's most loved destinations, featuring thrilling wildlife encounters, tropical islands, beautiful beaches, and unforgettable experiences designed especially for kids and families.": [
       "packages/thailand/phuket/ultimate_thailand_explorer.html"
@@ -5647,14 +7448,15 @@
   "image_issues": [],
   "structured_data_inventory": {
     "TravelAgency": 9,
-    "BreadcrumbList": 179,
-    "FAQPage": 181,
+    "BreadcrumbList": 239,
+    "FAQPage": 241,
     "Service": 4,
     "WebSite": 1,
     "Organization": 1,
-    "TouristTrip": 141,
-    "TouristDestination": 17,
+    "TouristTrip": 198,
+    "TouristDestination": 20,
     "TouristAttraction": 8,
+    "ItemList": 1,
     "WebPage": 1
   },
   "critical_issues": [],
@@ -5690,16 +7492,23 @@
     "Long meta description (340 chars) on packages/thailand/ayutthaya/imperial_ayutthaya_bangkok_escape.html",
     "Long title (75 chars) on packages/thailand/ayutthaya/romantic_ayutthaya_hua_hin_escape.html: 'Romantic Ayutthaya &amp; Hua Hin Escape - 5 Days / 4 Nights | Trippovention'",
     "Long meta description (248 chars) on packages/thailand/ayutthaya/romantic_ayutthaya_hua_hin_escape.html",
+    "Long meta description (170 chars) on packages/thailand/bangkok/ancient_city_and_erawan_museum_tour.html",
+    "Long meta description (167 chars) on packages/thailand/bangkok/ayutthaya_historical_park_full_day_tour.html",
     "Long meta description (311 chars) on packages/thailand/bangkok/bangkok_essentials_escape.html",
+    "Long meta description (176 chars) on packages/thailand/bangkok/bangkok_midnight_tuk_tuk_tour.html",
     "Long title (80 chars) on packages/thailand/bangkok/bangkok_pattaya_ultimate_family_escape.html: 'Bangkok &amp; Pattaya Ultimate Family Escape - 9 Days / 8 Nights | Trippovention'",
     "Long meta description (241 chars) on packages/thailand/bangkok/bangkok_pattaya_ultimate_family_escape.html",
     "Long meta description (245 chars) on packages/thailand/bangkok/bangkok_prestige_journey.html",
     "Long title (83 chars) on packages/thailand/bangkok/classic_bangkok_skyline_wildlife_escape.html: 'Classic Bangkok \u2013 Skyline &amp; Wildlife Escape - 4 Days / 3 Nights | Trippovention'",
     "Long meta description (273 chars) on packages/thailand/bangkok/classic_bangkok_skyline_wildlife_escape.html",
+    "Long meta description (166 chars) on packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html",
     "Long title (73 chars) on packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html: 'Princess Chao Phraya Dinner Cruise Bangkok - River Buffet | Trippovention'",
+    "Long meta description (168 chars) on packages/thailand/bangkok/sea_life_bangkok_ocean_world.html",
+    "Long meta description (175 chars) on packages/thailand/bangkok/sightseeing.html",
     "Long title (72 chars) on packages/thailand/bangkok/space_and_time_cube_mail_hall.html: 'Space &amp; Time Cube+ (Mail Hall) Bangkok - Digital Art | Trippovention'",
     "Long title (72 chars) on packages/thailand/bangkok/thailand_island_city_explorer.html: 'Thailand Island &amp; City Explorer - 10 Days / 9 Nights | Trippovention'",
     "Long meta description (225 chars) on packages/thailand/bangkok/thailand_island_city_explorer.html",
+    "Long meta description (167 chars) on packages/thailand/bangkok/white_orchid_river_dinner_cruise.html",
     "Long title (77 chars) on packages/thailand/chiang_mai/breathtaking_northern_thailand_expedition.html: 'Breathtaking Northern Thailand Expedition - 7 Days / 6 Nights | Trippovention'",
     "Long meta description (268 chars) on packages/thailand/chiang_mai/breathtaking_northern_thailand_expedition.html",
     "Long title (72 chars) on packages/thailand/chiang_mai/charming_chiang_mai_cultural_retreat.html: 'Charming Chiang Mai Cultural Retreat - 4 Days / 3 Nights | Trippovention'",
@@ -5794,12 +7603,17 @@
     "Long title (89 chars) on packages/thailand/pattaya/classic_pattaya.html: 'Classic Pattaya \u2013 Culture, Coast &amp; Cabaret Escape - 4 Days / 3 Nights | Trippovention'",
     "Long meta description (229 chars) on packages/thailand/pattaya/classic_pattaya.html",
     "Long title (71 chars) on packages/thailand/pattaya/coral_island_tour.html: 'Coral Island Tour (Koh Larn) with Speedboat &amp; Lunch | Trippovention'",
+    "Long meta description (168 chars) on packages/thailand/pattaya/harborland_pattaya_tickets.html",
     "Long title (72 chars) on packages/thailand/pattaya/pattaya_adventure_beach_escape.html: 'Pattaya Adventure &amp; Beach Escape - 5 Days / 4 Nights | Trippovention'",
     "Long meta description (224 chars) on packages/thailand/pattaya/pattaya_adventure_beach_escape.html",
     "Long meta description (215 chars) on packages/thailand/pattaya/pattaya_beach_escape.html",
     "Long meta description (223 chars) on packages/thailand/pattaya/pattaya_family_fun_escape.html",
+    "Long title (72 chars) on packages/thailand/pattaya/pattaya_golf_package_with_transfers.html: 'Pattaya Championship Golf Package with Private Transfers | Trippovention'",
+    "Long title (73 chars) on packages/thailand/pattaya/sanctuary_of_truth_pattaya.html: 'Sanctuary of Truth Museum Pattaya Admission & Guided Tour | Trippovention'",
     "Long title (74 chars) on packages/thailand/pattaya/thailand_heritage_coastal_escape.html: 'Thailand Heritage &amp; Coastal Escape - 7 Days / 6 Nights | Trippovention'",
     "Long meta description (236 chars) on packages/thailand/pattaya/thailand_heritage_coastal_escape.html",
+    "Long meta description (169 chars) on packages/thailand/pattaya/tiffanys_show_pattaya.html",
+    "Long title (71 chars) on packages/thailand/pattaya/underwater_world_pattaya.html: 'Underwater World Pattaya Aquarium Tickets & Tunnel Tour | Trippovention'",
     "Long meta description (332 chars) on packages/thailand/phi_phi_island/andaman_island_adventure.html",
     "Long meta description (274 chars) on packages/thailand/phi_phi_island/andaman_island_serenity_escape.html",
     "Long meta description (262 chars) on packages/thailand/phi_phi_island/phi_phi_island_paradise_escape.html",
@@ -5807,12 +7621,32 @@
     "Long meta description (384 chars) on packages/thailand/phi_phi_island/phi_phi_phuket_island_adventure.html",
     "Long title (71 chars) on packages/thailand/phi_phi_island/phi_phi_railay_coastal_escape.html: 'Phi Phi &amp; Railay Coastal Escape - 6 Days / 5 Nights | Trippovention'",
     "Long meta description (316 chars) on packages/thailand/phi_phi_island/phi_phi_railay_coastal_escape.html",
+    "Long title (74 chars) on packages/thailand/phuket/coral_and_racha_island_tour.html: 'Coral & Racha Island Speedboat Snorkeling Tour from Phuket | Trippovention'",
     "Long meta description (178 chars) on packages/thailand/phuket/james_bond_island_speedboat_tour.html",
+    "Long title (76 chars) on packages/thailand/phuket/khao_sok_national_park_day_trip.html: 'Khao Sok National Park & Cheow Lan Lake Day Trip from Phuket | Trippovention'",
+    "Long meta description (176 chars) on packages/thailand/phuket/khao_sok_national_park_day_trip.html",
+    "Long title (72 chars) on packages/thailand/phuket/phi_phi_maya_bamboo_island_tour.html: 'Phi Phi, Maya Bay & Bamboo Island Premium Speedboat Tour | Trippovention'",
     "Long meta description (221 chars) on packages/thailand/phuket/phuket_beach_escape.html",
+    "Long meta description (167 chars) on packages/thailand/phuket/phuket_city_highlights_tour.html",
     "Long meta description (205 chars) on packages/thailand/phuket/phuket_family_adventure.html",
     "Long meta description (321 chars) on packages/thailand/phuket/phuket_krabi_coastal_retreat.html",
     "Long title (71 chars) on packages/thailand/phuket/phuket_krabi_island_discovery.html: 'Phuket &amp; Krabi Island Discovery - 6 Days / 5 Nights | Trippovention'",
     "Long meta description (343 chars) on packages/thailand/phuket/phuket_krabi_island_discovery.html",
+    "Long meta description (178 chars) on packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
+    "Long meta description (170 chars) on packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html",
+    "Long meta description (171 chars) on packages/thailand/phuket/phuket_private_yacht_charter.html",
+    "Long meta description (167 chars) on packages/thailand/phuket/phuket_scuba_diving_day_trip.html",
+    "Long meta description (172 chars) on packages/thailand/phuket/phuket_sunset_catamaran_cruise.html",
+    "Long meta description (167 chars) on packages/thailand/phuket/phuket_surfing_and_stand_up_paddleboarding.html",
+    "Long title (74 chars) on packages/thailand/phuket/phuket_thai_cooking_class.html: 'Authentic Thai Cooking Class with Local Market Tour Phuket | Trippovention'",
+    "Long meta description (168 chars) on packages/thailand/phuket/phuket_thai_cooking_class.html",
+    "Long title (71 chars) on packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html: 'Phuket Viewpoints, Wat Chalong & Big Buddha Guided Tour | Trippovention'",
+    "Long meta description (166 chars) on packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html",
+    "Long meta description (168 chars) on packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html",
+    "Long meta description (172 chars) on packages/thailand/phuket/siam_niramit_phuket_show.html",
+    "Long meta description (279 chars) on packages/thailand/phuket/sightseeing.html",
+    "Long title (74 chars) on packages/thailand/phuket/similan_islands_snorkeling_tour.html: 'Similan Islands Snorkeling Day Tour from Phuket (Seasonal) | Trippovention'",
+    "Long meta description (173 chars) on packages/thailand/phuket/similan_islands_snorkeling_tour.html",
     "Long meta description (282 chars) on packages/thailand/phuket/ultimate_thailand_explorer.html",
     "Long title (72 chars) on packages/thailand/thailand_northern_discovery.html: 'Measured Northern Thailand Discovery - 7 Days / 6 Nights | Trippovention'",
     "Long meta description (176 chars) on packages/thailand/thailand_northern_discovery.html",

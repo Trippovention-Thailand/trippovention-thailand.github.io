@@ -752,9 +752,6 @@ def generate_catalogue_html():
                   </div>
                   <span class="price-unit">{exp['price_unit']}</span>
                 </div>
-                <ul class="highlights-list">
-{highlights_li}
-                </ul>
                 <div class="card-actions">
                   <a href="{exp['link']}" class="btn btn-outline">View Details</a>
                   <a

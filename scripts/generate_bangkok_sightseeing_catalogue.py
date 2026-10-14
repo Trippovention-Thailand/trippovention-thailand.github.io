@@ -742,8 +742,6 @@ def generate_catalogue_html():
                   <span class="card-tag">{exp['category_label']}</span>
                 </div>
                 <h3><a href="{exp['link']}" class="card-title-link">{exp['name']}</a></h3>
-                <ul class="highlights-list">
-{highlights_items}                </ul>
                 <div class="price-row mt-auto">
                   <span class="price-label">{exp['price_unit']}</span>
                   <span class="price">{exp['price_display']}</span>

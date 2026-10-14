@@ -32,6 +32,22 @@
   --gradient-blue: linear-gradient(135deg, #2b8bd8 0%, #3498db 100%);
   --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --gradient-bg: linear-gradient(180deg, #fdfbfb 0%, #ebedee 100%);
+
+  /* Typography System Design Tokens */
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
 }
 
 /* Dark Theme Variables */
@@ -548,13 +564,13 @@ main {
 .hero-packages {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("images/packages/thailand/hero_thailand_beach.webp") center/cover no-repeat;
+    url("images/packages/thailand/extra/hero_thailand_beach.webp") center/cover no-repeat;
 }
 
 .hero-sightseeing {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("images/packages/thailand/sightseeing/hero_safari_world_and_marine_park.webp") center/cover no-repeat;
+    url("images/packages/thailand/extra/hero_safari_world_and_marine_park.webp") center/cover no-repeat;
 }
 
 .hero-transfers {

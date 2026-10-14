@@ -174,24 +174,17 @@ def process_file(filepath):
     rel_path = os.path.relpath(filepath, DOCS_DIR)
     parts = rel_path.split(os.sep)
 
+    # Skip error/offline pages that intentionally have minimal templates
+    if rel_path in ["offline.html", "404.html"]:
+        return False, "Skipped (utility/error page)"
+
     # Determine relative root and destination folder
-    if len(parts) == 1:
-        # root level e.g. index.html, contact.html
-        rel_root = ""
-        dest_folder = None
-    elif len(parts) == 3 and parts[0] == "packages" and parts[1] == "thailand":
-        # e.g. packages/thailand/index.html
-        rel_root = "../../"
-        dest_folder = None
-    elif len(parts) == 4 and parts[0] == "packages" and parts[1] == "thailand":
-        # e.g. packages/thailand/phuket/sightseeing.html
-        rel_root = "../../../"
+    depth = len(parts) - 1
+    rel_root = "" if depth == 0 else "../" * depth
+
+    dest_folder = None
+    if len(parts) >= 4 and parts[0] == "packages" and parts[1] == "thailand":
         dest_folder = parts[2]
-    else:
-        # Generic depth calculation
-        depth = len(parts) - 1
-        rel_root = "../" * depth
-        dest_folder = None
 
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
@@ -220,33 +213,19 @@ def main():
     print("Reference: docs/index.html")
     print("=" * 70)
 
-    # Prioritize destinations: phuket, pattaya, bangkok, krabi, and other packages + root
-    target_patterns = [
-        "packages/thailand/phuket/*.html",
-        "packages/thailand/pattaya/*.html",
-        "packages/thailand/bangkok/*.html",
-        "packages/thailand/krabi/*.html",
-        "packages/thailand/*/*.html",
-        "packages/thailand/*.html",
-        "*.html"
-    ]
-
-    seen = set()
     total_files = 0
     updated_files = 0
 
-    for pat in target_patterns:
-        for fp in glob.glob(os.path.join(DOCS_DIR, pat)):
-            if fp in seen or not os.path.isfile(fp):
-                continue
-            seen.add(fp)
-            total_files += 1
-
-            changed, msg = process_file(fp)
-            if changed:
-                updated_files += 1
-                rel = os.path.relpath(fp, DOCS_DIR)
-                print(f"Updated: {rel}")
+    for root, _, files in os.walk(DOCS_DIR):
+        for f in files:
+            if f.endswith(".html"):
+                fp = os.path.join(root, f)
+                total_files += 1
+                changed, msg = process_file(fp)
+                if changed:
+                    updated_files += 1
+                    rel = os.path.relpath(fp, DOCS_DIR)
+                    print(f"Updated: {rel}")
 
     print(f"\nCompleted footer standardization:")
     print(f"Total HTML files checked: {total_files}")
