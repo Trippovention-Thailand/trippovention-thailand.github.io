@@ -111,7 +111,6 @@ def audit():
         "phuket_sunset_catamaran_cruise.html",
         "phuket_scuba_diving_day_trip.html",
         "phuket_old_town_heritage_walking_tour.html",
-        "phuket_luxury_spa_and_wellness.html",
         "private_phuket_city_and_viewpoints_tour.html",
         "khao_sok_national_park_day_trip.html",
         "andamanda_phuket_water_park_tickets.html",

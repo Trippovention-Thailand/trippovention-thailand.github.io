@@ -26,7 +26,6 @@ NEW_URLS = [
     ("https://trippovention.co.th/packages/thailand/phuket/phuket_sunset_catamaran_cruise.html", "2026-10-15", "weekly", "0.7"),
     ("https://trippovention.co.th/packages/thailand/phuket/phuket_scuba_diving_day_trip.html", "2026-10-15", "weekly", "0.7"),
     ("https://trippovention.co.th/packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html", "2026-10-15", "weekly", "0.7"),
-    ("https://trippovention.co.th/packages/thailand/phuket/phuket_luxury_spa_and_wellness.html", "2026-10-15", "weekly", "0.7"),
     ("https://trippovention.co.th/packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html", "2026-10-15", "weekly", "0.7"),
     ("https://trippovention.co.th/packages/thailand/phuket/khao_sok_national_park_day_trip.html", "2026-10-15", "weekly", "0.7"),
     ("https://trippovention.co.th/packages/thailand/phuket/andamanda_phuket_water_park_tickets.html", "2026-10-15", "weekly", "0.7"),

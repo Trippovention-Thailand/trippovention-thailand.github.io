@@ -574,57 +574,6 @@ TOURS_DATA = [
         ]
     },
     {
-        "filename": "phuket_luxury_spa_and_wellness.html",
-        "title": "Phuket Luxury Thai Spa & Wellness Treatment Packages | Trippovention",
-        "h1": "Phuket Luxury Thai Spa & Wellness Retreat",
-        "subtitle": "Traditional Royal Thai Massage, Herbal Compress, Aromatherapy Oil & Floral Foot Bath",
-        "meta_desc": "Rejuvenate body and mind with luxury Thai spa packages in Phuket. Featuring traditional herbal compresses, warm coconut oil massages, body scrubs, and peaceful botanical gardens.",
-        "og_image": "https://trippovention.co.th/assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_luxury_spa_wellness.webp",
-        "duration": "2–3 Hours",
-        "price": "THB 1,500",
-        "price_note": "(Per Person)",
-        "meetup": "Award-Winning Day Spa Oasis in Patong / Kata / Laguna (transfers available)",
-        "overview_p1": "Surrender to blissful tranquility and restore total physical harmony with an award-winning luxury spa experience in Phuket. Set amidst serene tropical botanical gardens, trickling lotus ponds, and teakwood treatment pavilions, our partner wellness sanctuaries represent the pinnacle of traditional Siamese healing and holistic wellness.",
-        "overview_p2": "Begin your journey with an invigorating kaffir lime and sea salt floral foot ritual, followed by your choice of therapeutic treatments: ancient Royal Thai acupressure massage, steaming organic herbal compresses (Luk Pra Kob), warm coconut oil body therapy, or exfoliating tropical body scrubs. Conclude with warm herbal tea and seasonal fruit in a peaceful relaxation lounge.",
-        "places_col1_title": "Signature Treatment Rituals",
-        "places_col1_badge": "Holistic Healing",
-        "places_col1_items": [
-            ("Traditional Royal Thai Massage (Nuad Thai)", "Centuries-old therapeutic healing art combining acupressure, rhythmic muscle compression, and passive yoga stretching."),
-            ("Hot Herbal Ball Compress (Luk Pra Kob)", "Steamed muslin bundles of turmeric, lemongrass, camphor, and plai applied along meridian lines to relieve muscle tension."),
-            ("Aromatherapy Essential Oil Therapy", "Gentle Swedish-inspired flowing massage using customized pure essential oils (jasmine, lemongrass, or lavender).")
-        ],
-        "places_col2_title": "Spa Sanctuary Facilities",
-        "places_col2_badge": "Botanical Serenity",
-        "places_col2_items": [
-            ("Private Teakwood Treatment Villas", "Air-conditioned private suites with terrazzo bathtubs, private rain showers, and tranquil garden views."),
-            ("Floral Foot Cleansing Ritual", "Soothing foot bath infused with fresh kaffir lime slices, sea salts, and fragrant orchid petals."),
-            ("Post-Treatment Herbal Tea Lounge", "Unwind after your therapy with hot organic bael fruit tea, herbal infusions, and fresh tropical fruit.")
-        ],
-        "inclusions": [
-            "Choice of 120-minute or 150-minute luxury spa treatment package",
-            "Welcome refreshing herbal welcome beverage and cool scented towel",
-            "Signature floral foot bath ritual with natural scrubs",
-            "Certified licensed Thai massage therapists with extensive training",
-            "Private treatment room with individual shower and luxury amenities",
-            "Post-treatment hot herbal tea and seasonal fruit refreshments"
-        ],
-        "exclusions": [
-            "Round-trip private hotel transfers (available on request for nominal fee)",
-            "Specialized take-home organic spa and body care products",
-            "Therapist gratuities"
-        ],
-        "timing_text": "Appointments available daily between 10:00 AM and 09:00 PM.<br />Advance reservation recommended to secure preferred time slots.",
-        "transport_text": "Convenient spa sanctuary branches located in Patong, Kata, Kamala, and Laguna Phuket.",
-        "what_to_bring": "Comfortable clothes; all treatment robes, disposable spa underwear, towels, and toiletries are provided.",
-        "contact_tour_param": "Phuket+Luxury+Spa+Retreat",
-        "faqs": [
-            ("Can couples enjoy treatments together in the same private suite?", "Yes, all our luxury spa sanctuaries feature spacious double and triple private treatment villas with twin massage tables and sunken floral bathtubs, ideal for couples, honeymooners, or friends traveling together."),
-            ("Are spa treatments suitable for pregnant women?", "Yes, specialized Prenatal Motherhood Massages are available for women in their second and third trimesters (after 12 weeks of pregnancy). Therapists use gentle techniques, side-lying support pillows, and pure fragrance-free carrier oils."),
-            ("Can I adjust the massage pressure during my treatment?", "Absolutely. Before your treatment begins, you will fill out a consultation questionnaire indicating your preferred pressure (soft, medium, or firm) and any areas of focus or injury. You can always ask your therapist to adjust pressure at any point."),
-            ("What should I wear during the spa treatment?", "You do not need to bring any special attire. The spa provides comfortable loose-fitting Thai massage pyjamas for dry Thai massages, and plush bathrobes, slippers, and hygienic disposable underwear for oil and scrub treatments.")
-        ]
-    },
-    {
         "filename": "private_phuket_city_and_viewpoints_tour.html",
         "title": "Private Phuket City & Scenic Viewpoints Custom Tour | Trippovention",
         "h1": "Private Phuket City & Scenic Viewpoints Tour",
@@ -1486,8 +1435,7 @@ def generate_tour_page(t):
           <div>
             <h3>Trippovention</h3>
             <p>
-              Your trusted travel partner for unforgettable journeys. We believe that travel should
-              be transformative, authentic, and memorable.
+              Thailand-registered travel and ground operations company offering curated land packages, sightseeing, private transfers, and day trips.
             </p>
             <div class="mt-20">
               <h3 class="muted font-weight-600">Contact Details</h3>
@@ -1523,7 +1471,7 @@ def generate_tour_page(t):
           <div>
             <h3>Thailand Office</h3>
             <p>
-              23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province-20150
+              Trippovention Co., Ltd.<br />23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province - 20150
             </p>
             <div class="mt-20">
               <h3 class="muted font-weight-600">Follow Us</h3>
