@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """
-Generate the Phuket Sightseeing Catalogue Page:
+Generate the Standardized Phuket Sightseeing Catalogue Page:
 docs/packages/thailand/phuket/sightseeing.html
 Modeled directly on docs/packages/thailand/krabi/sightseeing.html, Bangkok, and Pattaya catalogues.
-Preserves design system, typography, colors, centered curated collections,
-search/filtering engine, 24 experiences, 10 FAQs, and JSON-LD schemas.
+Follows standardized architecture:
+- .catalogue-hero
+- .collections-grid with center-aligned collection-pill-card
+- .filter-toolbar with .search-box-row, .category-pills-wrap, .secondary-filters-bar
+- Standardized card tiles with clean presentation (no highlights lists)
+- 23 verified Phuket experiences (Phuket Luxury Thai Spa removed)
+- 10 comprehensive FAQs with <details>/<summary> accordion & Schema.org FAQPage
+- Standard 3-column footer with official contact details
 """
 
 import os
@@ -58,78 +64,24 @@ EXPERIENCES = [
         "tour_type": "speedboat",
         "tour_type_label": "Speedboat Tour",
         "styles": "beach,adventure",
-        "price": "2100",
-        "price_display": "THB 2,100",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Set foot on the powdery white coral sands of world-famous Maya Bay",
-            "Swim and jump into the turquoise waters of enclosed Pileh Lagoon",
-            "Snorkel pristine shallow reefs and unwind on idyllic Bamboo Island",
-            "Full buffet lunch at Phi Phi Don and sights of Viking Cave & Monkey Beach"
-        ],
-        "enquiry_param": "Phi+Phi+Maya+Bamboo+Island+Tour"
-    },
-    {
-        "id": "hkt-03",
-        "name": "Carnival Magic Show with Dinner",
-        "link": "carnival_magic_show.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_carnival_magic_show_with_dinner.webp",
-        "alt": "Carnival Magic Phuket nighttime theme park with dinner",
-        "ribbon": "✨ Guinness Record",
-        "category": "shows-entertainment",
-        "category_label": "Shows & Entertainment",
-        "collections": "shows-entertainment,waterparks-family",
-        "duration": "evening",
-        "duration_hours": "5",
-        "duration_label": "⏱️ Evening (5–6 Hrs)",
-        "tour_type": "show",
-        "tour_type_label": "Theme Park & Show",
-        "styles": "family,luxury",
         "price": "2200",
         "price_display": "THB 2,200",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Kingdom of Lights illuminated park featuring 40+ million glowing LEDs",
-            "Colossal River Carnival indoor parade pageant and acrobatic floats",
-            "Lavish dinner at the 3,000-seat Bird of Paradise buffet restaurant",
-            "Round-trip air-conditioned hotel transfers from major beach resorts"
+            "Iconic Maya Bay national park beach framed by 100m karst limestone cliffs",
+            "Emerald swimming and cliff jumping in enclosed Pileh Lagoon",
+            "Snorkel colorful coral reefs with blacktip reef sharks at Bamboo Island",
+            "Buffet lunch on beachfront Phi Phi Don and sightseeing at Viking Cave"
         ],
-        "enquiry_param": "Carnival+Magic+Show+with+Dinner"
+        "enquiry_param": "Phi+Phi+and+Bamboo+Island+Tour"
     },
     {
-        "id": "hkt-04",
-        "name": "Phuket Ethical Elephant Sanctuary",
-        "link": "elephant_sanctuary.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_elephant_sanctuary.webp",
-        "alt": "Ethical Elephant Sanctuary Phuket rescued elephant care",
-        "ribbon": "🌿 100% Ethical",
-        "category": "nature-wildlife",
-        "category_label": "Nature & Wildlife",
-        "collections": "nature-wildlife",
-        "duration": "half-day",
-        "duration_hours": "4",
-        "duration_label": "⏱️ Half Day (4 Hrs)",
-        "tour_type": "guided",
-        "tour_type_label": "Eco Sanctuary Experience",
-        "styles": "nature,family",
-        "price": "2500",
-        "price_display": "THB 2,500",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Strict no-riding, ethical observation sanctuary supporting rescued elephants",
-            "Prepare nutritional herbal fruit balls and feed gentle pachyderms",
-            "Observe elephants splashing and bathing naturally in freshwater lagoons",
-            "Educational talk by passionate mahouts and vegetarian Thai buffet lunch"
-        ],
-        "enquiry_param": "Phuket+Elephant+Sanctuary"
-    },
-    {
-        "id": "hkt-05",
-        "name": "James Bond Island & Phang Nga Bay Tour",
+        "id": "hkt-03",
+        "name": "James Bond Island & Phang Nga Bay Sea Canoe Tour",
         "link": "james_bond_island_speedboat_tour.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_james_bond_island_speedboat_tour.webp",
-        "alt": "James Bond Island Koh Tapu Phang Nga Bay speedboat tour Phuket",
-        "ribbon": "🎬 Cinematic Icon",
+        "alt": "James Bond Island Koh Tapu and sea canoeing in Phang Nga Bay",
+        "ribbon": "🎬 Iconic Movie Site",
         "category": "island-tours",
         "category_label": "Island Tours & Marine",
         "collections": "island-tours",
@@ -137,188 +89,134 @@ EXPERIENCES = [
         "duration_hours": "8",
         "duration_label": "⏱️ Full Day (8 Hrs)",
         "tour_type": "speedboat",
-        "tour_type_label": "Speedboat & Canoe",
+        "tour_type_label": "Speedboat & Sea Canoe",
         "styles": "nature,adventure",
-        "price": "1800",
-        "price_display": "THB 1,800",
+        "price": "2100",
+        "price_display": "THB 2,100",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Iconic Koh Tapu limestone nail karst featured in 007's The Man with the Golden Gun",
-            "Paddle inflatable sea canoes through hidden caves and limestone hongs at Koh Hong",
-            "Visit the stilted Muslim seafaring fishing village of Koh Panyee",
-            "Delicious seafood buffet lunch and mangrove river delta cruising"
+            "Photograph Koh Tapu limestone nail from 'The Man with the Golden Gun'",
+            "Paddled sea canoe exploration through subterranean caves at Koh Panak",
+            "Explore hidden mangrove hongs and tidal limestone chambers at Hong Island",
+            "Buffet lunch at the historic Muslim stilted sea gypsy village of Koh Panyee"
         ],
         "enquiry_param": "James+Bond+Island+Tour"
     },
     {
-        "id": "hkt-06",
-        "name": "Phi Phi & Khai Islands Speedboat Tour",
-        "link": "phi_phi_island_and_khai_island_tour.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phi_phi_island_and_khai_island_tour_with_lunch_round_trip_transfer.webp",
-        "alt": "Phi Phi Island and Khai Island speedboat tour with lunch Phuket",
-        "ribbon": "🐠 Snorkeling Classic",
-        "category": "island-tours",
-        "category_label": "Island Tours & Marine",
-        "collections": "island-tours",
-        "duration": "full-day",
-        "duration_hours": "8",
-        "duration_label": "⏱️ Full Day (8 Hrs)",
-        "tour_type": "speedboat",
-        "tour_type_label": "Speedboat Tour",
-        "styles": "beach,family",
-        "price": "1900",
-        "price_display": "THB 1,900",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Explore Phi Phi Leh highlights including Maya Bay, Pileh Cove & Viking Cave",
-            "Snorkel crystal shallow waters right off the white sandy beaches of Khai Nok",
-            "Buffet lunch served on Phi Phi Don Island with scenic bay views",
-            "Abundant tropical fish encounters ideal for kids and beginner snorkelers"
-        ],
-        "enquiry_param": "Phi+Phi+and+Khai+Island+Tour"
-    },
-    {
-        "id": "hkt-07",
-        "name": "Phuket FantaSea Cultural Show with Dinner",
+        "id": "hkt-04",
+        "name": "Phuket FantaSea Cultural Theme Park & Show",
         "link": "phuket_fantasea_show.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_fantasea_show_with_dinner.webp",
-        "alt": "Phuket FantaSea cultural theme park show Kamala Beach",
-        "ribbon": "🎪 Cultural Classic",
+        "alt": "Phuket FantaSea Palace of the Elephants cultural show in Kamala",
+        "ribbon": "🐘 Grand Cultural Revue",
         "category": "shows-entertainment",
-        "category_label": "Shows & Entertainment",
+        "category_label": "Shows & Theatre",
+        "collections": "shows-entertainment",
+        "duration": "evening",
+        "duration_hours": "4",
+        "duration_label": "⏱️ Evening (4–5 Hrs)",
+        "tour_type": "show",
+        "tour_type_label": "Theme Park & Live Show",
+        "styles": "culture,family",
+        "price": "1800",
+        "price_display": "THB 1,800",
+        "price_unit": "Price Per Person",
+        "highlights": [
+            "Spectacular 'Fantasy of a Kingdom' theatrical show in 3,000-seat theatre",
+            "Thai culture, aerial acrobatics, illusion magic, pyrotechnics and 30+ elephants",
+            "Golden Kinnaree 4,000-seat royal banquet hall international buffet dinner",
+            "Carnival Village shopping street with traditional crafts, games, and photo ops"
+        ],
+        "enquiry_param": "Phuket+FantaSea+Show"
+    },
+    {
+        "id": "hkt-05",
+        "name": "Carnival Magic Phuket Nighttime Theme Park",
+        "link": "carnival_magic_show.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_carnival_magic_show_with_dinner.webp",
+        "alt": "Carnival Magic Phuket Kingdom of Lights illuminated theme park",
+        "ribbon": "✨ 9 Guinness Records",
+        "category": "shows-entertainment",
+        "category_label": "Shows & Theatre",
         "collections": "shows-entertainment",
         "duration": "evening",
         "duration_hours": "4.5",
         "duration_label": "⏱️ Evening (4–5 Hrs)",
         "tour_type": "show",
-        "tour_type_label": "Cultural Show & Dinner",
-        "styles": "culture,family",
+        "tour_type_label": "Light Park & Parade",
+        "styles": "family,culture",
         "price": "2100",
         "price_display": "THB 2,100",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Palace of the Elephants 3,000-seat theatrical auditorium spectacle",
-            "Las Vegas-style staging, aerial acrobatics, pyrotechnics & Thai folklore",
-            "Grand Golden Kinnaree 4,000-seat royal banquet buffet dinner",
-            "Carnival Village shopping street with traditional games and artisan crafts"
+            "World's highest concentration of illumination with over 40 million LED lights",
+            "River Carnival indoor parade show with colossal floats in 2,200-seat stadium",
+            "Kingdom of Lights illuminated walking wonderland spanning 40 manicured acres",
+            "Bird of Paradise 3,000-seat royal buffet restaurant with 100+ global delicacies"
         ],
-        "enquiry_param": "Phuket+FantaSea+Show+with+Dinner"
+        "enquiry_param": "Carnival+Magic+Phuket"
     },
     {
-        "id": "hkt-08",
-        "name": "Hanuman World Zipline & ATV Adventure",
-        "link": "hanuman_world_zipline_and_atv_adventure.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_hanuman_world_zipline.webp",
-        "alt": "Hanuman World Phuket treetop zipline and ATV adventure",
-        "ribbon": "⚡ High Thrill",
-        "category": "adventure-outdoor",
-        "category_label": "Adventure & Outdoor",
-        "collections": "adventure-outdoor",
-        "duration": "half-day",
-        "duration_hours": "3.5",
-        "duration_label": "⏱️ 3–4 Hours",
-        "tour_type": "adventure",
-        "tour_type_label": "Canopy & Off-Road",
-        "styles": "adventure",
-        "price": "2200",
-        "price_display": "THB 2,200",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Soar through pristine tropical rainforest canopy on high-speed dual ziplines",
-            "Brave the 800m Roller Zipline curving and swooping through the trees",
-            "Elevated Sky Walk treetop bridge with panoramic jungle valley views",
-            "Rugged guide-led ATV quad bike expedition tackling muddy jungle trails"
-        ],
-        "enquiry_param": "Hanuman+World+Zipline+ATV+Adventure"
-    },
-    {
-        "id": "hkt-09",
-        "name": "Phuket Simon Cabaret Show",
+        "id": "hkt-06",
+        "name": "Simon Cabaret Show Phuket",
         "link": "simon_cabaret_show_phuket.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_simon_cabaret_show.webp",
-        "alt": "Phuket Simon Cabaret transgender musical show in Patong",
-        "ribbon": "💃 Glamour & Dance",
+        "alt": "Simon Cabaret Phuket glamorous theatrical performance in Patong",
+        "ribbon": "💃 Leading Cabaret",
         "category": "shows-entertainment",
-        "category_label": "Shows & Entertainment",
+        "category_label": "Shows & Theatre",
         "collections": "shows-entertainment",
         "duration": "evening",
-        "duration_hours": "1.25",
-        "duration_label": "⏱️ 1 Hr 15 Mins",
+        "duration_hours": "1.5",
+        "duration_label": "⏱️ 75 Minutes (Evening)",
         "tour_type": "show",
-        "tour_type_label": "Musical Theatre Show",
+        "tour_type_label": "Theatrical Revue",
         "styles": "culture,family",
         "price": "900",
         "price_display": "THB 900",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Phuket's legendary ladyboy musical cabaret performing since 1991 in Patong",
-            "Extravagant feathered costumes, glittering ballgowns & grand stage sets",
-            "High-energy song-and-dance tributes spanning Broadway, Bollywood & pop",
-            "Family-friendly theatrical revue suitable for travelers of all ages"
+            "Phuket's legendary transvestite theatrical performance operating since 1991",
+            "Glitz, glamour, Broadway numbers, international pop, and traditional Asian sets",
+            "Elaborate handcrafted feather costumes, crystal gowns, and state-of-the-art acoustics",
+            "Centrally located in Patong Beach with convenient multiple nightly showtimes"
         ],
-        "enquiry_param": "Phuket+Simon+Cabaret+Show"
+        "enquiry_param": "Simon+Cabaret+Show+Phuket"
     },
     {
-        "id": "hkt-10",
-        "name": "Aquaria Phuket & AR Trick Eye Museum",
-        "link": "aquaria_phuket_tickets.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_aquaria_phuket.webp",
-        "alt": "Aquaria Phuket oceanarium and AR Trick Eye museum",
-        "ribbon": "🦈 Marine Wonder",
-        "category": "waterparks-family",
-        "category_label": "Family Attractions",
-        "collections": "waterparks-family",
+        "id": "hkt-07",
+        "name": "Hanuman World Zipline & Roller Adventure",
+        "link": "hanuman_world_zipline_and_atv_adventure.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_hanuman_world_zipline.webp",
+        "alt": "Hanuman World Phuket rainforest canopy zipline and roller coaster",
+        "ribbon": "⚡ Eco Adrenaline",
+        "category": "adventure-outdoor",
+        "category_label": "Adventure & Outdoor",
+        "collections": "adventure-outdoor",
         "duration": "half-day",
-        "duration_hours": "2.5",
-        "duration_label": "⏱️ 2–3 Hours",
-        "tour_type": "attraction",
-        "tour_type_label": "Indoor Oceanarium",
-        "styles": "family,nature",
-        "price": "850",
-        "price_display": "THB 850",
+        "duration_hours": "3.5",
+        "duration_label": "⏱️ Half Day (3–4 Hrs)",
+        "tour_type": "adventure",
+        "tour_type_label": "Jungle Zipline Adventure",
+        "styles": "adventure,family",
+        "price": "1900",
+        "price_display": "THB 1,900",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Thailand's largest oceanarium housing 25,000+ aquatic animals across 4 zones",
-            "Massive panoramic ocean tank window with stingrays, sharks & sea turtles",
-            "Enchanting live mermaid synchronized swimming and diver feeding shows",
-            "Interactive AR Trick Eye Museum 4D augmented reality photo galleries"
+            "Soar through pristine rainforest canopy across 30 thrilling tree-high platforms",
+            "Fly on Thailand's longest 400m high-speed zipline above ancient tree crowns",
+            "800m high-gravity Roller Zipline coaster spiraling through dense jungle foliage",
+            "Tree-top Skywalk bridge walkway and authentic Southern Thai buffet lunch"
         ],
-        "enquiry_param": "Aquaria+Phuket+Tickets"
+        "enquiry_param": "Hanuman+World+Zipline+Adventure"
     },
     {
-        "id": "hkt-11",
-        "name": "Authentic Thai Cooking Class with Market Tour",
-        "link": "phuket_thai_cooking_class.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_thai_cooking_class.webp",
-        "alt": "Thai cooking class with local fresh morning market tour Phuket",
-        "ribbon": "👨‍🍳 Culinary Master",
-        "category": "food-wellness",
-        "category_label": "Food & Wellness",
-        "collections": "food-wellness",
-        "duration": "half-day",
-        "duration_hours": "4",
-        "duration_label": "⏱️ 4 Hours",
-        "tour_type": "guided",
-        "tour_type_label": "Interactive Workshop",
-        "styles": "culture,family",
-        "price": "1600",
-        "price_display": "THB 1,600",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Chef-guided morning walking tour of vibrant local produce market",
-            "Hand-pound aromatic green and red curry pastes with granite mortar & pestle",
-            "Individual wok cooking stations to master 4 classic Thai dishes from scratch",
-            "Printed full-color recipe booklet and gourmet meal tasting"
-        ],
-        "enquiry_param": "Phuket+Thai+Cooking+Class"
-    },
-    {
-        "id": "hkt-12",
-        "name": "Coral & Racha Island Speedboat Day Tour",
+        "id": "hkt-08",
+        "name": "Coral Island (Koh Hey) & Racha Island Speedboat Tour",
         "link": "coral_and_racha_island_tour.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_coral_and_racha_island.webp",
-        "alt": "Coral Island Koh Hey and Racha Yai speedboat tour from Phuket",
-        "ribbon": "🏝️ Island Hopping",
+        "alt": "Coral Island Banana Beach and Racha Island turquoise snorkeling from Phuket",
+        "ribbon": "🤿 Snorkel Paradise",
         "category": "island-tours",
         "category_label": "Island Tours & Marine",
         "collections": "island-tours",
@@ -326,116 +224,224 @@ EXPERIENCES = [
         "duration_hours": "7.5",
         "duration_label": "⏱️ Full Day (7–8 Hrs)",
         "tour_type": "speedboat",
-        "tour_type_label": "Speedboat Tour",
-        "styles": "beach,adventure",
-        "price": "1450",
-        "price_display": "THB 1,450",
+        "tour_type_label": "Island Speedboat Excursion",
+        "styles": "beach,family",
+        "price": "1650",
+        "price_display": "THB 1,650",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Relax on white sandy Banana Beach at Coral Island with shallow coral reefs",
-            "Optional water sports including parasailing, sea walker & banana boat rides",
-            "Snorkel the crystal-clear 20m visibility waters of Patok Bay at Racha Yai",
-            "Delicious Thai buffet lunch and round-trip transfers from Chalong Pier"
+            "Quick 15-minute crossing to Coral Island's powdery white sand Banana Beach",
+            "Optional watersports: parasailing, banana boat, and clear-bottom sea kayaking",
+            "Cruise to Racha Yai Island for world-class snorkeling in crystal-clear Batok Bay",
+            "Encounter tropical parrotfish, damselfish, and vibrant living brain corals"
         ],
         "enquiry_param": "Coral+and+Racha+Island+Tour"
     },
     {
-        "id": "hkt-13",
-        "name": "Similan Islands Snorkeling Excursion (Seasonal)",
+        "id": "hkt-09",
+        "name": "Ethical Elephant Care & Sanctuary Program Phuket",
+        "link": "elephant_sanctuary.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_elephant_sanctuary.webp",
+        "alt": "Ethical elephant feeding and mud spa sanctuary experience Phuket",
+        "ribbon": "❤️ 100% Ethical",
+        "category": "wildlife-family",
+        "category_label": "Wildlife & Nature",
+        "collections": "wildlife-family",
+        "duration": "half-day",
+        "duration_hours": "4",
+        "duration_label": "⏱️ Half Day (4 Hrs)",
+        "tour_type": "guided",
+        "tour_type_label": "Ethical Wildlife Program",
+        "styles": "family,nature",
+        "price": "2400",
+        "price_display": "THB 2,400",
+        "price_unit": "Price Per Person",
+        "highlights": [
+            "Strict no-riding, no-chains sanctuary for rescued working elephants",
+            "Prepare fresh nutritional fruit baskets and medicinal herbal dietary balls",
+            "Observe gentle giants foraging freely and bathing in natural forest lagoons",
+            "Learn elephant social behaviors and conservation science from expert carers"
+        ],
+        "enquiry_param": "Phuket+Elephant+Sanctuary+Program"
+    },
+    {
+        "id": "hkt-10",
+        "name": "Phuket Sunset Dinner Cruise by Catamaran",
+        "link": "phuket_sunset_catamaran_cruise.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_sunset_catamaran_cruise.webp",
+        "alt": "Luxury sailing catamaran sunset dinner cruise Promthep Cape Phuket",
+        "ribbon": "🥂 Sunset Romance",
+        "category": "island-tours",
+        "category_label": "Island Tours & Marine",
+        "collections": "island-tours",
+        "duration": "evening",
+        "duration_hours": "5",
+        "duration_label": "⏱️ Afternoon / Sunset (5 Hrs)",
+        "tour_type": "speedboat",
+        "tour_type_label": "Luxury Sailing Cruise",
+        "styles": "luxury,beach",
+        "price": "2350",
+        "price_display": "THB 2,350",
+        "price_unit": "Price Per Person",
+        "highlights": [
+            "Sail aboard a spacious modern catamaran yacht with sunbeds & shaded saloon",
+            "Snorkel off scenic Coral Island and spot wild dolphins near Maiton Island",
+            "Anchor beside Promthep Cape and Laem Krating for dramatic Andaman sunset vistas",
+            "Fresh Thai barbecue buffet dinner, sashimi, seasonal fruits, and sparkling wine"
+        ],
+        "enquiry_param": "Phuket+Sunset+Catamaran+Cruise"
+    },
+    {
+        "id": "hkt-11",
+        "name": "Similan Islands Day Trip by Speedboat",
         "link": "similan_islands_snorkeling_tour.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_similan_islands_snorkeling.webp",
-        "alt": "Similan Islands National Park snorkeling day tour from Phuket",
-        "ribbon": "🌊 World Top 10",
+        "alt": "Similan Islands turquoise sea and Sailing Rock viewpoint",
+        "ribbon": "🏝️ National Marine Park",
         "category": "island-tours",
         "category_label": "Island Tours & Marine",
         "collections": "island-tours",
         "duration": "full-day",
         "duration_hours": "11",
-        "duration_label": "⏱️ Full Day (11 Hrs)",
+        "duration_label": "⏱️ Full Day (10–11 Hrs)",
         "tour_type": "speedboat",
-        "tour_type_label": "Speedboat Expedition",
-        "styles": "nature,adventure",
-        "price": "2800",
-        "price_display": "THB 2,800",
+        "tour_type_label": "Marine Park Speedboat",
+        "styles": "beach,adventure",
+        "price": "3100",
+        "price_display": "THB 3,100",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Strictly seasonal marine park open only from October 15 to May 15",
-            "Hike up to the world-famous Sail Rock viewpoint overlooking Donald Duck Bay",
-            "Encounter wild sea turtles and schools of tropical fish in 30m visibility",
-            "Flour-soft powder white beaches and majestic granite boulder formations"
+            "Open exclusively Oct 15 – May 15: Thailand's #1 protected marine archipelago",
+            "Hike up to the iconic balancing Sailing Rock overlook at Koh Similan (Island 8)",
+            "Swim among sea turtles, manta rays, and tropical schools at Koh Ba-Ngu (Island 9)",
+            "Relax on blinding white coral-powder sand at Donald Duck Bay and Princess Bay"
         ],
-        "enquiry_param": "Similan+Islands+Snorkeling+Tour"
+        "enquiry_param": "Similan+Islands+Day+Trip"
+    },
+    {
+        "id": "hkt-12",
+        "name": "Aquaria Phuket & AR Trickeye Museum Pass",
+        "link": "aquaria_phuket_tickets.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_aquaria_phuket.webp",
+        "alt": "Aquaria Phuket ocean tunnel and underwater exhibits in Central Phuket",
+        "ribbon": "🐠 Largest In Thailand",
+        "category": "wildlife-family",
+        "category_label": "Family Attractions",
+        "collections": "wildlife-family",
+        "duration": "half-day",
+        "duration_hours": "3",
+        "duration_label": "⏱️ 2–3 Hours",
+        "tour_type": "attraction",
+        "tour_type_label": "Indoor Theme Attraction",
+        "styles": "family",
+        "price": "890",
+        "price_display": "THB 890",
+        "price_unit": "Price Per Person",
+        "highlights": [
+            "Thailand's largest aquarium housing 25,000+ marine animals across 9 themed zones",
+            "Walk through panoramic underwater tunnels surrounded by rays and zebra sharks",
+            "Daily diver feeding shows, penguin habitat, and otters in Mystic Forest",
+            "Includes entry to AR Trick Eye Museum with interactive 3D augmented-reality art"
+        ],
+        "enquiry_param": "Aquaria+Phuket+Tickets"
+    },
+    {
+        "id": "hkt-13",
+        "name": "Phuket Traditional Thai Cooking Class & Market Tour",
+        "link": "phuket_thai_cooking_class.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_thai_cooking_class.webp",
+        "alt": "Authentic Thai cooking school prep and fresh market tour Phuket",
+        "ribbon": "🍲 UNESCO Gastronomy",
+        "category": "thai-cooking",
+        "category_label": "Food & Cooking",
+        "collections": "thai-cooking",
+        "duration": "half-day",
+        "duration_hours": "4",
+        "duration_label": "⏱️ Half Day (4 Hrs)",
+        "tour_type": "guided",
+        "tour_type_label": "Culinary Workshop",
+        "styles": "culture,family",
+        "price": "1600",
+        "price_display": "THB 1,600",
+        "price_unit": "Price Per Person",
+        "highlights": [
+            "Guided tour of an authentic local morning market to select fresh herbs & spices",
+            "Hands-on cooking stations instructed by master chefs in open-air garden kitchen",
+            "Cook 4 signature dishes: Tom Yum Goong, Pad Thai, Green Curry & Mango Sticky Rice",
+            "Feast on your culinary creations and receive an official recipe certificate"
+        ],
+        "enquiry_param": "Phuket+Thai+Cooking+Class"
     },
     {
         "id": "hkt-14",
-        "name": "Phuket Sunset Catamaran Yacht Cruise",
-        "link": "phuket_sunset_catamaran_cruise.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_sunset_catamaran_cruise.webp",
-        "alt": "Sunset catamaran sailing cruise to Promthep Cape Phuket",
-        "ribbon": "🌅 Romantic Cruise",
-        "category": "island-tours",
-        "category_label": "Island Tours & Marine",
-        "collections": "island-tours",
-        "duration": "half-day",
-        "duration_hours": "5",
-        "duration_label": "⏱️ 5 Hours (Sunset)",
-        "tour_type": "cruises-boats",
-        "tour_type_label": "Luxury Sailing Catamaran",
-        "styles": "luxury,beach",
-        "price": "1950",
-        "price_display": "THB 1,950",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Luxury double-hulled sailing catamaran with expansive trampoline sun nets",
-            "Snorkeling, swimming & stand-up paddleboarding off secluded Coral Island",
-            "Unobstructed golden-hour sunset vistas off Promthep Cape and Laem Krating",
-            "Onboard barbecue chicken & seafood dinner with sparkling sunset toast"
-        ],
-        "enquiry_param": "Phuket+Sunset+Catamaran+Cruise"
-    },
-    {
-        "id": "hkt-15",
-        "name": "Phuket Scuba Diving Day Trip (Racha Yai)",
+        "name": "Scuba Diving Day Trip (Racha Yai & Noi)",
         "link": "phuket_scuba_diving_day_trip.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_scuba_diving_day_trip.webp",
-        "alt": "Scuba diving day trip to Racha Yai Island from Phuket",
-        "ribbon": "🤿 2 Boat Dives",
+        "alt": "Scuba diving coral reefs and marine life at Racha Yai from Phuket",
+        "ribbon": "🌊 Certified & Beginners",
         "category": "island-tours",
         "category_label": "Island Tours & Marine",
         "collections": "island-tours",
         "duration": "full-day",
-        "duration_hours": "7.5",
-        "duration_label": "⏱️ Full Day (7–8 Hrs)",
-        "tour_type": "guided",
-        "tour_type_label": "Guided Scuba Dives",
-        "styles": "adventure,nature",
+        "duration_hours": "8",
+        "duration_label": "⏱️ Full Day (8 Hrs)",
+        "tour_type": "speedboat",
+        "tour_type_label": "PADI Dive Boat Trip",
+        "styles": "adventure",
         "price": "3400",
         "price_display": "THB 3,400",
         "price_unit": "Price Per Person",
         "highlights": [
-            "Two guided boat dives at Racha Yai with certified PADI Divemasters",
-            "Submerged concrete elephant statues and artificial reefs at Siam Bay",
-            "Suitable for both certified divers and first-time Discover Scuba beginners",
-            "Spacious 3-deck dive vessel with hot breakfast and freshly cooked buffet lunch"
+            "2 or 3 guided boat dives at Racha Yai & Racha Noi with crystal 25m+ visibility",
+            "Discover underwater motorcycle wrecks, artificial reefs, and concrete elephant statues",
+            "Encounter moray eels, barracudas, cuttlefish, and gentle sea turtles",
+            "Full premium scuba gear, certified divemaster guides & freshly cooked hot buffet lunch"
         ],
-        "enquiry_param": "Phuket+Scuba+Diving+Day+Trip"
+        "enquiry_param": "Phuket+Scuba+Diving+Trip"
+    },
+    {
+        "id": "hkt-15",
+        "name": "Phi Phi & Khai Islands Speedboat Excursion",
+        "link": "phi_phi_island_and_khai_island_tour.html",
+        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phi_phi_island_and_khai_island_tour_with_lunch_round_trip_transfer.webp",
+        "alt": "Speedboat excursion to Phi Phi Don and Khai Nok Island from Phuket",
+        "ribbon": "👨‍👩‍👧 Family Favorite",
+        "category": "island-tours",
+        "category_label": "Island Tours & Marine",
+        "collections": "island-tours",
+        "duration": "full-day",
+        "duration_hours": "8",
+        "duration_label": "⏱️ Full Day (8 Hrs)",
+        "tour_type": "speedboat",
+        "tour_type_label": "Speedboat Excursion",
+        "styles": "beach,family",
+        "price": "1950",
+        "price_display": "THB 1,950",
+        "price_unit": "Price Per Person",
+        "highlights": [
+            "Scenic cruise past Maya Bay, Loh Samah Bay, Viking Cave and Monkey Beach",
+            "Open-sea snorkeling stops above vibrant coral gardens in Phi Phi archipelago",
+            "Afternoon beach stop at Khai Nok Island with calm shallow waters ideal for kids",
+            "Direct beach feeding and swimming right alongside hundreds of sergeant major fish"
+        ],
+        "enquiry_param": "Phi+Phi+and+Khai+Island+Tour"
     },
     {
         "id": "hkt-16",
-        "name": "Phuket Old Town Heritage & Street Food Tour",
+        "name": "Phuket Old Town Heritage Cultural Walking Tour",
         "link": "phuket_old_town_heritage_walking_tour.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_old_town_heritage.webp",
-        "alt": "Phuket Old Town heritage walking tour and street food tasting",
-        "ribbon": "🍜 UNESCO Flavors",
+        "alt": "Phuket Old Town Sino-Portuguese architecture shophouses Thalang Road",
+        "ribbon": "🏛️ Heritage & Food",
         "category": "city-culture",
         "category_label": "City & Culture",
-        "collections": "city-culture,food-wellness",
+        "collections": "city-culture",
         "duration": "half-day",
         "duration_hours": "3.5",
-        "duration_label": "⏱️ 3.5 Hours",
+        "duration_label": "⏱️ Half Day (3–4 Hrs)",
         "tour_type": "guided",
-        "tour_type_label": "Walking & Food Tour",
-        "styles": "culture,family",
+        "tour_type_label": "Guided Walking Tour",
+        "styles": "culture",
         "price": "850",
         "price_display": "THB 850",
         "price_unit": "Price Per Person",
@@ -448,55 +454,28 @@ EXPERIENCES = [
         "enquiry_param": "Phuket+Old+Town+Walking+Tour"
     },
     {
-        "id": "hkt-17",
-        "name": "Phuket Luxury Thai Spa & Wellness Retreat",
-        "link": "phuket_luxury_spa_and_wellness.html",
-        "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_luxury_spa_wellness.webp",
-        "alt": "Luxury Thai spa wellness treatment in botanical pavilion Phuket",
-        "ribbon": "🌿 Holistic Wellness",
-        "category": "food-wellness",
-        "category_label": "Food & Wellness",
-        "collections": "food-wellness",
-        "duration": "half-day",
-        "duration_hours": "2.5",
-        "duration_label": "⏱️ 2–3 Hours",
-        "tour_type": "attraction",
-        "tour_type_label": "Spa Sanctuary",
-        "styles": "luxury",
-        "price": "1500",
-        "price_display": "THB 1,500",
-        "price_unit": "Price Per Person",
-        "highlights": [
-            "Tranquil botanical garden spa pavilions in Patong, Kata, or Laguna",
-            "Traditional Royal Thai acupressure massage and steaming herbal ball compress",
-            "Aromatherapy warm essential oil body massage and floral foot bath ritual",
-            "Complimentary post-treatment organic bael herbal tea and tropical refreshments"
-        ],
-        "enquiry_param": "Phuket+Luxury+Spa+Retreat"
-    },
-    {
         "id": "hkt-18",
         "name": "Private Phuket City & Scenic Viewpoints Tour",
         "link": "private_phuket_city_and_viewpoints_tour.html",
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_private_phuket_city_viewpoints.webp",
-        "alt": "Private VIP minivan tour of Phuket viewpoints and landmarks",
-        "ribbon": "👑 100% Private",
+        "alt": "Private VIP minivan city tour Promthep Cape and Big Buddha Phuket",
+        "ribbon": "⭐ 100% Tailored VIP",
         "category": "city-culture",
         "category_label": "City & Culture",
         "collections": "city-culture",
-        "duration": "full-day",
-        "duration_hours": "8",
-        "duration_label": "⏱️ 6–8 Hours Flexible",
+        "duration": "half-day",
+        "duration_hours": "5",
+        "duration_label": "⏱️ Flexible (5–6 Hrs)",
         "tour_type": "private",
-        "tour_type_label": "Private Minivan Hire",
-        "styles": "luxury,family",
-        "price": "2500",
-        "price_display": "THB 2,500",
-        "price_unit": "Per Van (Up to 10 Pax)",
+        "tour_type_label": "Private Minivan Tour",
+        "styles": "luxury,culture",
+        "price": "3200",
+        "price_display": "THB 3,200",
+        "price_unit": "Per Vehicle (Up to 9 Pax)",
         "highlights": [
-            "Dedicated private Toyota Commuter VIP van and experienced local chauffeur",
-            "100% customizable itinerary: Big Buddha, Wat Chalong, Promthep Cape & Old Town",
-            "Explore at your own relaxed pace without fixed group schedules",
+            "Dedicated private VIP minivan with professional English-speaking driver",
+            "Fully customisable route: Big Buddha, Wat Chalong, Old Town & Promthep Cape",
+            "Travel at your party's personal pace with zero rushed commercial stops",
             "Direct hotel, private villa, or Phuket International Airport pickup"
         ],
         "enquiry_param": "Private+Phuket+City+Tour"
@@ -510,7 +489,7 @@ EXPERIENCES = [
         "ribbon": "🌲 Primeval Wilderness",
         "category": "adventure-outdoor",
         "category_label": "Adventure & Nature",
-        "collections": "adventure-outdoor,nature-wildlife",
+        "collections": "adventure-outdoor",
         "duration": "full-day",
         "duration_hours": "11.5",
         "duration_label": "⏱️ Full Day (11–12 Hrs)",
@@ -535,9 +514,9 @@ EXPERIENCES = [
         "img": "../../../assets/images/packages/thailand/phuket/sightseeingoptions/hero_andamanda_phuket_water_park.webp",
         "alt": "Andamanda Phuket water park slides and wave pool in Kathu",
         "ribbon": "🌊 25 Attractions",
-        "category": "waterparks-family",
+        "category": "wildlife-family",
         "category_label": "Family Attractions",
-        "collections": "waterparks-family",
+        "collections": "wildlife-family",
         "duration": "full-day",
         "duration_hours": "6",
         "duration_label": "⏱️ Full Day (5–6 Hrs)",
@@ -563,7 +542,7 @@ EXPERIENCES = [
         "alt": "Siam Niramit Phuket grand stage cultural show with dinner",
         "ribbon": "🎭 Grand Stage",
         "category": "shows-entertainment",
-        "category_label": "Shows & Entertainment",
+        "category_label": "Shows & Theatre",
         "collections": "shows-entertainment",
         "duration": "evening",
         "duration_hours": "3.5",
@@ -590,7 +569,7 @@ EXPERIENCES = [
         "alt": "Surfing and stand-up paddleboarding lessons Kata Beach Phuket",
         "ribbon": "🏄 Surfing Capital",
         "category": "adventure-outdoor",
-        "category_label": "Adventure & Water Sports",
+        "category_label": "Adventure & Outdoor",
         "collections": "adventure-outdoor",
         "duration": "half-day",
         "duration_hours": "2",
@@ -709,14 +688,12 @@ FAQS_DATA = [
 ]
 
 def generate_catalogue_html():
-    cards_html = ""
+    cards_html_list = []
     item_list_elements = []
 
     for idx, exp in enumerate(EXPERIENCES, start=1):
-        highlights_li = "\n".join([f"                        <li>{hl}</li>" for hl in exp["highlights"]])
-        card = f"""            <!-- Product Card {idx}: {exp['name']} -->
-            <div
-              class="card product-card"
+        card_html = f"""            <article
+              class="card sightseeing-card"
               data-id="{exp['id']}"
               data-name="{exp['name'].lower()}"
               data-category="{exp['category']}"
@@ -727,42 +704,38 @@ def generate_catalogue_html():
               data-styles="{exp['styles']}"
               data-price="{exp['price']}"
             >
-              <div class="card-image-wrap">
+              <div class="img-wrap">
                 <img
                   src="{exp['img']}"
                   alt="{exp['alt']}"
-                  width="800"
-                  height="450"
+                  width="400"
+                  height="225"
                   loading="lazy"
                 />
-                <span class="card-ribbon">{exp['ribbon']}</span>
-                <span class="card-badge">{exp['category_label']}</span>
+                <span class="ribbon">{exp['ribbon']}</span>
               </div>
               <div class="body">
-                <h3>{exp['name']}</h3>
-                <div class="card-meta">
-                  <span>{exp['duration_label']}</span>
-                  <span>•</span>
-                  <span>{exp['tour_type_label']}</span>
+                <div class="card-meta-row">
+                  <span class="card-tag highlight-tag">{exp['duration_label']}</span>
+                  <span class="card-tag">{exp['tour_type_label']}</span>
+                  <span class="card-tag">{exp['category_label']}</span>
                 </div>
-                <div class="price-row">
-                  <div>
-                    <span class="price-from">From</span>
-                    <span class="price">{exp['price_display']}</span>
-                  </div>
-                  <span class="price-unit">{exp['price_unit']}</span>
+                <h3><a href="{exp['link']}" class="card-title-link">{exp['name']}</a></h3>
+                <div class="price-row mt-auto">
+                  <span class="price-label">{exp['price_unit']}</span>
+                  <span class="price">{exp['price_display']}</span>
                 </div>
-                <div class="card-actions">
-                  <a href="{exp['link']}" class="btn btn-outline">View Details</a>
+                <div class="card-footer-actions">
+                  <a class="btn btn-outline-details" href="{exp['link']}">View Details</a>
                   <a
+                    class="btn btn-enquire"
                     href="../../../contact.html?destination=phuket&tour={exp['enquiry_param']}"
-                    class="btn btn-primary"
                     >Enquire Now →</a
                   >
                 </div>
               </div>
-            </div>"""
-        cards_html += card + "\n\n"
+            </article>"""
+        cards_html_list.append(card_html)
 
         item_list_elements.append(f"""          {{
             "@type": "ListItem",
@@ -771,35 +744,29 @@ def generate_catalogue_html():
             "url": "https://trippovention.co.th/packages/thailand/phuket/{exp['link']}"
           }}""")
 
+    all_cards_html = "\n\n".join(cards_html_list)
     item_list_json = ",\n".join(item_list_elements)
 
-    faqs_html = ""
-    faq_schema_elements = []
-    for q, a in FAQS_DATA:
-        faqs_html += f"""            <div class="faq-item">
-              <button class="faq-question" aria-expanded="false">
-                <span>{q}</span>
-                <span class="faq-icon" aria-hidden="true">+</span>
-              </button>
-              <div class="faq-answer">
-                <p>{a}</p>
-              </div>
-            </div>\n"""
-        
-        q_clean = q.replace('"', '\\"')
-        a_clean = a.replace('"', '\\"')
-        faq_schema_elements.append(f"""          {{
+    faq_acc_items = []
+    faq_schema_items = []
+    for i, (q, a) in enumerate(FAQS_DATA):
+        is_open = " open" if i == 0 else ""
+        faq_acc_items.append(f"""            <details class="faq-item"{is_open}>
+              <summary class="faq-question"><span>{q}</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>{a}</p></div>
+            </details>""")
+        faq_schema_items.append(f"""          {{
             "@type": "Question",
-            "name": "{q_clean}",
+            "name": "{q}",
             "acceptedAnswer": {{
               "@type": "Answer",
-              "text": "{a_clean}"
+              "text": "{a}"
             }}
           }}""")
-    
-    faq_schema_json = ",\n".join(faq_schema_elements)
+    all_faqs_html = "\n".join(faq_acc_items)
+    faq_schema_str = ",\n".join(faq_schema_items)
 
-    html = f"""<!doctype html>
+    page_html = f"""<!doctype html>
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
@@ -821,66 +788,40 @@ def generate_catalogue_html():
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>Phuket Sightseeing Tours & Activities | Trippovention Thailand</title>
+    <title>Phuket Sightseeing Tours &amp; Activities | Trippovention</title>
     <meta
       name="description"
-      content="Explore the comprehensive Phuket sightseeing catalogue. Discover verified island-hopping speedboat tours to Phi Phi & James Bond Island, cultural viewpoints, ethical elephant sanctuaries, world-class evening shows, water parks, and outdoor adventures with Trippovention Thailand."
+      content="Explore Phuket sightseeing tours, Phi Phi island hopping, James Bond Island, Big Buddha, Simon Cabaret, and adventure activities. Enquire with Trippovention for current offers."
     />
     <meta name="author" content="Trippovention" />
 
-    <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://trippovention.co.th/packages/thailand/phuket/sightseeing.html"
-    />
-    <meta
-      property="og:title"
-      content="Phuket Sightseeing Tours & Activities | Trippovention Thailand"
-    />
+    <meta property="og:url" content="https://trippovention.co.th/packages/thailand/phuket/sightseeing.html" />
+    <meta property="og:title" content="Phuket Sightseeing Tours &amp; Activities | Trippovention" />
     <meta
       property="og:description"
-      content="Discover Phuket's top sightseeing activities, island-hopping tours to Phi Phi & James Bond, cultural landmarks, night shows, water parks, and private excursions."
+      content="Explore Phuket sightseeing tours, Phi Phi island hopping, James Bond Island, Big Buddha, Simon Cabaret, and adventure activities. Enquire with Trippovention for current offers."
     />
-    <meta
-      property="og:image"
-      content="https://trippovention.co.th/assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_city_highlights.webp"
-    />
+    <meta property="og:image" content="https://trippovention.co.th/assets/images/packages/thailand/phuket/hero_phuket.webp" />
 
-    <!-- Twitter Card -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://trippovention.co.th/packages/thailand/phuket/sightseeing.html"
-    />
-    <meta
-      property="twitter:title"
-      content="Phuket Sightseeing Tours & Activities | Trippovention Thailand"
-    />
+    <meta property="twitter:url" content="https://trippovention.co.th/packages/thailand/phuket/sightseeing.html" />
+    <meta property="twitter:title" content="Phuket Sightseeing Tours &amp; Activities | Trippovention" />
     <meta
       property="twitter:description"
-      content="Discover Phuket's top sightseeing activities, island-hopping tours to Phi Phi & James Bond, cultural landmarks, night shows, water parks, and private excursions."
+      content="Explore Phuket sightseeing tours, Phi Phi island hopping, James Bond Island, Big Buddha, Simon Cabaret, and adventure activities. Enquire with Trippovention for current offers."
     />
-    <meta
-      property="twitter:image"
-      content="https://trippovention.co.th/assets/images/packages/thailand/phuket/sightseeingoptions/hero_phuket_city_highlights.webp"
-    />
+    <meta property="twitter:image" content="https://trippovention.co.th/assets/images/packages/thailand/phuket/hero_phuket.webp" />
 
-    <link
-      rel="canonical"
-      href="https://trippovention.co.th/packages/thailand/phuket/sightseeing.html"
-    />
+    <link rel="canonical" href="https://trippovention.co.th/packages/thailand/phuket/sightseeing.html" />
     <link rel="icon" type="image/x-icon" href="../../../assets/images/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/favicon.png" />
     <link rel="manifest" href="../../../site.webmanifest" />
     <meta name="theme-color" content="#667eea" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="../../../assets/styles.css" />
     <link rel="stylesheet" href="../../../assets/search.css" />
-
-    <!-- Google Fonts & Preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
@@ -894,7 +835,6 @@ def generate_catalogue_html():
       rel="stylesheet"
     />
 
-    <!-- Google Tag Manager Configuration -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11395302765"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -905,31 +845,23 @@ def generate_catalogue_html():
       gtag("config", "AW-11395302765");
     </script>
 
-    <!-- Structured Data: TouristDestination -->
+    <!-- TouristDestination Schema -->
     <script type="application/ld+json">
       {{
         "@context": "https://schema.org",
         "@type": "TouristDestination",
         "name": "Phuket Sightseeing Tours & Activities",
-        "description": "Explore the comprehensive Phuket sightseeing catalogue. Discover verified island-hopping speedboat tours to Phi Phi and James Bond Island, cultural viewpoints, ethical elephant sanctuaries, world-class evening shows, water parks, and outdoor adventures with Trippovention Thailand.",
+        "description": "Comprehensive catalogue of Phuket sightseeing tours, Phi Phi speedboat trips, James Bond Island, Big Buddha viewpoints, ethical elephant sanctuaries, and evening shows.",
         "url": "https://trippovention.co.th/packages/thailand/phuket/sightseeing.html",
-        "touristType": [
-          "Beach Lovers",
-          "Culture Seekers",
-          "Families",
-          "Adventure Travelers",
-          "Couples",
-          "Group Travelers"
-        ],
-        "provider": {{
-          "@type": "TravelAgency",
-          "name": "Trippovention",
-          "url": "https://trippovention.co.th"
-        }}
+        "containedInPlace": {{
+          "@type": "Country",
+          "name": "Thailand"
+        }},
+        "touristType": ["Island Hopping", "Beach Lovers", "Cultural Sightseeing", "Family Vacations", "Adventure Travelers"]
       }}
     </script>
 
-    <!-- Structured Data: BreadcrumbList -->
+    <!-- BreadcrumbList Schema -->
     <script type="application/ld+json">
       {{
         "@context": "https://schema.org",
@@ -969,38 +901,453 @@ def generate_catalogue_html():
       }}
     </script>
 
-    <!-- Structured Data: ItemList (Catalogue Product Inventory) -->
+    <!-- ItemList Schema -->
     <script type="application/ld+json">
       {{
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "Phuket Sightseeing Catalogue Products",
-        "numberOfItems": {len(EXPERIENCES)},
+        "name": "Phuket Sightseeing Tours & Excursions",
+        "description": "Curated selection of verified sightseeing activities, island-hopping tours, and entertainment in Phuket.",
         "itemListElement": [
 {item_list_json}
         ]
       }}
     </script>
 
-    <!-- Structured Data: FAQPage (AEO Optimization) -->
+    <!-- FAQPage Schema -->
     <script type="application/ld+json">
       {{
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-{faq_schema_json}
+{faq_schema_str}
         ]
       }}
     </script>
+
+    <style>
+      /* Scoped Extended Sightseeing Catalogue Styles */
+      .catalogue-hero {{
+        background: linear-gradient(135deg, rgba(30, 41, 59, 0.85) 0%, rgba(15, 23, 42, 0.92) 100%),
+                    url('../../../assets/images/packages/thailand/phuket/hero_phuket.webp') center/cover no-repeat;
+        color: #fff;
+        padding: 56px 0 44px;
+        text-align: center;
+      }}
+      .catalogue-hero h1 {{
+        font-size: clamp(2rem, 4vw, 2.85rem);
+        font-weight: 700;
+        margin-bottom: 14px;
+        letter-spacing: -0.02em;
+      }}
+      .catalogue-hero p {{
+        font-size: 1.1rem;
+        line-height: 1.65;
+        max-width: 840px;
+        margin: 0 auto 24px;
+        color: rgba(255, 255, 255, 0.92);
+      }}
+      .hero-actions {{
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }}
+
+      /* Curated Collections - Center-Aligned Grid */
+      .collections-section {{
+        background: var(--bg-secondary);
+        padding: 36px 0 28px;
+        border-bottom: 1px solid var(--border-color);
+      }}
+      .collections-grid {{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }}
+      .collection-pill-card {{
+        background: var(--bg-primary);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 16px 14px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--text-primary);
+        box-shadow: var(--shadow-light);
+        flex: 1 1 155px;
+        max-width: 175px;
+        min-width: 140px;
+      }}
+      .collection-pill-card:hover,
+      .collection-pill-card.active {{
+        border-color: var(--orange);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(214, 128, 78, 0.2);
+        background: linear-gradient(180deg, rgba(214, 128, 78, 0.08) 0%, var(--bg-primary) 100%);
+      }}
+      .collection-pill-card .col-icon {{
+        font-size: 26px;
+        margin-bottom: 6px;
+      }}
+      .collection-pill-card .col-title {{
+        font-size: 0.88rem;
+        font-weight: 600;
+        line-height: 1.3;
+      }}
+      .collection-pill-card .col-sub {{
+        font-size: 0.74rem;
+        color: var(--text-muted);
+        margin-top: 4px;
+      }}
+
+      /* Search & Filter Toolbar */
+      .filter-toolbar {{
+        background: var(--bg-primary);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 22px;
+        margin-bottom: 30px;
+        box-shadow: var(--shadow-light);
+      }}
+      .search-box-row {{
+        display: flex;
+        gap: 12px;
+        margin-bottom: 18px;
+        align-items: center;
+      }}
+      .search-input-wrap {{
+        position: relative;
+        flex: 1;
+      }}
+      .search-input-wrap input {{
+        width: 100%;
+        padding: 12px 42px 12px 16px;
+        font-size: 0.98rem;
+        border: 1.5px solid var(--border-color);
+        border-radius: 10px;
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }}
+      .search-input-wrap input:focus {{
+        outline: none;
+        border-color: var(--orange);
+        box-shadow: 0 0 0 3px rgba(214, 128, 78, 0.2);
+        background: var(--bg-primary);
+      }}
+      .search-clear-btn {{
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        font-size: 16px;
+        color: var(--text-muted);
+        cursor: pointer;
+        display: none;
+      }}
+      .filter-toggle-mobile-btn {{
+        display: none;
+        padding: 12px 16px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: 1.5px solid var(--border-color);
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        border-radius: 10px;
+        cursor: pointer;
+        align-items: center;
+        gap: 6px;
+      }}
+
+      /* Category Pills Navigation */
+      .category-pills-wrap {{
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        padding-bottom: 12px;
+        margin-bottom: 16px;
+        scrollbar-width: thin;
+      }}
+      .cat-pill {{
+        white-space: nowrap;
+        padding: 8px 16px;
+        border-radius: 30px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        border: 1px solid var(--border-color);
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }}
+      .cat-pill:hover {{
+        background: var(--border-light);
+        color: var(--text-primary);
+      }}
+      .cat-pill.active {{
+        background: var(--orange);
+        color: #fff;
+        border-color: var(--orange);
+        box-shadow: 0 3px 10px rgba(214, 128, 78, 0.35);
+      }}
+      .cat-pill .pill-count {{
+        background: rgba(0, 0, 0, 0.12);
+        padding: 1px 7px;
+        border-radius: 12px;
+        font-size: 0.72rem;
+      }}
+      .cat-pill.active .pill-count {{
+        background: rgba(255, 255, 255, 0.28);
+      }}
+
+      /* Secondary Filters Bar */
+      .secondary-filters-bar {{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
+        align-items: center;
+        padding-top: 14px;
+        border-top: 1px solid var(--border-color);
+      }}
+      .filter-group label {{
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--text-muted);
+        margin-bottom: 4px;
+      }}
+      .filter-select {{
+        width: 100%;
+        padding: 9px 12px;
+        font-size: 0.88rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        cursor: pointer;
+      }}
+      .filter-select:focus {{
+        outline: none;
+        border-color: var(--orange);
+      }}
+      .reset-filters-btn {{
+        padding: 9px 14px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        background: none;
+        border: 1px dashed var(--border-color);
+        color: var(--text-muted);
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.2s;
+        height: 38px;
+        margin-top: 18px;
+      }}
+      .reset-filters-btn:hover {{
+        border-color: var(--orange);
+        color: var(--orange);
+      }}
+
+      /* Results Summary Header */
+      .results-summary-row {{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        gap: 12px;
+      }}
+      .results-count-text {{
+        font-size: 0.95rem;
+        color: var(--text-secondary);
+        font-weight: 500;
+      }}
+      .results-count-text strong {{
+        color: var(--text-primary);
+      }}
+      .back-to-dest-link {{
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: var(--orange);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }}
+      .back-to-dest-link:hover {{
+        text-decoration: underline;
+      }}
+
+      /* Sightseeing Card presentation */
+      .sightseeing-card {{
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }}
+      .sightseeing-card:hover {{
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-large);
+      }}
+      .sightseeing-card .body {{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }}
+      .card-meta-row {{
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+      }}
+      .card-tag {{
+        font-size: 0.72rem;
+        font-weight: 600;
+        padding: 3px 8px;
+        border-radius: 6px;
+        background: var(--bg-tertiary);
+        color: var(--text-secondary);
+      }}
+      .card-tag.highlight-tag {{
+        background: var(--orange-light);
+        color: var(--orange-dark);
+      }}
+      [data-theme="dark"] .card-tag.highlight-tag {{
+        background: rgba(214, 128, 78, 0.25);
+        color: #f7b28d;
+      }}
+      .sightseeing-card h3 {{
+        font-size: 1.15rem;
+        font-weight: 700;
+        margin-bottom: 12px;
+        line-height: 1.35;
+      }}
+      .card-title-link {{
+        color: var(--text-primary);
+        text-decoration: none;
+      }}
+      .card-title-link:hover {{
+        color: var(--orange);
+      }}
+      .card-footer-actions {{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-top: 14px;
+      }}
+      .btn-outline-details {{
+        background: transparent !important;
+        color: var(--text-primary) !important;
+        border: 1.5px solid var(--border-color) !important;
+        font-size: 0.8rem !important;
+        padding: 8px 10px !important;
+        border-radius: 8px !important;
+        text-align: center;
+        text-transform: none !important;
+        box-shadow: none !important;
+      }}
+      .btn-outline-details:hover {{
+        border-color: var(--orange) !important;
+        color: var(--orange) !important;
+        transform: none !important;
+      }}
+      .btn-enquire {{
+        background: var(--gradient-primary) !important;
+        color: #fff !important;
+        font-size: 0.8rem !important;
+        padding: 8px 10px !important;
+        border-radius: 8px !important;
+        text-align: center;
+        text-transform: none !important;
+        box-shadow: none !important;
+      }}
+      .btn-enquire:hover {{
+        transform: none !important;
+        box-shadow: 0 4px 12px rgba(214, 128, 78, 0.35) !important;
+      }}
+
+      /* Empty State */
+      .empty-results-box {{
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 60px 20px;
+        background: var(--bg-secondary);
+        border: 2px dashed var(--border-color);
+        border-radius: 16px;
+      }}
+      .empty-results-box .empty-icon {{
+        font-size: 44px;
+        margin-bottom: 12px;
+      }}
+
+      @media (max-width: 1024px) {{
+        .collection-pill-card {{
+          flex: 1 1 200px;
+          max-width: 240px;
+        }}
+      }}
+
+      @media (max-width: 768px) {{
+        .filter-toggle-mobile-btn {{
+          display: inline-flex;
+        }}
+        .secondary-filters-bar {{
+          display: none;
+        }}
+        .secondary-filters-bar.mobile-open {{
+          display: grid;
+        }}
+        .collection-pill-card {{
+          flex: 1 1 140px;
+          max-width: 48%;
+          padding: 14px 10px;
+        }}
+      }}
+
+      @media (max-width: 480px) {{
+        .collections-grid {{
+          gap: 10px;
+        }}
+        .collection-pill-card {{
+          flex: 1 1 130px;
+          max-width: 48%;
+          padding: 12px 8px;
+        }}
+        .collection-pill-card .col-icon {{
+          font-size: 22px;
+          margin-bottom: 4px;
+        }}
+        .collection-pill-card .col-title {{
+          font-size: 0.82rem;
+        }}
+        .collection-pill-card .col-sub {{
+          font-size: 0.7rem;
+        }}
+      }}
+    </style>
   </head>
 
   <body>
-    <!-- Skip Link -->
     <a href="#main" class="skip-link" aria-label="Skip to main content" id="skip-link">
       Skip to main content
     </a>
 
-    <!-- Navigation Header -->
+    <!-- Main Navigation Bar -->
     <nav class="nav" role="navigation" aria-label="Main navigation">
       <div class="container">
         <a class="brand" href="../../../index.html" aria-label="Go to Trippovention Home">
@@ -1100,308 +1447,237 @@ def generate_catalogue_html():
         </div>
       </nav>
 
-      <!-- Hero Header Section -->
-      <header class="hero compact hero-thailand">
+      <!-- Hero Header -->
+      <header class="catalogue-hero">
         <div class="container">
-          <h1>Phuket Sightseeing &amp; Activities</h1>
+          <span class="badge mb-10" style="background: rgba(214, 128, 78, 0.2); color: #f7b28d; border: 1px solid rgba(214, 128, 78, 0.4);">
+            Extended Sightseeing Catalogue
+          </span>
+          <h1>Discover the Best of Phuket</h1>
           <p>
-            Curated island tours, cultural viewpoints, shows, water parks &amp; experiences across Phuket and the Andaman Sea
+            Explore Phuket's premier island-hopping tours to Phi Phi &amp; James Bond Island, ethical elephant sanctuaries, world-class evening shows, water parks, cultural viewpoints, and outdoor adventures. Discover verified sightseeing options and enquire directly with Trippovention.
           </p>
+          <div class="hero-actions">
+            <a class="btn btn-lg" href="#catalogue">Browse Experiences ↓</a>
+            <a class="btn btn-lg ghost" href="index.html">← Back to Phuket Destination Page</a>
+          </div>
         </div>
       </header>
 
-      <!-- Catalogue Introduction -->
-      <section class="section" style="padding-bottom: 20px;">
+      <!-- Section: Curated Phuket Collections (Center-Aligned) -->
+      <section class="collections-section" aria-label="Curated Phuket Collections">
         <div class="container">
-          <div class="section-title">
-            <h2>Discover the Best of Phuket</h2>
-            <p class="subtitle">
-              From world-renowned limestone islands to sacred temples and vibrant nighttime revues
-            </p>
+          <div class="section-title text-center" style="margin-bottom: 20px;">
+            <h2 style="font-size: 1.45rem;">Curated Phuket Collections</h2>
+            <p class="subtitle" style="margin-bottom: 0;">Explore handpicked highlights curated for specific travel styles</p>
           </div>
-          <div class="card" style="padding: 28px; line-height: 1.8; font-size: 16px;">
-            <p style="margin-bottom: 16px;">
-              Welcome to the official <strong>Phuket Sightseeing &amp; Activities Catalogue</strong> by Trippovention Thailand. As Thailand's premier tropical island, Phuket serves as the gateway to world-class marine national parks, turquoise coral lagoons, sacred hilltop shrines, and vibrant Sino-Portuguese cultural quarters.
-            </p>
-            <p style="margin-bottom: 0;">
-              Every tour and excursion featured in this catalogue has been verified by our local operations team for safety, reliable hotel transfers, and exceptional quality. As an enquiry-led travel company, Trippovention provides personalized advice, multi-tour discounts, and dedicated offline booking support without online booking fees or rigid group constraints.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Curated Collections Center-Aligned Pill Cards -->
-      <section class="section alt" style="padding-top: 30px; padding-bottom: 30px;">
-        <div class="container">
-          <div class="section-title" style="margin-bottom: 24px;">
-            <h2>Curated Collections</h2>
-            <p class="subtitle">Quickly jump to Phuket's signature sightseeing themes</p>
-          </div>
-          <div class="collections-carousel" id="collectionsCarousel">
-            <button class="collection-pill-card active" data-collection="all" type="button">
-              <span class="icon">✨</span>
-              <span class="name">All Experiences</span>
-              <span class="count">24 Tours</span>
+          <div class="collections-grid">
+            <button type="button" class="collection-pill-card active" data-collection="all" aria-label="Filter by All Highlights">
+              <span class="col-icon">⭐</span>
+              <span class="col-title">All Highlights</span>
+              <span class="col-sub">23 Experiences</span>
             </button>
-            <button class="collection-pill-card" data-collection="island-tours" type="button">
-              <span class="icon">🏝️</span>
-              <span class="name">Island Hopping &amp; Boats</span>
-              <span class="count">8 Tours</span>
+            <button type="button" class="collection-pill-card" data-collection="island-tours" aria-label="Filter by Island Hopping">
+              <span class="col-icon">🏝️</span>
+              <span class="col-title">Island Hopping</span>
+              <span class="col-sub">Speedboats &amp; Charters</span>
             </button>
-            <button class="collection-pill-card" data-collection="city-culture" type="button">
-              <span class="icon">🏛️</span>
-              <span class="name">City &amp; Old Town</span>
-              <span class="count">4 Tours</span>
+            <button type="button" class="collection-pill-card" data-collection="city-culture" aria-label="Filter by City & Culture">
+              <span class="col-icon">🏛️</span>
+              <span class="col-title">City &amp; Heritage</span>
+              <span class="col-sub">Viewpoints &amp; Temples</span>
             </button>
-            <button class="collection-pill-card" data-collection="shows-entertainment" type="button">
-              <span class="icon">🎭</span>
-              <span class="name">Night Shows &amp; Theatre</span>
-              <span class="count">4 Shows</span>
+            <button type="button" class="collection-pill-card" data-collection="shows-entertainment" aria-label="Filter by Night Shows & Theatre">
+              <span class="col-icon">🎭</span>
+              <span class="col-title">Night Shows</span>
+              <span class="col-sub">Grand Productions</span>
             </button>
-            <button class="collection-pill-card" data-collection="adventure-outdoor" type="button">
-              <span class="icon">⚡</span>
-              <span class="name">Ziplines &amp; Outdoor</span>
-              <span class="count">3 Adventures</span>
+            <button type="button" class="collection-pill-card" data-collection="adventure-outdoor" aria-label="Filter by Adventure & Outdoor">
+              <span class="col-icon">⚡</span>
+              <span class="col-title">Adventure &amp; Nature</span>
+              <span class="col-sub">Zipline, Park &amp; Surf</span>
             </button>
-            <button class="collection-pill-card" data-collection="nature-wildlife" type="button">
-              <span class="icon">🐘</span>
-              <span class="name">Ethical Wildlife</span>
-              <span class="count">2 Excursions</span>
+            <button type="button" class="collection-pill-card" data-collection="wildlife-family" aria-label="Filter by Wildlife & Family Fun">
+              <span class="col-icon">🐘</span>
+              <span class="col-title">Family &amp; Wildlife</span>
+              <span class="col-sub">Sanctuary &amp; Water Park</span>
             </button>
-            <button class="collection-pill-card" data-collection="waterparks-family" type="button">
-              <span class="icon">🌊</span>
-              <span class="name">Water Parks &amp; Family</span>
-              <span class="count">2 Parks</span>
-            </button>
-            <button class="collection-pill-card" data-collection="food-wellness" type="button">
-              <span class="icon">🍲</span>
-              <span class="name">Thai Cooking &amp; Spa</span>
-              <span class="count">2 Experiences</span>
+            <button type="button" class="collection-pill-card" data-collection="thai-cooking" aria-label="Filter by Thai Cooking Class">
+              <span class="col-icon">🍲</span>
+              <span class="col-title">Thai Cooking</span>
+              <span class="col-sub">Culinary Workshop</span>
             </button>
           </div>
         </div>
       </section>
 
-      <!-- Search, Filter & Catalogue Section -->
-      <section class="section" id="catalogueSection">
+      <!-- Sightseeing Catalogue Section -->
+      <section class="section" id="catalogue">
         <div class="container">
-          <!-- Interactive Filter Toolbar -->
-          <div class="catalogue-toolbar card" style="padding: 20px; margin-bottom: 30px;">
-            <!-- Primary Search Row -->
-            <div class="toolbar-primary-row">
+          <!-- Filter & Search Toolbar -->
+          <div class="filter-toolbar" role="search" aria-label="Search and filter Phuket sightseeing">
+            <div class="search-box-row">
               <div class="search-input-wrap">
-                <span class="search-icon-symbol" aria-hidden="true">🔍</span>
                 <input
                   type="text"
                   id="phuketSearchInput"
-                  class="catalogue-search-input"
-                  placeholder="Search Phuket activities by name, landmark or keyword (e.g. Phi Phi, James Bond, Big Buddha)..."
-                  aria-label="Search Phuket activities"
+                  placeholder="Find Your Phuket Experience (e.g. Phi Phi, James Bond, Big Buddha, Simon Cabaret)..."
+                  aria-label="Find Your Phuket Experience"
+                  autocomplete="off"
                 />
-                <button
-                  type="button"
-                  id="searchClearBtn"
-                  class="search-clear-btn"
-                  title="Clear search"
-                  aria-label="Clear search query"
-                  style="display: none;"
-                >
-                  ✕
-                </button>
+                <button type="button" id="searchClearBtn" class="search-clear-btn" aria-label="Clear search">✕</button>
               </div>
-              <button
-                type="button"
-                id="mobileFilterToggle"
-                class="mobile-filter-toggle-btn"
-                aria-expanded="false"
-              >
+              <button type="button" id="filterToggleMobileBtn" class="filter-toggle-mobile-btn" aria-expanded="false" aria-controls="secondaryFiltersBar">
                 <span>⚙️ Filters</span>
               </button>
             </div>
 
-            <!-- Category Pills Row -->
-            <div class="category-pills-row" id="categoryPillsRow">
-              <button class="cat-pill active" data-category="all" type="button">
-                All (24)
+            <!-- Category Navigation Pills -->
+            <div class="category-pills-wrap" role="tablist" aria-label="Categories">
+              <button type="button" class="cat-pill active" data-category="all" role="tab" aria-selected="true">
+                All Experiences <span class="pill-count" id="countAll">23</span>
               </button>
-              <button class="cat-pill" data-category="island-tours" type="button">
-                Island Tours (8)
+              <button type="button" class="cat-pill" data-category="island-tours" role="tab" aria-selected="false">
+                🏝️ Island Tours <span class="pill-count">8</span>
               </button>
-              <button class="cat-pill" data-category="city-culture" type="button">
-                City &amp; Culture (4)
+              <button type="button" class="cat-pill" data-category="city-culture" role="tab" aria-selected="false">
+                🏛️ City &amp; Culture <span class="pill-count">4</span>
               </button>
-              <button class="cat-pill" data-category="shows-entertainment" type="button">
-                Shows &amp; Theatre (4)
+              <button type="button" class="cat-pill" data-category="shows-entertainment" role="tab" aria-selected="false">
+                🎭 Shows &amp; Theatre <span class="pill-count">4</span>
               </button>
-              <button class="cat-pill" data-category="adventure-outdoor" type="button">
-                Adventure &amp; Outdoor (3)
+              <button type="button" class="cat-pill" data-category="adventure-outdoor" role="tab" aria-selected="false">
+                ⚡ Adventure &amp; Outdoor <span class="pill-count">3</span>
               </button>
-              <button class="cat-pill" data-category="nature-wildlife" type="button">
-                Wildlife &amp; Nature (2)
+              <button type="button" class="cat-pill" data-category="wildlife-family" role="tab" aria-selected="false">
+                🐘 Wildlife &amp; Family <span class="pill-count">3</span>
               </button>
-              <button class="cat-pill" data-category="waterparks-family" type="button">
-                Family &amp; Parks (2)
-              </button>
-              <button class="cat-pill" data-category="food-wellness" type="button">
-                Cooking &amp; Spa (2)
+              <button type="button" class="cat-pill" data-category="thai-cooking" role="tab" aria-selected="false">
+                🍲 Thai Cooking <span class="pill-count">1</span>
               </button>
             </div>
 
-            <!-- Secondary Filters Bar -->
-            <div class="toolbar-secondary-bar" id="secondaryFiltersBar">
-              <div class="filter-select-group">
-                <label for="durationSelect">Duration:</label>
-                <select id="durationSelect" class="filter-select">
+            <!-- Secondary Filters Panel -->
+            <div class="secondary-filters-bar" id="secondaryFiltersBar">
+              <div class="filter-group">
+                <label for="filterDuration">Duration</label>
+                <select id="filterDuration" class="filter-select">
                   <option value="all">All Durations</option>
-                  <option value="half-day">Half Day (&le; 4 Hours)</option>
-                  <option value="full-day">Full Day (5+ Hours)</option>
+                  <option value="half-day">Half Day (1–4 hrs)</option>
+                  <option value="full-day">Full Day (5+ hrs)</option>
                   <option value="evening">Evening / Shows</option>
                 </select>
               </div>
 
-              <div class="filter-select-group">
-                <label for="tourTypeSelect">Format:</label>
-                <select id="tourTypeSelect" class="filter-select">
+              <div class="filter-group">
+                <label for="filterTourType">Tour Format</label>
+                <select id="filterTourType" class="filter-select">
                   <option value="all">All Formats</option>
-                  <option value="speedboat">Speedboat Excursions</option>
-                  <option value="guided">Guided Tours</option>
-                  <option value="show">Theatrical Shows</option>
-                  <option value="adventure">Adventures &amp; Outdoor</option>
-                  <option value="attraction">Attractions &amp; Passes</option>
+                  <option value="speedboat">Speedboat Excursion</option>
+                  <option value="guided">Guided Minivan Tour</option>
+                  <option value="show">Theatrical Show</option>
+                  <option value="adventure">Adventures &amp; Sports</option>
+                  <option value="attraction">Attraction Day Pass</option>
                   <option value="private">Private VIP Hire</option>
                 </select>
               </div>
 
-              <div class="filter-select-group">
-                <label for="styleSelect">Style:</label>
-                <select id="styleSelect" class="filter-select">
+              <div class="filter-group">
+                <label for="filterTraveler">Experience Style</label>
+                <select id="filterTraveler" class="filter-select">
                   <option value="all">All Styles</option>
                   <option value="beach">Island &amp; Beach</option>
                   <option value="culture">Culture &amp; Temples</option>
-                  <option value="adventure">Action &amp; Adventure</option>
+                  <option value="adventure">Active Adventure</option>
                   <option value="family">Family Friendly</option>
-                  <option value="luxury">Luxury &amp; Relaxing</option>
+                  <option value="luxury">Luxury &amp; VIP</option>
                 </select>
               </div>
 
-              <div class="filter-select-group">
-                <label for="sortSelect">Sort By:</label>
-                <select id="sortSelect" class="filter-select">
+              <div class="filter-group">
+                <label for="sortBy">Sort By</label>
+                <select id="sortBy" class="filter-select">
                   <option value="recommended">Recommended</option>
                   <option value="price-asc">Price: Low to High</option>
                   <option value="price-desc">Price: High to Low</option>
-                  <option value="duration-asc">Duration: Shortest</option>
-                  <option value="name-asc">Alphabetical (A–Z)</option>
+                  <option value="duration-asc">Duration: Short to Long</option>
                 </select>
               </div>
 
-              <button type="button" id="resetFiltersBtn" class="btn btn-sm ghost" style="align-self: flex-end;">
-                ↺ Reset All
+              <button type="button" id="resetFiltersBtn" class="reset-filters-btn" title="Reset all search filters">
+                ↺ Reset Filters
               </button>
             </div>
+          </div>
 
-            <!-- Active Filter Status & Match Counter -->
-            <div class="filter-status-row" id="filterStatusRow">
-              <span id="resultsCount">Showing 24 of 24 experiences</span>
+          <!-- Results Summary Header -->
+          <div class="results-summary-row">
+            <div class="results-count-text">
+              Showing <strong id="visibleCount">23</strong> of 23 experiences in Phuket
             </div>
+            <a href="index.html" class="back-to-dest-link">← Return to Phuket Destination Page</a>
           </div>
 
           <!-- Product Cards Grid -->
-          <div class="grid cols-3" id="catalogueGrid">
-{cards_html}
-          </div>
+          <div class="grid cols-3" id="cardsGrid">
+{all_cards_html}
 
-          <!-- Empty State (Hidden by Default) -->
-          <div id="noResultsState" class="card text-center" style="display: none; padding: 48px 24px; margin-top: 20px;">
-            <div style="font-size: 48px; margin-bottom: 16px;">🔍</div>
-            <h3>No matching Phuket activities found</h3>
-            <p class="muted" style="max-width: 500px; margin: 0 auto 20px auto;">
-              We couldn't find any activities matching your selected filters or search terms. Try clearing filters or searching for terms like "Phi Phi", "James Bond", "Old Town", or "Water Park".
-            </p>
-            <button type="button" id="resetEmptyBtn" class="btn btn-primary">
-              ↺ Reset All Filters &amp; View All 24 Experiences
-            </button>
+            <!-- Empty Results Notice -->
+            <div id="emptyResultsBox" class="empty-results-box" style="display: none;">
+              <div class="empty-icon">🔍</div>
+              <h3>No Experiences Matched Your Filters</h3>
+              <p class="muted">Try adjusting your keywords, duration, or experience style, or reset all filters.</p>
+              <button type="button" class="btn btn-sm mt-15" id="emptyResetBtn">Reset All Filters</button>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- FAQ Section (AEO & Customer Knowledge) -->
-      <section class="section alt faq-section" id="faq">
+      <!-- Phuket Sightseeing FAQs Section -->
+      <section class="section alt" id="faqs" aria-label="Frequently Asked Questions">
         <div class="container">
-          <div class="section-title">
+          <div class="section-title text-center">
             <h2>Frequently Asked Questions</h2>
-            <p class="subtitle">Essential advice for booking and enjoying Phuket tours and activities</p>
+            <p class="subtitle">Essential advice for planning your Phuket tours, island trips &amp; activities</p>
           </div>
-          <div class="faq-container">
-{faqs_html}
+          <div class="faqs-accordion-wrap max-width-900" style="margin: 0 auto;">
+{all_faqs_html}
           </div>
         </div>
       </section>
 
-      <!-- Call to Action Banner -->
-      <section class="section cta">
+      <!-- Bottom Advisory Notice -->
+      <section class="section" style="padding-top: 30px; padding-bottom: 40px;">
         <div class="container">
-          <div class="section-title">
-            <h2 class="text-white">Plan Your Custom Phuket Sightseeing Itinerary</h2>
-            <p class="subtitle text-white-90">
-              Connect with our local destination team for current offers, group discounts, and private arrangements.
+          <div class="card" style="padding: 24px; border-left: 4px solid var(--orange); background: var(--bg-secondary);">
+            <h4 style="margin-top: 0; margin-bottom: 8px;">Trip Planning &amp; Booking Advisory</h4>
+            <p class="muted" style="margin-bottom: 0; font-size: 0.92rem; line-height: 1.6;">
+              Trippovention operates on an enquiry-led, personalized booking model. Every excursion is coordinated by experienced destination specialists who confirm hotel pickup schedules, verify marine weather conditions, apply multi-tour discounts, and provide official booking confirmations with dedicated offline support.
             </p>
-          </div>
-          <div class="text-center">
-            <a
-              class="btn btn-lg ghost"
-              href="../../../contact.html?destination=phuket&type=sightseeing"
-              >📞 Request Custom Quote</a
-            >
-            <a
-              class="btn btn-lg ghost ml-16"
-              href="https://wa.me/66946934392?text=Hello,%20I%20would%20like%20to%20enquire%20about%20Phuket%20sightseeing%20tours"
-              target="_blank"
-              rel="noopener noreferrer"
-              >💬 WhatsApp: +66 94 693 4392</a
-            >
-          </div>
-          <div class="grid cols-3 mt-40">
-            <div class="stats">
-              <span class="number text-white">2021</span>
-              <span class="label text-white-90">Established</span>
-            </div>
-            <div class="stats">
-              <span class="number text-white">10+</span>
-              <span class="label text-white-90">Years Experience</span>
-            </div>
-            <div class="stats">
-              <span class="number text-white">50K+</span>
-              <span class="label text-white-90">Happy Travelers</span>
-            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Standardized Global Footer -->
     <footer class="footer" role="contentinfo">
       <div class="container">
         <div class="grid cols-3">
           <div>
             <h3>Trippovention</h3>
             <p>
-              Your trusted travel partner for unforgettable journeys. We believe that travel should
-              be transformative, authentic, and memorable.
+              Your trusted travel partner for unforgettable journeys. We believe that travel
+              should be transformative and memorable.
             </p>
             <div class="mt-20">
               <h3 class="muted font-weight-600">Contact Details</h3>
-              <span class="mr-15"
-                >📧 <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span
-              >
+              <span class="mr-15">📧
+                <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span>
               <br />
               <span>📞 <a href="tel:+66946934392">+66 94 693 4392</a></span>
               <br />
               <span>💬
-                <a href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer"
-                  >WhatsApp: +66 94 693 4392</a
-                ></span
-              >
+                <a href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer">WhatsApp: +66 94 693 4392</a></span>
             </div>
           </div>
           <div>
@@ -1502,234 +1778,261 @@ def generate_catalogue_html():
       </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="../../../assets/app.js" defer></script>
-    <script src="../../../assets/search.js" defer></script>
-
-    <!-- Client-Side Vanilla JS Interactive Search & Filter Engine -->
+    <!-- Interactive Catalogue Filter Engine -->
     <script>
-      document.addEventListener("DOMContentLoaded", function () {{
+      (function () {{
         const searchInput = document.getElementById("phuketSearchInput");
-        const clearBtn = document.getElementById("searchClearBtn");
-        const categoryPills = document.querySelectorAll(".cat-pill");
-        const collectionCards = document.querySelectorAll(".collection-pill-card");
-        const durationSelect = document.getElementById("durationSelect");
-        const tourTypeSelect = document.getElementById("tourTypeSelect");
-        const styleSelect = document.getElementById("styleSelect");
-        const sortSelect = document.getElementById("sortSelect");
-        const resetBtn = document.getElementById("resetFiltersBtn");
-        const resetEmptyBtn = document.getElementById("resetEmptyBtn");
-        const resultsCountEl = document.getElementById("resultsCount");
-        const grid = document.getElementById("catalogueGrid");
-        const noResultsState = document.getElementById("noResultsState");
-        const mobileToggleBtn = document.getElementById("mobileFilterToggle");
+        const searchClearBtn = document.getElementById("searchClearBtn");
+        const mobileToggleBtn = document.getElementById("filterToggleMobileBtn");
         const secondaryBar = document.getElementById("secondaryFiltersBar");
+        const catPills = document.querySelectorAll(".cat-pill");
+        const collectionCards = document.querySelectorAll(".collection-pill-card");
+        const filterDuration = document.getElementById("filterDuration");
+        const filterTourType = document.getElementById("filterTourType");
+        const filterTraveler = document.getElementById("filterTraveler");
+        const sortBy = document.getElementById("sortBy");
+        const resetFiltersBtn = document.getElementById("resetFiltersBtn");
+        const emptyResetBtn = document.getElementById("emptyResetBtn");
+        const visibleCountEl = document.getElementById("visibleCount");
+        const cardsGrid = document.getElementById("cardsGrid");
+        const emptyResultsBox = document.getElementById("emptyResultsBox");
+        const cards = Array.from(document.querySelectorAll(".sightseeing-card"));
 
-        let allCards = Array.from(grid.querySelectorAll(".product-card"));
-        const totalCount = allCards.length;
+        let currentCategory = "all";
+        let currentCollection = "all";
+        let currentDuration = "all";
+        let currentTourType = "all";
+        let currentTraveler = "all";
+        let currentSearchQuery = "";
+        let currentSort = "recommended";
 
-        let activeCategory = "all";
-        let activeCollection = "all";
+        // Mobile secondary filter toggle
+        if (mobileToggleBtn && secondaryBar) {{
+          mobileToggleBtn.addEventListener("click", function () {{
+            const isOpen = secondaryBar.classList.toggle("mobile-open");
+            mobileToggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+          }});
+        }}
 
-        function filterCards() {{
-          const query = searchInput.value.trim().toLowerCase();
-          const selectedDuration = durationSelect.value;
-          const selectedTourType = tourTypeSelect.value;
-          const selectedStyle = styleSelect.value;
-          const selectedSort = sortSelect.value;
+        // Search Input & Clear
+        if (searchInput) {{
+          searchInput.addEventListener("input", function () {{
+            currentSearchQuery = this.value.trim().toLowerCase();
+            if (searchClearBtn) {{
+              searchClearBtn.style.display = currentSearchQuery.length > 0 ? "block" : "none";
+            }}
+            applyFilters();
+          }});
+        }}
+        if (searchClearBtn) {{
+          searchClearBtn.addEventListener("click", function () {{
+            if (searchInput) searchInput.value = "";
+            currentSearchQuery = "";
+            this.style.display = "none";
+            applyFilters();
+            if (searchInput) searchInput.focus();
+          }});
+        }}
 
-          // Toggle clear search button
-          if (query.length > 0) {{
-            clearBtn.style.display = "block";
-          }} else {{
-            clearBtn.style.display = "none";
+        // Category Pills
+        catPills.forEach(pill => {{
+          pill.addEventListener("click", function () {{
+            catPills.forEach(p => {{
+              p.classList.remove("active");
+              p.setAttribute("aria-selected", "false");
+            }});
+            this.classList.add("active");
+            this.setAttribute("aria-selected", "true");
+            currentCategory = this.dataset.category;
+
+            // Reset collection cards
+            collectionCards.forEach(c => c.classList.remove("active"));
+            currentCollection = "all";
+
+            applyFilters();
+          }});
+        }});
+
+        // Curated Collections Grid Cards
+        collectionCards.forEach(card => {{
+          card.addEventListener("click", function (e) {{
+            e.preventDefault();
+            const col = this.dataset.collection;
+            if (currentCollection === col) {{
+              this.classList.remove("active");
+              currentCollection = "all";
+            }} else {{
+              collectionCards.forEach(c => c.classList.remove("active"));
+              this.classList.add("active");
+              currentCollection = col;
+              catPills.forEach(p => {{
+                p.classList.remove("active");
+                p.setAttribute("aria-selected", "false");
+              }});
+              const allPill = document.querySelector('.cat-pill[data-category="all"]');
+              if (allPill) {{
+                allPill.classList.add("active");
+                allPill.setAttribute("aria-selected", "true");
+              }}
+              currentCategory = "all";
+            }}
+            applyFilters();
+            const catalogueEl = document.getElementById("catalogue");
+            if (catalogueEl) {{
+              catalogueEl.scrollIntoView({{ behavior: "smooth", block: "start" }});
+            }}
+          }});
+        }});
+
+        // Dropdown filter change listeners
+        if (filterDuration) {{
+          filterDuration.addEventListener("change", function () {{
+            currentDuration = this.value;
+            applyFilters();
+          }});
+        }}
+        if (filterTourType) {{
+          filterTourType.addEventListener("change", function () {{
+            currentTourType = this.value;
+            applyFilters();
+          }});
+        }}
+        if (filterTraveler) {{
+          filterTraveler.addEventListener("change", function () {{
+            currentTraveler = this.value;
+            applyFilters();
+          }});
+        }}
+        if (sortBy) {{
+          sortBy.addEventListener("change", function () {{
+            currentSort = this.value;
+            applyFilters();
+          }});
+        }}
+
+        // Reset Filters logic
+        function resetAllFilters() {{
+          currentCategory = "all";
+          currentCollection = "all";
+          currentDuration = "all";
+          currentTourType = "all";
+          currentTraveler = "all";
+          currentSearchQuery = "";
+          currentSort = "recommended";
+
+          if (searchInput) searchInput.value = "";
+          if (searchClearBtn) searchClearBtn.style.display = "none";
+          if (filterDuration) filterDuration.value = "all";
+          if (filterTourType) filterTourType.value = "all";
+          if (filterTraveler) filterTraveler.value = "all";
+          if (sortBy) sortBy.value = "recommended";
+
+          catPills.forEach(p => {{
+            p.classList.remove("active");
+            p.setAttribute("aria-selected", "false");
+          }});
+          const allPill = document.querySelector('.cat-pill[data-category="all"]');
+          if (allPill) {{
+            allPill.classList.add("active");
+            allPill.setAttribute("aria-selected", "true");
           }}
+          collectionCards.forEach(c => c.classList.remove("active"));
+          const allCol = document.querySelector('.collection-pill-card[data-collection="all"]');
+          if (allCol) allCol.classList.add("active");
 
-          let visibleCards = [];
+          applyFilters();
+        }}
 
-          allCards.forEach((card) => {{
-            const cardName = card.getAttribute("data-name") || "";
-            const cardCat = card.getAttribute("data-category") || "";
-            const cardCollections = (card.getAttribute("data-collections") || "").split(",");
-            const cardDuration = card.getAttribute("data-duration") || "";
-            const cardTourType = card.getAttribute("data-tour-type") || "";
-            const cardStyles = (card.getAttribute("data-styles") || "").split(",");
-            const cardText = card.innerText.toLowerCase();
+        if (resetFiltersBtn) resetFiltersBtn.addEventListener("click", resetAllFilters);
+        if (emptyResetBtn) emptyResetBtn.addEventListener("click", resetAllFilters);
 
-            let matchesSearch = true;
-            if (query) {{
-              matchesSearch = cardName.includes(query) || cardText.includes(query);
+        // Core Filter & Sort Engine
+        function applyFilters() {{
+          let visibleCount = 0;
+
+          cards.forEach(card => {{
+            const cat = card.dataset.category || "";
+            const collections = (card.dataset.collections || "").split(",");
+            const dur = card.dataset.duration || "";
+            const tType = card.dataset.tourType || "";
+            const styles = (card.dataset.styles || "").split(",");
+            const name = (card.dataset.name || "").toLowerCase();
+            const textContent = card.textContent.toLowerCase();
+
+            let match = true;
+
+            // Category filter
+            if (currentCategory !== "all" && cat !== currentCategory) {{
+              match = false;
             }}
 
-            let matchesCategory = true;
-            if (activeCategory !== "all") {{
-              matchesCategory = cardCat === activeCategory;
+            // Curated collection filter
+            if (currentCollection !== "all" && !collections.includes(currentCollection)) {{
+              match = false;
             }}
 
-            let matchesCollection = true;
-            if (activeCollection !== "all") {{
-              matchesCollection = cardCollections.includes(activeCollection);
+            // Duration filter
+            if (currentDuration !== "all" && dur !== currentDuration) {{
+              match = false;
             }}
 
-            let matchesDuration = true;
-            if (selectedDuration !== "all") {{
-              matchesDuration = cardDuration === selectedDuration;
+            // Tour Type filter
+            if (currentTourType !== "all" && tType !== currentTourType) {{
+              match = false;
             }}
 
-            let matchesTourType = true;
-            if (selectedTourType !== "all") {{
-              matchesTourType = cardTourType === selectedTourType;
+            // Style filter
+            if (currentTraveler !== "all" && !styles.includes(currentTraveler)) {{
+              match = false;
             }}
 
-            let matchesStyle = true;
-            if (selectedStyle !== "all") {{
-              matchesStyle = cardStyles.includes(selectedStyle);
+            // Search query filter
+            if (currentSearchQuery && !name.includes(currentSearchQuery) && !textContent.includes(currentSearchQuery)) {{
+              match = false;
             }}
 
-            if (
-              matchesSearch &&
-              matchesCategory &&
-              matchesCollection &&
-              matchesDuration &&
-              matchesTourType &&
-              matchesStyle
-            ) {{
+            if (match) {{
               card.style.display = "flex";
-              visibleCards.push(card);
+              visibleCount++;
             }} else {{
               card.style.display = "none";
             }}
           }});
 
-          // Sorting
-          if (selectedSort !== "recommended") {{
-            visibleCards.sort((a, b) => {{
-              const priceA = parseFloat(a.getAttribute("data-price")) || 0;
-              const priceB = parseFloat(b.getAttribute("data-price")) || 0;
-              const durA = parseFloat(a.getAttribute("data-duration-hours")) || 0;
-              const durB = parseFloat(b.getAttribute("data-duration-hours")) || 0;
-              const nameA = a.querySelector("h3").innerText.trim();
-              const nameB = b.querySelector("h3").innerText.trim();
-
-              if (selectedSort === "price-asc") return priceA - priceB;
-              if (selectedSort === "price-desc") return priceB - priceA;
-              if (selectedSort === "duration-asc") return durA - durB;
-              if (selectedSort === "name-asc") return nameA.localeCompare(nameB);
-              return 0;
-            }});
-
-            visibleCards.forEach((c) => grid.appendChild(c));
+          // Sorting visible cards
+          const sortedCards = cards.filter(c => c.style.display !== "none");
+          if (currentSort === "price-asc") {{
+            sortedCards.sort((a, b) => (parseFloat(a.dataset.price) || 9999) - (parseFloat(b.dataset.price) || 9999));
+          }} else if (currentSort === "price-desc") {{
+            sortedCards.sort((a, b) => (parseFloat(b.dataset.price) || 0) - (parseFloat(a.dataset.price) || 0));
+          }} else if (currentSort === "duration-asc") {{
+            sortedCards.sort((a, b) => (parseFloat(a.dataset.durationHours) || 0) - (parseFloat(b.dataset.durationHours) || 0));
           }}
+
+          // Re-append sorted cards
+          sortedCards.forEach(card => cardsGrid.appendChild(card));
 
           // Update Counter & Empty State
-          resultsCountEl.innerText = `Showing ${{visibleCards.length}} of ${{totalCount}} experiences`;
-
-          if (visibleCards.length === 0) {{
-            noResultsState.style.display = "block";
-            grid.style.display = "none";
-          }} else {{
-            noResultsState.style.display = "none";
-            grid.style.display = "grid";
+          if (visibleCountEl) visibleCountEl.textContent = visibleCount;
+          if (emptyResultsBox) {{
+            emptyResultsBox.style.display = visibleCount === 0 ? "block" : "none";
+            cardsGrid.appendChild(emptyResultsBox);
           }}
         }}
 
-        // Listeners
-        searchInput.addEventListener("input", filterCards);
-
-        clearBtn.addEventListener("click", () => {{
-          searchInput.value = "";
-          clearBtn.style.display = "none";
-          filterCards();
-          searchInput.focus();
-        }});
-
-        categoryPills.forEach((pill) => {{
-          pill.addEventListener("click", () => {{
-            categoryPills.forEach((p) => p.classList.remove("active"));
-            pill.classList.add("active");
-            activeCategory = pill.getAttribute("data-category");
-            // reset collection card active styling if category clicked
-            collectionCards.forEach((c) => c.classList.remove("active"));
-            const matchCol = Array.from(collectionCards).find((c) => c.getAttribute("data-collection") === activeCategory);
-            if (matchCol) matchCol.classList.add("active");
-            activeCollection = "all";
-            filterCards();
-          }});
-        }});
-
-        collectionCards.forEach((card) => {{
-          card.addEventListener("click", () => {{
-            collectionCards.forEach((c) => c.classList.remove("active"));
-            card.classList.add("active");
-            const target = card.getAttribute("data-collection");
-            activeCollection = target;
-
-            // synchronize category pill if direct match exists
-            categoryPills.forEach((p) => p.classList.remove("active"));
-            const matchPill = Array.from(categoryPills).find((p) => p.getAttribute("data-category") === target);
-            if (matchPill) {{
-              matchPill.classList.add("active");
-              activeCategory = target;
-              activeCollection = "all";
-            }} else {{
-              const allPill = Array.from(categoryPills).find((p) => p.getAttribute("data-category") === "all");
-              if (allPill) allPill.classList.add("active");
-              activeCategory = "all";
-            }}
-
-            filterCards();
-            document.getElementById("catalogueSection").scrollIntoView({{ behavior: "smooth" }});
-          }});
-        }});
-
-        durationSelect.addEventListener("change", filterCards);
-        tourTypeSelect.addEventListener("change", filterCards);
-        styleSelect.addEventListener("change", filterCards);
-        sortSelect.addEventListener("change", filterCards);
-
-        function resetAll() {{
-          searchInput.value = "";
-          durationSelect.value = "all";
-          tourTypeSelect.value = "all";
-          styleSelect.value = "all";
-          sortSelect.value = "recommended";
-          activeCategory = "all";
-          activeCollection = "all";
-
-          categoryPills.forEach((p) => p.classList.remove("active"));
-          const firstPill = Array.from(categoryPills).find((p) => p.getAttribute("data-category") === "all");
-          if (firstPill) firstPill.classList.add("active");
-
-          collectionCards.forEach((c) => c.classList.remove("active"));
-          const firstCol = Array.from(collectionCards).find((c) => c.getAttribute("data-collection") === "all");
-          if (firstCol) firstCol.classList.add("active");
-
-          filterCards();
-        }}
-
-        resetBtn.addEventListener("click", resetAll);
-        resetEmptyBtn.addEventListener("click", resetAll);
-
-        if (mobileToggleBtn) {{
-          mobileToggleBtn.addEventListener("click", () => {{
-            const isOpen = secondaryBar.classList.toggle("open");
-            mobileToggleBtn.setAttribute("aria-expanded", isOpen);
-          }});
-        }}
-      }});
+        // Initial apply
+        applyFilters();
+      }})();
     </script>
+    <script src="../../../assets/app.js"></script>
+    <script src="../../../assets/search.js" defer=""></script>
   </body>
 </html>
 """
-    return html
 
-def main():
-    html_content = generate_catalogue_html()
     with open(CATALOGUE_PATH, "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print(f"Successfully generated Phuket Sightseeing Catalogue at: {CATALOGUE_PATH}")
-    print(f"Total experiences included: {len(EXPERIENCES)}")
-    print(f"Total FAQs included: {len(FAQS_DATA)}")
+        f.write(page_html)
+    print(f"Phuket Sightseeing Catalogue successfully created at:\n{CATALOGUE_PATH}")
 
 if __name__ == "__main__":
-    main()
+    generate_catalogue_html()

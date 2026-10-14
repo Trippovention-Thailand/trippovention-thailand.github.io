@@ -1,6 +1,6 @@
 {
   "summary": {
-    "total_pages": 248,
+    "total_pages": 247,
     "canonical_mismatches": 0,
     "missing_titles": 0,
     "short_titles": 0,
@@ -8,7 +8,7 @@
     "duplicate_titles": 0,
     "missing_meta_descriptions": 0,
     "short_meta_descriptions": 0,
-    "long_meta_descriptions": 124,
+    "long_meta_descriptions": 123,
     "duplicate_meta_descriptions": 0,
     "missing_h1": 0,
     "multiple_h1": 0,
@@ -5024,30 +5024,6 @@
       "internal_links_out": [],
       "is_in_sitemap": true
     },
-    "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html": {
-      "rel_path": "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
-      "title": "Phuket Luxury Thai Spa & Wellness Treatment Packages | Trippovention",
-      "description": "Rejuvenate body and mind with luxury Thai spa packages in Phuket. Featuring traditional herbal compresses, warm coconut oil massages, body scrubs, and peaceful botanical gardens.",
-      "canonical": "https://trippovention.co.th/packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
-      "robots": null,
-      "og_url": "https://trippovention.co.th/packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
-      "h1_list": [
-        "Phuket Luxury Thai Spa & Wellness Retreat"
-      ],
-      "h2_count": 8,
-      "h3_count": 13,
-      "word_count": 804,
-      "images_count": 6,
-      "images_missing_alt": 0,
-      "images_missing_dimensions": 0,
-      "json_ld_types": [
-        "TouristTrip",
-        "BreadcrumbList",
-        "FAQPage"
-      ],
-      "internal_links_out": [],
-      "is_in_sitemap": true
-    },
     "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html": {
       "rel_path": "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html",
       "title": "Phuket Old Town Heritage & Street Food Walking Tour | Trippovention",
@@ -5266,18 +5242,18 @@
     },
     "packages/thailand/phuket/sightseeing.html": {
       "rel_path": "packages/thailand/phuket/sightseeing.html",
-      "title": "Phuket Sightseeing Tours & Activities | Trippovention Thailand",
-      "description": "Explore the comprehensive Phuket sightseeing catalogue. Discover verified island-hopping speedboat tours to Phi Phi & James Bond Island, cultural viewpoints, ethical elephant sanctuaries, world-class evening shows, water parks, and outdoor adventures with Trippovention Thailand.",
+      "title": "Phuket Sightseeing Tours &amp; Activities | Trippovention",
+      "description": "Explore Phuket sightseeing tours, Phi Phi island hopping, James Bond Island, Big Buddha, Simon Cabaret, and adventure activities. Enquire with Trippovention for current offers.",
       "canonical": "https://trippovention.co.th/packages/thailand/phuket/sightseeing.html",
       "robots": null,
       "og_url": "https://trippovention.co.th/packages/thailand/phuket/sightseeing.html",
       "h1_list": [
-        "Phuket Sightseeing &amp; Activities"
+        "Discover the Best of Phuket"
       ],
-      "h2_count": 4,
-      "h3_count": 30,
-      "word_count": 2163,
-      "images_count": 30,
+      "h2_count": 2,
+      "h3_count": 29,
+      "word_count": 2029,
+      "images_count": 29,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -6578,9 +6554,6 @@
     "Phuket &amp; Krabi Island Discovery - 6 Days / 5 Nights | Trippovention": [
       "packages/thailand/phuket/phuket_krabi_island_discovery.html"
     ],
-    "Phuket Luxury Thai Spa & Wellness Treatment Packages | Trippovention": [
-      "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html"
-    ],
     "Phuket Old Town Heritage & Street Food Walking Tour | Trippovention": [
       "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html"
     ],
@@ -6608,7 +6581,7 @@
     "Siam Niramit Phuket Cultural Show Tickets & Dinner | Trippovention": [
       "packages/thailand/phuket/siam_niramit_phuket_show.html"
     ],
-    "Phuket Sightseeing Tours & Activities | Trippovention Thailand": [
+    "Phuket Sightseeing Tours &amp; Activities | Trippovention": [
       "packages/thailand/phuket/sightseeing.html"
     ],
     "Similan Islands Snorkeling Day Tour from Phuket (Seasonal) | Trippovention": [
@@ -7324,9 +7297,6 @@
     "Phuket & Krabi Island Discovery: 6 Days / 5 Nights - Escape to Thailand's premier Andaman destinations with 4 Island tours, Phi Phi day trips, and beachside luxury.'s tropical paradise with breathtaking islands, crystal-clear waters, natural hot springs, and scenic landscapes\u2014perfect for couples seeking romance and unforgettable experiences.": [
       "packages/thailand/phuket/phuket_krabi_island_discovery.html"
     ],
-    "Rejuvenate body and mind with luxury Thai spa packages in Phuket. Featuring traditional herbal compresses, warm coconut oil massages, body scrubs, and peaceful botanical gardens.": [
-      "packages/thailand/phuket/phuket_luxury_spa_and_wellness.html"
-    ],
     "Explore Phuket Old Town with a local heritage guide. Discover Sino-Portuguese shophouses, street art murals, historic Chinese shrines, and authentic Peranakan delicacies.": [
       "packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html"
     ],
@@ -7354,7 +7324,7 @@
     "Experience Siam Niramit Phuket cultural show with optional international buffet. Marvel at 700 years of Thai history, river stunts on stage, and authentic heritage village.": [
       "packages/thailand/phuket/siam_niramit_phuket_show.html"
     ],
-    "Explore the comprehensive Phuket sightseeing catalogue. Discover verified island-hopping speedboat tours to Phi Phi & James Bond Island, cultural viewpoints, ethical elephant sanctuaries, world-class evening shows, water parks, and outdoor adventures with Trippovention Thailand.": [
+    "Explore Phuket sightseeing tours, Phi Phi island hopping, James Bond Island, Big Buddha, Simon Cabaret, and adventure activities. Enquire with Trippovention for current offers.": [
       "packages/thailand/phuket/sightseeing.html"
     ],
     "Experience world-class snorkeling at Similan Islands National Park from Phuket. Visit Donald Duck Bay, Sail Rock, pristine crystal beaches, and coral reefs with sea turtles.": [
@@ -7448,12 +7418,12 @@
   "image_issues": [],
   "structured_data_inventory": {
     "TravelAgency": 9,
-    "BreadcrumbList": 239,
-    "FAQPage": 241,
+    "BreadcrumbList": 238,
+    "FAQPage": 240,
     "Service": 4,
     "WebSite": 1,
     "Organization": 1,
-    "TouristTrip": 198,
+    "TouristTrip": 197,
     "TouristDestination": 20,
     "TouristAttraction": 8,
     "ItemList": 1,
@@ -7632,7 +7602,6 @@
     "Long meta description (321 chars) on packages/thailand/phuket/phuket_krabi_coastal_retreat.html",
     "Long title (71 chars) on packages/thailand/phuket/phuket_krabi_island_discovery.html: 'Phuket &amp; Krabi Island Discovery - 6 Days / 5 Nights | Trippovention'",
     "Long meta description (343 chars) on packages/thailand/phuket/phuket_krabi_island_discovery.html",
-    "Long meta description (178 chars) on packages/thailand/phuket/phuket_luxury_spa_and_wellness.html",
     "Long meta description (170 chars) on packages/thailand/phuket/phuket_old_town_heritage_walking_tour.html",
     "Long meta description (171 chars) on packages/thailand/phuket/phuket_private_yacht_charter.html",
     "Long meta description (167 chars) on packages/thailand/phuket/phuket_scuba_diving_day_trip.html",
@@ -7644,7 +7613,7 @@
     "Long meta description (166 chars) on packages/thailand/phuket/phuket_viewpoints_and_big_buddha_tour.html",
     "Long meta description (168 chars) on packages/thailand/phuket/private_phuket_city_and_viewpoints_tour.html",
     "Long meta description (172 chars) on packages/thailand/phuket/siam_niramit_phuket_show.html",
-    "Long meta description (279 chars) on packages/thailand/phuket/sightseeing.html",
+    "Long meta description (176 chars) on packages/thailand/phuket/sightseeing.html",
     "Long title (74 chars) on packages/thailand/phuket/similan_islands_snorkeling_tour.html: 'Similan Islands Snorkeling Day Tour from Phuket (Seasonal) | Trippovention'",
     "Long meta description (173 chars) on packages/thailand/phuket/similan_islands_snorkeling_tour.html",
     "Long meta description (282 chars) on packages/thailand/phuket/ultimate_thailand_explorer.html",
