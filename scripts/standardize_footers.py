@@ -67,8 +67,7 @@ def generate_standard_footer(rel_root, dest_folder=None):
           <div>
             <h3>Trippovention</h3>
             <p>
-              Your trusted travel partner for unforgettable journeys. We believe that travel
-              should be transformative and memorable.
+              Thailand-registered travel and ground operations company offering curated land packages, sightseeing, private transfers, and day trips.
             </p>
             <div class="mt-20">
               <h3 class="muted font-weight-600">Contact Details</h3>
@@ -90,7 +89,7 @@ def generate_standard_footer(rel_root, dest_folder=None):
           <div>
             <h3>Thailand Office</h3>
             <p>
-              23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province-20150
+              Trippovention Co., Ltd.<br />23/13 M, 12 Nong Pure Subdistrict, Bang Lamung District, Chonburi Province - 20150
             </p>
             <div class="mt-20">
               <h3 class="muted font-weight-600">Follow Us</h3>
