@@ -210,7 +210,7 @@
       }
       .collections-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+        grid-template-columns: repeat(6, 1fr);
         gap: 14px;
       }
       .collection-pill-card {
@@ -537,6 +537,12 @@
         margin-bottom: 12px;
       }
 
+      @media (max-width: 1024px) {
+        .collections-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
       @media (max-width: 768px) {
         .filter-toggle-mobile-btn {
           display: inline-flex;
@@ -549,6 +555,26 @@
         }
         .collections-grid {
           grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .collections-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+        .collection-pill-card {
+          padding: 12px 8px;
+        }
+        .collection-pill-card .col-icon {
+          font-size: 22px;
+          margin-bottom: 4px;
+        }
+        .collection-pill-card .col-title {
+          font-size: 0.82rem;
+        }
+        .collection-pill-card .col-sub {
+          font-size: 0.7rem;
         }
       }
     </style>
@@ -865,14 +891,6 @@
                   <span class="card-tag highlight-tag">🏝️ Island Hopping</span>
                 </div>
                 <h3><a href="hong_islands_tour.html" class="card-title-link">Hong Islands Tour by Speedboat</a></h3>
-                <p class="muted">
-                  Cruise into the enclosed turquoise waters of Hong Lagoon, relax on white sands at Koh Lading, and take in panoramic viewpoints.
-                </p>
-                <ul class="highlights-list">
-                  <li>Hidden emerald Hong Lagoon entry</li>
-                  <li>Koh Lading (Paradise Island) &amp; Pakbia Island</li>
-                  <li>Snorkeling equipment, picnic lunch &amp; hotel pickup</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 1,270</span>
@@ -923,14 +941,6 @@
                   <span class="card-tag highlight-tag">🏝️ Island Hopping</span>
                 </div>
                 <h3><a href="hong_islands_tour_by_longtail_boat.html" class="card-title-link">Hong Islands Tour by Longtail Boat</a></h3>
-                <p class="muted">
-                  Experience a leisurely, authentic cruise across the Andaman Sea to Koh Hong aboard a traditional wooden longtail boat.
-                </p>
-                <ul class="highlights-list">
-                  <li>Dramatic limestone canyon cliffs of Hong Lagoon</li>
-                  <li>Pristine beach swimming at Lading Island</li>
-                  <li>Lunch box, drinking water, snorkel gear &amp; transfers</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 1,040</span>
@@ -981,14 +991,6 @@
                   <span class="card-tag highlight-tag">🏝️ Island Hopping</span>
                 </div>
                 <h3><a href="krabi_4_islands_tour.html" class="card-title-link">Krabi 4 Islands Tour by Speedboat</a></h3>
-                <p class="muted">
-                  Krabi’s signature island tour featuring the Talay Waek dividing sandbar, Koh Poda, Chicken Island, and Phra Nang Cave Beach.
-                </p>
-                <ul class="highlights-list">
-                  <li>Walk the unique sandbar linking Tup &amp; Mor Islands</li>
-                  <li>Snorkeling among vibrant coral and tropical fish</li>
-                  <li>Lunch box, English guide, life jackets &amp; hotel pickup</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 930</span>
@@ -1039,14 +1041,6 @@
                   <span class="card-tag highlight-tag">🏝️ Island Hopping</span>
                 </div>
                 <h3><a href="krabi_4_islands_tour_by_longtail_boat.html" class="card-title-link">Krabi 4 Islands Tour by Longtail Boat</a></h3>
-                <p class="muted">
-                  A classic and relaxed journey by traditional wooden longtail boat visiting Poda, Chicken Island, Tup Island, and Railay Phra Nang.
-                </p>
-                <ul class="highlights-list">
-                  <li>Authentic Southern Thai island-hopping experience</li>
-                  <li>Scenic limestone photography stops &amp; beach time</li>
-                  <li>Included lunch box, drinking water &amp; hotel transfers</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 700</span>
@@ -1097,14 +1091,6 @@
                   <span class="card-tag highlight-tag">💑 Romantic</span>
                 </div>
                 <h3><a href="krabi_7_islands_sunset_tour_by_longtail_boat.html" class="card-title-link">Krabi 7 Islands Sunset Tour by Longtail Boat</a></h3>
-                <p class="muted">
-                  Magical afternoon cruise visiting 7 archipelago islands, ending with sunset over the Andaman Sea, beachside dinner, and night plankton swim.
-                </p>
-                <ul class="highlights-list">
-                  <li>Visit Poda, Chicken, Tup &amp; Phra Nang Cave</li>
-                  <li>Sunset beach dinner &amp; golden hour scenery</li>
-                  <li>Optional night swim with glowing bioluminescent plankton</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 950</span>
@@ -1155,14 +1141,6 @@
                   <span class="card-tag highlight-tag">🏝️ Island Hopping</span>
                 </div>
                 <h3><a href="krabi_7_islands_sunset_tour.html" class="card-title-link">Krabi 7 Islands Sunset Tour by Speedboat</a></h3>
-                <p class="muted">
-                  High-speed island exploration covering 7 islands, scenic snorkeling reefs, Andaman sunset viewing, beach BBQ dinner, and bioluminescent swimming.
-                </p>
-                <ul class="highlights-list">
-                  <li>Poda Island, Yawasam Island, Koh Tan Ming &amp; Railay</li>
-                  <li>Spectacular sunset BBQ dinner on the beach</li>
-                  <li>Night snorkeling among bioluminescent plankton</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 1,300</span>
@@ -1213,14 +1191,6 @@
                   <span class="card-tag highlight-tag">🏝️ Island Hopping</span>
                 </div>
                 <h3><a href="phi_phi_islands_day_trip_from_krabi.html" class="card-title-link">Phi Phi Islands Day Trip from Krabi</a></h3>
-                <p class="muted">
-                  Full-day speedboat excursion from Krabi to iconic Phi Phi Leh and Phi Phi Don, featuring Maya Bay, Pileh Lagoon, Viking Cave, and Monkey Beach.
-                </p>
-                <ul class="highlights-list">
-                  <li>World-famous Maya Bay &amp; emerald Pileh Lagoon</li>
-                  <li>Snorkeling over pristine coral gardens</li>
-                  <li>Buffet lunch, national park support &amp; hotel pickup</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1271,14 +1241,6 @@
                   <span class="card-tag highlight-tag">💑 Romantic</span>
                 </div>
                 <h3><a href="krabi_luxury_sunset_cruise.html" class="card-title-link">Krabi Luxury Sunset Cruise</a></h3>
-                <p class="muted">
-                  Sail past dramatic limestone karsts on a luxury catamaran, snorkeling in clear waters followed by a gourmet Thai dinner during sunset.
-                </p>
-                <ul class="highlights-list">
-                  <li>Sumptuous dinner with Pad Thai &amp; Salt Baked Shrimp</li>
-                  <li>Sunset golden hour views over Andaman Sea</li>
-                  <li>Snorkeling gear, SUP paddleboards &amp; round-trip transfers</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1329,14 +1291,6 @@
                   <span class="card-tag highlight-tag">💑 Romantic</span>
                 </div>
                 <h3><a href="krabi_bioluminescent_swimming_experience.html" class="card-title-link">Bioluminescent Swimming Experience from Krabi</a></h3>
-                <p class="muted">
-                  Snorkel calm island bays by afternoon, enjoy dinner as darkness falls, and swim through the glowing blue light of bioluminescent plankton.
-                </p>
-                <ul class="highlights-list">
-                  <li>Magical underwater blue glow created by nature</li>
-                  <li>Round-trip hotel transfers from Krabi Town &amp; Ao Nang</li>
-                  <li>Includes dinner, masks, life jackets &amp; insurance</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1387,14 +1341,6 @@
                   <span class="card-tag highlight-tag">💑 Romantic</span>
                 </div>
                 <h3><a href="private_longtail_boat_tour_railay_and_4_islands.html" class="card-title-link">Private Longtail Boat Tour to Railay &amp; 4 Islands</a></h3>
-                <p class="muted">
-                  Charter your own traditional longtail boat with captain for an exclusive excursion to Railay, Koh Poda, and the Tup Island sandbar.
-                </p>
-                <ul class="highlights-list">
-                  <li>Tailor your departure and time spent on each island</li>
-                  <li>Avoid peak crowds and enjoy private beach moments</li>
-                  <li>Includes private captain, fuel, snorkel masks &amp; fresh fruit</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1445,14 +1391,6 @@
                   <span class="card-tag highlight-tag">🌿 Nature &amp; Jungle</span>
                 </div>
                 <h3><a href="ao_thalane_kayaking_tour.html" class="card-title-link">Kayaking at Ao Thalane (Half Day Canoe)</a></h3>
-                <p class="muted">
-                  Paddle through one of Thailand's most scenic mangrove ecosystems, navigating narrow limestone canyons and tranquil emerald lagoons.
-                </p>
-                <ul class="highlights-list">
-                  <li>Soaring karst canyons &amp; mangrove forest channels</li>
-                  <li>Observe local crab-eating macaques and exotic birds</li>
-                  <li>Includes kayak gear, dry bag, guide &amp; hotel pickup</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 693</span>
@@ -1503,14 +1441,6 @@
                   <span class="card-tag highlight-tag">🌿 Nature &amp; Jungle</span>
                 </div>
                 <h3><a href="klong_root_clear_water_canal_kayaking.html" class="card-title-link">Klong Root (Clear Water Canal) Kayaking</a></h3>
-                <p class="muted">
-                  Kayak through a serene, crystal-clear freshwater canal where you can see submerged trees and aquatic plants through glass-like water.
-                </p>
-                <ul class="highlights-list">
-                  <li>Pure freshwater natural spring fed canal</li>
-                  <li>Gentle calm paddling suitable for all ages and beginners</li>
-                  <li>Natural freshwater swimming stop &amp; refreshments</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1561,14 +1491,6 @@
                   <span class="card-tag highlight-tag">🌿 Nature &amp; Jungle</span>
                 </div>
                 <h3><a href="krabi_hot_springs_and_emerald_pool.html" class="card-title-link">Krabi Hot Springs &amp; Sa Morakot Emerald Pool</a></h3>
-                <p class="muted">
-                  Bathe in therapeutic cascading mineral hot springs, take a jungle boardwalk stroll, and swim in the breathtaking Sa Morakot Emerald Pool.
-                </p>
-                <ul class="highlights-list">
-                  <li>Natural 40°C thermal pools set inside virgin jungle</li>
-                  <li>Vibrant turquoise swimming lagoon at Sa Morakot</li>
-                  <li>Includes all reserve admission fees, guide &amp; transfers</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 950</span>
@@ -1619,14 +1541,6 @@
                   <span class="card-tag highlight-tag">🌿 Nature &amp; Jungle</span>
                 </div>
                 <h3><a href="khao_phanom_bencha_and_huay_toh_waterfall.html" class="card-title-link">Khao Phanom Bencha &amp; Huay Toh Waterfall</a></h3>
-                <p class="muted">
-                  Discover Krabi's mainland rainforest park featuring the 11-tier Huay Toh Waterfall, ancient giant trees, and refreshing plunge pools.
-                </p>
-                <ul class="highlights-list">
-                  <li>Cascading multi-tiered rainforest waterfall</li>
-                  <li>Shaded nature trails through primary tropical jungle</li>
-                  <li>Swimming in pristine rock pools &amp; bird watching</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1677,14 +1591,6 @@
                   <span class="card-tag highlight-tag">🧗 Adventure</span>
                 </div>
                 <h3><a href="railay_beach_rock_climbing_courses.html" class="card-title-link">Rock Climbing Courses at Railay Beach</a></h3>
-                <p class="muted">
-                  Scale world-renowned limestone cliffs rising above Railay Beach with professional certified instructors, suitable for beginners and pros.
-                </p>
-                <ul class="highlights-list">
-                  <li>Safe top-rope climbing with full safety harness and gear</li>
-                  <li>Panoramic aerial views over Railay and Andaman Sea</li>
-                  <li>Professional instruction, safety briefing &amp; insurance</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1735,14 +1641,6 @@
                   <span class="card-tag highlight-tag">🧗 Adventure</span>
                 </div>
                 <h3><a href="krabi_atv_nature_view_point_adventure.html" class="card-title-link">Krabi ATV Nature View Point Adventure</a></h3>
-                <p class="muted">
-                  Ride powerful all-terrain quad bikes across rugged dirt paths, jungle trails, and hillside tracks leading to Krabi's panoramic viewpoints.
-                </p>
-                <ul class="highlights-list">
-                  <li>Exciting off-road trails through lush tropical terrain</li>
-                  <li>Hillside view stops overlooking limestone valleys</li>
-                  <li>Safety gear, welcome fruits, guide &amp; hotel transfers</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1793,14 +1691,6 @@
                   <span class="card-tag highlight-tag">🌅 Viewpoints</span>
                 </div>
                 <h3><a href="dragon_crest_mountain_hiking_tour.html" class="card-title-link">Dragon Crest Mountain (Khao Ngon Nak) Hiking Tour</a></h3>
-                <p class="muted">
-                  Trek through 3.7 km of pristine rainforest up to 565 meters elevation to stand atop Krabi’s most breathtaking 360-degree summit viewpoint.
-                </p>
-                <ul class="highlights-list">
-                  <li>Spectacular panoramic overlook of Krabi and Andaman Sea</li>
-                  <li>Famous overhanging boulder photo spot</li>
-                  <li>Includes trekking guide, national park entry &amp; refreshments</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1851,14 +1741,6 @@
                   <span class="card-tag highlight-tag">🧗 Adventure</span>
                 </div>
                 <h3><a href="stand_up_paddleboarding_ao_nang.html" class="card-title-link">Stand-Up Paddleboarding (SUP) in Ao Nang</a></h3>
-                <p class="muted">
-                  Glide across calm coastal waters against a backdrop of limestone cliffs, catching the vivid colors of a tropical sunset from your board.
-                </p>
-                <ul class="highlights-list">
-                  <li>Introductory lesson and high-quality paddleboard gear</li>
-                  <li>Peaceful evening sea paddle away from crowded beaches</li>
-                  <li>Waterproof bag, life jacket &amp; sunset photo support</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1909,14 +1791,6 @@
                   <span class="card-tag highlight-tag">🌅 Viewpoints</span>
                 </div>
                 <h3><a href="railay_beach_exploration_and_phra_nang_cave.html" class="card-title-link">Railay Beach Exploration &amp; Phra Nang Cave</a></h3>
-                <p class="muted">
-                  Visit the legendary peninsula inaccessible by car, surrounded by towering karst monoliths, sacred Princess Cave, and powdery sands.
-                </p>
-                <ul class="highlights-list">
-                  <li>Explore Phra Nang Cave Beach &amp; sacred local shrine</li>
-                  <li>Walk between Railay West and Railay East viewpoints</li>
-                  <li>Round-trip longtail boat transit from Ao Nang</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -1967,14 +1841,6 @@
                   <span class="card-tag highlight-tag">⛩️ Culture</span>
                 </div>
                 <h3><a href="krabi_city_tour_half_day_private.html" class="card-title-link">Krabi City Tour (Half Day – Private)</a></h3>
-                <p class="muted">
-                  Private chauffeured tour visiting iconic Wat Tham Suea (Tiger Cave Temple), the Black Mud Crab riverside monument, and bustling local markets.
-                </p>
-                <ul class="highlights-list">
-                  <li>Climb 1,237 steps to Tiger Cave mountain shrine (optional)</li>
-                  <li>Krabi Town promenade, river views &amp; local fruit market</li>
-                  <li>Private air-conditioned vehicle &amp; hotel pickup</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Per Vehicle (Private)</span>
                   <span class="price">THB 2,100</span>
@@ -2025,14 +1891,6 @@
                   <span class="card-tag highlight-tag">⛩️ Culture</span>
                 </div>
                 <h3><a href="traditional_thai_cooking_class_krabi.html" class="card-title-link">Traditional Thai Cooking Class with Local Chef</a></h3>
-                <p class="muted">
-                  Visit an organic herb garden and local market, then prepare 5–6 signature Thai specialties alongside an experienced local culinary instructor.
-                </p>
-                <ul class="highlights-list">
-                  <li>Cook Pad Thai, Green Curry, Tom Yum &amp; Mango Sticky Rice</li>
-                  <li>Hands-on workstation with individual wok per person</li>
-                  <li>Includes digital recipe book, feast of your dishes &amp; transfers</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -2083,14 +1941,6 @@
                   <span class="card-tag highlight-tag">⛩️ Culture</span>
                 </div>
                 <h3><a href="krabi_town_night_markets_and_street_food_walk.html" class="card-title-link">Krabi Town Night Markets &amp; Street Food Walk</a></h3>
-                <p class="muted">
-                  Stroll through the lively Krabi Walking Street market, tasting authentic Southern Thai delicacies, roti desserts, and handcrafted souvenirs.
-                </p>
-                <ul class="highlights-list">
-                  <li>Sample authentic satay, spicy papaya salad &amp; coconut ice cream</li>
-                  <li>Browse handcrafted art, textiles, and local souvenirs</li>
-                  <li>Round-trip transfers from Ao Nang hotels included</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
@@ -2141,14 +1991,6 @@
                   <span class="card-tag highlight-tag">👨‍👩‍👧 Family</span>
                 </div>
                 <h3><a href="elephant_sanctuary_morning_program.html" class="card-title-link">Ao Nang Ethical Elephant Sanctuary Experience</a></h3>
-                <p class="muted">
-                  A compassionate, no-riding elephant sanctuary experience where you feed, prepare nutritional snacks, and join elephants in a natural mud spa.
-                </p>
-                <ul class="highlights-list">
-                  <li>Feed rescued gentle giants with bananas and sugar cane</li>
-                  <li>Participate in mud spa and bathing in natural ponds</li>
-                  <li>Pad Thai cooking demo, hotel transfers &amp; English guide</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Price Per Person</span>
                   <span class="price">THB 2,450</span>
@@ -2199,14 +2041,6 @@
                   <span class="card-tag highlight-tag">💆 Wellness</span>
                 </div>
                 <h3><a href="banyan_tree_spa_krabi_luxury_wellness.html" class="card-title-link">Banyan Tree Spa Krabi Luxury Wellness Experience</a></h3>
-                <p class="muted">
-                  Indulge in award-winning wellness rituals, Royal Thai massages, and holistic treatments in an exclusive Tubkaek beachfront pavilion.
-                </p>
-                <ul class="highlights-list">
-                  <li>Signature Asian therapies &amp; certified master therapists</li>
-                  <li>The Rainforest hydrotherapy facilities &amp; herbal teas</li>
-                  <li>Ideal for couples, honeymooners, and complete mind-body detox</li>
-                </ul>
                 <div class="price-row">
                   <span class="price-label">Contact Us For</span>
                   <span class="price">Current Offer</span>
