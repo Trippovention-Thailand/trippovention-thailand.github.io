@@ -599,8 +599,8 @@ EXPERIENCES = [
         "tour_type_label": "Private / Custom",
         "styles": "food,culture",
         "price": "0",
-        "price_display": "On Request",
-        "price_unit": "Tour Pricing",
+        "price_display": "Quote on Request",
+        "price_unit": "Price Per Person",
         "highlights": [
             "Authentic canal-side food market loved by local Bangkokians",
             "Savor fresh grilled seafood, boat noodles & traditional sweets",
