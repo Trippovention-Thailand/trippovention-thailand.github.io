@@ -42,11 +42,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 20,
-    "external_links_count": 8,
+    "external_links_count": 9,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
+      "BreadcrumbList",
       "TravelAgency"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
@@ -70,11 +70,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 33,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "Service",
-      "FAQPage"
+      "FAQPage",
+      "Service"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -97,11 +97,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 75,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
+      "BreadcrumbList",
       "TravelAgency"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
@@ -125,11 +125,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 51,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
+      "BreadcrumbList",
       "TravelAgency"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
@@ -153,11 +153,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 41,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
+      "BreadcrumbList",
       "TravelAgency"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
@@ -181,13 +181,13 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 58,
-    "external_links_count": 8,
+    "external_links_count": 9,
     "broken_images_count": 0,
     "structured_data": [
-      "FAQPage",
-      "Organization",
       "WebSite",
-      "TravelAgency"
+      "TravelAgency",
+      "FAQPage",
+      "Organization"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -210,25 +210,25 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 33,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "Service",
-      "FAQPage"
+      "FAQPage",
+      "Service"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
   {
     "file": "offline.html",
     "url": "https://trippovention.co.th/offline.html",
-    "page_title": "Offline Connection Notice | Trippovention Thailand",
+    "page_title": "Offline - Trippovention",
     "page_type": "Utility / System",
     "parent_category": "(Root)",
     "http_status": 200,
     "canonical_url": "https://trippovention.co.th/offline.html",
     "indexability": "Noindex / Excluded",
     "in_sitemap": false,
-    "meta_description": "You are currently offline. Please check your internet connection to continue browsing Trippovention.",
+    "meta_description": "You are currently offline. Trippovention travel itineraries will be available once your connection is restored.",
     "h1": "You're Offline",
     "h1_count": 1,
     "h2_count": 0,
@@ -261,12 +261,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -289,11 +289,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
-      "FAQPage"
+      "FAQPage",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -316,12 +316,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -344,12 +344,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -372,12 +372,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -400,12 +400,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -428,12 +428,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -456,11 +456,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 29,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
-      "FAQPage"
+      "FAQPage",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -483,12 +483,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -511,11 +511,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 31,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
-      "FAQPage"
+      "FAQPage",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -538,12 +538,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -566,12 +566,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -594,12 +594,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -622,12 +622,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -650,12 +650,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -678,12 +678,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -706,12 +706,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -734,12 +734,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -762,12 +762,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -790,12 +790,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -818,12 +818,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -846,12 +846,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -874,12 +874,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -902,12 +902,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -930,12 +930,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -958,12 +958,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -986,12 +986,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1014,12 +1014,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1042,12 +1042,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1070,12 +1070,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1098,12 +1098,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1126,12 +1126,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 35,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1154,12 +1154,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1182,12 +1182,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1210,12 +1210,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1238,12 +1238,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1257,7 +1257,7 @@
     "canonical_url": "https://trippovention.co.th/packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html",
     "indexability": "Indexable",
     "in_sitemap": true,
-    "meta_description": "Sail along Bangkok",
+    "meta_description": "Experience the luxury Princess Chao Phraya Dinner Cruise in Bangkok. Enjoy an international buffet, live saxophone music, and illuminated views of Wat Arun.",
     "h1": "Princess Chao Phraya Dinner Cruise",
     "h1_count": 1,
     "h2_count": 8,
@@ -1266,12 +1266,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1294,12 +1294,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1322,12 +1322,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1350,12 +1350,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1378,12 +1378,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1406,12 +1406,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 98,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1434,12 +1434,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1462,12 +1462,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1490,12 +1490,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1518,12 +1518,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1546,12 +1546,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1574,12 +1574,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1602,12 +1602,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1630,12 +1630,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1658,12 +1658,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1686,12 +1686,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1714,12 +1714,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 34,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1742,12 +1742,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1770,12 +1770,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1798,12 +1798,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1826,12 +1826,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1854,12 +1854,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1882,12 +1882,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1910,12 +1910,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1938,12 +1938,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1966,12 +1966,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -1994,12 +1994,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2022,12 +2022,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 32,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2050,12 +2050,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2078,12 +2078,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2106,12 +2106,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2134,12 +2134,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2162,12 +2162,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2190,12 +2190,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2218,12 +2218,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2246,12 +2246,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2274,12 +2274,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2302,11 +2302,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 45,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
-      "FAQPage"
+      "FAQPage",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2329,12 +2329,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2357,12 +2357,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2385,12 +2385,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2413,12 +2413,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2441,12 +2441,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2469,12 +2469,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2497,12 +2497,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2525,12 +2525,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2553,12 +2553,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2581,12 +2581,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2609,12 +2609,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2637,12 +2637,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2665,12 +2665,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2693,12 +2693,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2721,12 +2721,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2749,12 +2749,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2777,12 +2777,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2805,12 +2805,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2833,12 +2833,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2861,12 +2861,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2889,12 +2889,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2917,12 +2917,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2945,12 +2945,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -2973,12 +2973,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3001,12 +3001,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3029,12 +3029,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3057,12 +3057,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 34,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3085,12 +3085,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3113,12 +3113,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3141,12 +3141,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3169,12 +3169,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3197,12 +3197,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3225,12 +3225,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3253,12 +3253,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3281,12 +3281,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3309,12 +3309,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3337,12 +3337,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3365,12 +3365,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3393,12 +3393,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3421,12 +3421,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3449,12 +3449,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3477,12 +3477,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3505,12 +3505,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3533,12 +3533,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3561,12 +3561,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3589,12 +3589,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3617,12 +3617,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3645,12 +3645,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 35,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3673,12 +3673,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3701,12 +3701,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3729,12 +3729,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3757,12 +3757,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3785,12 +3785,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3813,12 +3813,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3841,12 +3841,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3869,12 +3869,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3897,12 +3897,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3925,12 +3925,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3953,12 +3953,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -3981,12 +3981,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4009,12 +4009,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4037,12 +4037,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4065,12 +4065,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4093,12 +4093,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4121,12 +4121,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4149,12 +4149,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4177,12 +4177,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4205,12 +4205,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4233,12 +4233,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 123,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4261,12 +4261,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4289,12 +4289,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4317,12 +4317,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4345,12 +4345,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4373,12 +4373,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4401,12 +4401,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4429,12 +4429,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4457,12 +4457,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4485,12 +4485,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4513,12 +4513,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4541,12 +4541,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4569,12 +4569,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4597,12 +4597,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 35,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4625,12 +4625,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4653,12 +4653,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4681,12 +4681,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4709,12 +4709,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4737,12 +4737,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4765,12 +4765,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4793,12 +4793,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4821,12 +4821,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4849,12 +4849,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4877,12 +4877,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4905,12 +4905,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4933,12 +4933,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4961,12 +4961,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -4989,12 +4989,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5017,12 +5017,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5045,12 +5045,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5073,12 +5073,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5101,12 +5101,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 97,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5129,12 +5129,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5157,12 +5157,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5185,12 +5185,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5213,12 +5213,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5241,12 +5241,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5269,12 +5269,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5297,12 +5297,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5325,12 +5325,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5353,12 +5353,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5381,12 +5381,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5409,12 +5409,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5431,18 +5431,18 @@
     "meta_description": "Experience Carnival Magic Phuket nighttime theme park with international buffet dinner, River Carnival Parade, illuminated spectacles & round-trip hotel transfers.",
     "h1": "Carnival Magic Show with Dinner",
     "h1_count": 1,
-    "h2_count": 8,
-    "h3_count": 15,
+    "h2_count": 6,
+    "h3_count": 17,
     "h4_count": 0,
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5465,12 +5465,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5487,18 +5487,18 @@
     "meta_description": "Experience an ethical elephant encounter in Phuket with jungle walk, mud spa, river bathing, feeding & Pad Thai cooking. Round-trip hotel transfers included.",
     "h1": "Elephant Sanctuary \u2013 Morning Program",
     "h1_count": 1,
-    "h2_count": 8,
-    "h3_count": 15,
+    "h2_count": 6,
+    "h3_count": 17,
     "h4_count": 0,
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5521,12 +5521,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5544,17 +5544,17 @@
     "h1": "Explore Phuket Packages",
     "h1_count": 1,
     "h2_count": 4,
-    "h3_count": 17,
+    "h3_count": 23,
     "h4_count": 0,
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 35,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5571,18 +5571,18 @@
     "meta_description": "Full-day James Bond Island speedboat tour from Phuket: explore Phang Nga Bay, sea canoe through hidden caves, visit Ko Tapu & enjoy Thai buffet lunch. National Park fee included.",
     "h1": "James Bond Island Speedboat Tour",
     "h1_count": 1,
-    "h2_count": 8,
-    "h3_count": 15,
+    "h2_count": 6,
+    "h3_count": 17,
     "h4_count": 0,
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5605,12 +5605,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5627,18 +5627,18 @@
     "meta_description": "Full-day Phi Phi & Khai Island speedboat tour from Phuket: Maya Bay sightseeing, coral snorkeling, pristine beaches, buffet lunch & round-trip transfers.",
     "h1": "Phi Phi Island & Khai Island Tour with Lunch",
     "h1_count": 1,
-    "h2_count": 8,
-    "h3_count": 15,
+    "h2_count": 6,
+    "h3_count": 17,
     "h4_count": 0,
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5661,12 +5661,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5689,12 +5689,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5717,12 +5717,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5745,12 +5745,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5767,18 +5767,18 @@
     "meta_description": "Experience Phuket FantaSea cultural theme park: 70-minute mythical acrobatic show, Golden Kinnaree international buffet dinner & round-trip SIC hotel transfers.",
     "h1": "Phuket FantaSea Show with Dinner",
     "h1_count": 1,
-    "h2_count": 8,
-    "h3_count": 15,
+    "h2_count": 6,
+    "h3_count": 17,
     "h4_count": 0,
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
+      "TouristAttraction",
       "FAQPage",
-      "BreadcrumbList",
-      "TouristAttraction"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5801,12 +5801,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5829,12 +5829,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5857,12 +5857,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5885,12 +5885,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5913,12 +5913,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5941,12 +5941,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5969,12 +5969,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -5997,12 +5997,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6025,12 +6025,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6053,12 +6053,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6081,12 +6081,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6109,13 +6109,13 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 94,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "ItemList",
       "FAQPage",
       "TouristDestination",
-      "ItemList"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6138,12 +6138,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6166,12 +6166,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6194,12 +6194,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 24,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6222,12 +6222,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6250,12 +6250,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6278,12 +6278,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6306,12 +6306,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6334,12 +6334,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
-      "TouristDestination"
+      "TouristDestination",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6362,12 +6362,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6390,12 +6390,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6418,12 +6418,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6446,12 +6446,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6474,12 +6474,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 23,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6502,12 +6502,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6530,11 +6530,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 28,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
-      "FAQPage"
+      "FAQPage",
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6557,12 +6557,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6585,12 +6585,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6613,12 +6613,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6641,12 +6641,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6669,12 +6669,12 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 22,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
+      "TouristTrip",
       "FAQPage",
-      "TouristTrip"
+      "BreadcrumbList"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6697,7 +6697,7 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 20,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
       "BreadcrumbList",
@@ -6724,7 +6724,7 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 20,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
       "BreadcrumbList",
@@ -6751,7 +6751,7 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 19,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [],
     "action_classification": "Keep utility / Excluded from sitemap"
@@ -6775,11 +6775,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 20,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
-      "BreadcrumbList",
       "FAQPage",
+      "BreadcrumbList",
       "TravelAgency"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
@@ -6803,11 +6803,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 36,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "Service",
-      "FAQPage"
+      "FAQPage",
+      "Service"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   },
@@ -6830,7 +6830,7 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 21,
-    "external_links_count": 6,
+    "external_links_count": 7,
     "broken_images_count": 0,
     "structured_data": [
       "BreadcrumbList",
@@ -6857,7 +6857,7 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 25,
-    "external_links_count": 10,
+    "external_links_count": 11,
     "broken_images_count": 0,
     "structured_data": [
       "WebPage"
@@ -6883,11 +6883,11 @@
     "header_template": "Standard Trippovention Nav (Active)",
     "footer_template": "Standard 3-Column Footer (2026 Verified)",
     "internal_links_count": 30,
-    "external_links_count": 7,
+    "external_links_count": 8,
     "broken_images_count": 0,
     "structured_data": [
-      "Service",
-      "FAQPage"
+      "FAQPage",
+      "Service"
     ],
     "action_classification": "Standardised & Verified (Keep unchanged)"
   }

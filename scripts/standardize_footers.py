@@ -78,6 +78,8 @@ def generate_standard_footer(rel_root, dest_folder=None):
               <br />
               <span>💬
                 <a href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer">WhatsApp: +66 94 693 4392</a></span>
+              <br />
+              <span>💬 LINE: +66 94 693 4392 or <a href="https://line.me/ti/p/~trippovention" target="_blank" rel="noopener noreferrer">trippovention</a></span>
             </div>
           </div>
           <div>
