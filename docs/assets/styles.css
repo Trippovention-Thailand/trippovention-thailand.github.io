@@ -1242,6 +1242,14 @@ main {
   text-align: center;
 }
 
+.card .body > .mt-20:last-child {
+  margin-top: auto;
+}
+
+.card .body > .mt-20:last-child .btn {
+  margin-top: 0;
+}
+
 .ribbon {
   position: absolute;
   top: 16px;
@@ -2576,6 +2584,9 @@ th,
 }
 
 /* Reset margin for grid layouts to prevent vertical misalignment */
+.grid > .card,
+.grid > .card + .card,
+.grid > div > .card,
 .grid > div > .card + .card {
   margin-top: 0;
 }
@@ -2694,6 +2705,73 @@ th,
 .grid.cols-5 .card .price-row {
   margin-top: auto;
   width: 100%;
+}
+
+/* Ensure equal card heights and button alignment in core products - grid cols-4 */
+.grid.cols-4 .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  align-self: stretch;
+}
+
+.grid.cols-4 .card + .card {
+  margin-top: 0;
+}
+
+.grid.cols-4 .card .img-wrap {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  aspect-ratio: 16 / 10;
+}
+
+.grid.cols-4 .card .body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+  gap: 4px;
+}
+
+.grid.cols-4 .card .body .badge {
+  display: inline-block;
+  width: fit-content;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.grid.cols-4 .card .body h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  flex-shrink: 0;
+}
+
+.grid.cols-4 .card .body .muted {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.grid.cols-4 .card .body .mt-20 {
+  margin-top: auto;
+  padding-top: 16px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.grid.cols-4 .card .body .mt-20 .btn {
+  margin-top: 0;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
 }
 
 /* WhatsApp icon styling */
