@@ -1,6 +1,6 @@
 {
   "summary": {
-    "total_pages": 247,
+    "total_pages": 248,
     "canonical_mismatches": 0,
     "missing_titles": 0,
     "short_titles": 1,
@@ -8,7 +8,7 @@
     "duplicate_titles": 0,
     "missing_meta_descriptions": 0,
     "short_meta_descriptions": 0,
-    "long_meta_descriptions": 123,
+    "long_meta_descriptions": 124,
     "duplicate_meta_descriptions": 0,
     "missing_h1": 0,
     "multiple_h1": 0,
@@ -993,6 +993,30 @@
       "internal_links_out": [],
       "is_in_sitemap": true
     },
+    "packages/thailand/bangkok/khlong_lat_mayom_floating_market.html": {
+      "rel_path": "packages/thailand/bangkok/khlong_lat_mayom_floating_market.html",
+      "title": "Khlong Lat Mayom Floating Market Tour Bangkok | Trippovention",
+      "description": "Discover Khlong Lat Mayom Floating Market in Bangkok, known for local Thai food and canal-side experiences. Explore visitor tips, location details and tour options with Trippovention.",
+      "canonical": "https://trippovention.co.th/packages/thailand/bangkok/khlong_lat_mayom_floating_market.html",
+      "robots": null,
+      "og_url": "https://trippovention.co.th/packages/thailand/bangkok/khlong_lat_mayom_floating_market.html",
+      "h1_list": [
+        "Khlong Lat Mayom Floating Market Tour"
+      ],
+      "h2_count": 10,
+      "h3_count": 27,
+      "word_count": 1831,
+      "images_count": 7,
+      "images_missing_alt": 0,
+      "images_missing_dimensions": 0,
+      "json_ld_types": [
+        "TouristTrip",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_out": [],
+      "is_in_sitemap": true
+    },
     "packages/thailand/bangkok/madame_tussauds_bangkok.html": {
       "rel_path": "packages/thailand/bangkok/madame_tussauds_bangkok.html",
       "title": "Madame Tussauds Bangkok Tickets | Trippovention",
@@ -1220,9 +1244,9 @@
         "Discover the Best of Bangkok"
       ],
       "h2_count": 3,
-      "h3_count": 30,
-      "word_count": 1702,
-      "images_count": 30,
+      "h3_count": 31,
+      "word_count": 1730,
+      "images_count": 31,
       "images_missing_alt": 0,
       "images_missing_dimensions": 0,
       "json_ld_types": [
@@ -6051,6 +6075,9 @@
     "Bangkok Tour Packages &amp; Sightseeing Tours | Trippovention": [
       "packages/thailand/bangkok/index.html"
     ],
+    "Khlong Lat Mayom Floating Market Tour Bangkok | Trippovention": [
+      "packages/thailand/bangkok/khlong_lat_mayom_floating_market.html"
+    ],
     "Madame Tussauds Bangkok Tickets | Trippovention": [
       "packages/thailand/bangkok/madame_tussauds_bangkok.html"
     ],
@@ -6794,6 +6821,9 @@
     "Discover exciting Bangkok tour packages: Grand Palace, Floating Markets, Safari World, Chao Phraya cruises & vibrant city escapes with private transfers.": [
       "packages/thailand/bangkok/index.html"
     ],
+    "Discover Khlong Lat Mayom Floating Market in Bangkok, known for local Thai food and canal-side experiences. Explore visitor tips, location details and tour options with Trippovention.": [
+      "packages/thailand/bangkok/khlong_lat_mayom_floating_market.html"
+    ],
     "Visit Madame Tussauds Bangkok at Siam Discovery. Walk the red carpet with world leaders, sports legends, Hollywood actors, and Thai celebrities in 8 themed zones.": [
       "packages/thailand/bangkok/madame_tussauds_bangkok.html"
     ],
@@ -7419,12 +7449,12 @@
   "image_issues": [],
   "structured_data_inventory": {
     "TravelAgency": 9,
-    "BreadcrumbList": 238,
-    "FAQPage": 241,
+    "BreadcrumbList": 239,
+    "FAQPage": 242,
     "Service": 4,
     "WebSite": 1,
     "Organization": 1,
-    "TouristTrip": 197,
+    "TouristTrip": 198,
     "TouristDestination": 20,
     "TouristAttraction": 8,
     "ItemList": 1,
@@ -7473,6 +7503,7 @@
     "Long meta description (245 chars) on packages/thailand/bangkok/bangkok_prestige_journey.html",
     "Long title (83 chars) on packages/thailand/bangkok/classic_bangkok_skyline_wildlife_escape.html: 'Classic Bangkok \u2013 Skyline &amp; Wildlife Escape - 4 Days / 3 Nights | Trippovention'",
     "Long meta description (273 chars) on packages/thailand/bangkok/classic_bangkok_skyline_wildlife_escape.html",
+    "Long meta description (183 chars) on packages/thailand/bangkok/khlong_lat_mayom_floating_market.html",
     "Long meta description (166 chars) on packages/thailand/bangkok/mirinn_cabaret_theatre_bangkok.html",
     "Long title (73 chars) on packages/thailand/bangkok/princess_chao_phraya_dinner_cruise.html: 'Princess Chao Phraya Dinner Cruise Bangkok - River Buffet | Trippovention'",
     "Long meta description (168 chars) on packages/thailand/bangkok/sea_life_bangkok_ocean_world.html",

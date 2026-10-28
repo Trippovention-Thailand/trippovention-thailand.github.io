@@ -17,7 +17,7 @@ CATALOGUE_PATH = os.path.join(
 EXPERIENCES = [
     {
         "id": "bkk-01",
-        "name": "Bangkok City Highlights Tour",
+        "name": "Full Day Bangkok City Tour",
         "link": "full_day_bangkok_city_tour.html",
         "img": "../../../assets/images/packages/thailand/bangkok/sightseeingoptions/hero_full_day_bangkok_city_tour.webp",
         "alt": "Wat Pho and Bangkok city landmarks tour",
@@ -152,7 +152,7 @@ EXPERIENCES = [
     },
     {
         "id": "bkk-06",
-        "name": "King Power Mahanakhon SkyWalk",
+        "name": "Mahanakhon SkyWalk",
         "link": "mahanakhon_skywalk.html",
         "img": "../../../assets/images/packages/thailand/bangkok/sightseeingoptions/hero_mahanakhon_skywalk.webp",
         "alt": "Mahanakhon SkyWalk glass tray 314 meters high",
@@ -581,6 +581,33 @@ EXPERIENCES = [
             "Convenient round-trip hotel transfers from central Bangkok"
         ],
         "enquiry_param": "Maeklong+Railway+Market+and+Floating+Market+Tour"
+    },
+    {
+        "id": "bkk-25",
+        "name": "Khlong Lat Mayom Floating Market Tour",
+        "link": "khlong_lat_mayom_floating_market.html",
+        "img": "../../../assets/images/packages/thailand/bangkok/sightseeingoptions/hero_khlong_lat_mayom_floating_market.webp",
+        "alt": "Khlong Lat Mayom Floating Market traditional canal boats and food stalls",
+        "ribbon": "🛶 Authentic Market",
+        "category": "markets-shopping",
+        "category_label": "Markets & Shopping",
+        "collections": "markets,day-trips",
+        "duration": "half-day",
+        "duration_hours": "5",
+        "duration_label": "⏱️ 5–6 Hours (Morning)",
+        "tour_type": "private",
+        "tour_type_label": "Private / Custom",
+        "styles": "food,culture",
+        "price": "0",
+        "price_display": "On Request",
+        "price_unit": "Tour Pricing",
+        "highlights": [
+            "Authentic canal-side food market loved by local Bangkokians",
+            "Savor fresh grilled seafood, boat noodles & traditional sweets",
+            "Relaxed wooden canal walkways and local Thonburi atmosphere",
+            "Optional scenic wooden longtail boat rides through quiet waterways"
+        ],
+        "enquiry_param": "Khlong+Lat+Mayom+Floating+Market+Tour"
     },
     {
         "id": "bkk-22",
@@ -1716,6 +1743,8 @@ def generate_catalogue_html():
                   >WhatsApp: +66 94 693 4392</a
                 ></span
               >
+              <br />
+              <span>💬 LINE: +66 94 693 4392 or <a href="https://line.me/ti/p/~trippovention" target="_blank" rel="noopener noreferrer">trippovention</a></span>
             </div>
           </div>
           <div>
