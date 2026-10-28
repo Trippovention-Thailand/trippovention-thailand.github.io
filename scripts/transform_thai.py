@@ -15,12 +15,12 @@ THAI_FOOTER_CONTACT = """<h3 class="muted font-weight-600">Contact Details</h3>
                   >\u200d\U0001f4e7 <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span
                 >
                 <br />
-                <span>\U0001f4de <a href="tel:+66909177601">+66 90 917 7601</a></span>
+                <span>\U0001f4de <a href="tel:+66946934392">+66 94 693 4392</a></span>
                 <br />
                 <span
                   >\U0001f4ac
                   <a
-                    href="https://wa.me/+66909177601"
+                    href="https://wa.me/66946934392"
                     target="_blank"
                     rel="noopener noreferrer"
                     >WhatsApp</a
@@ -194,11 +194,11 @@ def transform_all_html(html, rel_path):
     )
 
     # ── 3. Nav primary phone ──
-    html = html.replace('href="tel:+918750888875"', 'href="tel:+66909177601"')
+    html = html.replace('href="tel:+918750888875"', 'href="tel:+66946934392"')
 
     # ── 4. Nav WhatsApp ──
     html = html.replace(
-        'href="https://wa.me/+918750888875"', 'href="https://wa.me/+66909177601"'
+        'href="https://wa.me/+918750888875"', 'href="https://wa.me/66946934392"'
     )
 
     # ── 5. langToggle injection ──
@@ -255,15 +255,15 @@ def transform_all_html(html, rel_path):
 
     # ── 11. JSON-LD phone ──
     html = html.replace(
-        '"telephone": "+91-87508-88875"', '"telephone": "+66-90-917-7601"'
+        '"telephone": "+91-87508-88875"', '"telephone": "+66-94-693-4392"'
     )
 
     # ── 12. Remaining visible +91 primary phone text ──
-    html = html.replace(">+91 87508 88875</a>", ">+66 90 917 7601</a>")
+    html = html.replace(">+91 87508 88875</a>", ">+66 94 693 4392</a>")
 
     # ── 13. Refund-policy special number ──
-    html = html.replace("tel:+919205055461", "tel:+66909177601")
-    html = html.replace("+91 92050 55461", "+66 90 917 7601")
+    html = html.replace("tel:+919205055461", "tel:+66946934392")
+    html = html.replace("+91 92050 55461", "+66 94 693 4392")
 
     # ── 14. OG/twitter description - visa mentions ──
     html = html.replace(

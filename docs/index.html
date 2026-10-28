@@ -36,7 +36,7 @@
     <title>Trippovention Thailand — Travel Thailand, Your Way | Packages, Sightseeing, Transfers &amp; Day Trips</title>
     <meta
       name="description"
-      content="Explore Thailand your way with Trippovention: curated land packages, sightseeing experiences, private transfers and day trips. Also offering India Buddha Circuit pilgrimages for Thai travellers."
+      content="Explore Thailand your way with Trippovention: curated land packages, sightseeing experiences, private transfers, and day trips. 5+ years trusted team expertise."
     />
 
     <meta name="author" content="Trippovention" />
@@ -46,7 +46,7 @@
     <meta property="og:title" content="Trippovention Thailand — Travel Thailand, Your Way" />
     <meta
       property="og:description"
-      content="Explore Thailand your way with Trippovention: curated land packages, sightseeing experiences, private transfers and day trips. Also offering India Buddha Circuit pilgrimages for Thai travellers."
+      content="Explore Thailand your way with Trippovention: curated land packages, sightseeing experiences, private transfers, and day trips. 5+ years trusted team expertise."
     />
     <meta property="og:image" content="https://trippovention.co.th/assets/images/logo.webp" />
 
@@ -55,7 +55,7 @@
     <meta property="twitter:title" content="Trippovention Thailand — Travel Thailand, Your Way" />
     <meta
       property="twitter:description"
-      content="Explore Thailand your way with Trippovention: curated land packages, sightseeing experiences, private transfers and day trips. Also offering India Buddha Circuit pilgrimages for Thai travellers."
+      content="Explore Thailand your way with Trippovention: curated land packages, sightseeing experiences, private transfers, and day trips. 5+ years trusted team expertise."
     />
     <meta property="twitter:image" content="https://trippovention.co.th/assets/images/logo.webp" />
 
@@ -82,6 +82,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/search.css" />
 
     <!-- Google tag (gtag.js) -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11395302765"></script>
@@ -95,13 +96,37 @@
       gtag("config", "AW-11395302765");
     </script>
 
+        <!-- WebSite Schema (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Trippovention Thailand",
+        "url": "https://trippovention.co.th/",
+        "description": "Explore Thailand with Trippovention, a locally based travel and ground operations company offering curated land packages, sightseeing, private transfers, and day trips.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trippovention",
+          "url": "https://trippovention.co.th/",
+          "logo": "https://trippovention.co.th/assets/images/logo.webp"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://trippovention.co.th/search.html?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
     <!-- Organization Schema (Goodie / schema.org) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Trippovention",
-        "description": "Your trusted travel partner for Thailand tours, custom packages, and ground operations.",
+        "description": "Trippovention is a Thailand-registered travel and ground operations company with a local presence in Thailand and an established operational base in India.",
         "url": "https://trippovention.co.th/",
         "logo": "https://trippovention.co.th/assets/images/logo.webp"
       }
@@ -141,11 +166,11 @@
         <div class="nav-right">
           <div class="actions">
             <button class="lang-btn notranslate" id="langToggle" translate="no">TH</button>
-            <a class="icon" title="Call Us" href="tel:+66909177601">📞</a>
+            <a class="icon" title="Call Us" href="tel:+66946934392">📞</a>
             <a
               class="icon"
               title="WhatsApp"
-              href="https://wa.me/+66909177601"
+              href="https://wa.me/66946934392"
               aria-label="Chat on WhatsApp"
               rel="noopener noreferrer"
               target="_blank"
@@ -153,7 +178,7 @@
               <img
                 src="assets/images/social/whatsapp.svg"
                 alt="WhatsApp"
-                class="whatsapp-icon-nav whatsapp-green"
+                width="20" height="20" class="whatsapp-icon-nav whatsapp-green"
                 loading="lazy"
               />
             </a>
@@ -181,24 +206,16 @@
     </nav>
 
     <main id="main" tabindex="-1">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <div class="breadcrumb-container">
-          <ol class="breadcrumb-list">
-            <li class="breadcrumb-item active">🏠 Home</li>
-          </ol>
-        </div>
-      </nav>
-
       <header class="hero">
         <div class="container">
           <div class="text-center">
             <h1>Travel Thailand, Your Way</h1>
             <p class="lead">
-              Explore Thailand with curated land packages, sightseeing experiences, private transfers and day trips.
+              Explore Thailand with a locally based travel and ground operations company offering curated land packages, sightseeing, private transfers and day trips.
             </p>
             <div class="cta">
-              <a class="btn btn-lg" href="#core-products">EXPLORE THAILAND</a>
-              <a class="btn btn-lg ghost" href="#plan-trip">PLAN MY TRIP</a>
+              <a class="btn btn-lg" href="#core-products">Explore Thailand</a>
+              <a class="btn btn-lg ghost" href="#plan-trip">Plan My Trip</a>
             </div>
           </div>
         </div>
@@ -206,7 +223,7 @@
 
       <!-- Four Core Thailand Products -->
       <section class="section features" id="core-products">
-        <div class="container">
+        <div class="container" style="text-align: center;">
           <div class="section-title">
             <h2>Explore Thailand Your Way</h2>
             <p class="subtitle">
@@ -214,12 +231,13 @@
             </p>
           </div>
           <div class="grid cols-4">
+            
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_bangkok.webp"
+                  src="assets/images/packages/thailand/thailandyourway/hero_land_packages.webp"
                   alt="Thailand land packages and multi-destination holidays"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
               </div>
               <div class="body">
@@ -229,7 +247,7 @@
                   Complete Thailand holidays and multi-destination combinations with stays, transfers &amp; tours.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="#thailand-packages">EXPLORE →</a>
+                  <a class="btn" href="land-packages.html">Explore →</a>
                 </div>
               </div>
             </div>
@@ -237,9 +255,9 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_safari_world_and_marine_park.webp"
+                  src="assets/images/packages/thailand/thailandyourway/hero_sightseeing.webp"
                   alt="Thailand sightseeing, theme parks and attractions"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
               </div>
               <div class="body">
@@ -249,7 +267,7 @@
                   Individual attractions, iconic cultural landmarks, dinner cruises, wildlife parks and guided tours.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="#thailand-sightseeing">EXPLORE →</a>
+                  <a class="btn" href="sightseeing.html">Explore →</a>
                 </div>
               </div>
             </div>
@@ -257,9 +275,9 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/transfers/hero_from_bkk_dmk_to_pattaya_hotel.webp"
+                  src="assets/images/packages/thailand/thailandyourway/hero_transfers.webp"
                   alt="Thailand private airport and intercity transfers"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
               </div>
               <div class="body">
@@ -269,7 +287,7 @@
                   Private airport, hotel and intercity transfers across Thailand with verified professional drivers.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="#thailand-transfers">EXPLORE →</a>
+                  <a class="btn" href="transfers.html">Explore →</a>
                 </div>
               </div>
             </div>
@@ -277,9 +295,9 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_ayutthaya_historical_park_full_day_tour_sic_transfer.webp"
+                  src="assets/images/packages/thailand/thailandyourway/hero_day_trips.webp"
                   alt="Thailand day trips and excursions"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
               </div>
               <div class="body">
@@ -289,7 +307,7 @@
                   Convenient day excursions and unforgettable island-hopping trips from major Thailand destinations.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="#day-trips">EXPLORE →</a>
+                  <a class="btn" href="day-trips.html">Explore →</a>
                 </div>
               </div>
             </div>
@@ -304,9 +322,9 @@
             <span class="reservation-badge">Coming Soon</span>
             <h3>ONLINE RESERVATIONS — COMING SOON</h3>
             <p>
-              We’re making travel easier to book. Our online reservation system is coming soon, allowing customers and travel partners to conveniently explore and reserve Thailand packages, sightseeing, transfers and day trips — as well as India Buddha Circuit journeys for Thai travellers — online.
+              We’re making travel easier to book. Our online reservation system is coming soon, allowing customers and travel partners to conveniently explore & reserve Thailand packages, sightseeing, transfers and day trips, as well as India Buddha Circuit journeys for Thai travellers, online.
             </p>
-            <a class="btn" href="#plan-trip">COMING SOON →</a>
+            <a class="btn" href="#plan-trip">Coming Soon →</a>
           </div>
         </div>
       </section>
@@ -320,22 +338,22 @@
               Discover iconic cities, cultural capitals and tropical island escapes across Thailand
             </p>
           </div>
-          <div class="grid cols-5">
+          <div class="grid cols-3">
             <!-- Bangkok -->
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_bangkok.webp"
+                  src="assets/images/packages/thailand/bangkok/hero_bangkok.webp"
                   alt="Bangkok city tours, attractions and transfers"
                   fetchpriority="high"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Bangkok</div>
                 <h3>Bangkok</h3>
-                <div class="service-pills">
+                <div class="service-pills" style="text-align: center;">
                   <span>Packages</span>
                   <span>Sightseeing</span>
                   <span>Transfers</span>
@@ -354,12 +372,12 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_pattaya.webp"
+                  src="assets/images/packages/thailand/pattaya/hero_pattaya.webp"
                   alt="Pattaya beaches, shows and transfers"
                   fetchpriority="high"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Pattaya</div>
@@ -383,12 +401,12 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_phuket.webp"
+                  src="assets/images/packages/thailand/phuket/hero_phuket.webp"
                   alt="Phuket island tours, resorts and transfers"
                   fetchpriority="high"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Phuket</div>
@@ -412,12 +430,12 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_krabi.webp"
+                  src="assets/images/packages/thailand/krabi/hero_krabi.webp"
                   alt="Krabi limestone cliffs, beaches and tours"
                   fetchpriority="high"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Krabi</div>
@@ -437,20 +455,20 @@
               </div>
             </div>
 
-            <!-- Explore More Destinations -->
+            <!-- Chiang Mai -->
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_chiang_mai.webp"
-                  alt="Explore more Thailand destinations like Chiang Mai, Koh Samui and Hua Hin"
+                  src="assets/images/packages/thailand/chiangmai/hero_chiang_mai.webp"
+                  alt="Chiang Mai mountain temples, night bazaars and elephant sanctuaries"
                   fetchpriority="high"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Discovery</span>
+                <span class="ribbon">⛰️ Culture &amp; Nature</span>
               </div>
               <div class="body">
-                <div class="badge">More Destinations</div>
-                <h3>Explore More</h3>
+                <div class="badge">Chiang Mai</div>
+                <h3>Chiang Mai</h3>
                 <div class="service-pills">
                   <span>Packages</span>
                   <span>Sightseeing</span>
@@ -458,7 +476,21 @@
                   <span>Day Trips</span>
                 </div>
                 <p class="muted">
-                  Chiang Mai • Koh Samui • Chiang Rai • Ayutthaya • Hua Hin • Koh Phangan • Koh Larn
+                  Doi Suthep • Doi Inthanon • Elephant Sanctuary • Old City Temples • Night Bazaar
+                </p>
+                <div class="mt-20">
+                  <a class="btn" href="packages/thailand/chiang_mai/index.html">Explore Chiang Mai →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Explore More Destinations Card -->
+            <div class="card">
+              <div class="body text-center">
+                <div class="feature-icon">🗺️</div>
+                <h3>Explore All Destinations</h3>
+                <p class="muted">
+                  Discover more destinations across Thailand including Koh Samui, Chiang Rai, Ayutthaya, Hua Hin, Koh Phangan, Koh Larn, and island escapes.
                 </p>
                 <div class="mt-20">
                   <a class="btn" href="packages/thailand/index.html">Explore All Destinations →</a>
@@ -483,11 +515,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/mixedpackages/hero_radiant_bangkok_and_pattaya_escape.webp"
+                  src="assets/images/packages/thailand/landpackages/hero_bangkok_pattaya_ultimate_family_escape.webp"
                   alt="Bangkok and Pattaya holiday package combination"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Bangkok + Pattaya</div>
@@ -496,6 +528,7 @@
                   Wat Traimit • Wat Benchamabophit • Pattaya Coral Island speedboat tour • Alcazar Cabaret Show • Safari World &amp; Marine Park
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/bangkok/bangkok_pattaya_ultimate_family_escape.html">View Details →</a>
@@ -506,11 +539,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/mixedpackages/hero_coastal_phuket_phi_phi_and_krabi_adventure.webp"
+                  src="assets/images/packages/thailand/landpackages/hero_phuket_krabi_coastal_retreat.webp"
                   alt="Phuket and Krabi coastal holiday package"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon">💎 Luxury</span>
               </div>
               <div class="body">
                 <div class="badge">Phuket + Krabi</div>
@@ -519,6 +552,7 @@
                   Big Buddha Phuket • Wat Chalong • Tiger Park Phuket • Krabi 4 Islands speedboat tour • Emerald Pool &amp; Hot Springs
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/phuket/phuket_krabi_coastal_retreat.html">View Details →</a>
@@ -529,11 +563,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/mixedpackages/hero_celestial_islands_and_city_escape.webp"
+                  src="assets/images/packages/thailand/landpackages/hero_thailand_island_city_explorer.webp"
                   alt="Bangkok Pattaya and Phuket multi-destination explorer package"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Combo</span>
+                <span class="ribbon">✨ Bestseller</span>
               </div>
               <div class="body">
                 <div class="badge">Bangkok + Pattaya + Phuket</div>
@@ -542,6 +576,7 @@
                   Bangkok Grand Palace &amp; temples • Pattaya Coral Island watersports • Phuket Phi Phi Island &amp; Phang Nga Bay canoe adventure
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/bangkok/thailand_island_city_explorer.html">View Details →</a>
@@ -552,10 +587,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/mixedpackages/hero_azure_southern_thailand_island_odyssey.webp"
+                  src="assets/images/packages/thailand/landpackages/hero_koh_samui_bangkok_discovery.webp"
                   alt="Koh Samui and Bangkok discovery tour package"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🏝️ Island Odyssey</span>
               </div>
               <div class="body">
                 <div class="badge">Bangkok + Koh Samui</div>
@@ -564,6 +600,7 @@
                   Bangkok cultural monuments • Chao Phraya River cruise • Chaweng Beach • Angthong National Marine Park speedboat excursion
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/koh_samui/koh_samui_bangkok_discovery.html">View Details →</a>
@@ -574,10 +611,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/mixedpackages/hero_grand_northern_thailand_and_bangkok_explorer.webp"
+                  src="assets/images/packages/thailand/landpackages/hero_magnificent_northern_bangkok_fusion.webp"
                   alt="Northern Thailand and Bangkok explorer package"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🏛️ Cultural</span>
               </div>
               <div class="body">
                 <div class="badge">Bangkok + Chiang Mai</div>
@@ -586,6 +624,7 @@
                   Bangkok landmark temples • Doi Suthep mountain sanctuary • Chiang Mai Night Bazaar • Ethical Elephant encounter &amp; valleys
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/chiang_mai/magnificent_northern_bangkok_fusion.html">View Details →</a>
@@ -601,7 +640,7 @@
                   Discover ready-made and flexible Thailand holidays combining destinations, luxury stays, private transfers and curated experiences.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="packages/thailand/index.html">VIEW ALL PACKAGES →</a>
+                  <a class="btn" href="land-packages.html">Explore All Packages →</a>
                 </div>
               </div>
             </div>
@@ -624,8 +663,9 @@
                 <img
                   src="assets/images/packages/thailand/sightseeing/hero_ayutthaya_historical_park_full_day_tour_sic_transfer.webp"
                   alt="Ayutthaya Historical Park full day tour with transfers"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🏛️ Cultural</span>
               </div>
               <div class="body">
                 <div class="badge">Ayutthaya</div>
@@ -634,6 +674,7 @@
                   Ayutthaya Historical Park Tour • Wat Mahathat • Wat Phra Si Sanphet • Wat Chaiwatthanaram • Bang Pa-In Royal Palace
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/ayutthaya/index.html">View Details →</a>
@@ -645,8 +686,9 @@
                 <img
                   src="assets/images/packages/thailand/sightseeing/hero_elephant_sanctuary_pattaya_feed_me_program.webp"
                   alt="Elephant Sanctuary Pattaya Feed Me program encounter"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🐘 Ethical</span>
               </div>
               <div class="body">
                 <div class="badge">Pattaya</div>
@@ -655,6 +697,7 @@
                   Elephant Sanctuary Pattaya • Elephant Feeding Experience • Ethical Elephant Encounter • Pattaya Elephant Sanctuary Tour • Feed Me Program Pattaya
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/pattaya/index.html">View Details →</a>
@@ -664,10 +707,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_krabi_hot_springs_and_emerald_pool_sic_transfer.webp"
+                  src="assets/images/packages/thailand/sightseeing/hero_krabi_hot_springs_and_emerald_pool.webp"
                   alt="Krabi Hot Springs and Emerald Pool tour"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🌿 Eco Nature</span>
               </div>
               <div class="body">
                 <div class="badge">Krabi</div>
@@ -676,6 +720,7 @@
                   Krabi Hot Springs Tour • Emerald Pool Krabi • Emerald Pool Nature Reserve • Krabi Nature Tour • Rainforest Walking Trail
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/krabi/index.html">View Details →</a>
@@ -687,9 +732,9 @@
                 <img
                   src="assets/images/packages/thailand/sightseeing/hero_phi_phi_island_and_khai_island_tour_with_lunch_round_trip_transfer.webp"
                   alt="Phi Phi Island and Khai Island speedboat tour with lunch"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Phi Phi Island &amp; Khai Island</div>
@@ -698,6 +743,7 @@
                   Phi Phi Island Tour • Khai Island Tour • Phuket Island Hopping • Andaman Sea Snorkeling • Phi Phi &amp; Khai Island Tour with Lunch
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/phuket/phi_phi_island_and_khai_island_tour.html">View Details →</a>
@@ -707,11 +753,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_safari_world_and_marine_park.webp"
+                  src="assets/images/packages/thailand/sightseeing/hero_safari_world_marine_park.webp"
                   alt="Safari World and Marine Park Bangkok day tour"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon">🦁 Wildlife</span>
               </div>
               <div class="body">
                 <div class="badge">Bangkok</div>
@@ -720,6 +766,7 @@
                   Safari World Bangkok • Marine Park Bangkok • Bangkok Wildlife Park • Safari Park Bangkok • Dolphin &amp; Sea Lion Shows
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/bangkok/safari_world_and_marine_park.html">View Details →</a>
@@ -735,7 +782,7 @@
                   Want to discover more attractions? Explore iconic city landmarks, dinner cruises, animal encounters, and adventure activities across Thailand.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="packages/thailand/index.html">VIEW ALL SIGHTSEEING →</a>
+                  <a class="btn" href="sightseeing.html">Explore All Sightseeing →</a>
                 </div>
               </div>
             </div>
@@ -758,9 +805,9 @@
                 <img
                   src="assets/images/packages/thailand/transfers/hero_from_bkk_dmk_to_pattaya_hotel.webp"
                   alt="Private transfer from Bangkok BKK DMK airport to Pattaya hotel"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Airport Transfer</div>
@@ -769,9 +816,10 @@
                   Bangkok Airport Transfer • Bangkok to Pattaya Transfer • Pattaya Private Transfer • BKK to Pattaya Taxi • Thailand Airport Transfer
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
-                <a class="btn" href="contact.html?type=transfer">View Details →</a>
+                <a class="btn" href="contact.html?service=transfer&route=Bangkok+Airport+(BKK/DMK)+to+Pattaya+Hotel">Request Quote →</a>
               </div>
             </div>
             
@@ -780,9 +828,9 @@
                 <img
                   src="assets/images/packages/thailand/transfers/hero_from_phuket_international_airport_hkt_to_krabi_hotel.webp"
                   alt="Private transfer from Phuket HKT airport to Krabi hotel"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Intercity Transfer</div>
@@ -791,9 +839,10 @@
                   Phuket Airport to Krabi • Krabi Airport Transfer • Phuket to Krabi Transfer • Private Transfer Phuket Krabi • Phuket Hotel Transfer
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
-                <a class="btn" href="contact.html?type=transfer">View Details →</a>
+                <a class="btn" href="contact.html?service=transfer&route=Phuket+Airport+(HKT)+to+Krabi+Hotel">Request Quote →</a>
               </div>
             </div>
 
@@ -802,8 +851,9 @@
                 <img
                   src="assets/images/packages/thailand/transfers/hero_from_bkk_dmk_to_hua_hin_hotel.webp"
                   alt="Private transfer from Bangkok airport to Hua Hin hotel"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🚐 Direct Route</span>
               </div>
               <div class="body">
                 <div class="badge">Intercity Transfer</div>
@@ -812,9 +862,10 @@
                   Bangkok to Hua Hin Transfer • Hua Hin Airport Transfer • Bangkok Airport to Hua Hin • Private Transfer Hua Hin • Thailand Intercity Transfer
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
-                <a class="btn" href="contact.html?type=transfer">View Details →</a>
+                <a class="btn" href="contact.html?service=transfer&route=Bangkok+Airport+(BKK/DMK)+to+Hua+Hin+Hotel">Request Quote →</a>
               </div>
             </div>
 
@@ -823,8 +874,9 @@
                 <img
                   src="assets/images/packages/thailand/transfers/hero_from_phuket_hotel_to_koh_samui_hotel.webp"
                   alt="Transfer from Phuket hotel to Koh Samui hotel"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">⛴️ Land &amp; Ferry</span>
               </div>
               <div class="body">
                 <div class="badge">Island Transfer</div>
@@ -833,9 +885,10 @@
                   Phuket to Koh Samui Transfer • Phuket to Koh Samui Ferry • Koh Samui Intercity Transfer • Phuket Hotel Transfer • Thailand Island Transfer
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
-                <a class="btn" href="contact.html?type=transfer">View Details →</a>
+                <a class="btn" href="contact.html?service=transfer&route=Phuket+Hotel+to+Koh+Samui+Hotel">Request Quote →</a>
               </div>
             </div>
 
@@ -844,9 +897,9 @@
                 <img
                   src="assets/images/packages/thailand/transfers/hero_from_bangkok_hotel_to_pattaya_hotel.webp"
                   alt="Private transfer from Bangkok hotel to Pattaya hotel"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">Hotel Transfer</div>
@@ -855,9 +908,10 @@
                   Bangkok to Pattaya Transfer • Pattaya Hotel Transfer • Private Bangkok to Pattaya • Bangkok Intercity Transfer • Thailand Private Transfer
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
-                <a class="btn" href="contact.html?type=transfer">View Details →</a>
+                <a class="btn" href="contact.html?service=transfer&route=Bangkok+Hotel+to+Pattaya+Hotel">Request Quote →</a>
               </div>
             </div>
 
@@ -870,7 +924,7 @@
                   Need a ride anywhere in Thailand? We offer private airport, hotel, and intercity transfers connecting Bangkok, Pattaya, Phuket, Krabi, Hua Hin, and Koh Samui.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="contact.html?type=transfer">VIEW ALL TRANSFERS →</a>
+                  <a class="btn" href="transfers.html">Explore All Transfers →</a>
                 </div>
               </div>
             </div>
@@ -891,11 +945,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_ayutthaya_historical_park_full_day_tour_sic_transfer.webp"
+                  src="assets/images/packages/thailand/daytrips/hero_ayutthaya_ancient_capital_day_trip.webp"
                   alt="Ayutthaya ancient capital day trip from Bangkok"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Heritage</span>
+                <span class="ribbon">🏛️ Heritage</span>
               </div>
               <div class="body">
                 <div class="badge">From Bangkok</div>
@@ -904,6 +958,7 @@
                   UNESCO World Heritage temples • Wat Mahathat Buddha head in tree roots • Wat Phra Si Sanphet • Bang Pa-In Summer Palace
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/ayutthaya/index.html">View Details →</a>
@@ -913,11 +968,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/destinations/hero_koh_larn.webp"
+                  src="assets/images/packages/thailand/daytrips/hero_coral_island_koh_larn_speedboat_excursion.webp"
                   alt="Coral Island Koh Larn speedboat day trip from Pattaya"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">From Pattaya</div>
@@ -926,6 +981,7 @@
                   Pristine white sand beaches • Parasailing, jet skiing &amp; banana boat rides • Snorkeling in crystal waters • Fresh beachfront lunch
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/koh_larn/index.html">View Details →</a>
@@ -935,11 +991,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_phi_phi_island_and_khai_island_tour_with_lunch_round_trip_transfer.webp"
+                  src="assets/images/packages/thailand/daytrips/hero_phi_phi_maya_bay_speedboat_day_trip.webp"
                   alt="Phi Phi Islands and Maya Bay speedboat day trip from Phuket"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">Popular</span>
+                <span class="ribbon hot">🔥 Popular</span>
               </div>
               <div class="body">
                 <div class="badge">From Phuket</div>
@@ -948,6 +1004,7 @@
                   World-famous Maya Bay • Swimming in emerald Pileh Lagoon • Viking Cave exploration • Snorkeling at Khai Island with buffet lunch
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/phuket/phi_phi_island_and_khai_island_tour.html">View Details →</a>
@@ -957,10 +1014,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/sightseeing/hero_krabi_hot_springs_and_emerald_pool_sic_transfer.webp"
+                  src="assets/images/packages/thailand/daytrips/hero_krabi_emerald_pool_hot_springs_day_tour.webp"
                   alt="Emerald Pool and Hot Springs nature tour from Krabi"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🌿 Eco Tour</span>
               </div>
               <div class="body">
                 <div class="badge">From Krabi</div>
@@ -969,6 +1027,7 @@
                   Natural volcanic hot spring baths • Crystal-clear freshwater Emerald Pool swimming • Guided tropical rainforest nature trail
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/krabi/index.html">View Details →</a>
@@ -978,10 +1037,11 @@
             <div class="card">
               <div class="img-wrap">
                 <img
-                  src="assets/images/packages/thailand/bangkok/hero_full_day_bangkok_city_tour.webp"
+                  src="assets/images/packages/thailand/daytrips/hero_full_day_bangkok_city_temples_tour.webp"
                   alt="Full day Bangkok city tour and cultural landmarks"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">🏙️ Capital Highlights</span>
               </div>
               <div class="body">
                 <div class="badge">From Bangkok</div>
@@ -990,6 +1050,7 @@
                   Golden Buddha at Wat Traimit • Marble Temple (Wat Benchamabophit) • Gems Gallery • Chao Phraya views with licensed English guide
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Contact Us For</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/thailand/bangkok/full_day_bangkok_city_tour.html">View Details →</a>
@@ -1005,7 +1066,7 @@
                   Looking for a custom day excursion from Bangkok, Pattaya, Phuket, Krabi or Chiang Mai? We arrange private vehicles and licensed tour guides.
                 </p>
                 <div class="mt-20">
-                  <a class="btn" href="packages/thailand/index.html">EXPLORE DAY TRIPS →</a>
+                  <a class="btn" href="day-trips.html">Explore All Day Trips →</a>
                 </div>
               </div>
             </div>
@@ -1028,9 +1089,9 @@
                 <img
                   src="assets/images/packages/india/buddha/hero_golden_buddha_circuit_retreat.webp"
                   alt="Golden Buddha Circuit spiritual pilgrimage in India for Thai travellers"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">India Pilgrimage</span>
+                <span class="ribbon">🧘 Sacred Pilgrimage</span>
               </div>
               <div class="body">
                 <div class="badge">Pilgrimage in India</div>
@@ -1039,6 +1100,7 @@
                   Sacred journey connecting India's holiest Buddhist sites: Bodh Gaya (Mahabodhi Temple), Sarnath, Rajgir, and Nalanda with dedicated Thai-friendly coordination.
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Pilgrimage Package</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/india/buddha/golden_buddha_circuit_retreat.html">View Itinerary →</a>
@@ -1050,9 +1112,9 @@
                 <img
                   src="assets/images/packages/india/buddha/hero_buddha_circuit_spiritual_adventure.webp"
                   alt="Buddha Circuit spiritual pilgrimage in India for Thai devotees"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
-                <span class="ribbon popular">India Heritage</span>
+                <span class="ribbon">☸️ Sacred Relics</span>
               </div>
               <div class="body">
                 <div class="badge">Spiritual Journey</div>
@@ -1061,6 +1123,7 @@
                   Deep spiritual pilgrimage through Buddhist heritage in India, featuring guided meditations, holy monasteries, sacred relics, and historic monastic stupas.
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Spiritual Journey</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/india/buddha/buddha_circuit_spiritual_adventure.html">View Itinerary →</a>
@@ -1072,8 +1135,9 @@
                 <img
                   src="assets/images/packages/india/buddha/hero_buddha_circuit_family_heritage_escape.webp"
                   alt="Buddha Circuit family heritage pilgrimage in India for Thai travellers"
-                  loading="lazy"
+                  width="400" height="250" loading="lazy"
                 />
+                <span class="ribbon">👨‍👩‍👧 Family Pilgrimage</span>
               </div>
               <div class="body">
                 <div class="badge">Family Pilgrimage</div>
@@ -1082,6 +1146,7 @@
                   Comfortably paced pilgrimage across India designed for Thai families and elders to pay homage at sacred sites with comfortable hotels and Thai meal options.
                 </p>
                 <div class="price-row">
+                  <span class="price-label">Family Pilgrimage</span>
                   <span class="price mb-20">Current Offer</span>
                 </div>
                 <a class="btn" href="packages/india/buddha/buddha_circuit_family_heritage_escape.html">View Itinerary →</a>
@@ -1089,7 +1154,7 @@
             </div>
           </div>
           <div class="text-center mt-30">
-            <a class="btn btn-lg" href="packages/india/buddha/index.html">EXPLORE INDIA BUDDHA CIRCUIT →</a>
+            <a class="btn btn-lg" href="packages/india/buddha/index.html">Explore India Buddha Circuit →</a>
           </div>
         </div>
       </section>
@@ -1104,12 +1169,12 @@
             </p>
           </div>
           <div class="market-chips">
-            <div class="market-chip">🇮🇳 India</div>
-            <div class="market-chip">🇬🇧 United Kingdom</div>
-            <div class="market-chip">🇪🇺 Europe</div>
-            <div class="market-chip">🇺🇸 USA</div>
-            <div class="market-chip">🇦🇪 Middle East</div>
-            <div class="market-chip">🌏 Asia-Pacific</div>
+            <div class="market-chip" style="color: black;">🇮🇳 India</div>
+            <div class="market-chip" style="color: black;">🇬🇧 United Kingdom</div>
+            <div class="market-chip" style="color: black;">🇪🇺 Europe</div>
+            <div class="market-chip" style="color: black;">🇺🇸 USA</div>
+            <div class="market-chip" style="color: black;">🇦🇪 Middle East</div>
+            <div class="market-chip" style="color: black;">🌏 Asia-Pacific</div>
           </div>
           <div class="grid cols-3 mt-24">
             <div class="card" style="padding: 24px; text-align: center;">
@@ -1135,16 +1200,16 @@
             </div>
           </div>
           <div class="text-center mt-30">
-            <a class="btn" href="contact.html?type=international">ENQUIRE FOR YOUR REGION →</a>
+            <a class="btn" href="contact.html?type=international">Enquire for Your Region →</a>
           </div>
         </div>
       </section>
 
       <!-- 11. Why Trippovention for Thailand? -->
       <section class="section features" id="why-choose-us">
-        <div class="container">
+        <div class="container" style="text-align: center;">
           <div class="section-title">
-            <h2>Why Trippovention for Thailand?</h2>
+            <h2>✨ Why Trippovention for Thailand?</h2>
             <p class="subtitle">Your dedicated Thailand travel and ground operations specialist</p>
           </div>
           <div class="grid cols-5">
@@ -1198,49 +1263,54 @@
       </section>
 
       <!-- 12. Frequently Asked Questions (AEO & FAQ Structure) -->
-      <section class="section alt" id="faq">
+            <!-- FAQ Section -->
+      <section class="section alt faq-section" id="faq">
         <div class="container">
           <div class="section-title">
             <h2>Frequently Asked Questions</h2>
             <p class="subtitle">Quick answers to common questions about our Thailand travel packages, sightseeing, transfers, and ground services</p>
           </div>
-          <div class="grid cols-2" style="gap: 24px; max-width: 1000px; margin: 0 auto;">
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">What Thailand destinations does Trippovention cover?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Trippovention covers all major destinations across Thailand including Bangkok, Pattaya, Phuket, Krabi, Chiang Mai, Koh Samui, Ayutthaya, Hua Hin, Koh Phangan, Koh Larn, Koh Yao Yai, and Koh Mook. We arrange land packages, transfers, sightseeing, and day trips across all these regions.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Can I book only sightseeing without a holiday package?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes, absolutely. You can book individual sightseeing experiences, attraction tickets, day tours, dinner cruises, theme parks, and cultural activities without needing to book a complete holiday package.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Do you provide private airport transfers in Thailand?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes, we provide private, air-conditioned airport transfers with verified professional drivers from Bangkok Suvarnabhumi (BKK), Don Mueang (DMK), and Phuket International Airport (HKT) directly to your hotel, as well as intercity routes such as Bangkok to Pattaya or Hua Hin.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Can I combine multiple Thailand destinations?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes. We specialize in multi-destination Thailand combinations such as Bangkok + Pattaya, Bangkok + Phuket, Phuket + Krabi, Bangkok + Pattaya + Phuket, and Northern Thailand cultural circuits, complete with coordinated domestic transfers, ferries, and stays.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Do you offer Thailand day trips?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes. We offer convenient day trips from major Thailand hubs, including Ayutthaya historical tours from Bangkok, Coral Island speedboat excursions from Pattaya, Phi Phi Island trips from Phuket, and Emerald Pool nature tours from Krabi.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Can I customize a Thailand holiday?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes, all our Thailand land packages are fully flexible. You can customize travel dates, destinations, hotel categories, private vehicle transfers, meal preferences, and daily itineraries to fit your exact needs and budget.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Do you offer Buddha Circuit journeys?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes. Trippovention organizes dedicated Buddha Circuit spiritual journeys and pilgrimage tours to sacred Buddhist heritage sites in India (including Bodh Gaya, Sarnath, Kushinagar, Rajgir, Nalanda, and Varanasi), specially designed for Thai Buddhist travellers, monks, families, and pilgrimage groups with Thai-friendly hospitality and arrangements.</p>
-            </div>
-            <div class="card" style="padding: 24px;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">Can international travellers book Thailand travel with Trippovention?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Yes. We cater to international travellers and travel trade partners from India, the United Kingdom, Europe, the USA, the Middle East, and Asia-Pacific, offering English-speaking on-ground assistance, specialized dietary options (Vegetarian, Jain, Halal), and secure booking coordination.</p>
-            </div>
-            <div class="card" style="padding: 24px; grid-column: 1 / -1;">
-              <h3 style="font-size: 1.15rem; color: var(--orange); margin-bottom: 12px;">When will online reservations be available?</h3>
-              <p class="muted" style="margin: 0; line-height: 1.6;">Our online reservation system is currently in development and coming soon. It will allow guests and travel partners to conveniently explore and reserve Thailand packages, sightseeing, transfers, day trips, and India Buddha Circuit journeys online. In the meantime, our reservations desk confirms inquiries quickly via our contact form and WhatsApp.</p>
-            </div>
+          <div class="faq-container">
+            <details class="faq-item" open>
+              <summary class="faq-question"><span>What does Trippovention offer in Thailand?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Trippovention is a Thailand-registered travel and ground operations company with a local presence in Thailand and an established operational base in India. We provide Thailand travel arrangements, sightseeing, transfers, day trips and ground coordination for international travellers and travel partners across all 16 major Thailand destinations.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>What Thailand destinations does Trippovention cover?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Trippovention covers all major destinations across Thailand including Bangkok, Pattaya, Phuket, Krabi, Chiang Mai, Koh Samui, Ayutthaya, Hua Hin, Koh Phangan, Koh Larn, Koh Yao Yai, and Koh Mook. We arrange land packages, transfers, sightseeing, and day trips across all these regions.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Can I book only sightseeing without a holiday package?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes, absolutely. You can book individual sightseeing experiences, attraction tickets, day tours, dinner cruises, theme parks, and cultural activities without needing to book a complete holiday package.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Do you provide private airport transfers in Thailand?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes, we provide private, air-conditioned airport transfers with verified professional drivers from Bangkok Suvarnabhumi (BKK), Don Mueang (DMK), and Phuket International Airport (HKT) directly to your hotel, as well as intercity routes such as Bangkok to Pattaya or Hua Hin.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Can I combine multiple Thailand destinations?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes. We specialize in multi-destination Thailand combinations such as Bangkok + Pattaya, Bangkok + Phuket, Phuket + Krabi, Bangkok + Pattaya + Phuket, and Northern Thailand cultural circuits, complete with coordinated domestic transfers, ferries, and stays.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Do you offer Thailand day trips?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes. We offer convenient day trips from major Thailand hubs, including Ayutthaya historical tours from Bangkok, Coral Island speedboat excursions from Pattaya, Phi Phi Island trips from Phuket, and Emerald Pool nature tours from Krabi.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Can I customize a Thailand holiday?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes, all our Thailand land packages are fully flexible. You can customize travel dates, destinations, hotel categories, private vehicle transfers, meal preferences, and daily itineraries to fit your exact needs and budget.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Do you offer Buddha Circuit journeys?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes. Trippovention organizes dedicated Buddha Circuit spiritual journeys and pilgrimage tours to sacred Buddhist heritage sites in India (including Bodh Gaya, Sarnath, Kushinagar, Rajgir, Nalanda, and Varanasi), specially designed for Thai Buddhist travellers, monks, families, and pilgrimage groups with Thai-friendly hospitality and arrangements.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>Can international travellers book Thailand travel with Trippovention?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Yes. As a Thailand-based travel and ground operations company with an established operational base in India, we provide full on-ground coordination for international travellers and overseas travel partners from India, the United Kingdom, Europe, the USA, the Middle East, and Asia-Pacific, with English-speaking assistance and dedicated ground support.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question"><span>When will online reservations be available?</span><span class="faq-chevron" aria-hidden="true">▾</span></summary>
+              <div class="faq-answer"><p>Our online reservation system is currently in development and coming soon. It will allow guests and travel partners to conveniently explore and reserve Thailand packages, sightseeing, transfers, day trips, and India Buddha Circuit journeys online. In the meantime, our reservations desk confirms inquiries quickly via our contact form and WhatsApp.</p></div>
+            </details>
           </div>
         </div>
       </section>
@@ -1255,8 +1325,8 @@
             </p>
           </div>
           <div class="text-center">
-            <a class="btn btn-lg" href="contact.html?type=custom-trip">PLAN MY TRIP →</a>
-            <a class="btn btn-lg ghost ml-16" href="https://wa.me/+66909177601" target="_blank" rel="noopener noreferrer">💬 WhatsApp Us</a>
+            <a class="btn btn-lg" href="contact.html?type=custom-trip">Plan My Trip →</a>
+            <a class="btn btn-lg ghost ml-16" href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer">💬 WhatsApp: +66 94 693 4392</a>
           </div>
           <div class="grid cols-3 mt-40">
             <div class="stats">
@@ -1264,11 +1334,11 @@
               <span class="label text-white-90">Established</span>
             </div>
             <div class="stats">
-              <span class="number text-white">10+</span>
-              <span class="label text-white-90">Years Experience</span>
+              <span class="number text-white">5+</span>
+              <span class="label text-white-90">Team Experience</span>
             </div>
             <div class="stats">
-              <span class="number text-white">50K+</span>
+              <span class="number text-white">5K+</span>
               <span class="label text-white-90">Happy Travelers</span>
             </div>
           </div>
@@ -1288,15 +1358,12 @@
               <div class="mt-20">
                 <h3 class="muted font-weight-600">Contact Details</h3>
                 <span class="mr-15">‍📧
-                  <a href="mailto:info@trippovention.co.th">info@trippovention.co.th</a></span>
-                <br />
-                <span class="mr-15">‍📧
                   <a href="mailto:query@trippovention.co.th">query@trippovention.co.th</a></span>
                 <br />
-                <span>📞 <a href="tel:+66946934392">+66 9469 34392</a></span>
+                <span>📞 <a href="tel:+66946934392">+66 94 693 4392</a></span>
                 <br />
                 <span>💬
-                  <a href="https://wa.me/+66946934392" target="_blank" rel="noopener noreferrer">WhatsApp</a></span>
+                  <a href="https://wa.me/66946934392" target="_blank" rel="noopener noreferrer">WhatsApp: +66 94 693 4392</a></span>
                 
               </div>
             </div>
@@ -1387,7 +1454,7 @@
                     />
                   </a>
                   <a
-                    href="https://wa.me/+66946934392"
+                    href="https://wa.me/66946934392"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Chat on WhatsApp"
@@ -1420,10 +1487,6 @@
         pageType: "homepage",
         description:
           "Your trusted travel partner for unforgettable journeys across Thailand and the world",
-        aggregateRating: {
-          value: "4.8",
-          count: "500"
-        },
         breadcrumb: [
           {
             name: "Home",
@@ -1435,102 +1498,98 @@
 
     <!-- FAQ Schema for Rich Results -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What Thailand destinations does Trippovention cover?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Trippovention covers all major destinations across Thailand including Bangkok, Pattaya, Phuket, Krabi, Chiang Mai, Koh Samui, Ayutthaya, Hua Hin, Koh Phangan, Koh Larn, Koh Yao Yai, and Koh Mook. We arrange land packages, transfers, sightseeing, and day trips across all these regions."
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+            {
+                  "@type": "Question",
+                  "name": "What does Trippovention offer in Thailand?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trippovention is a Thailand-registered travel and ground operations company with a local presence in Thailand and an established operational base in India. We provide Thailand travel arrangements, sightseeing, transfers, day trips and ground coordination for international travellers and travel partners across all 16 major Thailand destinations."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "What Thailand destinations does Trippovention cover?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Trippovention covers all major destinations across Thailand including Bangkok, Pattaya, Phuket, Krabi, Chiang Mai, Koh Samui, Ayutthaya, Hua Hin, Koh Phangan, Koh Larn, Koh Yao Yai, and Koh Mook. We arrange land packages, transfers, sightseeing, and day trips across all these regions."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Can I book only sightseeing without a holiday package?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, absolutely. You can book individual sightseeing experiences, attraction tickets, day tours, dinner cruises, theme parks, and cultural activities without needing to book a complete holiday package."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Do you provide private airport transfers in Thailand?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we provide private, air-conditioned airport transfers with verified professional drivers from Bangkok Suvarnabhumi (BKK), Don Mueang (DMK), and Phuket International Airport (HKT) directly to your hotel, as well as intercity routes such as Bangkok to Pattaya or Hua Hin."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Can I combine multiple Thailand destinations?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. We specialize in multi-destination Thailand combinations such as Bangkok + Pattaya, Bangkok + Phuket, Phuket + Krabi, Bangkok + Pattaya + Phuket, and Northern Thailand cultural circuits, complete with coordinated domestic transfers, ferries, and stays."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Do you offer Thailand day trips?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. We offer convenient day trips from major Thailand hubs, including Ayutthaya historical tours from Bangkok, Coral Island speedboat excursions from Pattaya, Phi Phi Island trips from Phuket, and Emerald Pool nature tours from Krabi."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Can I customize a Thailand holiday?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our Thailand land packages are fully flexible. You can customize travel dates, destinations, hotel categories, private vehicle transfers, meal preferences, and daily itineraries to fit your exact needs and budget."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Do you offer Buddha Circuit journeys?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Trippovention organizes dedicated Buddha Circuit spiritual journeys and pilgrimage tours to sacred Buddhist heritage sites in India (including Bodh Gaya, Sarnath, Kushinagar, Rajgir, Nalanda, and Varanasi), specially designed for Thai Buddhist travellers, monks, families, and pilgrimage groups with Thai-friendly hospitality and arrangements."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "Can international travellers book Thailand travel with Trippovention?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. As a Thailand-based travel and ground operations company with an established operational base in India, we provide full on-ground coordination for international travellers and overseas travel partners from India, the United Kingdom, Europe, the USA, the Middle East, and Asia-Pacific, with English-speaking assistance and dedicated ground support."
+                  }
+            },
+            {
+                  "@type": "Question",
+                  "name": "When will online reservations be available?",
+                  "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Our online reservation system is currently in development and coming soon. It will allow guests and travel partners to conveniently explore and reserve Thailand packages, sightseeing, transfers, day trips, and India Buddha Circuit journeys online. In the meantime, our reservations desk confirms inquiries quickly via our contact form and WhatsApp."
+                  }
             }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I book only sightseeing without a holiday package?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, absolutely. You can book individual sightseeing experiences, attraction tickets, day tours, dinner cruises, theme parks, and cultural activities without needing to book a complete holiday package."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide private airport transfers in Thailand?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, we provide private, air-conditioned airport transfers with verified professional drivers from Bangkok Suvarnabhumi (BKK), Don Mueang (DMK), and Phuket International Airport (HKT) directly to your hotel, as well as intercity routes such as Bangkok to Pattaya or Hua Hin."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I combine multiple Thailand destinations?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We specialize in multi-destination Thailand combinations such as Bangkok + Pattaya, Bangkok + Phuket, Phuket + Krabi, Bangkok + Pattaya + Phuket, and Northern Thailand cultural circuits, complete with coordinated domestic transfers, ferries, and stays."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you offer Thailand day trips?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We offer convenient day trips from major Thailand hubs, including Ayutthaya historical tours from Bangkok, Coral Island speedboat excursions from Pattaya, Phi Phi Island trips from Phuket, and Emerald Pool nature tours from Krabi."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I customize a Thailand holiday?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, all our Thailand land packages are fully flexible. You can customize travel dates, destinations, hotel categories, private vehicle transfers, meal preferences, and daily itineraries to fit your exact needs and budget."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you offer Buddha Circuit journeys?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Trippovention organizes dedicated Buddha Circuit spiritual journeys and pilgrimage tours to sacred Buddhist heritage sites in India (including Bodh Gaya, Sarnath, Kushinagar, Rajgir, Nalanda, and Varanasi), specially designed for Thai Buddhist travellers, monks, families, and pilgrimage groups with Thai-friendly hospitality and arrangements."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can international travellers book Thailand travel with Trippovention?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We cater to international travellers and travel trade partners from India, the United Kingdom, Europe, the USA, the Middle East, and Asia-Pacific, offering English-speaking on-ground assistance, specialized dietary options (Vegetarian, Jain, Halal), and secure booking coordination."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "When will online reservations be available?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Our online reservation system is currently in development and coming soon. It will allow guests and travel partners to conveniently explore and reserve Thailand packages, sightseeing, transfers, day trips, and India Buddha Circuit journeys online. In the meantime, our reservations desk confirms inquiries quickly via our contact form and WhatsApp."
-            }
-          }
-        ]
-      }
-    </script>
-
-    <!-- Google Ads Conversion Tracking -->
-    <script>
-      window.addEventListener("load", function () {
-        // Homepage conversion tracking
-        if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
-          gtag("event", "conversion", {
-            send_to: "AW-11395302765/U_nrCIGQlrcbEO2K2rkq"
-          });
-        }
-        // Future: Add more conversion events for other page types as campaigns expand
-      });
+      ]
+}
     </script>
 
     <script src="assets/skip-link.js" defer=""></script>
     <script src="assets/cookie-consent.js" defer=""></script>
     <script src="assets/app.js" defer=""></script>
+    <script src="assets/search.js" defer=""></script>
     <script src="assets/analytics.js" defer=""></script>
     <script src="assets/webmcp-agent.js" defer=""></script>
     <script type="application/ld+json">
@@ -1538,10 +1597,10 @@
         "@context": "https://schema.org",
         "@type": "TravelAgency",
         "name": "Trippovention",
-        "description": "Your trusted travel partner for unforgettable journeys",
+        "description": "Thailand-registered travel and ground operations company with local presence in Thailand and an operational base in India.",
         "url": "https://trippovention.co.th",
         "logo": "https://trippovention.co.th/assets/images/logo.webp",
-        "telephone": "+66-90-917-7601",
+        "telephone": "+66-94-693-4392",
         "email": "query@trippovention.co.th",
         "address": {
           "@type": "PostalAddress",

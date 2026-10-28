@@ -14,7 +14,7 @@ const StructuredData = (() => {
     url: "https://trippovention.co.th",
     logo: "https://trippovention.co.th/assets/images/logo.webp",
     image: "https://trippovention.co.th/assets/images/logo.webp",
-    telephone: "+66-90-917-7601",
+    telephone: "+66-94-693-4392",
     email: "query@trippovention.co.th",
     address: {
       "@type": "PostalAddress",
@@ -185,8 +185,8 @@ const StructuredData = (() => {
       url: COMPANY_INFO.url,
       logo: COMPANY_INFO.logo,
       description:
-        "Leading travel agency specializing in Thailand and worldwide tours with 15+ years of experience",
-      foundingDate: "2010",
+        "Leading travel agency specializing in Thailand and worldwide tours with 5+ years of combined experience",
+      foundingDate: "2021",
       slogan: "Your Trusted Travel Partner",
       address: COMPANY_INFO.address,
       contactPoint: {
@@ -300,14 +300,14 @@ const StructuredData = (() => {
           },
           {
             "@type": "ContactPoint",
-            telephone: "+66-90-917-7601",
+            telephone: "+66-94-693-4392",
             contactType: "Sales",
             areaServed: ["TH", "SG", "MY", "AE", "IN"],
             availableLanguage: ["English", "Thai"]
           },
           {
             "@type": "ContactPoint",
-            telephone: "+66-90-917-7601",
+            telephone: "+66-94-693-4392",
             contactType: "International Support",
             areaServed: "TH",
             availableLanguage: "English"

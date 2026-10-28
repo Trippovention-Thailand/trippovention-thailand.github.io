@@ -548,3 +548,45 @@ function showUpdateNotification() {
     if (existingBanner) existingBanner.remove();
   }, 30000);
 }
+
+// Automatically initialize internal website search engine across all pages
+(function initGlobalSearchEngine() {
+  if (window.TRIPPOVENTION_SEARCH_INIT_FLAG) return;
+  window.TRIPPOVENTION_SEARCH_INIT_FLAG = true;
+
+  if (!document.querySelector('script[src*="search.js"]')) {
+    const scripts = document.querySelectorAll('script[src*="app.js"]');
+    let prefix = '';
+    for (let s of scripts) {
+      const src = s.getAttribute('src');
+      const idx = src.indexOf('assets/');
+      if (idx !== -1) {
+        prefix = src.substring(0, idx);
+        break;
+      }
+    }
+    const searchScript = document.createElement('script');
+    searchScript.src = prefix + 'assets/search.js';
+    searchScript.defer = true;
+    document.body.appendChild(searchScript);
+  }
+})();
+
+// FAQ Accordion Enhancement: single-open accordion behavior per FAQ container
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".faq-container").forEach(container => {
+    const detailsList = container.querySelectorAll("details.faq-item");
+    detailsList.forEach(targetDetail => {
+      targetDetail.addEventListener("toggle", () => {
+        if (targetDetail.open) {
+          detailsList.forEach(otherDetail => {
+            if (otherDetail !== targetDetail && otherDetail.open) {
+              otherDetail.removeAttribute("open");
+            }
+          });
+        }
+      });
+    });
+  });
+});
+

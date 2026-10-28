@@ -4,7 +4,7 @@
  * Version: 3.6 - Google Translate CSP + explicit HTTPS script URL
  */
 
-const CACHE_VERSION = "3.7";
+const CACHE_VERSION = "3.9";
 const CACHE_NAME = `trippovention-v${CACHE_VERSION}`;
 const RUNTIME_CACHE = "trippovention-runtime";
 

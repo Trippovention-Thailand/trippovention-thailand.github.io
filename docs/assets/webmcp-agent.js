@@ -81,9 +81,9 @@
           status: 'success',
           packageName: args.packageName,
           provider: 'Trippovention Thailand',
-          experience: '15+ Years Ground Operations Experience',
+          experience: '5+ Years Ground Operations Experience',
           contact: {
-            phone: '+66-90-917-7601',
+            phone: '+66-94-693-4392',
             email: 'query@trippovention.co.th',
             website: SITE_URL
           },
@@ -108,7 +108,7 @@
         return {
           status: 'success',
           country: args.country,
-          note: 'Visa assistance is handled via human consultation. See ' + LLMS_URL + ' and contact query@trippovention.co.th or +66-90-917-7601.',
+          note: 'Visa assistance is handled via human consultation. See ' + LLMS_URL + ' and contact query@trippovention.co.th or +66-94-693-4392.',
           contactUrl: SITE_URL + '/contact.html'
         };
       }
@@ -141,7 +141,7 @@
 
         return {
           status: 'success',
-          message: 'Inquiry details recorded. Complete submission at ' + SITE_URL + '/contact.html or call +66-90-917-7601.',
+          message: 'Inquiry details recorded. Complete submission at ' + SITE_URL + '/contact.html or call +66-94-693-4392.',
           inquiry: args
         };
       }

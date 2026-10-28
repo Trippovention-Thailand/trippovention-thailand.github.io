@@ -32,6 +32,22 @@
   --gradient-blue: linear-gradient(135deg, #2b8bd8 0%, #3498db 100%);
   --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --gradient-bg: linear-gradient(180deg, #fdfbfb 0%, #ebedee 100%);
+
+  /* Typography System Design Tokens */
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
 }
 
 /* Dark Theme Variables */
@@ -543,6 +559,30 @@ main {
   background:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("images/packages/vietnam/hero_vietnam.webp") center/cover no-repeat;
+}
+
+.hero-packages {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/packages/thailand/extra/hero_thailand_beach.webp") center/cover no-repeat;
+}
+
+.hero-sightseeing {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/packages/thailand/extra/hero_safari_world_and_marine_park.webp") center/cover no-repeat;
+}
+
+.hero-transfers {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/banner_cab.webp") center/cover no-repeat;
+}
+
+.hero-day-trips {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/packages/thailand/sightseeing/hero_phi_phi_island_and_khai_island_tour_with_lunch_round_trip_transfer.webp") center/cover no-repeat;
 }
 
 @keyframes heroZoom {
@@ -1141,6 +1181,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
   display: block;
   transition: transform 0.4s ease, filter 0.3s ease;
 }
@@ -1620,6 +1661,8 @@ textarea::placeholder {
   flex-wrap: wrap;
   gap: 6px;
   margin: 10px 0 16px;
+  align-items: center;
+  align-content: center;
 }
 
 .service-pills span {
@@ -1631,6 +1674,8 @@ textarea::placeholder {
   border-radius: 4px;
   border: 1px solid rgba(235, 131, 38, 0.2);
   letter-spacing: 0.2px;
+  align-items: center;
+  align-content: center;
 }
 
 /* International Market Chips */
@@ -2590,14 +2635,18 @@ th,
   /* Ensure consistent body height */
 }
 
-.grid.cols-3 .card .feature-icon {
+.grid.cols-3 .card .feature-icon,
+.grid.cols-4 .card .feature-icon,
+.grid.cols-5 .card .feature-icon {
   font-size: 48px;
   margin-bottom: 16px;
   flex-shrink: 0;
   /* Prevent icon from shrinking */
 }
 
-.grid.cols-3 .card h3 {
+.grid.cols-3 .card h3,
+.grid.cols-4 .card h3,
+.grid.cols-5 .card h3 {
   margin: 16px 0;
   line-height: 1.4;
   /* Controlled line height */
@@ -2607,7 +2656,14 @@ th,
   /* Prevent heading from shrinking */
 }
 
-.grid.cols-3 .card .muted {
+.grid.cols-5 .card h3 {
+  font-size: 16px;
+  margin: 12px 0 8px;
+}
+
+.grid.cols-3 .card .muted,
+.grid.cols-4 .card .muted,
+.grid.cols-5 .card .muted {
   flex-grow: 1;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -2618,12 +2674,26 @@ th,
   /* Handle long text gracefully */
 }
 
-.grid.cols-3 .card .btn {
+.grid.cols-5 .card .muted {
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.grid.cols-3 .card .btn,
+.grid.cols-4 .card .btn,
+.grid.cols-5 .card .btn {
   margin-top: auto;
   align-self: center;
   /* Center button horizontally */
   flex-shrink: 0;
   /* Prevent button from shrinking */
+}
+
+.grid.cols-3 .card .price-row,
+.grid.cols-4 .card .price-row,
+.grid.cols-5 .card .price-row {
+  margin-top: auto;
+  width: 100%;
 }
 
 /* WhatsApp icon styling */
@@ -2817,4 +2887,130 @@ th,
 
 body {
   top: 0 !important;
+}
+
+/* ==========================================================================
+   Standardized FAQ Accordion Component (Trippovention Design System)
+   ========================================================================== */
+.faq-section {
+  padding: 60px 0;
+  position: relative;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background: var(--bg-primary, #ffffff);
+  border: 1px solid var(--border-color, #e2e8f0);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.faq-item:hover {
+  border-color: var(--orange, #d6804e);
+  box-shadow: 0 4px 12px rgba(214, 128, 78, 0.12);
+}
+
+.faq-item[open] {
+  border-color: var(--orange, #d6804e);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary, #0f172a);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question:hover {
+  color: var(--orange, #d6804e);
+  background-color: rgba(214, 128, 78, 0.03);
+}
+
+.faq-question:focus-visible {
+  outline: 2px solid var(--orange, #d6804e);
+  outline-offset: -2px;
+}
+
+.faq-question span:first-child {
+  flex: 1;
+  padding-right: 12px;
+}
+
+.faq-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-secondary, #f8fafc);
+  color: var(--orange, #d6804e);
+  font-size: 13px;
+  flex-shrink: 0;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease, color 0.2s ease;
+}
+
+.faq-item[open] .faq-chevron {
+  transform: rotate(180deg);
+  background: var(--orange, #d6804e);
+  color: #ffffff;
+}
+
+.faq-answer {
+  padding: 0 24px 20px 24px;
+  color: var(--text-muted, #64748b);
+  line-height: 1.65;
+  font-size: 0.98rem;
+  border-top: 1px solid var(--border-light, #f1f5f9);
+  padding-top: 16px;
+}
+
+.faq-answer p {
+  margin: 0 0 10px 0;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-answer strong {
+  color: var(--text-primary, #0f172a);
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 40px 0;
+  }
+  .faq-container {
+    gap: 12px;
+  }
+  .faq-question {
+    padding: 16px 18px;
+    font-size: 1rem;
+  }
+  .faq-answer {
+    padding: 0 18px 16px 18px;
+    font-size: 0.92rem;
+  }
 }
