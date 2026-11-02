@@ -1,6 +1,6 @@
 # Robots.txt for Trippovention Website
 # https://trippovention.co.th/
-# Last Updated: September 2026
+# Last Updated: November 2026
 
 # LLMs.txt & Content Signals for AI Crawlers and Agents
 # https://trippovention.co.th/llms.txt
@@ -20,6 +20,7 @@ Sitemap: https://trippovention.co.th/image-sitemap.xml
 Disallow: /404.html
 Disallow: /offline.html
 Disallow: /thank-you.html
+Disallow: /search.html
 Disallow: /*?error=*
 
 # Disallow validation and development folders
