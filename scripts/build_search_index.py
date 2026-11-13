@@ -17,23 +17,23 @@ INDEX_JS_OUTPUT = os.path.join(DOCS_DIR, 'assets', 'search-data.js')
 DESTINATIONS_META = {
     'bangkok': {
         'name': 'Bangkok',
-        'keywords': ['bkk', 'dmk', 'suvarnabhumi', 'don mueang', 'capital', 'krung thep', 'chao phraya', 'temple of dawn', 'grand palace']
+        'keywords': ['bkk', 'dmk', 'suvarnabhumi', 'don mueang', 'capital', 'krung thep', 'chao phraya', 'temple of dawn', 'grand palace', 'bangkok tour packages', 'bangkok holiday', 'bangkok package']
     },
     'phuket': {
         'name': 'Phuket',
-        'keywords': ['hkt', 'patong', 'kata', 'karon', 'rawai', 'andaman', 'big buddha', 'old town phuket', 'promthep cape']
+        'keywords': ['hkt', 'patong', 'kata', 'karon', 'rawai', 'andaman', 'big buddha', 'old town phuket', 'promthep cape', 'phuket tour packages', 'phuket holiday', 'phi phi island tour']
     },
     'pattaya': {
         'name': 'Pattaya',
-        'keywords': ['utp', 'utapao', 'jomtien', 'coral island', 'koh larn', 'walking street', 'chonburi']
+        'keywords': ['utp', 'utapao', 'jomtien', 'coral island', 'koh larn', 'walking street', 'chonburi', 'pattaya tour packages', 'pattaya holiday']
     },
     'krabi': {
         'name': 'Krabi',
-        'keywords': ['kbv', 'ao nang', 'railay', 'phra nang', 'hong islands', 'four islands', 'emerald pool', 'hot springs', 'dragon crest']
+        'keywords': ['kbv', 'ao nang', 'railay', 'railay beach', 'phra nang', 'hong islands', 'four islands', 'krabi 4 islands', 'emerald pool', 'hot springs', 'dragon crest', 'krabi tour packages']
     },
     'chiang_mai': {
         'name': 'Chiang Mai',
-        'keywords': ['cnx', 'northern thailand', 'doi inthanon', 'lanna', 'night bazaar', 'elephants', 'sticky waterfall']
+        'keywords': ['cnx', 'northern thailand', 'doi inthanon', 'lanna', 'night bazaar', 'elephants', 'sticky waterfall', 'chiang mai tour packages', 'chiang mai sightseeing']
     },
     'chiang_rai': {
         'name': 'Chiang Rai',
@@ -82,9 +82,10 @@ DESTINATIONS_META = {
 }
 
 SYNONYMS_AND_ALIASES = {
-    'transfer': ['pickup', 'drop', 'taxi', 'cab', 'car', 'shuttle', 'private vehicle', 'van', 'minivan', 'transport', 'airport transfer', 'hotel transfer'],
-    'package': ['tour', 'itinerary', 'holiday', 'trip', 'vacation', 'stay', 'deal'],
-    'sightseeing': ['attraction', 'activities', 'things to do', 'tickets', 'excursion', 'experience', 'day tour'],
+    'transfer': ['pickup', 'drop', 'taxi', 'cab', 'car', 'shuttle', 'private vehicle', 'private transfer', 'van', 'minivan', 'transport', 'airport transfer', 'airport taxi', 'hotel transfer', 'thailand airport transfers', 'suvarnabhumi transfer', 'bangkok to pattaya'],
+    'package': ['tour', 'tour packages', 'holiday package', 'land package', 'thailand land packages', 'itinerary', 'holiday', 'trip', 'vacation', 'stay', 'deal'],
+    'sightseeing': ['attraction', 'attraction tickets', 'activities', 'things to do', 'tickets', 'excursion', 'experience', 'day tour', 'thailand sightseeing tours', 'safari world', 'dinner cruise'],
+    'day': ['day trips', 'thailand day trips', 'island hopping', 'speedboat tour', 'phi phi island'],
     'cruise': ['boat', 'yacht', 'catamaran', 'ferry', 'dinner cruise', 'sunset cruise', 'sailing'],
     'island': ['beaches', 'islands', 'island hopping', 'coastal', 'bay'],
     'elephant': ['sanctuary', 'ethical', 'wildlife', 'care program'],
@@ -207,7 +208,7 @@ def build_keywords(title, desc, dest, category, rel_path):
             for s in syns:
                 tokens.add(s.lower())
                 
-    return list(tokens)
+    return sorted(tokens)
 
 def parse_card_products_from_page(html, rel_path, default_cat, default_dest):
     """Extract individual product cards from aggregate pages like transfers.html, sightseeing.html, day-trips.html"""
