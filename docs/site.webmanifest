@@ -1,7 +1,7 @@
 {
   "name": "Trippovention - Travel Agency",
   "short_name": "Trippovention",
-  "description": "Your trusted travel partner for worldwide tours, visa assistance & customized holiday packages",
+  "description": "Your trusted travel partner for Thailand tours, ground operations & customized holiday packages",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -26,18 +26,6 @@
   "dir": "ltr",
   "scope": "/",
   "shortcuts": [
-    {
-      "name": "Visa Services",
-      "short_name": "Visa",
-      "description": "Apply for visa assistance",
-      "url": "/visa/",
-      "icons": [
-        {
-          "src": "/assets/images/favicon.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
     {
       "name": "Tour Packages",
       "short_name": "Tours",

@@ -538,7 +538,7 @@ function prefillDestinationFromURL() {
   // 5. General Services (Custom Trip / Day Trip / Ground Operations)
   if ((service || type) && service !== "transfer" && type !== "transfer" && destinationField && inquiryTypeField) {
     const sType = service || type;
-    const formattedService = formatName(sType.replace(/-visa$/i, ""));
+    const formattedService = formatName(sType);
     inquiryTypeField.value = "Custom Trip Planning";
     toggleConditionalFields();
 

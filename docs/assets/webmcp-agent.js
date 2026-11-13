@@ -92,28 +92,6 @@
       }
     },
     {
-      name: 'get_visa_requirements',
-      description: 'General visa and entry guidance; contact the team for document support',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          country: {
-            type: 'string',
-            description: 'Destination country name (e.g., "Thailand", "India", "Vietnam")'
-          }
-        },
-        required: ['country']
-      },
-      execute: async function (args) {
-        return {
-          status: 'success',
-          country: args.country,
-          note: 'Visa assistance is handled via human consultation. See ' + LLMS_URL + ' and contact query@trippovention.co.th or +66-94-693-4392.',
-          contactUrl: SITE_URL + '/contact.html'
-        };
-      }
-    },
-    {
       name: 'submit_travel_inquiry',
       description: 'Submit a custom travel inquiry or request expert callback for tailored holiday package planning',
       inputSchema: {

@@ -24,9 +24,8 @@ trippovention-thailand.github.io/
 │   │   └── contact-form.js       # Contact form functionality
 │   ├── packages/                 # Tour package pages
 │   │   ├── india/                # India packages
-│   │   ├── singapore/            # Singapore packages
+│   │   ├── vietnam/              # Vietnam packages
 │   │   └── thailand/             # Thailand packages
-│   ├── visa/                     # Visa services
 │   ├── index.html                # Homepage
 │   ├── contact.html              # Contact page
 │   ├── destinations.html         # Destinations by country
@@ -43,20 +42,24 @@ trippovention-thailand.github.io/
 │   ├── robots.txt                # Search engine directives
 │   ├── sitemap.xml               # SEO sitemap
 │   └── image-sitemap.xml         # Image sitemap
-├── .github/                      # GitHub workflows (if any)
+├── scripts/                      # Build, sitemap, search index & audit utilities
 ├── .gitignore
 └── README.md
 ```
 
-## Pages (22 Total)
+## Core Pages
 
-### Root Level (12 pages)
+### Root Level
 - `index.html` - Homepage
 - `contact.html` - Contact with office locations
 - `destinations.html` - Destinations by country
 - `destinations-themes.html` - Destinations by theme
 - `destinations-travelers.html` - Destinations by traveler type
 - `services.html` - Services overview
+- `land-packages.html` - Thailand land packages
+- `sightseeing.html` - Thailand sightseeing tours
+- `transfers.html` - Thailand private transfers
+- `day-trips.html` - Thailand day trips & excursions
 - `privacy-policy.html` - Privacy policy
 - `refund-policy.html` - Refund policy
 - `terms-and-conditions.html` - Terms & conditions
@@ -64,19 +67,10 @@ trippovention-thailand.github.io/
 - `404.html` - Error page
 - `offline.html` - Offline page
 
-### Visa (1 page)
-- `visa/index.html` - Visa services
-
-### Packages (9 pages)
-- `packages/india/index.html` - India packages
-- `packages/singapore/index.html` - Singapore packages
-- `packages/singapore/family-5days.html` - Singapore family package
-- `packages/thailand/index.html` - Thailand packages
-- `packages/thailand/pattaya_bangkok.html` - Pattaya Bangkok package
-- `packages/thailand/krabi_phuket.html` - Krabi Phuket package
-- `packages/thailand/koh_samui_bangkok.html` - Koh Samui Bangkok package
-- `packages/thailand/koh_samet_pattaya_bangkok.html` - Koh Samet package
-- `packages/thailand/chiang_mai_chiang_rai_bangkok.html` - Chiang Mai package
+### Packages
+- `packages/thailand/` - Thailand destination hubs, multi-day packages, and sightseeing experiences
+- `packages/india/` - India packages (Buddha Circuit, Bodh Gaya, Andaman)
+- `packages/vietnam/` - Vietnam packages
 
 ## Contact Information
 

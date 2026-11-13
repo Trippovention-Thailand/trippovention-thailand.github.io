@@ -63,25 +63,6 @@
       }
     },
     {
-      "name": "get_visa_requirements",
-      "description": "General guidance for visa and entry questions; full details are in HTML pages and human contact channels",
-      "annotations": {
-        "readOnlyHint": true,
-        "destructiveHint": false,
-        "idempotentHint": true
-      },
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "country": {
-            "type": "string",
-            "description": "Destination country name (e.g., \"Thailand\", \"Singapore\", \"Vietnam\", \"UK\", \"USA\")"
-          }
-        },
-        "required": ["country"]
-      }
-    },
-    {
       "name": "submit_travel_inquiry",
       "description": "Submit a custom travel inquiry or request expert callback for tailored holiday package planning",
       "annotations": {

@@ -97,7 +97,6 @@
 }
 
 /* Hidden conditional form sections */
-#visaDetails,
 #travelDetails {
   display: none;
 }
