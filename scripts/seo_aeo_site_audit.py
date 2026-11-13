@@ -298,17 +298,7 @@ if __name__ == "__main__":
         print(f"  [HIGH] {i}")
         
     print("\n" + "="*80)
-    print(f"STRUCTURED DATA INVENTORY:")
+    print("STRUCTURED DATA INVENTORY:")
     for stype, count in sorted(results["structured_data_inventory"].items(), key=lambda x: -x[1]):
         print(f"  {stype}: {count} occurrences")
 
-    # Save full JSON report
-    out_json = "scripts/audit_results.json"
-    with open(out_json, "w", encoding="utf-8") as f:
-        # Convert defaultdicts
-        clean_res = dict(results)
-        clean_res["duplicate_titles_map"] = dict(clean_res["duplicate_titles_map"])
-        clean_res["duplicate_descriptions_map"] = dict(clean_res["duplicate_descriptions_map"])
-        clean_res["structured_data_inventory"] = dict(clean_res["structured_data_inventory"])
-        json.dump(clean_res, f, indent=2)
-    print(f"\nWrote full audit results to {out_json}")

@@ -532,10 +532,6 @@ main {
   background-image: url("images/banner_services.webp");
 }
 
-.hero-visa {
-  background-image: url("images/banner_visa.webp");
-}
-
 .hero-services {
   background-image: url("images/banner_cab.webp");
 }
@@ -1762,35 +1758,6 @@ textarea::placeholder {
   color: white;
 }
 
-.visa-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.visa-grid a {
-  text-decoration: none;
-}
-
-.visa-item {
-  background: var(--bg-primary);
-  padding: 30px 20px;
-  border-radius: 16px;
-  text-align: center;
-  box-shadow: var(--shadow-medium);
-  transition: all 0.3s ease;
-}
-
-.visa-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-large);
-}
-
-.visa-item .flag {
-  font-size: 40px;
-  margin-bottom: 15px;
-}
-
 /* Footer */
 .footer {
   margin-top: 0;
@@ -1997,11 +1964,6 @@ textarea::placeholder {
     grid-template-columns: 1fr 1fr;
   }
 
-  .visa-grid {
-    grid-template-columns: repeat(2, 1fr);
-    /* Maintain 2 columns on tablets */
-  }
-
   .two {
     grid-template-columns: 1fr;
   }
@@ -2029,11 +1991,6 @@ textarea::placeholder {
     grid-template-columns: 1fr;
   }
 
-  .visa-grid {
-    grid-template-columns: 1fr;
-    /* Single column on small tablets */
-  }
-
   /* Hero section optimization for tablets */
   .hero {
     min-height: 400px;
@@ -2052,8 +2009,7 @@ textarea::placeholder {
 /* Strict minimum width enforcement */
 @media (max-width: 640px) {
   .grid.cols-3,
-  .destination-grid,
-  .visa-grid {
+  .destination-grid {
     grid-template-columns: 1fr;
   }
 

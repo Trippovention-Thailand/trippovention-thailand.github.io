@@ -1,7 +1,6 @@
 """
 Generate sitemap.xml and image-sitemap.xml for trippovention.co.th
 Scans docs/ for all HTML files and referenced images.
-Excludes visa/ pages.
 """
 
 import os
@@ -72,10 +71,6 @@ def generate_sitemap():
         rel_dir = os.path.relpath(dp, DOCS_ROOT).replace("\\", "/")
         if rel_dir == ".":
             rel_dir = ""
-
-        parts = rel_dir.split("/") if rel_dir else []
-        if "visa" in parts:
-            continue
 
         for f in sorted(fns):
             if not f.endswith(".html"):
