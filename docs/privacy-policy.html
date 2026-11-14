@@ -2,20 +2,13 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5DS8TMKV"></script>
     <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          "gtm.start": new Date().getTime(),
-          event: "gtm.js"
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-NLPKQZJS");
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
     </script>
     <!-- End Google Tag Manager -->
 
@@ -305,6 +298,10 @@
                   <li>Embassies or Consulates (for travel documentation)</li>
                   <li>Insurance Providers (for policy issuance)</li>
                   <li>Payment Gateways and Banks (for secure transactions)</li>
+                  <li>
+                    Cloudflare (for DNS, content delivery network performance, and DDoS/bot security
+                    protection)
+                  </li>
                   <li>Authorized business partners or suppliers who help us serve you</li>
                 </ul>
                 <p style="line-height: 1.8; margin-top: 16px; font-size: 14px">
@@ -320,8 +317,9 @@
                 <h3>Data Security</h3>
                 <ul class="list-spaced" style="margin-top: 16px">
                   <li>
-                    We use advanced SSL encryption and secure servers to protect your personal data
-                    from unauthorized access or disclosure.
+                    We use advanced SSL/TLS encryption, Cloudflare web application firewall and DDoS
+                    protection, and secure servers to protect your personal data from unauthorized
+                    access or disclosure.
                   </li>
                   <li>
                     Access to sensitive information is restricted only to authorized staff involved
@@ -345,15 +343,30 @@
             <div class="card">
               <div class="body">
                 <div class="feature-icon feature-icon-48">🍪</div>
-                <h3>Cookies & Tracking</h3>
-                <p style="line-height: 1.8; margin-bottom: 16px">
-                  Our website uses cookies to enhance your browsing experience and personalize
-                  content. Cookies help us remember your preferences, improve navigation, and track
-                  website traffic for analytics.
+                <h3>Cookies &amp; Tracking</h3>
+                <p style="line-height: 1.8; margin-bottom: 12px">
+                  Our website uses cookies and tracking technologies to ensure security, enhance your
+                  browsing experience, and understand our site traffic. We specifically utilize:
                 </p>
+                <ul class="list-spaced" style="margin-bottom: 12px">
+                  <li>
+                    <strong>Cloudflare (Essential Security &amp; Performance):</strong> Strictly
+                    necessary cookies and network routing (such as bot mitigation, DDoS protection,
+                    and CDN caching) to keep the website fast and secure.
+                  </li>
+                  <li>
+                    <strong>Google Tag Manager &amp; Google Analytics (GA4):</strong> To track
+                    anonymized website traffic statistics, page interactions, and visitor behavior.
+                  </li>
+                  <li>
+                    <strong>Google Ads Conversion Measurement:</strong> To measure the effectiveness
+                    of travel campaigns and inquiry conversions.
+                  </li>
+                </ul>
                 <p style="line-height: 1.8; font-size: 14px">
-                  You can choose to disable cookies in your browser settings, but this may limit
-                  certain website features.
+                  Analytics tracking cookies only load if you explicitly grant permission via our
+                  cookie consent banner. You can also disable or clear cookies in your browser
+                  settings at any time.
                 </p>
               </div>
             </div>
@@ -464,7 +477,7 @@
                 </p>
                 <div class="info-highlight info-highlight-blue" style="margin-top: 20px">
                   <strong>Last Updated:</strong>
-                  <span>October 2025</span>
+                  <span>November 2026</span>
                 </div>
               </div>
             </div>
@@ -652,7 +665,7 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-NLPKQZJS"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5DS8TMKV"
         height="0"
         width="0"
         style="display: none; visibility: hidden"
