@@ -46,8 +46,22 @@
     );
   }
 
+  // Determine root-relative prefix for links (works from root and nested package pages)
+  function getRootPrefix() {
+    const scripts = document.querySelectorAll('script[src*="cookie-consent.js"]');
+    for (let i = 0; i < scripts.length; i++) {
+      const src = scripts[i].getAttribute("src") || "";
+      const idx = src.indexOf("assets/");
+      if (idx !== -1) {
+        return src.substring(0, idx);
+      }
+    }
+    return "/";
+  }
+
   // Create and show consent banner
   function showConsentBanner() {
+    const privacyUrl = getRootPrefix() + "privacy-policy.html";
     const banner = document.createElement("div");
     banner.id = "cookieConsentBanner";
     banner.setAttribute("role", "dialog");
@@ -58,9 +72,8 @@
             <div class="cookie-consent-container">
                 <div class="cookie-consent-content">
                     <p id="cookieConsentText">
-                        <strong>🍪 We use cookies</strong><br>
-                        We use essential cookies to ensure our site works properly, and analytics cookies to understand how you use our site. 
-                        Analytics cookies help us improve your experience.
+                        <strong>🍪 We use cookies &amp; Cloudflare security</strong><br>
+                        We use essential cookies (including Cloudflare security &amp; performance) so our site works reliably, and analytics cookies (Google Tag Manager / Google Analytics) to understand how you use our site and improve your experience.
                     </p>
                     <div class="cookie-consent-actions">
                         <button id="cookieAccept" class="cookie-btn cookie-btn-accept" aria-label="Accept all cookies">
@@ -69,7 +82,7 @@
                         <button id="cookieReject" class="cookie-btn cookie-btn-reject" aria-label="Reject analytics cookies">
                             Reject Analytics
                         </button>
-                        <a href="privacy-policy.html" class="cookie-link" target="_blank" rel="noopener">Privacy Policy</a>
+                        <a href="${privacyUrl}" class="cookie-link" target="_blank" rel="noopener">Privacy Policy</a>
                     </div>
                 </div>
             </div>
