@@ -83,7 +83,7 @@
           provider: 'Trippovention Thailand',
           experience: '5+ Years Ground Operations Experience',
           contact: {
-            phone: '+66-94-693-4392',
+            phone: '+66 61 194 1106',
             email: 'query@trippovention.co.th',
             website: SITE_URL
           },
@@ -119,7 +119,7 @@
 
         return {
           status: 'success',
-          message: 'Inquiry details recorded. Complete submission at ' + SITE_URL + '/contact.html or call +66-94-693-4392.',
+          message: 'Inquiry details recorded. Complete submission at ' + SITE_URL + '/contact.html or call +66 61 194 1106.',
           inquiry: args
         };
       }
